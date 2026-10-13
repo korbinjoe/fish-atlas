@@ -3752,3 +3752,160 @@ p {
   .reader-specimen,
   .globe-fish-pin { transition: none !important; animation: none !important; }
 }
+
+/* Give the specimen photograph the first screen, then let its guide scroll below. */
+.detail-modal[open] {
+  display: block;
+  width: min(1280px, calc(100vw - 36px));
+  max-height: 94dvh;
+}
+.detail-modal > .close-detail {
+  position: sticky;
+  top: 14px;
+  right: auto;
+  margin: 14px 14px -48px auto;
+}
+.detail-modal .detail-visual {
+  position: relative;
+  top: auto;
+  height: clamp(380px, 74dvh, 900px);
+  min-height: 0;
+  border-bottom: 1px solid var(--line);
+  background: radial-gradient(ellipse at center, #1a393b, #081e27 78%);
+}
+.detail-modal .detail-photo-trigger,
+.explore-reader .detail-photo-trigger { padding: 12px 12px 30px; }
+.detail-modal .detail-visual .fish-image,
+.explore-reader .detail-visual .fish-image { width: 100%; height: 100%; padding: 0; }
+.detail-modal .detail-visual .fish-image img,
+.explore-reader .detail-visual .fish-image img { width: 100%; height: 100%; object-fit: contain; }
+.detail-modal .detail-serial,
+.explore-reader .detail-serial {
+  top: 16px;
+  left: 17px;
+  padding: 5px 7px;
+  border-radius: 3px;
+  background: #0a212bc9;
+  color: #a6bfb8;
+  pointer-events: none;
+}
+.detail-modal .detail-image-footer,
+.explore-reader .detail-image-footer {
+  bottom: 9px;
+  left: 17px;
+  right: 17px;
+  color: #93b2ad;
+  pointer-events: none;
+}
+.detail-modal .detail-photo-hint,
+.explore-reader .detail-photo-hint {
+  right: 18px;
+  bottom: 39px;
+  padding: 7px 11px;
+  font-size: 11px;
+}
+.detail-modal .detail-body {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 27px 38px 38px;
+}
+.detail-modal .detail-intro { max-width: 850px; }
+.detail-modal .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.detail-actions > * { scroll-margin-block: 16px; }
+.explore-reader .detail-visual {
+  height: clamp(380px, calc((100dvh - 350px) * .72), 740px);
+  min-height: 0;
+}
+
+.photo-viewer[open] {
+  width: min(1480px, calc(100vw - 24px));
+  height: 96dvh;
+  max-height: 96dvh;
+}
+.photo-viewer-head { gap: 18px; padding: 12px 18px; }
+.photo-viewer-head > div:first-child { flex: 1; }
+.photo-viewer-head > .icon-button { flex: 0 0 auto; }
+.photo-species-controls,
+.photo-viewer-head > .photo-species-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  gap: 10px;
+  min-width: 0;
+}
+.photo-species-controls > button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 104px;
+  min-height: 44px;
+  padding: 9px 12px;
+  border: 1px solid #8aaf9d55;
+  border-radius: 6px;
+  color: #d6ead8;
+  background: #b6e1ba0a;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.photo-species-controls > button:hover:not(:disabled) { background: #b6e1ba1b; border-color: #b6e1ba9c; }
+.photo-species-controls > button:disabled { opacity: .4; cursor: not-allowed; }
+.photo-species-controls > button:focus-visible { outline: 2px solid var(--mint); outline-offset: 3px; }
+.photo-species-counter {
+  min-width: 63px;
+  color: #a9c7b8;
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.photo-species-counter b,
+.photo-species-counter strong { color: #e0efd9; font-size: 15px; font-weight: 500; }
+.photo-viewer-footer { flex-wrap: wrap; row-gap: 7px; padding: 10px 18px; }
+.photo-viewer-footer > span:first-child { flex: 1; }
+.photo-viewer-footer .photo-viewer-hint {
+  flex-basis: 100%;
+  color: #8bac9f;
+  font-size: 10px;
+  line-height: 1.6;
+}
+.photo-viewer-hint kbd {
+  padding: 1px 4px;
+  border: 1px solid #53766a67;
+  border-radius: 3px;
+  color: #c3dcc9;
+  font: inherit;
+}
+
+@media (max-width: 900px) and (min-width: 621px) {
+  .photo-viewer-head { flex-wrap: wrap; gap: 9px; }
+  .photo-viewer-head > div:first-child { flex-basis: calc(100% - 44px); }
+  .photo-viewer-head > .photo-species-controls { order: 3; flex-basis: 100%; }
+  .detail-modal .detail-body { padding-left: 27px; padding-right: 27px; }
+}
+@media (max-width: 620px) {
+  .detail-modal[open] { width: 100vw; max-width: 100vw; max-height: 94dvh; }
+  .detail-modal .detail-visual,
+  .explore-reader .detail-visual { height: clamp(350px, 61dvh, 700px); }
+  .detail-modal .detail-photo-trigger,
+  .explore-reader .detail-photo-trigger { padding: 10px 7px 28px; }
+  .detail-modal .detail-serial,
+  .explore-reader .detail-serial { top: 12px; left: 12px; font-size: 7px; letter-spacing: 1.8px; }
+  .detail-modal .detail-image-footer,
+  .explore-reader .detail-image-footer { left: 12px; right: 12px; bottom: 8px; font-size: 8px; }
+  .detail-modal .detail-photo-hint,
+  .explore-reader .detail-photo-hint { right: 13px; bottom: 37px; font-size: 10px; }
+  .detail-modal .detail-body { padding: 22px 22px 34px; }
+  .photo-viewer[open] { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; }
+  .photo-viewer-head { flex-wrap: wrap; gap: 10px; padding: 11px 13px; }
+  .photo-viewer-head > div:first-child { flex-basis: calc(100% - 44px); }
+  .photo-viewer-head > div:first-child strong { font-size: 16px; }
+  .photo-viewer-head > div:first-child em { font-size: 11px; }
+  .photo-viewer-head > .photo-species-controls { order: 3; flex-basis: 100%; gap: 9px; }
+  .photo-species-controls > button { flex: 1; min-width: 0; max-width: 130px; padding-left: 9px; padding-right: 9px; }
+  .photo-viewer-footer { padding: 9px 13px; column-gap: 10px; }
+  .photo-viewer-footer > span:first-child { flex-basis: calc(100% - 150px); font-size: 9px; overflow-wrap: anywhere; }
+  .photo-viewer-footer .photo-viewer-hint { font-size: 9px; }
+}

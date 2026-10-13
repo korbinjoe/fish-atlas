@@ -100,24 +100,26 @@ test("keyboard and mouse switches cycle only within the current waterbody filter
   await expect(page.locator(".globe-fish-pin")).toHaveCount(2);
 });
 
-test("photo zoom keeps arrows and Escape isolated from the underlying fish reader", async ({ page }) => {
+test("photo zoom switches fish with the reader and Escape closes only the enlarged image", async ({ page }) => {
   const { id } = await openVisibleFish(page, "/#/explore?basin=3203");
-  const trigger = reader(page).getByRole("button", { name: /^放大查看.+照片$/ });
-  await trigger.click();
+  await reader(page).getByRole("button", { name: /^放大查看.+照片$/ }).click();
   const viewer = page.locator("dialog.photo-viewer");
   await expect(viewer).toBeVisible();
   await page.keyboard.press("ArrowRight");
-  await page.keyboard.press("ArrowLeft");
-  await expect(page.locator("canvas")).toHaveAttribute("data-active-fish", id);
+  await expect.poll(() => selectedId(page)).not.toBe(id);
+  const nextId = (await selectedId(page))!;
+  await expect(page).toHaveURL(new RegExp(`/species/${nextId}`));
+  await expect(page).toHaveURL(/basin=3203/);
+  await expect(page.locator(`.globe-fish-pin[data-fish-id="${nextId}"]`)).toHaveAttribute("data-selected", "true");
   await viewer.getByRole("button", { name: "放大图片", exact: true }).click();
   await expect(viewer.getByRole("button", { name: "重置图片缩放" })).toHaveText("150%");
   await page.keyboard.press("Escape");
   await expect(viewer).toHaveCount(0);
   await expect(reader(page)).toBeVisible();
-  await expect(trigger).toBeFocused();
+  await expect(reader(page).getByRole("button", { name: /^放大查看.+照片$/ })).toBeFocused();
+  await expect(page.locator("canvas")).toHaveAttribute("data-active-fish", nextId);
+  await page.keyboard.press("ArrowLeft");
   await expect(page.locator("canvas")).toHaveAttribute("data-active-fish", id);
-  await page.keyboard.press("ArrowRight");
-  await expect.poll(() => selectedId(page)).not.toBe(id);
 });
 
 test("fast switching replaces the detail entry and closing restores the overview focus and scroll", async ({ page }) => {

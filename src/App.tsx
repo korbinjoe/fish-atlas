@@ -153,6 +153,7 @@ function Modal({
       before?.focus();
     };
   }, []);
+  useEffect(() => { if (ref.current) ref.current.scrollTop = 0; }, [label]);
   return (
     <dialog
       ref={ref}
@@ -204,16 +205,22 @@ function PhotoViewer({
   scientific,
   photo,
   close,
+  index,
+  count,
+  onStep,
 }: {
   name: string;
   scientific: string;
   photo: DetailPhotoSource;
   close: () => void;
+  index: number;
+  count: number;
+  onStep: (direction: number) => void;
 }) {
   const stage = useRef<HTMLDivElement>(null);
   const drag = useRef<{ x: number; y: number; left: number; top: number } | null>(null);
   const [stageSize, setStageSize] = useState({ width: 0, height: 0 });
-  const [imageSize, setImageSize] = useState({ width: 0, height: 0 });
+  const [imageSize, setImageSize] = useState({ path: "", width: 0, height: 0 });
   const [zoom, setZoom] = useState(1);
   useEffect(() => {
     const element = stage.current;
@@ -224,7 +231,7 @@ function PhotoViewer({
     observer.observe(element);
     return () => observer.disconnect();
   }, []);
-  const fit = imageSize.width && imageSize.height && stageSize.width && stageSize.height
+  const fit = imageSize.path === photo.path && imageSize.width && imageSize.height && stageSize.width && stageSize.height
     ? Math.min(stageSize.width / imageSize.width, stageSize.height / imageSize.height)
     : 0;
   useEffect(() => {
@@ -237,10 +244,35 @@ function PhotoViewer({
     return () => cancelAnimationFrame(frame);
   }, [fit, zoom]);
   const changeZoom = (next: number) => setZoom(Math.max(1, Math.min(3, next)));
+  useEffect(() => {
+    setZoom(1);
+    drag.current = null;
+    if (stage.current) { stage.current.scrollLeft = 0; stage.current.scrollTop = 0; }
+  }, [photo.path]);
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.defaultPrevented || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
+      if (event.target instanceof HTMLElement && event.target.closest("input, textarea, select, [contenteditable='true'], [role='combobox']")) return;
+      if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+        event.preventDefault(); event.stopPropagation();
+        onStep(event.key === "ArrowLeft" ? -1 : 1);
+      } else if (["+", "=", "-", "0"].includes(event.key)) {
+        event.preventDefault(); event.stopPropagation();
+        setZoom((current) => event.key === "0" ? 1 : Math.max(1, Math.min(3, current + (event.key === "-" ? -0.5 : 0.5))));
+      }
+    };
+    window.addEventListener("keydown", onKey, true);
+    return () => window.removeEventListener("keydown", onKey, true);
+  }, [onStep]);
   return (
     <Modal label={`${name}照片大图`} onClose={close} className="photo-viewer">
       <div className="photo-viewer-head">
         <div><strong>{name}</strong><em>{scientific}</em></div>
+        <nav className="photo-species-controls" aria-label="大图切换鱼种">
+          <button className="soft-button" onClick={() => onStep(-1)} disabled={count < 2} aria-label="上一种鱼" title="上一种鱼 · ←"><ArrowLeft size={16} /><span>上一种</span></button>
+          <span className="photo-species-counter" aria-live="polite" aria-atomic="true"><b>{index + 1}</b> / {count}</span>
+          <button className="soft-button" onClick={() => onStep(1)} disabled={count < 2} aria-label="下一种鱼" title="下一种鱼 · →"><span>下一种</span><ArrowRight size={16} /></button>
+        </nav>
         <button className="icon-button" onClick={close} aria-label="关闭照片大图"><X size={20} /></button>
       </div>
       <div
@@ -264,10 +296,11 @@ function PhotoViewer({
       >
         <div className="photo-viewer-canvas">
           <img
+            key={photo.path}
             src={photo.path}
             alt={`${name}，${scientific}`}
             draggable={false}
-            onLoad={(event) => setImageSize({ width: event.currentTarget.naturalWidth, height: event.currentTarget.naturalHeight })}
+            onLoad={(event) => setImageSize({ path: photo.path, width: event.currentTarget.naturalWidth, height: event.currentTarget.naturalHeight })}
             style={fit ? { width: imageSize.width * fit * zoom, height: imageSize.height * fit * zoom } : undefined}
           />
         </div>
@@ -279,6 +312,7 @@ function PhotoViewer({
           <button onClick={() => changeZoom(1)} aria-label="重置图片缩放">{Math.round(zoom * 100)}%</button>
           <button onClick={() => changeZoom(zoom + 0.5)} disabled={zoom === 3} aria-label="放大图片"><Plus size={17} /></button>
         </div>
+        <p className="photo-viewer-hint">← → 切换鱼种 · + / − 缩放 · 0 重置 · Esc 返回详情</p>
       </div>
     </Modal>
   );
@@ -286,24 +320,22 @@ function PhotoViewer({
 
 function DetailPhoto({
   name,
-  scientific,
   photo,
   children,
+  onOpen,
 }: {
   name: string;
-  scientific: string;
   photo: DetailPhotoSource | null;
   children: React.ReactNode;
+  onOpen: () => void;
 }) {
-  const [open, setOpen] = useState(false);
   if (!photo) return <>{children}</>;
   return (
     <>
-      <button className="detail-photo-trigger" onClick={(event) => { event.currentTarget.focus(); setOpen(true); }} aria-label={`放大查看${name}照片`}>
+      <button className="detail-photo-trigger" onClick={(event) => { event.currentTarget.focus(); onOpen(); }} aria-label={`放大查看${name}照片`}>
         {children}
         <span className="detail-photo-hint"><ZoomIn size={16} />点击放大</span>
       </button>
-      {open && <PhotoViewer name={name} scientific={scientific} photo={photo} close={() => setOpen(false)} />}
     </>
   );
 }
@@ -377,7 +409,7 @@ function FishDetail({
   compared,
   toggleCompare,
   viewEvidence,
-  inline,
+  openPhotoViewer,
 }: {
   fish: Fish;
   close: () => void;
@@ -387,11 +419,11 @@ function FishDetail({
   compared: boolean;
   toggleCompare: () => void;
   viewEvidence: () => void;
-  inline?: boolean;
+  openPhotoViewer: () => void;
 }) {
   const r = regions.find((r) => r.id === fish.region)!;
   return (
-    <DetailContainer label={`${fish.name}图鉴`} close={close} inline={inline}>
+    <>
       <button
         className="icon-button close-detail"
         onClick={close}
@@ -407,7 +439,7 @@ function FishDetail({
             "0",
           )}
         </div>
-        <DetailPhoto name={fish.name} scientific={fish.scientific} photo={fish.photo}>
+        <DetailPhoto name={fish.name} photo={fish.photo} onOpen={openPhotoViewer}>
           <FishImage key={fish.id} fish={fish} large />
         </DetailPhoto>
         <div className="detail-image-footer">
@@ -533,24 +565,24 @@ function FishDetail({
         </details>
         <FeedbackNote />
       </div>
-    </DetailContainer>
+    </>
   );
 }
 
-function PhotoDetail({ profile, close, saved, toggleSave, inline }: {
+function PhotoDetail({ profile, close, saved, toggleSave, openPhotoViewer }: {
   profile: PhotoProfile;
   close: () => void;
   saved: boolean;
   toggleSave: () => void;
-  inline?: boolean;
+  openPhotoViewer: () => void;
 }) {
   const waterName = profile.water === "marine" ? "海水" : profile.water === "freshwater" ? "淡水" : profile.water === "brackish" ? "半咸水" : "待核实";
   return (
-    <DetailContainer label={`${profile.name}图鉴`} close={close} inline={inline}>
+    <>
       <button className="icon-button close-detail" onClick={close} aria-label="关闭鱼种详情"><X size={21} /></button>
       <div className="detail-visual">
         <div className="detail-serial">PHOTO / GBIF {profile.gbifKey}</div>
-        <DetailPhoto name={profile.name} scientific={profile.scientific} photo={profile.photo}>
+        <DetailPhoto name={profile.name} photo={profile.photo} onOpen={openPhotoViewer}>
           <div className="fish-image large"><img src={profile.photo.path} alt={`${profile.name}，${profile.scientific}`} /></div>
         </DetailPhoto>
         <div className="detail-image-footer"><span><span className="live-dot" />有来源的物种照片</span><span>{waterName} · {profile.family}</span></div>
@@ -572,7 +604,7 @@ function PhotoDetail({ profile, close, saved, toggleSave, inline }: {
         </details>
         <FeedbackNote />
       </div>
-    </DetailContainer>
+    </>
   );
 }
 
@@ -618,6 +650,7 @@ export default function App() {
   const [compare, setCompare] = useState<string[]>([]);
   const [toast, setToast] = useState("");
   const [about, setAbout] = useState(false);
+  const [photoOpen, setPhotoOpen] = useState(false);
   const [basinPickerOpen, setBasinPickerOpen] = useState(false);
   const [reset, setReset] = useState(0);
   const [rotate, setRotate] = useState(false);
@@ -666,7 +699,9 @@ export default function App() {
   });
   const visibleGlobePhotos = exploreResults.map((item) => globePhotoById.get(item.id)!);
   const mappedGlobeCount = exploreResults.filter((item) => fishLocationIds(item).length > 0).length;
-  const browseSequence = selected && !exploreResults.some((item) => item.id === selected.id) ? [selected] : exploreResults;
+  const detailResults = location.state?.from === "/explore" ? exploreResults : imageResults;
+  const browseSequence = selected && !detailResults.some((item) => item.id === selected.id) ? [selected] : detailResults;
+  useEffect(() => { if (!selected?.photo) setPhotoOpen(false); }, [selected]);
   useEffect(() => {
     let frame = 0;
     if (reading) {
@@ -781,7 +816,7 @@ export default function App() {
     readerCursor.current = f.id;
     navigate(
       { pathname: `/species/${f.id}`, search: params.toString() },
-      { replace: reading, state: { from: backgroundPath, plannerFindings } },
+      { replace: reading || photoOpen, state: selectedId && photoOpen ? { ...location.state, plannerFindings } : { from: backgroundPath, plannerFindings } },
     );
   };
   const openPhoto = (p: PhotoProfile) => {
@@ -789,7 +824,7 @@ export default function App() {
     readerCursor.current = p.id;
     navigate(
       { pathname: `/species/${p.id}`, search: params.toString() },
-      { replace: reading, state: { from: backgroundPath } },
+      { replace: reading || photoOpen, state: selectedId && photoOpen ? { ...location.state, plannerFindings: undefined } : { from: backgroundPath } },
     );
   };
   const openReaderItem = (item: Fish | PhotoProfile) => "gbifKey" in item ? openPhoto(item) : openFish(item);
@@ -801,6 +836,10 @@ export default function App() {
   const closeFish = () => {
     if (location.state?.from) navigate(-1);
     else go("/atlas");
+  };
+  const closePhotoViewer = () => {
+    setPhotoOpen(false);
+    requestAnimationFrame(() => document.querySelector<HTMLButtonElement>(".detail-photo-trigger")?.focus({ preventScroll: true }));
   };
   const toggleSave = (id: string) => {
     const next = saved.includes(id)
@@ -852,8 +891,8 @@ export default function App() {
     }
   };
   const listActive = isList || (glFailed && backgroundPath === "/explore");
-  const detailContent = selectedFish ? <FishDetail
-    key={selectedFish.id} fish={selectedFish} close={closeFish} inline={reading}
+  const fishContent = selectedFish ? <FishDetail
+    key={selectedFish.id} fish={selectedFish} close={closeFish} openPhotoViewer={() => setPhotoOpen(true)}
     plannerFindings={isPlanner ? location.state?.plannerFindings : undefined}
     saved={saved.includes(selectedFish.id)} toggleSave={() => toggleSave(selectedFish.id)}
     compared={compare.includes(selectedFish.id)} toggleCompare={() => toggleCompare(selectedFish.id)}
@@ -861,8 +900,9 @@ export default function App() {
       const p = new URLSearchParams(); p.set("evidence", selectedFish.id); p.set("region", selectedFish.region);
       navigate({ pathname: "/explore", search: p.toString() }); setActiveOccurrence("");
     }}
-  /> : selectedPhoto ? <PhotoDetail key={selectedPhoto.id} profile={selectedPhoto} close={closeFish} inline={reading}
+  /> : selectedPhoto ? <PhotoDetail key={selectedPhoto.id} profile={selectedPhoto} close={closeFish} openPhotoViewer={() => setPhotoOpen(true)}
     saved={saved.includes(selectedPhoto.id)} toggleSave={() => toggleSave(selectedPhoto.id)} /> : null;
+  const detailContent = selected ? <DetailContainer label={`${selected.name}图鉴`} close={closeFish} inline={reading}>{fishContent}</DetailContainer> : null;
   return (
     <div className="app-shell">
       <a
@@ -1423,6 +1463,8 @@ export default function App() {
           </div>
         )}
       {!reading && detailContent}
+      {photoOpen && selected?.photo && <PhotoViewer name={selected.name} scientific={selected.scientific} photo={selected.photo}
+        close={closePhotoViewer} index={browseSequence.findIndex((item) => item.id === selected.id)} count={browseSequence.length} onStep={stepReader} />}
       {selectedId && !selectedFish && !selectedPhoto && (
         <Modal label="没有找到鱼种" onClose={() => go("/atlas")}>
           <div className="simple-dialog">
