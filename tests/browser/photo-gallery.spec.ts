@@ -1,6 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 
-const viewer = (page: Page) => page.locator("dialog.photo-viewer");
+const viewer = (page: Page) => page.locator(".photo-viewer");
 const reader = (page: Page) => page.getByRole("region", { name: "鱼类详情浏览", exact: true });
 const photoTrigger = (page: Page) => page.getByRole("button", { name: /^放大查看.+照片$/ });
 
@@ -44,6 +44,7 @@ test("enlarged photos cross between curated and photo profiles without closing e
   await photoTrigger(page).click();
   const gallery = viewer(page);
   await expect(gallery).toBeVisible();
+  await expect(gallery).toHaveJSProperty("tagName", "DIALOG");
   const originalGallery = await gallery.elementHandle();
   const originalSource = await gallery.locator("img").getAttribute("src");
   await expect(gallery.locator(".photo-species-counter")).toContainText(/\/\s*2\b/);
@@ -79,6 +80,8 @@ test("the enlarged gallery cycles within its two-fish waterbody and updates the 
   const otherId = ids.find(id => id !== originalId)!;
   const gallery = viewer(page);
   const originalGallery = await gallery.elementHandle();
+  await expect(gallery).toHaveClass(/photo-viewer-inline/);
+  await expect(page.getByRole("dialog")).toHaveCount(0);
   await expect(gallery.locator(".photo-species-counter")).toContainText(/\/\s*2\b/);
   await page.keyboard.press("ArrowRight");
   await expect(page.locator("canvas")).toHaveAttribute("data-active-fish", otherId);

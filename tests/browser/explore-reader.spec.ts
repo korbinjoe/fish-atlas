@@ -103,8 +103,10 @@ test("keyboard and mouse switches cycle only within the current waterbody filter
 test("photo zoom switches fish with the reader and Escape closes only the enlarged image", async ({ page }) => {
   const { id } = await openVisibleFish(page, "/#/explore?basin=3203");
   await reader(page).getByRole("button", { name: /^放大查看.+照片$/ }).click();
-  const viewer = page.locator("dialog.photo-viewer");
+  const viewer = page.locator(".photo-viewer");
   await expect(viewer).toBeVisible();
+  await expect(viewer).toHaveClass(/photo-viewer-inline/);
+  await expect(page.getByRole("dialog")).toHaveCount(0);
   await page.keyboard.press("ArrowRight");
   await expect.poll(() => selectedId(page)).not.toBe(id);
   const nextId = (await selectedId(page))!;

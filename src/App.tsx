@@ -209,6 +209,8 @@ function PhotoViewer({
   index,
   count,
   onStep,
+  inline = false,
+  returnScroll = 0,
 }: {
   name: string;
   scientific: string;
@@ -217,12 +219,26 @@ function PhotoViewer({
   index: number;
   count: number;
   onStep: (direction: number) => void;
+  inline?: boolean;
+  returnScroll?: number;
 }) {
   const stage = useRef<HTMLDivElement>(null);
+  const closeButton = useRef<HTMLButtonElement>(null);
   const drag = useRef<{ x: number; y: number; left: number; top: number } | null>(null);
   const [stageSize, setStageSize] = useState({ width: 0, height: 0 });
   const [imageSize, setImageSize] = useState({ path: "", width: 0, height: 0 });
   const [zoom, setZoom] = useState(1);
+  useEffect(() => {
+    if (!inline) return;
+    const mobile = matchMedia("(max-width: 620px)").matches;
+    if (mobile) window.scrollTo({ top: 0, behavior: "instant" });
+    closeButton.current?.focus({ preventScroll: true });
+    return () => {
+      if (mobile && document.querySelector(".explore-layout.reading")) {
+        window.scrollTo({ top: returnScroll, behavior: "instant" });
+      }
+    };
+  }, [inline, returnScroll]);
   useEffect(() => {
     const element = stage.current;
     if (!element) return;
@@ -253,8 +269,11 @@ function PhotoViewer({
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.defaultPrevented || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
+      if (inline && document.querySelector("dialog[open], [role='dialog']")) return;
       if (event.target instanceof HTMLElement && event.target.closest("input, textarea, select, [contenteditable='true'], [role='combobox']")) return;
-      if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+      if (inline && event.key === "Escape") {
+        event.preventDefault(); event.stopPropagation(); close();
+      } else if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
         event.preventDefault(); event.stopPropagation();
         onStep(event.key === "ArrowLeft" ? -1 : 1);
       } else if (["+", "=", "-", "0"].includes(event.key)) {
@@ -264,9 +283,8 @@ function PhotoViewer({
     };
     window.addEventListener("keydown", onKey, true);
     return () => window.removeEventListener("keydown", onKey, true);
-  }, [onStep]);
-  return (
-    <Modal label={`${name}照片大图`} onClose={close} className="photo-viewer">
+  }, [onStep, inline, close]);
+  const contents = <>
       <div className="photo-viewer-head">
         <div><strong>{name}</strong><em>{scientific}</em></div>
         <nav className="photo-species-controls" aria-label="大图切换鱼种">
@@ -274,7 +292,7 @@ function PhotoViewer({
           <span className="photo-species-counter" aria-live="polite" aria-atomic="true"><b>{index + 1}</b> / {count}</span>
           <button className="soft-button" onClick={() => onStep(1)} disabled={count < 2} aria-label="下一种鱼" title="下一种鱼 · →"><span>下一种</span><ArrowRight size={16} /></button>
         </nav>
-        <button className="icon-button" onClick={close} aria-label="关闭照片大图"><X size={20} /></button>
+        <button ref={closeButton} className="icon-button" onClick={close} aria-label="关闭照片大图"><X size={20} /></button>
       </div>
       <div
         ref={stage}
@@ -315,8 +333,10 @@ function PhotoViewer({
         </div>
         <p className="photo-viewer-hint">← → 切换鱼种 · + / − 缩放 · 0 重置 · Esc 返回详情</p>
       </div>
-    </Modal>
-  );
+    </>;
+  return inline
+    ? <section className="photo-viewer photo-viewer-inline" role="region" aria-label={`${name}照片大图`}>{contents}</section>
+    : <Modal label={`${name}照片大图`} onClose={close} className="photo-viewer">{contents}</Modal>;
 }
 
 function DetailPhoto({
@@ -333,7 +353,7 @@ function DetailPhoto({
   if (!photo) return <>{children}</>;
   return (
     <>
-      <button className="detail-photo-trigger" onClick={(event) => { event.currentTarget.focus(); onOpen(); }} aria-label={`放大查看${name}照片`}>
+      <button className="detail-photo-trigger" onClick={(event) => { event.currentTarget.focus({ preventScroll: true }); onOpen(); }} aria-label={`放大查看${name}照片`}>
         {children}
         <span className="detail-photo-hint"><ZoomIn size={16} />点击放大</span>
       </button>
@@ -349,24 +369,26 @@ function DetailContainer({ children, label, close, inline }: {
     : <Modal label={label} onClose={close} className="detail-modal">{children}</Modal>;
 }
 
-function ExploreReader({ selected, sequence, onSelect, onStep, close, children }: {
+function ExploreReader({ selected, sequence, onSelect, onStep, close, children, photoView }: {
   selected: Fish | PhotoProfile;
   sequence: (Fish | PhotoProfile)[];
   onSelect: (fish: Fish | PhotoProfile) => void;
   onStep: (direction: number) => void;
   close: () => void;
   children: React.ReactNode;
+  photoView?: React.ReactNode;
 }) {
   const closeButton = useRef<HTMLButtonElement>(null);
   const content = useRef<HTMLDivElement>(null);
   const index = sequence.findIndex((fish) => fish.id === selected.id);
   const count = sequence.length;
+  const enlarged = !!photoView;
   const thumbnails = sequence.slice(Math.max(0, Math.min(index - 3, count - 7)), Math.max(7, index + 4));
   useEffect(() => { closeButton.current?.focus({ preventScroll: true }); }, []);
   useEffect(() => { if (content.current) content.current.scrollTop = 0; }, [selected.id]);
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
-      if (event.defaultPrevented || event.isComposing || event.ctrlKey || event.metaKey || event.altKey ||
+      if (enlarged || event.defaultPrevented || event.isComposing || event.ctrlKey || event.metaKey || event.altKey ||
         document.querySelector("dialog[open], [role='dialog']")) return;
       const target = event.target;
       if (target instanceof HTMLElement && target.closest("input, textarea, select, [contenteditable='true'], [role='combobox'], [role='slider']")) return;
@@ -379,8 +401,9 @@ function ExploreReader({ selected, sequence, onSelect, onStep, close, children }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [onStep, close]);
+  }, [onStep, close, enlarged]);
   return <section className="explore-reader" aria-label="鱼类详情浏览">
+    <div className="reader-details" inert={enlarged} aria-hidden={enlarged || undefined}>
     <div className="reader-toolbar">
       <div className="reader-heading"><span className="eyebrow">EXPLORE / FIELD GUIDE</span><strong>跟着鱼，看看它的故乡</strong></div>
       <button ref={closeButton} className="icon-button" aria-label="关闭鱼种详情" title="关闭详情 · Esc" onClick={close}><X size={19} /></button>
@@ -398,6 +421,8 @@ function ExploreReader({ selected, sequence, onSelect, onStep, close, children }
     </div>
     <p className="reader-shortcuts"><span>← → 切换 · Esc 返回</span><span>按当前筛选结果浏览</span></p>
     <div className="reader-content" ref={content}><div className="reader-specimen" key={selected.id}>{children}</div></div>
+    </div>
+    {photoView}
   </section>;
 }
 
@@ -652,6 +677,7 @@ export default function App() {
   const [toast, setToast] = useState("");
   const [about, setAbout] = useState(false);
   const [photoOpen, setPhotoOpen] = useState(false);
+  const photoReturnScroll = useRef(0);
   const [basinPickerOpen, setBasinPickerOpen] = useState(false);
   const [reset, setReset] = useState(0);
   const [rotate, setRotate] = useState(false);
@@ -845,6 +871,10 @@ export default function App() {
     if (location.state?.from) navigate(-1);
     else go("/atlas");
   };
+  const openPhotoViewer = () => {
+    photoReturnScroll.current = window.scrollY;
+    setPhotoOpen(true);
+  };
   const closePhotoViewer = () => {
     setPhotoOpen(false);
     requestAnimationFrame(() => document.querySelector<HTMLButtonElement>(".detail-photo-trigger")?.focus({ preventScroll: true }));
@@ -899,8 +929,10 @@ export default function App() {
     }
   };
   const listActive = isList || (glFailed && backgroundPath === "/explore");
+  const photoViewer = photoOpen && selected?.photo ? <PhotoViewer name={selected.name} scientific={selected.scientific} photo={selected.photo}
+    inline={reading} returnScroll={photoReturnScroll.current} close={closePhotoViewer} index={browseSequence.findIndex((item) => item.id === selected.id)} count={browseSequence.length} onStep={stepReader} /> : null;
   const fishContent = selectedFish ? <FishDetail
-    key={selectedFish.id} fish={selectedFish} close={closeFish} openPhotoViewer={() => setPhotoOpen(true)}
+    key={selectedFish.id} fish={selectedFish} close={closeFish} openPhotoViewer={openPhotoViewer}
     plannerFindings={isPlanner ? location.state?.plannerFindings : undefined}
     saved={saved.includes(selectedFish.id)} toggleSave={() => toggleSave(selectedFish.id)}
     compared={compare.includes(selectedFish.id)} toggleCompare={() => toggleCompare(selectedFish.id)}
@@ -909,7 +941,7 @@ export default function App() {
       const p = new URLSearchParams(); p.set("evidence", selectedFish.id); p.set("region", selectedFish.region);
       navigate({ pathname: "/explore", search: p.toString() }); setActiveOccurrence("");
     }}
-  /> : selectedPhoto ? <PhotoDetail key={selectedPhoto.id} profile={selectedPhoto} close={closeFish} openPhotoViewer={() => setPhotoOpen(true)}
+  /> : selectedPhoto ? <PhotoDetail key={selectedPhoto.id} profile={selectedPhoto} close={closeFish} openPhotoViewer={openPhotoViewer}
     saved={saved.includes(selectedPhoto.id)} toggleSave={() => toggleSave(selectedPhoto.id)} /> : null;
   const detailContent = selected ? <DetailContainer label={`${selected.name}图鉴`} close={closeFish} inline={reading}>{fishContent}</DetailContainer> : null;
   return (
@@ -995,7 +1027,7 @@ export default function App() {
             <Catalog fishes={fishes} photoProfiles={photoProfiles} onFish={openFish} onPhoto={openPhoto} />
           </Suspense>
         ) : !listActive ? (
-          <div className={`explore-layout${reading ? " reading" : ""}`} ref={exploreLayout}>
+          <div className={`explore-layout${reading ? " reading" : ""}${reading && photoOpen ? " photo-reading" : ""}`} ref={exploreLayout}>
             <section className="intro" inert={reading} aria-hidden={reading}>
               <div className="eyebrow">
                 <span />
@@ -1101,7 +1133,7 @@ export default function App() {
             </section>
             <aside className={`species-panel${reading ? " reader-panel" : ""}`}>
               {reading && selected ? <ExploreReader selected={selected} sequence={browseSequence}
-                onSelect={openReaderItem} onStep={stepReader} close={closeFish}>{detailContent}</ExploreReader> : <>
+                onSelect={openReaderItem} onStep={stepReader} close={closeFish} photoView={photoViewer}>{detailContent}</ExploreReader> : <>
               <div className="panel-head">
                 <div className="eyebrow">DISCOVER SPECIES</div>
                 <h2>
@@ -1473,8 +1505,7 @@ export default function App() {
           </div>
         )}
       {!reading && detailContent}
-      {photoOpen && selected?.photo && <PhotoViewer name={selected.name} scientific={selected.scientific} photo={selected.photo}
-        close={closePhotoViewer} index={browseSequence.findIndex((item) => item.id === selected.id)} count={browseSequence.length} onStep={stepReader} />}
+      {!reading && photoViewer}
       {selectedId && !selectedFish && !selectedPhoto && (
         <Modal label="没有找到鱼种" onClose={() => go("/atlas")}>
           <div className="simple-dialog">
