@@ -60,6 +60,7 @@ import Evidence, { Taxonomy } from "./components/Evidence";
 import { geography } from "./lib/evidence";
 import { FishImage } from "./components/FishArt";
 import ImeInput from "./components/ImeInput";
+import FeedbackLink, { FeedbackNote } from "./components/FeedbackLink";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
 const Globe = lazy(() => import("./components/Globe"));
 const Catalog = lazy(() => import("./components/Catalog"));
@@ -439,6 +440,7 @@ function FishDetail({
             <GitCompareArrows size={16} />
             {compared ? "已加入对比" : "加入对比"}
           </button>
+          <FeedbackLink fish={fish} />
         </div>
         <div className="metrics">
           <Metric
@@ -529,6 +531,7 @@ function FishDetail({
             <p>本图为项目原创示意插画，不能用于物种鉴定。</p>
           )}
         </details>
+        <FeedbackNote />
       </div>
     </DetailContainer>
   );
@@ -557,7 +560,7 @@ function PhotoDetail({ profile, close, saved, toggleSave, inline }: {
         <h2>{profile.name}</h2>
         <p className="scientific">{profile.scientific}</p>
         {profile.intro && <p className="detail-intro" lang="en">{profile.intro}</p>}
-        <div className="detail-actions"><button className={`soft-button ${saved ? "selected" : ""}`} onClick={toggleSave}><Bookmark size={16} fill={saved ? "currentColor" : "none"} />{saved ? "已收藏" : "收藏鱼种"}</button></div>
+        <div className="detail-actions"><button className={`soft-button ${saved ? "selected" : ""}`} onClick={toggleSave}><Bookmark size={16} fill={saved ? "currentColor" : "none"} />{saved ? "已收藏" : "收藏鱼种"}</button><FeedbackLink fish={profile} /></div>
         <div className="metrics"><Metric label="科" value={profile.family} /><Metric label="属" value={profile.scientific.split(" ")[0]} /><Metric label="GBIF 环境标签" value={waterName} /></div>
         <section className="detail-section"><h3><Globe2 size={16} />地理分布</h3><p>{fishLocations(profile).length ? `已关联原生水域：${fishLocations(profile).map((place) => place.label).join("、")}。` : distributions[profile.id]?.unlocatedReason}</p><BasinTags fish={profile} /><DistributionDetails fish={profile} /></section>
         <section className="detail-section"><h3><Waves size={16} />野外习性</h3><p lang={profile.behavior ? "en" : undefined}>{profile.behavior || "资料待补充；不能根据近缘鱼推断本物种的食性或相处方式。"}</p></section>
@@ -567,6 +570,7 @@ function PhotoDetail({ profile, close, saved, toggleSave, inline }: {
           <p>英文文字：Wikipedia contributors，<a href={profile.wikipediaUrl} target="_blank" rel="noreferrer">物种词条与编辑历史</a>，<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC BY-SA 4.0</a>；本站仅保留短段落，不视为专家复核。</p>
           <p>照片：{profile.photo.author} · <a href={profile.photo.pageUrl} target="_blank" rel="noreferrer">原始文件</a> · <a href={profile.photo.licenseUrl} target="_blank" rel="noreferrer">{profile.photo.license}</a>。</p>
         </details>
+        <FeedbackNote />
       </div>
     </DetailContainer>
   );
@@ -1373,6 +1377,7 @@ export default function App() {
             数据与图片来源
             <ExternalLink size={11} />
           </button>
+          <FeedbackLink />
         </span>
       </footer>
       {storageWarning && (
@@ -1605,6 +1610,12 @@ export default function App() {
             GBIF，缺失字段保留空值。扩充目录的学名和科属来自 GBIF Backbone Taxonomy，按 CC BY 4.0 署名。识别照片来自 Wikimedia
             Commons，每张照片在详情中列出作者、原始页面与许可；示意插画由本项目绘制，不作为鉴定依据。
           </p>
+          <section className="feedback-invite" aria-label="参与完善鱼类资料">
+            <h3>一起完善这份图鉴</h3>
+            <p>补充缺失的习性或养护资料，指出名称、分布和图片中的错误，也可以推荐尚未收录的鱼。无需知道所有参数，只要说明需要改哪一处；有参考链接或图片出处更方便核对。</p>
+            <FeedbackLink>在 GitHub 提交建议</FeedbackLink>
+            <p className="feedback-note">需要 GitHub 登录。提交的建议会公开显示，核对后再更新图鉴；点击入口不会自动提交。</p>
+          </section>
           <h3>隐私与收藏</h3>
           <p>
             收藏保存在当前浏览器，不上传服务器。所有图鉴与图片随应用提供，浏览时无需登录或连接外部数据服务。

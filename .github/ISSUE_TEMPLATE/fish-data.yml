@@ -1,0 +1,66 @@
+name: 补充或修正鱼类资料
+description: 发现图鉴有误、想补充资料，或推荐收录一种鱼？从这里告诉我们。
+title: "[鱼类资料] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢一起完善鱼类图鉴！不用知道所有养鱼参数，也不必写完整百科：说明你发现的问题或想补充的内容即可。
+        如果有可靠资料或照片来源，请附上链接，方便核对后更新图鉴。
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: 你想做什么？
+      options:
+        - 补充资料
+        - 修正错误
+        - 推荐新鱼
+    validations:
+      required: true
+  - type: input
+    id: fish
+    attributes:
+      label: 鱼的名称（可选）
+      description: 中文名、学名或你知道的叫法都可以。如果标题或下方内容已经有鱼名，可以跳过。
+      placeholder: 例如：红绿灯 / Paracheirodon innesi
+  - type: input
+    id: scientific
+    attributes:
+      label: 学名（可选）
+      description: 从图鉴详情进入时会自动填写。不知道学名可以跳过。
+      placeholder: 例如：Paracheirodon innesi
+  - type: textarea
+    id: data-details
+    attributes:
+      label: 想补充或修改什么？
+      description: 说清现有内容、你认为应改成的内容，或推荐收录这条鱼的原因。不确定的部分也可以直接说明。
+      placeholder: |
+        我看到的内容：
+        建议补充或修改为：
+
+        推荐新鱼时，也可以写鱼名、特点，以及为什么希望收录。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence-links
+    attributes:
+      label: 参考资料（可选）
+      description: 附上能支持这次补充或纠错的链接；没有链接也可以先提交，并说明你的观察或经验。
+      placeholder: |
+        资料链接：
+        链接中与这次修改相关的内容：
+  - type: textarea
+    id: photo-sources
+    attributes:
+      label: 照片及来源（可选）
+      description: 可以附自己拍摄的照片，或允许使用的图片原始页面链接。请注明作者与授权方式；仅有图片直链不足以确认授权，未获授权的网络照片请只提供来源供核对。
+      placeholder: |
+        照片或原始页面链接：
+        作者：
+        授权方式（例如：本人拍摄并同意用于本项目，或 CC BY-SA 4.0）：
+  - type: input
+    id: page_url
+    attributes:
+      label: 相关图鉴页面（可选）
+      description: 粘贴你正在查看的页面地址，便于找到对应鱼种。
+      placeholder: https://…/#/species/…

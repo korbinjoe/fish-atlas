@@ -1384,8 +1384,44 @@ p {
 }
 .detail-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 21px;
+}
+.feedback-link {
+  min-height: 44px;
+  text-decoration: none;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.feedback-link:focus-visible {
+  outline: 2px solid #bddfcb;
+  outline-offset: 3px;
+}
+.feedback-note {
+  margin-top: 16px;
+  color: #96b5ae;
+  font-size: 11px;
+  line-height: 1.8;
+}
+.feedback-invite {
+  margin-top: 26px;
+  padding: 0 18px 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #bddfcb06;
+}
+.feedback-invite .feedback-link {
+  display: inline-flex;
+  margin-top: 16px;
+  color: #bddfcb;
+}
+.site-footer .feedback-link {
+  font-size: 10px;
+  padding: 6px 10px;
+}
+.site-footer > span:last-child {
+  flex-wrap: wrap;
 }
 .soft-button {
   font-size: 10px;
