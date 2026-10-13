@@ -8,6 +8,7 @@ import {
   useState,
 } from "react";
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
+import { useGlobeLayoutMotion } from "./lib/useGlobeLayoutMotion";
 import {
   ArrowDown,
   ArrowLeft,
@@ -658,6 +659,7 @@ export default function App() {
   const [glFailed, setGlFailed] = useState(false);
   const reading = !!selected && backgroundPath === "/explore" && location.state?.from === "/explore" && !glFailed;
   const exploreLayout = useRef<HTMLDivElement>(null);
+  const captureGlobeLayout = useGlobeLayoutMotion(exploreLayout, reading);
   const readerOrigin = useRef<{ id: string; element: HTMLElement | null; scroll: number } | null>(null);
   // Router transitions may commit after several key events. Keep the requested
   // cursor synchronously so fast key presses advance once per event.
@@ -675,7 +677,7 @@ export default function App() {
       ),
     [query, region, basin, size, isSaved, saved, water],
   );
-  const imageResults: (Fish | PhotoProfile)[] = [
+  const imageResults = useMemo<(Fish | PhotoProfile)[]>(() => [
     ...results.filter((fish) => fish.photo !== null),
     ...photoProfiles.filter((profile) => {
       if (size) return false; // These records have no verified adult length.
@@ -688,16 +690,16 @@ export default function App() {
         field.toLocaleLowerCase().includes(needle),
       );
     }),
-  ].sort((a, b) => a.scientific.localeCompare(b.scientific, "en"));
-  const exploreResults = imageResults.filter((item) => {
+  ].sort((a, b) => a.scientific.localeCompare(b.scientific, "en")), [results, size, region, basin, isSaved, saved, water, query]);
+  const exploreResults = useMemo(() => imageResults.filter((item) => {
     const mapped = fishLocationIds(item).length > 0;
     return exploreScope === "regional" ? mapped : exploreScope === "unlocated" ? !mapped : true;
   }).sort((a, b) => {
     const aCurated = "gbifKey" in a ? 1 : 0;
     const bCurated = "gbifKey" in b ? 1 : 0;
     return aCurated - bCurated;
-  });
-  const visibleGlobePhotos = exploreResults.map((item) => globePhotoById.get(item.id)!);
+  }), [imageResults, exploreScope]);
+  const visibleGlobePhotos = useMemo(() => exploreResults.map((item) => globePhotoById.get(item.id)!), [exploreResults]);
   const mappedGlobeCount = exploreResults.filter((item) => fishLocationIds(item).length > 0).length;
   const detailResults = location.state?.from === "/explore" ? exploreResults : imageResults;
   const browseSequence = selected && !detailResults.some((item) => item.id === selected.id) ? [selected] : detailResults;
@@ -764,10 +766,12 @@ export default function App() {
       { replace: true },
     );
   };
-  const go = (path: string) =>
+  const go = (path: string) => {
+    if (reading && path === "/explore") captureGlobeLayout();
     navigate({ pathname: path, search: params.toString() });
+  };
   const changeExploreGeography = (change: (current: URLSearchParams) => URLSearchParams) => {
-    if (reading) navigate({ pathname: "/explore", search: change(params).toString() }, { replace: true });
+    if (reading) { captureGlobeLayout(); navigate({ pathname: "/explore", search: change(params).toString() }, { replace: true }); }
     else setParams(change);
   };
   const chooseRegion = (id: RegionId) => {
@@ -807,9 +811,12 @@ export default function App() {
   });
   const clear = () => setParams(new URLSearchParams());
   const rememberReaderOrigin = (id: string) => {
-    if (backgroundPath === "/explore" && !selectedId) readerOrigin.current = {
+    if (backgroundPath === "/explore" && !selectedId) {
+      captureGlobeLayout();
+      readerOrigin.current = {
       id, element: document.activeElement instanceof HTMLElement && document.activeElement !== document.body ? document.activeElement : null, scroll: window.scrollY,
-    };
+      };
+    }
   };
   const openFish = (f: Fish, plannerFindings?: Finding[]) => {
     rememberReaderOrigin(f.id);
@@ -834,6 +841,7 @@ export default function App() {
     openReaderItem(browseSequence[(index + direction + browseSequence.length) % browseSequence.length]);
   };
   const closeFish = () => {
+    if (reading) captureGlobeLayout();
     if (location.state?.from) navigate(-1);
     else go("/atlas");
   };
@@ -897,6 +905,7 @@ export default function App() {
     saved={saved.includes(selectedFish.id)} toggleSave={() => toggleSave(selectedFish.id)}
     compared={compare.includes(selectedFish.id)} toggleCompare={() => toggleCompare(selectedFish.id)}
     viewEvidence={() => {
+      if (reading) captureGlobeLayout();
       const p = new URLSearchParams(); p.set("evidence", selectedFish.id); p.set("region", selectedFish.region);
       navigate({ pathname: "/explore", search: p.toString() }); setActiveOccurrence("");
     }}
@@ -919,6 +928,7 @@ export default function App() {
         <button
           className="brand"
           onClick={() => {
+            if (reading) captureGlobeLayout();
             navigate("/explore");
             setReset((x) => x + 1);
           }}

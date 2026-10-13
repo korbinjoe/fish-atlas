@@ -1,0 +1,967 @@
+{
+  "measuredAt": "2026-10-13T14:46:25.891Z",
+  "browser": "Google Chrome, Playwright independent headless contexts",
+  "sampleCountPerOperationPerProfile": 1,
+  "sampleDurationMs": 1300,
+  "inputSequence": [
+    "click betta-splendens globe pin",
+    "ArrowRight",
+    "ArrowRight x 3, 80 ms between inputs",
+    "Escape"
+  ],
+  "note": "One local browser sample per operation, not evidence for all devices. RAF intervals measure main-thread animation scheduling; canvas frame counts come from the actual Three.js renderer counter. Drawing-buffer changes are observed from real canvas width/height attributes, independently of CSS layout changes. All 183 fish remain present and no filter is applied. No CPU or network throttling.",
+  "results": [
+    {
+      "profile": "Desktop Chrome headless, DPR 1, no CPU or network throttling",
+      "deviceScaleFactor": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "initial": {
+        "url": "http://127.0.0.1:4174/?benchmark=1#/explore",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+        "photoPinCount": 183,
+        "renderFrames": 2,
+        "canvasBuffer": {
+          "width": 724,
+          "height": 820
+        },
+        "canvasBox": {
+          "x": 318.265625,
+          "y": 127,
+          "width": 724,
+          "height": 820
+        },
+        "stageBox": {
+          "x": 318.265625,
+          "y": 127,
+          "width": 724.140625,
+          "height": 820
+        },
+        "cameraDistance": 3.4581502602818395,
+        "scripts": [
+          "http://127.0.0.1:4174/assets/index-DlFm-zqY.js"
+        ]
+      },
+      "operations": [
+        {
+          "name": "open-betta-reader",
+          "durationMs": 1301.8,
+          "inputs": [
+            {
+              "atMs": 0,
+              "type": "click",
+              "key": null,
+              "fish": "betta-splendens"
+            }
+          ],
+          "raf": {
+            "sampleCount": 73,
+            "medianMs": 16.7,
+            "p95Ms": 16.8,
+            "maxMs": 66.6
+          },
+          "renderedCanvasFrames": 59,
+          "renderedCanvasFpsDuringSample": 45.32,
+          "longTasks": {
+            "supported": true,
+            "count": 0,
+            "totalDurationMs": 0,
+            "entries": []
+          },
+          "canvasDrawingBufferChanges": {
+            "count": 1,
+            "entries": [
+              {
+                "atMs": 115.7,
+                "width": 552,
+                "height": 815
+              }
+            ]
+          },
+          "canvasLayoutChanges": {
+            "count": 1,
+            "entries": [
+              {
+                "atMs": 150.3,
+                "width": 555.39,
+                "height": 820
+              }
+            ]
+          },
+          "camera": {
+            "transitions": [
+              {
+                "atMs": 116.1,
+                "moving": true
+              },
+              {
+                "atMs": 1072.5,
+                "moving": false
+              }
+            ],
+            "lastSettledAfterFirstInputMs": 1072.5,
+            "lastSettledAfterLastInputMs": 1072.5,
+            "stillMovingAtEnd": false,
+            "targetFish": "betta-splendens",
+            "distance": 4.616834715277492
+          },
+          "before": {
+            "canvasBuffer": {
+              "width": 724,
+              "height": 820
+            },
+            "canvasBox": {
+              "x": 318.27,
+              "y": 127,
+              "width": 724,
+              "height": 820
+            },
+            "stageBox": {
+              "x": 318.27,
+              "y": 127,
+              "width": 724.14,
+              "height": 820
+            },
+            "cameraDistance": 3.4581502602818395
+          },
+          "after": {
+            "url": "http://127.0.0.1:4174/?benchmark=1#/species/betta-splendens",
+            "activeFish": "betta-splendens",
+            "canvasBuffer": {
+              "width": 552,
+              "height": 815
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "readerBox": {
+              "x": 584.59,
+              "y": 136,
+              "width": 806.41,
+              "height": 797
+            },
+            "canvasOverflow": false,
+            "photoPinCount": 183,
+            "readerCounter": "3 / 183暹罗斗鱼"
+          }
+        },
+        {
+          "name": "next-fish-arrow-right",
+          "durationMs": 1301.2,
+          "inputs": [
+            {
+              "atMs": 0,
+              "type": "keydown",
+              "key": "ArrowRight",
+              "fish": null
+            }
+          ],
+          "raf": {
+            "sampleCount": 78,
+            "medianMs": 16.7,
+            "p95Ms": 16.8,
+            "maxMs": 16.8
+          },
+          "renderedCanvasFrames": 44,
+          "renderedCanvasFpsDuringSample": 33.81,
+          "longTasks": {
+            "supported": true,
+            "count": 0,
+            "totalDurationMs": 0,
+            "entries": []
+          },
+          "canvasDrawingBufferChanges": {
+            "count": 0,
+            "entries": []
+          },
+          "canvasLayoutChanges": {
+            "count": 0,
+            "entries": []
+          },
+          "camera": {
+            "transitions": [
+              {
+                "atMs": 19.8,
+                "moving": true
+              },
+              {
+                "atMs": 724.8,
+                "moving": false
+              }
+            ],
+            "lastSettledAfterFirstInputMs": 724.8,
+            "lastSettledAfterLastInputMs": 724.8,
+            "stillMovingAtEnd": false,
+            "targetFish": "boraras-brigittae",
+            "distance": 4.616834715277495
+          },
+          "before": {
+            "canvasBuffer": {
+              "width": 552,
+              "height": 815
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "cameraDistance": 4.616834715277492
+          },
+          "after": {
+            "url": "http://127.0.0.1:4174/?benchmark=1#/species/boraras-brigittae",
+            "activeFish": "boraras-brigittae",
+            "canvasBuffer": {
+              "width": 552,
+              "height": 815
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "readerBox": {
+              "x": 584.59,
+              "y": 136,
+              "width": 806.41,
+              "height": 797
+            },
+            "canvasOverflow": false,
+            "photoPinCount": 183,
+            "readerCounter": "4 / 183辣椒灯"
+          }
+        },
+        {
+          "name": "rapid-next-fish-three-arrows",
+          "durationMs": 1300.9,
+          "inputs": [
+            {
+              "atMs": 0,
+              "type": "keydown",
+              "key": "ArrowRight",
+              "fish": null
+            },
+            {
+              "atMs": 90.5,
+              "type": "keydown",
+              "key": "ArrowRight",
+              "fish": null
+            },
+            {
+              "atMs": 178.3,
+              "type": "keydown",
+              "key": "ArrowRight",
+              "fish": null
+            }
+          ],
+          "raf": {
+            "sampleCount": 77,
+            "medianMs": 16.7,
+            "p95Ms": 16.8,
+            "maxMs": 29.9
+          },
+          "renderedCanvasFrames": 55,
+          "renderedCanvasFpsDuringSample": 42.28,
+          "longTasks": {
+            "supported": true,
+            "count": 0,
+            "totalDurationMs": 0,
+            "entries": []
+          },
+          "canvasDrawingBufferChanges": {
+            "count": 0,
+            "entries": []
+          },
+          "canvasLayoutChanges": {
+            "count": 0,
+            "entries": []
+          },
+          "camera": {
+            "transitions": [
+              {
+                "atMs": 45.2,
+                "moving": true
+              },
+              {
+                "atMs": 126,
+                "moving": true
+              },
+              {
+                "atMs": 226.5,
+                "moving": true
+              },
+              {
+                "atMs": 934.7,
+                "moving": false
+              }
+            ],
+            "lastSettledAfterFirstInputMs": 934.7,
+            "lastSettledAfterLastInputMs": 756.4,
+            "stillMovingAtEnd": false,
+            "targetFish": "chromobotia-macracanthus",
+            "distance": 4.616834715277494
+          },
+          "before": {
+            "canvasBuffer": {
+              "width": 552,
+              "height": 815
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "cameraDistance": 4.616834715277495
+          },
+          "after": {
+            "url": "http://127.0.0.1:4174/?benchmark=1#/species/chromobotia-macracanthus",
+            "activeFish": "chromobotia-macracanthus",
+            "canvasBuffer": {
+              "width": 552,
+              "height": 815
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "readerBox": {
+              "x": 584.59,
+              "y": 136,
+              "width": 806.41,
+              "height": 797
+            },
+            "canvasOverflow": false,
+            "photoPinCount": 183,
+            "readerCounter": "7 / 183皇冠泥鳅"
+          }
+        },
+        {
+          "name": "close-reader-escape",
+          "durationMs": 1301.4,
+          "inputs": [
+            {
+              "atMs": 0,
+              "type": "keydown",
+              "key": "Escape",
+              "fish": null
+            }
+          ],
+          "raf": {
+            "sampleCount": 75,
+            "medianMs": 16.7,
+            "p95Ms": 16.7,
+            "maxMs": 50
+          },
+          "renderedCanvasFrames": 60,
+          "renderedCanvasFpsDuringSample": 46.1,
+          "longTasks": {
+            "supported": true,
+            "count": 0,
+            "totalDurationMs": 0,
+            "entries": []
+          },
+          "canvasDrawingBufferChanges": {
+            "count": 1,
+            "entries": [
+              {
+                "atMs": 79.8,
+                "width": 724,
+                "height": 820
+              }
+            ]
+          },
+          "canvasLayoutChanges": {
+            "count": 2,
+            "entries": [
+              {
+                "atMs": 61.9,
+                "width": 548.63,
+                "height": 810.03
+              },
+              {
+                "atMs": 90.9,
+                "width": 719.59,
+                "height": 815
+              }
+            ]
+          },
+          "camera": {
+            "transitions": [
+              {
+                "atMs": 44.2,
+                "moving": true
+              },
+              {
+                "atMs": 1010.7,
+                "moving": false
+              }
+            ],
+            "lastSettledAfterFirstInputMs": 1010.7,
+            "lastSettledAfterLastInputMs": 1010.7,
+            "stillMovingAtEnd": false,
+            "targetFish": "",
+            "distance": 3.458150260281839
+          },
+          "before": {
+            "canvasBuffer": {
+              "width": 552,
+              "height": 815
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "cameraDistance": 4.616834715277494
+          },
+          "after": {
+            "url": "http://127.0.0.1:4174/?benchmark=1#/explore",
+            "activeFish": "",
+            "canvasBuffer": {
+              "width": 724,
+              "height": 820
+            },
+            "canvasBox": {
+              "x": 318.27,
+              "y": 127,
+              "width": 724,
+              "height": 820
+            },
+            "stageBox": {
+              "x": 318.27,
+              "y": 127,
+              "width": 724.14,
+              "height": 820
+            },
+            "readerBox": null,
+            "canvasOverflow": false,
+            "photoPinCount": 183
+          }
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "profile": "Desktop Chrome headless, DPR 2, no CPU or network throttling",
+      "deviceScaleFactor": 2,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "initial": {
+        "url": "http://127.0.0.1:4174/?benchmark=1#/explore",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+        "photoPinCount": 183,
+        "renderFrames": 2,
+        "canvasBuffer": {
+          "width": 1448,
+          "height": 1640
+        },
+        "canvasBox": {
+          "x": 318.265625,
+          "y": 127,
+          "width": 724,
+          "height": 820
+        },
+        "stageBox": {
+          "x": 318.265625,
+          "y": 127,
+          "width": 724.140625,
+          "height": 820
+        },
+        "cameraDistance": 3.4581502602818395,
+        "scripts": [
+          "http://127.0.0.1:4174/assets/index-DlFm-zqY.js"
+        ]
+      },
+      "operations": [
+        {
+          "name": "open-betta-reader",
+          "durationMs": 1301.1,
+          "inputs": [
+            {
+              "atMs": 0,
+              "type": "click",
+              "key": null,
+              "fish": "betta-splendens"
+            }
+          ],
+          "raf": {
+            "sampleCount": 76,
+            "medianMs": 16.7,
+            "p95Ms": 16.8,
+            "maxMs": 50
+          },
+          "renderedCanvasFrames": 60,
+          "renderedCanvasFpsDuringSample": 46.11,
+          "longTasks": {
+            "supported": true,
+            "count": 0,
+            "totalDurationMs": 0,
+            "entries": []
+          },
+          "canvasDrawingBufferChanges": {
+            "count": 1,
+            "entries": [
+              {
+                "atMs": 92.6,
+                "width": 1104,
+                "height": 1630
+              }
+            ]
+          },
+          "canvasLayoutChanges": {
+            "count": 1,
+            "entries": [
+              {
+                "atMs": 110.1,
+                "width": 555.39,
+                "height": 820
+              }
+            ]
+          },
+          "camera": {
+            "transitions": [
+              {
+                "atMs": 93.6,
+                "moving": true
+              },
+              {
+                "atMs": 1049.5,
+                "moving": false
+              }
+            ],
+            "lastSettledAfterFirstInputMs": 1049.5,
+            "lastSettledAfterLastInputMs": 1049.5,
+            "stillMovingAtEnd": false,
+            "targetFish": "betta-splendens",
+            "distance": 4.616834715277492
+          },
+          "before": {
+            "canvasBuffer": {
+              "width": 1448,
+              "height": 1640
+            },
+            "canvasBox": {
+              "x": 318.27,
+              "y": 127,
+              "width": 724,
+              "height": 820
+            },
+            "stageBox": {
+              "x": 318.27,
+              "y": 127,
+              "width": 724.14,
+              "height": 820
+            },
+            "cameraDistance": 3.4581502602818395
+          },
+          "after": {
+            "url": "http://127.0.0.1:4174/?benchmark=1#/species/betta-splendens",
+            "activeFish": "betta-splendens",
+            "canvasBuffer": {
+              "width": 1104,
+              "height": 1630
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "readerBox": {
+              "x": 584.59,
+              "y": 136,
+              "width": 806.41,
+              "height": 797
+            },
+            "canvasOverflow": false,
+            "photoPinCount": 183,
+            "readerCounter": "3 / 183暹罗斗鱼"
+          }
+        },
+        {
+          "name": "next-fish-arrow-right",
+          "durationMs": 1300.9,
+          "inputs": [
+            {
+              "atMs": 0.1,
+              "type": "keydown",
+              "key": "ArrowRight",
+              "fish": null
+            }
+          ],
+          "raf": {
+            "sampleCount": 77,
+            "medianMs": 16.7,
+            "p95Ms": 16.8,
+            "maxMs": 17.3
+          },
+          "renderedCanvasFrames": 44,
+          "renderedCanvasFpsDuringSample": 33.82,
+          "longTasks": {
+            "supported": true,
+            "count": 0,
+            "totalDurationMs": 0,
+            "entries": []
+          },
+          "canvasDrawingBufferChanges": {
+            "count": 0,
+            "entries": []
+          },
+          "canvasLayoutChanges": {
+            "count": 0,
+            "entries": []
+          },
+          "camera": {
+            "transitions": [
+              {
+                "atMs": 33.3,
+                "moving": true
+              },
+              {
+                "atMs": 738.1,
+                "moving": false
+              }
+            ],
+            "lastSettledAfterFirstInputMs": 738.1,
+            "lastSettledAfterLastInputMs": 738,
+            "stillMovingAtEnd": false,
+            "targetFish": "boraras-brigittae",
+            "distance": 4.616834715277495
+          },
+          "before": {
+            "canvasBuffer": {
+              "width": 1104,
+              "height": 1630
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "cameraDistance": 4.616834715277492
+          },
+          "after": {
+            "url": "http://127.0.0.1:4174/?benchmark=1#/species/boraras-brigittae",
+            "activeFish": "boraras-brigittae",
+            "canvasBuffer": {
+              "width": 1104,
+              "height": 1630
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "readerBox": {
+              "x": 584.59,
+              "y": 136,
+              "width": 806.41,
+              "height": 797
+            },
+            "canvasOverflow": false,
+            "photoPinCount": 183,
+            "readerCounter": "4 / 183辣椒灯"
+          }
+        },
+        {
+          "name": "rapid-next-fish-three-arrows",
+          "durationMs": 1300.6,
+          "inputs": [
+            {
+              "atMs": 0,
+              "type": "keydown",
+              "key": "ArrowRight",
+              "fish": null
+            },
+            {
+              "atMs": 87.4,
+              "type": "keydown",
+              "key": "ArrowRight",
+              "fish": null
+            },
+            {
+              "atMs": 174.8,
+              "type": "keydown",
+              "key": "ArrowRight",
+              "fish": null
+            }
+          ],
+          "raf": {
+            "sampleCount": 78,
+            "medianMs": 16.7,
+            "p95Ms": 16.8,
+            "maxMs": 16.8
+          },
+          "renderedCanvasFrames": 56,
+          "renderedCanvasFpsDuringSample": 43.06,
+          "longTasks": {
+            "supported": true,
+            "count": 0,
+            "totalDurationMs": 0,
+            "entries": []
+          },
+          "canvasDrawingBufferChanges": {
+            "count": 0,
+            "entries": []
+          },
+          "canvasLayoutChanges": {
+            "count": 0,
+            "entries": []
+          },
+          "camera": {
+            "transitions": [
+              {
+                "atMs": 26.1,
+                "moving": true
+              },
+              {
+                "atMs": 123.2,
+                "moving": true
+              },
+              {
+                "atMs": 223.6,
+                "moving": true
+              },
+              {
+                "atMs": 931.7,
+                "moving": false
+              }
+            ],
+            "lastSettledAfterFirstInputMs": 931.7,
+            "lastSettledAfterLastInputMs": 756.9,
+            "stillMovingAtEnd": false,
+            "targetFish": "chromobotia-macracanthus",
+            "distance": 4.616834715277494
+          },
+          "before": {
+            "canvasBuffer": {
+              "width": 1104,
+              "height": 1630
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "cameraDistance": 4.616834715277495
+          },
+          "after": {
+            "url": "http://127.0.0.1:4174/?benchmark=1#/species/chromobotia-macracanthus",
+            "activeFish": "chromobotia-macracanthus",
+            "canvasBuffer": {
+              "width": 1104,
+              "height": 1630
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "readerBox": {
+              "x": 584.59,
+              "y": 136,
+              "width": 806.41,
+              "height": 797
+            },
+            "canvasOverflow": false,
+            "photoPinCount": 183,
+            "readerCounter": "7 / 183皇冠泥鳅"
+          }
+        },
+        {
+          "name": "close-reader-escape",
+          "durationMs": 1301.5,
+          "inputs": [
+            {
+              "atMs": 0,
+              "type": "keydown",
+              "key": "Escape",
+              "fish": null
+            }
+          ],
+          "raf": {
+            "sampleCount": 75,
+            "medianMs": 16.7,
+            "p95Ms": 16.8,
+            "maxMs": 50
+          },
+          "renderedCanvasFrames": 60,
+          "renderedCanvasFpsDuringSample": 46.1,
+          "longTasks": {
+            "supported": true,
+            "count": 0,
+            "totalDurationMs": 0,
+            "entries": []
+          },
+          "canvasDrawingBufferChanges": {
+            "count": 1,
+            "entries": [
+              {
+                "atMs": 78.1,
+                "width": 1448,
+                "height": 1640
+              }
+            ]
+          },
+          "canvasLayoutChanges": {
+            "count": 2,
+            "entries": [
+              {
+                "atMs": 54.5,
+                "width": 548.63,
+                "height": 810.03
+              },
+              {
+                "atMs": 89.8,
+                "width": 719.59,
+                "height": 815
+              }
+            ]
+          },
+          "camera": {
+            "transitions": [
+              {
+                "atMs": 40.2,
+                "moving": true
+              },
+              {
+                "atMs": 1008.7,
+                "moving": false
+              }
+            ],
+            "lastSettledAfterFirstInputMs": 1008.7,
+            "lastSettledAfterLastInputMs": 1008.7,
+            "stillMovingAtEnd": false,
+            "targetFish": "",
+            "distance": 3.458150260281839
+          },
+          "before": {
+            "canvasBuffer": {
+              "width": 1104,
+              "height": 1630
+            },
+            "canvasBox": {
+              "x": 40,
+              "y": 127,
+              "width": 552,
+              "height": 815
+            },
+            "stageBox": {
+              "x": 62,
+              "y": 127,
+              "width": 507.59,
+              "height": 815
+            },
+            "cameraDistance": 4.616834715277494
+          },
+          "after": {
+            "url": "http://127.0.0.1:4174/?benchmark=1#/explore",
+            "activeFish": "",
+            "canvasBuffer": {
+              "width": 1448,
+              "height": 1640
+            },
+            "canvasBox": {
+              "x": 318.27,
+              "y": 127,
+              "width": 724,
+              "height": 820
+            },
+            "stageBox": {
+              "x": 318.27,
+              "y": 127,
+              "width": 724.14,
+              "height": 820
+            },
+            "readerBox": null,
+            "canvasOverflow": false,
+            "photoPinCount": 183
+          }
+        }
+      ],
+      "pageErrors": []
+    }
+  ]
+}

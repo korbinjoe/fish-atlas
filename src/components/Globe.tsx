@@ -19,7 +19,7 @@ import type { RegionId } from "../lib/model";
 import type { Fish } from "../lib/model";
 import type { PhotoProfile } from "../lib/photoProfiles";
 import type { ExploreSpecies } from "../lib/exploreProfiles";
-import { makeBasinPhotoPins } from "../lib/basinPins";
+import { makeBasinPhotoPins, type BasinPhotoPin } from "../lib/basinPins";
 import { layoutPhotoPins, type PhotoPinAnchor } from "../lib/photoPinLayout";
 import { findBasinAt } from "../lib/basins";
 import GlobeHydrology from "./GlobeHydrology";
@@ -44,22 +44,50 @@ type Props = {
   activeOccurrence: string;
   onOccurrence: (id: string) => void;
 };
-let savedCamera: THREE.Vector3 | null = null;
+let savedCamera: { position: THREE.Vector3; autoFit: boolean } | null = null;
+const maxCameraDistance = 16;
 
-function detailCameraDistance(camera: THREE.Camera): number {
-  if (!(camera instanceof THREE.PerspectiveCamera)) return 3.1;
-  const verticalHalfAngle = THREE.MathUtils.degToRad(camera.fov / 2);
-  const limitingHalfAngle = Math.atan(Math.tan(verticalHalfAngle) * Math.min(1, camera.aspect));
-  // Fit the sphere's angular radius into the narrower viewport dimension,
-  // with a small rim around it. Side-by-side reading keeps the whole globe.
-  return THREE.MathUtils.clamp(1.03 / Math.sin(limitingHalfAngle), 3.1, 4.5);
+function setStyle(element: HTMLElement, property: "visibility" | "transform" | "zIndex" | "left" | "top", value: string) {
+  if (element.style[property] !== value) element.style[property] = value;
 }
+
+function setCssProperty(element: HTMLElement, property: string, value: string) {
+  if (element.style.getPropertyValue(property) !== value) element.style.setProperty(property, value);
+}
+
+function setData(element: HTMLElement, property: string, value: string) {
+  if (element.dataset[property] !== value) element.dataset[property] = value;
+}
+
+function positionMarker(element: HTMLElement, x: number, y: number, origin: string) {
+  // Layout stays at the overlay origin. Moving a marker only updates its
+  // compositor transform, so camera motion does not relayout the whole page.
+  const xText = x.toFixed(2), yText = y.toFixed(2);
+  setStyle(element, "left", "0px");
+  setStyle(element, "top", "0px");
+  setStyle(element, "transform", `translate3d(${xText}px, ${yText}px, 0) ${origin}`);
+  setData(element, "positionX", String(x));
+  setData(element, "positionY", String(y));
+}
+
+function fitCameraDistance(camera: THREE.Camera, occupiedFraction: number): number {
+  if (!(camera instanceof THREE.PerspectiveCamera)) return 3.1;
+  const tangent = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))
+    * Math.min(1, camera.aspect) * occupiedFraction;
+  // The sphere's silhouette, including perspective, fits the viewport's
+  // shorter edge. Wide screens and narrow readers both keep the whole globe.
+  return Math.min(maxCameraDistance, Math.sqrt(1 + 1 / (tangent * tangent)));
+}
+
+const overviewCameraDistance = (camera: THREE.Camera) => fitCameraDistance(camera, .94);
+const detailCameraDistance = (camera: THREE.Camera) => fitCameraDistance(camera, .9);
 
 
 function Scene(
   props: Props & {
     markers: React.RefObject<(HTMLButtonElement | null)[]>;
     photoMarkers: React.RefObject<(HTMLButtonElement | null)[]>;
+    photoPins: BasinPhotoPin[];
     highlightedLocation: string;
   },
 ) {
@@ -72,20 +100,30 @@ function Scene(
   ), [gl]);
   const highlightTexture = useMemo(() => createWaterbodyHighlightTexture(locationById.get(props.highlightedLocation)),
     [props.highlightedLocation]);
-  const photoPins = useMemo(() => makeBasinPhotoPins(props.fish, props.basin), [props.fish, props.basin]);
+  const emptyHighlightTexture = useMemo(() => {
+    // Keep USE_MAP and the material's program stable before the first hover.
+    // Both this placeholder and real masks use the same RGBA/sRGB map path.
+    const empty = new THREE.DataTexture(new Uint8Array([0, 0, 0, 0]), 1, 1, THREE.RGBAFormat);
+    empty.colorSpace = THREE.SRGBColorSpace;
+    empty.needsUpdate = true;
+    return empty;
+  }, []);
+  const photoPins = props.photoPins;
   const travel = useRef<{
     from: THREE.Vector3;
     to: THREE.Vector3;
     direction: THREE.Vector3;
     rotation: THREE.Quaternion;
-    t: number;
+    startedAt: number;
     duration: number;
     fitDetailView: boolean;
+    fitOverviewView?: boolean;
   } | null>(null);
   const { region, basin, reset, onReady, onError } = props;
   const initial = useRef(true);
   const previousDetailMode = useRef(false);
-  const overviewView = useRef<{ position: THREE.Vector3; filter: string } | null>(null);
+  const overviewView = useRef<{ position: THREE.Vector3; filter: string; autoFit: boolean } | null>(null);
+  const overviewAutoFit = useRef(savedCamera?.autoFit ?? true);
   const activePin = photoPins.find((pin) => pin.fish.id === props.activeFishId);
   const activeLongitude = activePin?.coordinates[0];
   const activeLatitude = activePin?.coordinates[1];
@@ -97,6 +135,24 @@ function Scene(
   );
   const photoPositions = useMemo(() => photoPins.map((pin) =>
     new THREE.Vector3(...latLonToXYZ(...pin.coordinates, 1.006))), [photoPins]);
+  const frameWork = useMemo(() => ({
+    cameraDirection: new THREE.Vector3(),
+    projected: new THREE.Vector3(),
+    travelDirection: new THREE.Vector3(),
+    travelRotation: new THREE.Quaternion(),
+    regionPositions: regions.map((r) => new THREE.Vector3(...latLonToXYZ(...r.coordinates, 1.025))),
+  }), []);
+  const lastProjection = useRef<{
+    position: THREE.Vector3;
+    quaternion: THREE.Quaternion;
+    projection: THREE.Matrix4;
+    width: number;
+    height: number;
+    photoPositions: THREE.Vector3[];
+    activeFishId: string | undefined;
+    basin: string;
+  } | null>(null);
+  const projectionCount = useRef(0);
   useEffect(() => invalidate(), [photoPositions, texture, highlightTexture, invalidate]);
   useEffect(() => {
     gl.domElement.dataset.mapTextureWidth = String(texture.image.width);
@@ -105,9 +161,12 @@ function Scene(
     gl.domElement.dataset.activeFish = props.activeFishId ?? "";
   }, [gl, texture, props.highlightedLocation, props.activeFishId]);
   useEffect(() => {
-    camera.position.copy(
-      savedCamera ?? new THREE.Vector3(...latLonToXYZ(105, 10, 3.35)),
-    );
+    const position = savedCamera?.position.clone()
+      ?? new THREE.Vector3(...latLonToXYZ(105, 10, overviewCameraDistance(camera)));
+    // An automatic overview retains its direction across pages, but adapts
+    // its radius to the current viewport. Manual views retain their zoom too.
+    if (overviewAutoFit.current) position.setLength(overviewCameraDistance(camera));
+    camera.position.copy(position);
     camera.lookAt(0, 0, 0);
     onReady();
     const el = gl.domElement;
@@ -117,12 +176,19 @@ function Scene(
     };
     el.addEventListener("webglcontextlost", lost);
     return () => {
-      savedCamera = camera.position.clone();
+      // Leaving while reading must save the original overview, not turn the
+      // detail fly-to position into the next page's default globe view.
+      const overview = previousDetailMode.current ? overviewView.current : null;
+      savedCamera = {
+        position: (overview?.position ?? camera.position).clone(),
+        autoFit: overview?.autoFit ?? overviewAutoFit.current,
+      };
       el.removeEventListener("webglcontextlost", lost);
     };
   }, [camera, gl, onReady, onError]);
   useEffect(() => () => texture.dispose(), [texture]);
   useEffect(() => () => highlightTexture?.dispose(), [highlightTexture]);
+  useEffect(() => () => emptyHighlightTexture.dispose(), [emptyHighlightTexture]);
   // One navigation effect owns the camera. Hover only highlights the waterbody;
   // changing details replaces an unfinished flight from its current position.
   useEffect(() => {
@@ -130,13 +196,14 @@ function Scene(
     const enteringDetails = detailMode && !previousDetailMode.current;
     const leavingDetails = !detailMode && previousDetailMode.current;
     const filter = `${region}:${basin}:${reset}`;
-    if (enteringDetails) overviewView.current = { position: camera.position.clone(), filter };
+    if (enteringDetails) overviewView.current = { position: camera.position.clone(), filter, autoFit: overviewAutoFit.current };
     previousDetailMode.current = detailMode;
     gl.domElement.dataset.activeFish = props.activeFishId ?? "";
 
     let target: THREE.Vector3 | undefined;
     let coordinates: [number, number] | undefined;
     let duration = 0.95;
+    let fitOverviewView = false;
     if (detailMode) {
       // No fallback region is invented when the active fish has no mapped pin.
       if (activeLongitude === undefined || activeLatitude === undefined) {
@@ -153,11 +220,15 @@ function Scene(
       duration = enteringDetails ? 0.95 : 0.7;
     } else if (leavingDetails && overviewView.current?.filter === filter) {
       target = overviewView.current.position.clone();
+      overviewAutoFit.current = overviewView.current.autoFit;
+      fitOverviewView = overviewAutoFit.current;
       overviewView.current = null;
     } else if (activePoint) {
+      overviewAutoFit.current = false;
       coordinates = activePoint.coordinates;
       target = new THREE.Vector3(...latLonToXYZ(...coordinates, 2.8));
     } else if (!region && !basin && focusedPhoto) {
+      overviewAutoFit.current = false;
       coordinates = focusedPhoto.coordinates;
       target = new THREE.Vector3(...latLonToXYZ(...coordinates, 3.1));
     } else {
@@ -169,7 +240,9 @@ function Scene(
       const r = regions.find((item) => item.id === region);
       const b = locationById.get(basin);
       coordinates = b?.center ?? r?.coordinates ?? [105, 10];
-      const distance = b && matchMedia("(max-width: 620px)").matches ? 3.35 : b || r ? 2.8 : 3.35;
+      overviewAutoFit.current = !b && !r;
+      fitOverviewView = overviewAutoFit.current;
+      const distance = b && matchMedia("(max-width: 620px)").matches ? 3.35 : b || r ? 2.8 : overviewCameraDistance(camera);
       target = new THREE.Vector3(...latLonToXYZ(...coordinates, distance));
     }
     initial.current = false;
@@ -192,7 +265,7 @@ function Scene(
       travel.current = {
         from, to: target, direction: from.clone().normalize(),
         rotation: new THREE.Quaternion().setFromUnitVectors(from.clone().normalize(), target.clone().normalize()),
-        t: 0, duration, fitDetailView: detailMode,
+        startedAt: performance.now(), duration, fitDetailView: detailMode, fitOverviewView,
       };
       if (controls.current) controls.current.autoRotate = false;
       gl.domElement.dataset.cameraMoving = "true";
@@ -204,8 +277,8 @@ function Scene(
   useEffect(() => {
     if (!props.detailMode || activeLongitude === undefined || activeLatitude === undefined) return;
     const distance = detailCameraDistance(camera);
-    // CSS changes the viewport throughout the opening transition. Keep the
-    // current flight's clock and update only its radius rather than restarting.
+    // A layout change applies the final viewport once. Keep the current
+    // flight's clock and update only its radius rather than restarting.
     if (travel.current?.fitDetailView) {
       travel.current.to.setLength(distance);
       invalidate();
@@ -223,25 +296,56 @@ function Scene(
       // direction or turning the selected fish into a new geographical point.
       travel.current = {
         from, to, direction: from.clone().normalize(),
-        rotation: new THREE.Quaternion(), t: 0, duration: 0.3, fitDetailView: true,
+        rotation: new THREE.Quaternion(), startedAt: performance.now(), duration: 0.3, fitDetailView: true,
       };
       gl.domElement.dataset.cameraMoving = "true";
     }
     invalidate();
   }, [size.width, size.height, props.detailMode, activeLongitude, activeLatitude, camera, gl, invalidate]);
   useEffect(() => {
+    if (props.detailMode || !overviewAutoFit.current) return;
+    const distance = overviewCameraDistance(camera);
+    if (travel.current?.fitOverviewView) {
+      travel.current.to.setLength(distance);
+      invalidate();
+      return;
+    }
+    if (Math.abs(camera.position.length() - distance) < .01) return;
+    const from = camera.position.clone();
+    const to = from.clone().setLength(distance);
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      camera.position.copy(to);
+      camera.lookAt(0, 0, 0);
+      controls.current?.update();
+    } else {
+      travel.current = {
+        from, to, direction: from.clone().normalize(), rotation: new THREE.Quaternion(),
+        startedAt: performance.now(), duration: .3, fitDetailView: false, fitOverviewView: true,
+      };
+      gl.domElement.dataset.cameraMoving = "true";
+    }
+    invalidate();
+  }, [size.width, size.height, props.detailMode, camera, gl, invalidate]);
+  useEffect(() => {
     if (controls.current) controls.current.autoRotate = props.rotate && !props.detailMode && !travel.current;
     invalidate();
   }, [props.rotate, props.detailMode, invalidate]);
-  useFrame((_, delta) => {
-    if (benchmark)
+  useFrame(() => {
+    if (benchmark) {
       gl.domElement.dataset.renderFrames = String(gl.info.render.frame);
+      setData(gl.domElement, "shaderPrograms", String(gl.info.programs?.length ?? 0));
+    }
     const t = travel.current;
     if (t) {
       if (t.fitDetailView) t.to.setLength(detailCameraDistance(camera));
-      t.t = Math.min(1, t.t + delta / t.duration);
-      const s = t.t * t.t * (3 - 2 * t.t);
-      const from = t.direction.clone().applyQuaternion(new THREE.Quaternion().slerp(t.rotation, s));
+      else if (t.fitOverviewView) t.to.setLength(overviewCameraDistance(camera));
+      // A demand-rendered canvas can sit idle between frames. Its next delta
+      // includes that idle interval, so integrating it made a new flight jump
+      // to its destination. Each flight owns an independent wall-clock start.
+      const progress = Math.min(1, (performance.now() - t.startedAt) / (t.duration * 1000));
+      const s = progress * progress * (3 - 2 * progress);
+      const from = frameWork.travelDirection.copy(t.direction)
+        .applyQuaternion(frameWork.travelRotation.identity().slerp(t.rotation, s));
       camera.position.copy(
         from.multiplyScalar(
           THREE.MathUtils.lerp(t.from.length(), t.to.length(), s),
@@ -249,51 +353,81 @@ function Scene(
       );
       camera.lookAt(0, 0, 0);
       controls.current?.update();
-      if (t.t >= 1) {
+      if (progress >= 1) {
         travel.current = null;
         gl.domElement.dataset.cameraMoving = "false";
         if (controls.current) controls.current.autoRotate = props.rotate && !props.detailMode;
       }
       invalidate();
     }
-    gl.domElement.dataset.cameraLongitude = String(Math.atan2(-camera.position.z, camera.position.x) * 180 / Math.PI);
-    gl.domElement.dataset.cameraLatitude = String(Math.asin(camera.position.clone().normalize().y) * 180 / Math.PI);
-    gl.domElement.dataset.cameraDistance = String(camera.position.length());
-    regions.forEach((r, i) => {
+    const previous = lastProjection.current;
+    if (previous && previous.position.equals(camera.position) && previous.quaternion.equals(camera.quaternion)
+      && previous.projection.equals(camera.projectionMatrix) && previous.width === size.width
+      && previous.height === size.height && previous.photoPositions === photoPositions
+      && previous.activeFishId === props.activeFishId && previous.basin === props.basin) return;
+    // OrbitControls changes the camera before this callback; synchronize its
+    // matrices before projecting DOM markers rather than waiting for render().
+    camera.updateMatrixWorld();
+    if (previous) {
+      previous.position.copy(camera.position);
+      previous.quaternion.copy(camera.quaternion);
+      previous.projection.copy(camera.projectionMatrix);
+      previous.width = size.width; previous.height = size.height;
+      previous.photoPositions = photoPositions;
+      previous.activeFishId = props.activeFishId; previous.basin = props.basin;
+    } else lastProjection.current = {
+      position: camera.position.clone(), quaternion: camera.quaternion.clone(),
+      projection: camera.projectionMatrix.clone(), width: size.width, height: size.height,
+      photoPositions, activeFishId: props.activeFishId, basin: props.basin,
+    };
+    if (benchmark) setData(gl.domElement, "markerLayouts", String(++projectionCount.current));
+    const cameraDistance = camera.position.length();
+    setData(gl.domElement, "cameraLongitude", String(Math.atan2(-camera.position.z, camera.position.x) * 180 / Math.PI));
+    setData(gl.domElement, "cameraLatitude", String(Math.asin(camera.position.y / cameraDistance) * 180 / Math.PI));
+    setData(gl.domElement, "cameraDistance", String(cameraDistance));
+    if (camera instanceof THREE.PerspectiveCamera) {
+      setData(gl.domElement, "cameraFov", String(camera.fov));
+      setData(gl.domElement, "cameraAspect", String(camera.aspect));
+    }
+    regions.forEach((_r, i) => {
       const button = props.markers.current[i];
       if (!button) return;
-      const pos = new THREE.Vector3(...latLonToXYZ(...r.coordinates, 1.025));
+      const pos = frameWork.projected.copy(frameWork.regionPositions[i]);
       const visible = pos.dot(camera.position) > 1.035;
-      button.style.visibility = visible ? "visible" : "hidden";
-      button.tabIndex = visible ? 0 : -1;
+      setStyle(button, "visibility", visible ? "visible" : "hidden");
+      const tabIndex = visible ? 0 : -1;
+      if (button.tabIndex !== tabIndex) button.tabIndex = tabIndex;
+      if (!visible) return;
       pos.project(camera);
-      button.style.left = `${(pos.x + 1) * 50}%`;
-      button.style.top = `${(1 - pos.y) * 50}%`;
+      positionMarker(button, (pos.x + 1) * size.width / 2, (1 - pos.y) * size.height / 2, "translate(-50%, -17px)");
     });
-    const cameraDirection = camera.position.clone().normalize();
-    const rect = gl.domElement.getBoundingClientRect();
-    const mobile = matchMedia("(max-width: 620px)").matches;
+    const cameraDirection = frameWork.cameraDirection.copy(camera.position).normalize();
+    // R3F already observes its container. Reading the DOM rect here, after
+    // moving 183 photos in the previous frame, used to force synchronous layout.
+    const { width, height } = size;
+    const mobile = window.innerWidth <= 620;
     const anchors: PhotoPinAnchor[] = [];
     const visibleButtons = new Map<string, HTMLButtonElement>();
     photoPositions.forEach((position, index) => {
       const button = props.photoMarkers.current[index];
       if (!button) return;
-      const facing = position.clone().normalize().dot(cameraDirection);
-      const projected = position.clone().project(camera);
+      const facing = position.dot(cameraDirection) / 1.006;
+      const projected = frameWork.projected.copy(position).project(camera);
       // Surface visibility follows the sphere horizon, not an elevated halo.
-      const inView = facing > 1 / camera.position.length() + .01 && Math.abs(projected.x) <= 1 && Math.abs(projected.y) <= 1;
-      button.style.visibility = inView ? "visible" : "hidden";
-      button.tabIndex = inView ? 0 : -1;
+      const inView = facing > 1 / cameraDistance + .01 && Math.abs(projected.x) <= 1 && Math.abs(projected.y) <= 1;
+      setStyle(button, "visibility", inView ? "visible" : "hidden");
+      const tabIndex = inView ? 0 : -1;
+      if (button.tabIndex !== tabIndex) button.tabIndex = tabIndex;
       if (!inView) return;
-      const anchorX = (projected.x + 1) * rect.width / 2;
-      const anchorY = (1 - projected.y) * rect.height / 2;
+      const anchorX = (projected.x + 1) * width / 2;
+      const anchorY = (1 - projected.y) * height / 2;
       const key = photoPins[index].key;
       anchors.push({ key, groupId: photoPins[index].basinId, x: anchorX, y: anchorY, facing });
       visibleButtons.set(key, button);
-      button.style.zIndex = photoPins[index].fish.id === props.activeFishId ? "1000" : String(Math.round(facing * 100) + 100);
+      setStyle(button, "zIndex", photoPins[index].fish.id === props.activeFishId ? "1000" : String(Math.round(facing * 100) + 100));
     });
     const positioned = layoutPhotoPins(anchors, {
-      width: rect.width, height: rect.height, mobile,
+      width, height, mobile,
       diameter: props.basin ? (mobile ? 32 : 44) : (mobile ? 26 : 32),
       minDiameter: props.basin ? (mobile ? 24 : 30) : (mobile ? 20 : 24),
       maxOffset: props.basin ? (mobile ? 48 : 72) : (mobile ? 34 : 48),
@@ -301,14 +435,14 @@ function Scene(
     for (const pin of positioned) {
       const button = visibleButtons.get(pin.key)!;
       const dx = -pin.offsetX, dy = -pin.offsetY;
-      button.style.left = `${pin.x}px`; button.style.top = `${pin.y}px`;
-      button.style.setProperty("--pin-diameter", `${pin.diameter}px`);
-      button.style.setProperty("--leader-length", `${Math.hypot(dx, dy)}px`);
-      button.style.setProperty("--leader-x", `${dx}px`);
-      button.style.setProperty("--leader-y", `${dy}px`);
-      button.style.setProperty("--leader-angle", `${Math.atan2(dy, dx)}rad`);
-      button.dataset.anchorX = String(pin.anchorX);
-      button.dataset.anchorY = String(pin.anchorY);
+      positionMarker(button, pin.x, pin.y, "translate(-50%, -50%)");
+      setCssProperty(button, "--pin-diameter", `${pin.diameter}px`);
+      setCssProperty(button, "--leader-length", `${Math.hypot(dx, dy)}px`);
+      setCssProperty(button, "--leader-x", `${dx}px`);
+      setCssProperty(button, "--leader-y", `${dy}px`);
+      setCssProperty(button, "--leader-angle", `${Math.atan2(dy, dx)}rad`);
+      setData(button, "anchorX", String(pin.anchorX));
+      setData(button, "anchorY", String(pin.anchorY));
     }
   });
   return (
@@ -330,10 +464,10 @@ function Scene(
         <sphereGeometry args={[1, 192, 128]} />
         <meshPhongMaterial map={texture} shininess={14} specular="#426c75" />
       </mesh>
-      {highlightTexture && <mesh scale={1.001} renderOrder={1} raycast={() => {}}>
+      <mesh scale={1.001} renderOrder={1} raycast={() => {}}>
         <sphereGeometry args={[1, 192, 128]} />
-        <meshBasicMaterial map={highlightTexture} transparent depthWrite={false} />
-      </mesh>}
+        <meshBasicMaterial map={highlightTexture ?? emptyHighlightTexture} transparent depthWrite={false} />
+      </mesh>
       <GlobeHydrology highlightedLocation={locationById.get(props.highlightedLocation)} land={land as GeoPermissibleObjects} />
       <mesh scale={1.017}>
         <sphereGeometry args={[1, 64, 48]} />
@@ -370,7 +504,7 @@ function Scene(
         ref={controls}
         enablePan={false}
         minDistance={1.8}
-        maxDistance={4.5}
+        maxDistance={maxCameraDistance}
         enableDamping
         dampingFactor={0.08}
         rotateSpeed={0.5}
@@ -379,6 +513,7 @@ function Scene(
         autoRotateSpeed={0.3}
         onStart={() => {
           travel.current = null;
+          overviewAutoFit.current = false;
           gl.domElement.dataset.cameraMoving = "false";
         }}
       />
@@ -438,6 +573,7 @@ export default function Globe(props: Props) {
         <Canvas
           aria-label="交互式地球，默认显示全球主要河流；点击陆地或选择水域可查看范围与鱼种"
           dpr={[1, 2]}
+          resize={{ offsetSize: true, debounce: 0 }}
           frameloop={!visible ? "never" : props.rotate ? "always" : "demand"}
           camera={{ position: [2.7, 1, -1.8], fov: 40, near: 0.1, far: 50 }}
           gl={{
@@ -449,7 +585,7 @@ export default function Globe(props: Props) {
           fallback={<span>请使用图鉴列表浏览</span>}
         >
           <Suspense fallback={null}>
-            <Scene {...props} markers={markers} photoMarkers={photoMarkers} highlightedLocation={highlightedLocation} />
+            <Scene {...props} photoPins={photoPins} markers={markers} photoMarkers={photoMarkers} highlightedLocation={highlightedLocation} />
           </Suspense>
         </Canvas>
       </Boundary>

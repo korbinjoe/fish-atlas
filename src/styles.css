@@ -3457,24 +3457,30 @@ p {
   opacity: 0;
 }
 
-/* Keep the same globe mounted while its reader opens beside it.  Matching
-   minmax tracks let the desktop layout move without a positional jump. */
-.explore-layout {
-  transition:
-    grid-template-columns 560ms cubic-bezier(.22, 1, .36, 1),
-    grid-template-rows 560ms cubic-bezier(.22, 1, .36, 1),
-    column-gap 560ms cubic-bezier(.22, 1, .36, 1);
+/* Apply final canvas dimensions once; FLIP moves the existing renderer. */
+.explore-layout { transition: none; }
+.globe-renderer { transform-origin: 0 0; }
+.globe-renderer[data-layout-moving="true"] { will-change: transform; }
+@media (min-width: 901px) {
+  .explore-layout:not(.reading) { grid-template-rows: minmax(620px, calc(100dvh - 180px)) auto; }
+}
+@media (min-width: 1191px) {
+  .explore-layout:not(.reading) {
+    grid-template-columns: minmax(240px, .72fr) minmax(400px, 2.1fr) minmax(300px, .95fr);
+    column-gap: 22px;
+  }
+  .explore-layout:not(.reading) .globe-stage > div:has(canvas) {
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .explore-layout:not(.reading) .intro h1 { font-size: clamp(32px, 2.6vw, 46px); }
 }
 .explore-layout > .intro {
   min-width: 0;
   transition: opacity 230ms ease, transform 560ms cubic-bezier(.22, 1, .36, 1);
 }
-.explore-layout .globe-stage > div:has(canvas) {
-  transition:
-    inset 560ms cubic-bezier(.22, 1, .36, 1),
-    width 560ms cubic-bezier(.22, 1, .36, 1),
-    height 560ms cubic-bezier(.22, 1, .36, 1);
-}
+.explore-layout .globe-stage > div:has(canvas) { transition: none; }
 .explore-layout.reading {
   grid-template-columns: minmax(0, 0fr) minmax(330px, 1.35fr) minmax(420px, 2.15fr);
   grid-template-rows: minmax(600px, calc(100dvh - 185px)) auto;
