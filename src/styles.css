@@ -157,6 +157,53 @@ a svg {
   font-size: 11px;
   color: var(--muted);
 }
+.header-actions,
+.repository-links {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 8px;
+}
+.header-actions { gap: 14px; }
+.repository-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #b6e1ba4d;
+  border-radius: 7px;
+  font-size: 11px;
+  font-weight: 550;
+  white-space: nowrap;
+  transition: background .2s, border-color .2s;
+}
+.repository-links .repository-star { background: #b6e1ba; color: #10282c; border-color: #b6e1ba; }
+.repository-links .repository-star:hover { background: #d0edcf; border-color: #d0edcf; }
+.repository-star-label { display: inline-flex; align-items: center; gap: 4px; }
+.repository-links .repository-issue { color: #c6dccf; background: #b6e1ba0a; }
+.repository-links .repository-issue:hover { background: #b6e1ba1c; border-color: #b6e1ba88; }
+.repository-invite a { display: inline-flex; align-items: center; gap: 5px; color: var(--mint); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 1190px) {
+  .header .brand { flex-shrink: 0; }
+  .header nav { flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+  .header nav button { flex-shrink: 0; white-space: nowrap; }
+  .header-actions { gap: 8px; }
+  .header-actions .about-button { font-size: 0; gap: 0; min-width: 32px; min-height: 40px; padding: 0; }
+  .header-actions .about-button .live-dot { display: none; }
+  .repository-wordmark { display: none; }
+  .repository-links a { padding: 8px 10px; }
+}
+@media (max-width: 620px) {
+  .header .header-actions { gap: 5px; }
+  .repository-links { gap: 5px; }
+  .repository-links a { min-height: 44px; padding: 8px; gap: 4px; font-size: 10px; }
+  .repository-links a > svg { width: 14px; height: 14px; }
+  .repository-star-label > svg,
+  .repository-issue-prefix { display: none; }
+  .header-actions .about-button { min-width: 28px; min-height: 44px; }
+}
 .live-dot {
   width: 5px;
   height: 5px;

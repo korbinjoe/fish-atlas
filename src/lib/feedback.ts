@@ -1,4 +1,5 @@
 export const feedbackRepository = "korbinjoe/fish-atlas";
+export const repositoryUrl = `https://github.com/${feedbackRepository}`;
 
 export type FeedbackFish = { id: string; name: string; scientific: string };
 
@@ -7,7 +8,7 @@ export function createFeedbackUrl({ fish, pageUrl }: { fish?: FeedbackFish; page
   // Share the species permalink, without search filters or a user's tank plan.
   page.search = "";
   page.hash = fish ? `/species/${encodeURIComponent(fish.id)}` : "/atlas";
-  const issue = new URL(`https://github.com/${feedbackRepository}/issues/new`);
+  const issue = new URL(`${repositoryUrl}/issues/new`);
   issue.searchParams.set("template", "fish-data.yml");
   issue.searchParams.set("title", fish
     ? `[鱼类资料] ${fish.name}（${fish.scientific}）补充或纠错`

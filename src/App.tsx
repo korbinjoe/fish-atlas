@@ -19,10 +19,12 @@ import {
   Compass,
   ExternalLink,
   Fish as FishIcon,
+  Github,
   Globe2,
   Info,
   ListFilter,
   Maximize2,
+  MessageSquarePlus,
   Minus,
   Pause,
   Play,
@@ -30,6 +32,7 @@ import {
   RotateCcw,
   Search,
   SlidersHorizontal,
+  Star,
   Waves,
   X,
   GitCompareArrows,
@@ -62,6 +65,7 @@ import { geography } from "./lib/evidence";
 import { FishImage } from "./components/FishArt";
 import ImeInput from "./components/ImeInput";
 import FeedbackLink, { FeedbackNote } from "./components/FeedbackLink";
+import { feedbackRepository, repositoryUrl } from "./lib/feedback";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
 const Globe = lazy(() => import("./components/Globe"));
 const Catalog = lazy(() => import("./components/Catalog"));
@@ -1013,11 +1017,24 @@ export default function App() {
             鱼缸规划
           </button>
         </nav>
-        <button className="about-button" onClick={() => setAbout(true)}>
-          <span className="live-dot" />
-          关于图鉴
-          <Info size={15} />
-        </button>
+        <div className="header-actions">
+          <div className="repository-links" role="group" aria-label={`GitHub 项目仓库：${feedbackRepository}`}>
+            <a className="repository-star" href={repositoryUrl} target="_blank" rel="noopener noreferrer"
+              aria-label="在 GitHub 给鱼类星球 Star（新标签页）" title={`${feedbackRepository} · 喜欢这份图鉴？在 GitHub 点亮 Star`}>
+              <Github size={17} aria-hidden="true" /><span className="repository-wordmark">GitHub</span>
+              <span className="repository-star-label"><Star size={13} aria-hidden="true" />Star</span>
+            </a>
+            <a className="repository-issue" href={`${repositoryUrl}/issues/new/choose`} target="_blank" rel="noopener noreferrer"
+              aria-label="在 GitHub 提 Issue（新标签页）" title="补充鱼类资料、反馈问题或提出功能建议">
+              <MessageSquarePlus size={15} aria-hidden="true" /><span><span className="repository-issue-prefix">提 </span>Issue</span>
+            </a>
+          </div>
+          <button className="about-button" aria-label="关于图鉴" onClick={() => setAbout(true)}>
+            <span className="live-dot" />
+            关于图鉴
+            <Info size={15} />
+          </button>
+        </div>
       </header>
       <main id="main-content" tabIndex={-1}>
         {isPlanner ? (
@@ -1695,6 +1712,7 @@ export default function App() {
           </p>
           <section className="feedback-invite" aria-label="参与完善鱼类资料">
             <h3>一起完善这份图鉴</h3>
+            <p className="repository-invite">鱼类星球的项目仓库：<a href={repositoryUrl} target="_blank" rel="noopener noreferrer"><Github size={15} aria-hidden="true" />{feedbackRepository}<ExternalLink size={12} aria-hidden="true" /></a>。喜欢这份图鉴，欢迎在 GitHub 点亮 Star；资料补充、问题反馈和功能建议都可以提 Issue。</p>
             <p>补充缺失的习性或养护资料，指出名称、分布和图片中的错误，也可以推荐尚未收录的鱼。无需知道所有参数，只要说明需要改哪一处；有参考链接或图片出处更方便核对。</p>
             <FeedbackLink>在 GitHub 提交建议</FeedbackLink>
             <p className="feedback-note">需要 GitHub 登录。提交的建议会公开显示，核对后再更新图鉴；点击入口不会自动提交。</p>
