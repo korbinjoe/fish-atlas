@@ -1,0 +1,891 @@
+{
+  "paracheirodon-innesi": {
+    "queriedName": "Paracheirodon innesi",
+    "matchedName": "Paracheirodon innesi (Myers, 1936)",
+    "acceptedName": "Paracheirodon innesi",
+    "key": 2353909,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Characidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2353909",
+    "occurrences": []
+  },
+  "paracheirodon-axelrodi": {
+    "queriedName": "Paracheirodon axelrodi",
+    "matchedName": "Paracheirodon axelrodi (Schultz, 1956)",
+    "acceptedName": "Paracheirodon axelrodi",
+    "key": 2353911,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Characidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2353911",
+    "occurrences": []
+  },
+  "paracheirodon-simulans": {
+    "queriedName": "Paracheirodon simulans",
+    "matchedName": "Paracheirodon simulans (Géry, 1963)",
+    "acceptedName": "Paracheirodon simulans",
+    "key": 2353914,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Characidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2353914",
+    "occurrences": []
+  },
+  "pterophyllum-scalare": {
+    "queriedName": "Pterophyllum scalare",
+    "matchedName": "Pterophyllum scalare (Schultze, 1823)",
+    "acceptedName": "Pterophyllum scalare",
+    "key": 5208518,
+    "matchType": "EXACT",
+    "confidence": 98,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/5208518",
+    "occurrences": [
+      {
+        "id": "4950476186",
+        "coordinates": [
+          -54.932597,
+          -2.51336
+        ],
+        "uncertaintyMeters": 31.0,
+        "eventDate": "2024-09-24T11:50",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Jackson Frost",
+        "url": "https://www.gbif.org/occurrence/4950476186",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "3994212048",
+        "coordinates": [
+          -73.697772,
+          -3.804087
+        ],
+        "uncertaintyMeters": 5000.0,
+        "eventDate": "2022-07-25T08:40",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "karsten_s",
+        "url": "https://www.gbif.org/occurrence/3994212048",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "hemigrammus-bleheri": {
+    "queriedName": "Hemigrammus bleheri",
+    "matchedName": "Hemigrammus bleheri Géry & Mahnert, 1986",
+    "acceptedName": "Hemigrammus bleheri",
+    "key": 2354371,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Characidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2354371",
+    "occurrences": []
+  },
+  "nannostomus-beckfordi": {
+    "queriedName": "Nannostomus beckfordi",
+    "matchedName": "Nannostomus beckfordi Günther, 1872",
+    "acceptedName": "Nannostomus beckfordi",
+    "key": 2355627,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Lebiasinidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2355627",
+    "occurrences": [
+      {
+        "id": "3310681516",
+        "coordinates": [
+          -52.46494,
+          4.62556
+        ],
+        "uncertaintyMeters": 5000.0,
+        "eventDate": "2011",
+        "establishment": "unknown",
+        "datasetKey": "f946666e-67dc-4848-9fa8-2162f3559e33",
+        "datasetTitle": "UMS PatriNat",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Laboratoire Hydreco",
+        "url": "https://www.gbif.org/occurrence/3310681516",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "3310114757",
+        "coordinates": [
+          -52.52025,
+          4.8864
+        ],
+        "uncertaintyMeters": 5000.0,
+        "eventDate": "2010",
+        "establishment": "unknown",
+        "datasetKey": "f946666e-67dc-4848-9fa8-2162f3559e33",
+        "datasetTitle": "UMS PatriNat",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "未提供",
+        "url": "https://www.gbif.org/occurrence/3310114757",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "carnegiella-strigata": {
+    "queriedName": "Carnegiella strigata",
+    "matchedName": "Carnegiella strigata (Günther, 1864)",
+    "acceptedName": "Carnegiella strigata",
+    "key": 5204610,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Gasteropelecidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/5204610",
+    "occurrences": [
+      {
+        "id": "6236388938",
+        "coordinates": [
+          -56.47698,
+          -1.928628
+        ],
+        "uncertaintyMeters": 6.0,
+        "eventDate": "2022-05-03T15:42:54",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Fabio Ivo Perdigão",
+        "url": "https://www.gbif.org/occurrence/6236388938",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "3994124087",
+        "coordinates": [
+          -73.24668,
+          -3.77828
+        ],
+        "uncertaintyMeters": 200.0,
+        "eventDate": "2022-08-09T10:42",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "karsten_s",
+        "url": "https://www.gbif.org/occurrence/3994124087",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "apistogramma-cacatuoides": {
+    "queriedName": "Apistogramma cacatuoides",
+    "matchedName": "Apistogramma cacatuoides Hoedeman, 1951",
+    "acceptedName": "Apistogramma cacatuoides",
+    "key": 2371275,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2371275",
+    "occurrences": []
+  },
+  "symphysodon-aequifasciatus": {
+    "queriedName": "Symphysodon aequifasciatus",
+    "matchedName": "Symphysodon aequifasciatus Pellegrin, 1904",
+    "acceptedName": "Symphysodon aequifasciatus",
+    "key": 5208133,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/5208133",
+    "occurrences": []
+  },
+  "hyphessobrycon-eques": {
+    "queriedName": "Hyphessobrycon eques",
+    "matchedName": "Hyphessobrycon eques (Steindachner, 1882)",
+    "acceptedName": "Hyphessobrycon eques",
+    "key": 2354612,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Characidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2354612",
+    "occurrences": [
+      {
+        "id": "6352940487",
+        "coordinates": [
+          -56.437998,
+          -21.440299
+        ],
+        "uncertaintyMeters": 3063.0,
+        "eventDate": "2026-04-05T11:33",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "Nicola Crockford",
+        "url": "https://www.gbif.org/occurrence/6352940487",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "5140026889",
+        "coordinates": [
+          -48.875196,
+          -20.09936
+        ],
+        "uncertaintyMeters": 1935.0,
+        "eventDate": "2025-04-12T13:10:25",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Douglas Lopes",
+        "url": "https://www.gbif.org/occurrence/5140026889",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "4516794827",
+        "coordinates": [
+          -53.085136,
+          -21.587834
+        ],
+        "uncertaintyMeters": 1483.0,
+        "eventDate": "2024-01-19T11:22:10",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Douglas Lopes",
+        "url": "https://www.gbif.org/occurrence/4516794827",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6479497496",
+        "coordinates": [
+          -57.637216,
+          -30.205034
+        ],
+        "uncertaintyMeters": 325.0,
+        "eventDate": "2024-01-19T12:39:04",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "facundo cortondo",
+        "url": "https://www.gbif.org/occurrence/6479497496",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6499729245",
+        "coordinates": [
+          -47.878022,
+          -21.985595
+        ],
+        "uncertaintyMeters": 79.0,
+        "eventDate": "2024-07-12T16:12:08",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Daniel Schelesky",
+        "url": "https://www.gbif.org/occurrence/6499729245",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "betta-splendens": {
+    "queriedName": "Betta splendens",
+    "matchedName": "Betta splendens Regan, 1910",
+    "acceptedName": "Betta splendens",
+    "key": 2393998,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Osphronemidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2393998",
+    "occurrences": [
+      {
+        "id": "6163136874",
+        "coordinates": [
+          -103.514176,
+          20.746769
+        ],
+        "uncertaintyMeters": 223.0,
+        "eventDate": "2026-02-19T13:08",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Carlos Martínez",
+        "url": "https://www.gbif.org/occurrence/6163136874",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "trichopodus-leerii": {
+    "queriedName": "Trichopodus leerii",
+    "matchedName": "Trichopodus leerii (Bleeker, 1852)",
+    "acceptedName": "Trichopodus leerii",
+    "key": 7623402,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Osphronemidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/7623402",
+    "occurrences": []
+  },
+  "trichopsis-pumila": {
+    "queriedName": "Trichopsis pumila",
+    "matchedName": "Trichopsis pumila (Arnold, 1936)",
+    "acceptedName": "Trichopsis pumila",
+    "key": 5211204,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Osphronemidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/5211204",
+    "occurrences": []
+  },
+  "trigonostigma-heteromorpha": {
+    "queriedName": "Trigonostigma heteromorpha",
+    "matchedName": "Trigonostigma heteromorpha (Duncker, 1904)",
+    "acceptedName": "Trigonostigma heteromorpha",
+    "key": 2367610,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cyprinidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2367610",
+    "occurrences": [
+      {
+        "id": "2397708830",
+        "coordinates": [
+          103.817729,
+          1.383744
+        ],
+        "uncertaintyMeters": 212.0,
+        "eventDate": "2017-08-16T09:15",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "marcelfinlay",
+        "url": "https://www.gbif.org/occurrence/2397708830",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "trigonostigma-espei": {
+    "queriedName": "Trigonostigma espei",
+    "matchedName": "Trigonostigma espei (Meinken, 1967)",
+    "acceptedName": "Trigonostigma espei",
+    "key": 2367616,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cyprinidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2367616",
+    "occurrences": []
+  },
+  "trigonostigma-hengeli": {
+    "queriedName": "Trigonostigma hengeli",
+    "matchedName": "Trigonostigma hengeli (Meinken, 1956)",
+    "acceptedName": "Trigonostigma hengeli",
+    "key": 2367614,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cyprinidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2367614",
+    "occurrences": []
+  },
+  "boraras-brigittae": {
+    "queriedName": "Boraras brigittae",
+    "matchedName": "Boraras brigittae (Vogt, 1978)",
+    "acceptedName": "Boraras brigittae",
+    "key": 2366587,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cyprinidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2366587",
+    "occurrences": []
+  },
+  "boraras-maculatus": {
+    "queriedName": "Boraras maculatus",
+    "matchedName": "Boraras maculatus (Duncker, 1904)",
+    "acceptedName": "Boraras maculatus",
+    "key": 2366590,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cyprinidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2366590",
+    "occurrences": [
+      {
+        "id": "5025526351",
+        "coordinates": [
+          8.701043,
+          50.11615
+        ],
+        "uncertaintyMeters": 250.0,
+        "eventDate": "2019-03-12T00:00",
+        "establishment": "unknown",
+        "datasetKey": "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+        "datasetTitle": "NABU|naturgucker",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "1542881172",
+        "url": "https://www.gbif.org/occurrence/5025526351",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "pangio-kuhlii": {
+    "queriedName": "Pangio kuhlii",
+    "matchedName": "Pangio kuhlii (Valenciennes, 1846)",
+    "acceptedName": "Pangio kuhlii",
+    "key": 2367984,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cobitidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2367984",
+    "occurrences": []
+  },
+  "chromobotia-macracanthus": {
+    "queriedName": "Chromobotia macracanthus",
+    "matchedName": "Chromobotia macracanthus (Bleeker, 1852)",
+    "acceptedName": "Chromobotia macracanthus",
+    "key": 2367815,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cobitidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2367815",
+    "occurrences": []
+  },
+  "labidochromis-caeruleus": {
+    "queriedName": "Labidochromis caeruleus",
+    "matchedName": "Labidochromis caeruleus Fryer, 1956",
+    "acceptedName": "Labidochromis caeruleus",
+    "key": 2371661,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2371661",
+    "occurrences": [
+      {
+        "id": "5064016760",
+        "coordinates": [
+          13.833083,
+          46.585622
+        ],
+        "uncertaintyMeters": 42.0,
+        "eventDate": "2025-02-02T14:59",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Philip Schaffer",
+        "url": "https://www.gbif.org/occurrence/5064016760",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "pseudotropheus-demasoni": {
+    "queriedName": "Pseudotropheus demasoni",
+    "matchedName": "Pseudotropheus demasoni Konings, 1994",
+    "acceptedName": "Pseudotropheus demasoni",
+    "key": 2373063,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2373063",
+    "occurrences": []
+  },
+  "melanochromis-auratus": {
+    "queriedName": "Melanochromis auratus",
+    "matchedName": "Melanochromis auratus (Boulenger, 1897)",
+    "acceptedName": "Melanochromis auratus",
+    "key": 2373186,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2373186",
+    "occurrences": [
+      {
+        "id": "5027195693",
+        "coordinates": [
+          8.58662,
+          49.59581
+        ],
+        "uncertaintyMeters": 250.0,
+        "eventDate": "2019-02-09T00:00",
+        "establishment": "unknown",
+        "datasetKey": "6ac3f774-d9fb-4796-b3e9-92bf6c81c084",
+        "datasetTitle": "NABU|naturgucker",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "-1539739852",
+        "url": "https://www.gbif.org/occurrence/5027195693",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "pseudotropheus-socolofi": {
+    "queriedName": "Pseudotropheus socolofi",
+    "matchedName": "Pseudotropheus socolofi Johnson, 1974",
+    "acceptedName": "Pseudotropheus socolofi",
+    "key": 2373077,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2373077",
+    "occurrences": []
+  },
+  "julidochromis-ornatus": {
+    "queriedName": "Julidochromis ornatus",
+    "matchedName": "Julidochromis ornatus Boulenger, 1898",
+    "acceptedName": "Julidochromis ornatus",
+    "key": 2372483,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2372483",
+    "occurrences": []
+  },
+  "neolamprologus-multifasciatus": {
+    "queriedName": "Neolamprologus multifasciatus",
+    "matchedName": "Neolamprologus multifasciatus (Boulenger, 1906)",
+    "acceptedName": "Neolamprologus multifasciatus",
+    "key": 2371798,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2371798",
+    "occurrences": []
+  },
+  "neolamprologus-brichardi": {
+    "queriedName": "Neolamprologus brichardi",
+    "matchedName": "Neolamprologus brichardi (Poll, 1974)",
+    "acceptedName": "Neolamprologus brichardi",
+    "key": 2371754,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2371754",
+    "occurrences": []
+  },
+  "neolamprologus-leleupi": {
+    "queriedName": "Neolamprologus leleupi",
+    "matchedName": "Neolamprologus leleupi (Poll, 1956)",
+    "acceptedName": "Neolamprologus leleupi",
+    "key": 2371746,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2371746",
+    "occurrences": []
+  },
+  "cyphotilapia-frontosa": {
+    "queriedName": "Cyphotilapia frontosa",
+    "matchedName": "Cyphotilapia frontosa (Boulenger, 1906)",
+    "acceptedName": "Cyphotilapia frontosa",
+    "key": 2373233,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2373233",
+    "occurrences": []
+  },
+  "cyprichromis-leptosoma": {
+    "queriedName": "Cyprichromis leptosoma",
+    "matchedName": "Cyprichromis leptosoma (Boulenger, 1898)",
+    "acceptedName": "Cyprichromis leptosoma",
+    "key": 2372100,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Cichlidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2372100",
+    "occurrences": []
+  },
+  "amphiprion-ocellaris": {
+    "queriedName": "Amphiprion ocellaris",
+    "matchedName": "Amphiprion ocellaris Cuvier, 1830",
+    "acceptedName": "Amphiprion ocellaris",
+    "key": 5212106,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Pomacentridae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/5212106",
+    "occurrences": [
+      {
+        "id": "6129898133",
+        "coordinates": [
+          125.021022,
+          10.118706
+        ],
+        "uncertaintyMeters": 1.0,
+        "eventDate": "2026-01-23T18:20",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "Chris Spain",
+        "url": "https://www.gbif.org/occurrence/6129898133",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6130169649",
+        "coordinates": [
+          125.033147,
+          10.083575
+        ],
+        "uncertaintyMeters": 1.0,
+        "eventDate": "2026-01-12T18:10",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "Chris Spain",
+        "url": "https://www.gbif.org/occurrence/6130169649",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6130209366",
+        "coordinates": [
+          125.020336,
+          10.103472
+        ],
+        "uncertaintyMeters": 1.0,
+        "eventDate": "2026-01-16T20:31",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "Chris Spain",
+        "url": "https://www.gbif.org/occurrence/6130209366",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6130272601",
+        "coordinates": [
+          125.013347,
+          10.122019
+        ],
+        "uncertaintyMeters": 1.0,
+        "eventDate": "2026-01-10T18:34",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "Chris Spain",
+        "url": "https://www.gbif.org/occurrence/6130272601",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6130354721",
+        "coordinates": [
+          125.063036,
+          10.231189
+        ],
+        "uncertaintyMeters": 1.0,
+        "eventDate": "2026-01-18T18:55",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "Chris Spain",
+        "url": "https://www.gbif.org/occurrence/6130354721",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "paracanthurus-hepatus": {
+    "queriedName": "Paracanthurus hepatus",
+    "matchedName": "Paracanthurus hepatus (Linnaeus, 1766)",
+    "acceptedName": "Paracanthurus hepatus",
+    "key": 2379534,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Acanthuridae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2379534",
+    "occurrences": [
+      {
+        "id": "6171142128",
+        "coordinates": [
+          156.7575,
+          -8.015
+        ],
+        "uncertaintyMeters": 211.0,
+        "eventDate": "2026-03-01T11:19",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "guillaumecalcagni",
+        "url": "https://www.gbif.org/occurrence/6171142128",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6431523613",
+        "coordinates": [
+          119.597325,
+          -8.53602
+        ],
+        "uncertaintyMeters": 15.0,
+        "eventDate": "2026-05-06T11:52",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Rui Ribeiro",
+        "url": "https://www.gbif.org/occurrence/6431523613",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6399577183",
+        "coordinates": [
+          152.714019,
+          -24.11288
+        ],
+        "uncertaintyMeters": 637.0,
+        "eventDate": "2026-06-04T08:52",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "Bruce Deagle",
+        "url": "https://www.gbif.org/occurrence/6399577183",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "6470759834",
+        "coordinates": [
+          152.714906,
+          -24.109728
+        ],
+        "uncertaintyMeters": 31.0,
+        "eventDate": "2026-07-21T10:32",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "recordedBy": "Belinda Lees",
+        "url": "https://www.gbif.org/occurrence/6470759834",
+        "basis": "HUMAN_OBSERVATION"
+      },
+      {
+        "id": "5069844633",
+        "coordinates": [
+          116.025881,
+          -8.346364
+        ],
+        "uncertaintyMeters": 357.0,
+        "eventDate": "2025-02-12T11:19:48",
+        "establishment": "unknown",
+        "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+        "datasetTitle": "iNaturalist research-grade observations",
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "recordedBy": "Olly Morgan",
+        "url": "https://www.gbif.org/occurrence/5069844633",
+        "basis": "HUMAN_OBSERVATION"
+      }
+    ]
+  },
+  "pterapogon-kauderni": {
+    "queriedName": "Pterapogon kauderni",
+    "matchedName": "Pterapogon kauderni Koumans, 1933",
+    "acceptedName": "Pterapogon kauderni",
+    "key": 2397627,
+    "matchType": "EXACT",
+    "confidence": 99,
+    "status": "ACCEPTED",
+    "family": "Apogonidae",
+    "accessedAt": "2026-10-09",
+    "review": "exact-species-match",
+    "url": "https://www.gbif.org/species/2397627",
+    "occurrences": []
+  }
+}

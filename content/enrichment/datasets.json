@@ -1,0 +1,29 @@
+{
+  "50c9509d-22c7-4a22-a47d-8c48425ef4a7": {
+    "title": "iNaturalist Research-grade Observations",
+    "citation": {
+      "text": "iNaturalist contributors, iNaturalist (2026). iNaturalist Research-grade Observations. iNaturalist.org. Occurrence dataset https://doi.org/10.15468/ab3s5x accessed via GBIF.org on 2026-10-09.",
+      "citationProvidedBySource": false
+    },
+    "doi": "10.15468/ab3s5x",
+    "url": "https://www.gbif.org/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7"
+  },
+  "6ac3f774-d9fb-4796-b3e9-92bf6c81c084": {
+    "title": "NABU|naturgucker",
+    "citation": {
+      "text": "naturgucker.de. NABU|naturgucker. Occurrence dataset https://doi.org/10.15468/uc1apo accessed via GBIF.org on 2026-10-09.",
+      "citationProvidedBySource": false
+    },
+    "doi": "10.15468/uc1apo",
+    "url": "https://www.gbif.org/dataset/6ac3f774-d9fb-4796-b3e9-92bf6c81c084"
+  },
+  "f946666e-67dc-4848-9fa8-2162f3559e33": {
+    "title": "Données d'occurrences Espèces issues de l'inventaire des ZNIEFF",
+    "citation": {
+      "text": "ROBERT S, LEPAREUR F, Inventaire National du Patrimoine Naturel (2022). Données d'occurrences Espèces issues de l'inventaire des ZNIEFF. Version 1.7. UAR PatriNat (OFB-MNHN-CNRS-IRD), Paris. Occurrence dataset https://doi.org/10.15468/ikshke accessed via GBIF.org on 2026-10-09.",
+      "citationProvidedBySource": false
+    },
+    "doi": "10.15468/ikshke",
+    "url": "https://www.gbif.org/dataset/f946666e-67dc-4848-9fa8-2162f3559e33"
+  }
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "paracheirodon-innesi",
+    "name": "红绿灯",
+    "region": "amazon"
+  },
+  {
+    "id": "paracheirodon-axelrodi",
+    "name": "宝莲灯",
+    "region": "amazon"
+  },
+  {
+    "id": "paracheirodon-simulans",
+    "name": "绿莲灯",
+    "region": "amazon"
+  },
+  {
+    "id": "pterophyllum-scalare",
+    "name": "神仙鱼",
+    "region": "amazon"
+  },
+  {
+    "id": "hemigrammus-bleheri",
+    "name": "红鼻剪刀",
+    "region": "amazon"
+  },
+  {
+    "id": "nannostomus-beckfordi",
+    "name": "金线铅笔",
+    "region": "amazon"
+  },
+  {
+    "id": "carnegiella-strigata",
+    "name": "大理石燕子",
+    "region": "amazon"
+  },
+  {
+    "id": "apistogramma-cacatuoides",
+    "name": "凤尾短鲷",
+    "region": "amazon"
+  },
+  {
+    "id": "symphysodon-aequifasciatus",
+    "name": "七彩神仙",
+    "region": "amazon"
+  },
+  {
+    "id": "hyphessobrycon-eques",
+    "name": "红裙鱼",
+    "region": "amazon"
+  },
+  {
+    "id": "betta-splendens",
+    "name": "暹罗斗鱼",
+    "region": "asia"
+  },
+  {
+    "id": "trichopodus-leerii",
+    "name": "珍珠马甲",
+    "region": "asia"
+  },
+  {
+    "id": "trichopsis-pumila",
+    "name": "侏儒丽丽",
+    "region": "asia"
+  },
+  {
+    "id": "trigonostigma-heteromorpha",
+    "name": "三角灯",
+    "region": "asia"
+  },
+  {
+    "id": "trigonostigma-espei",
+    "name": "红三角灯",
+    "region": "asia"
+  },
+  {
+    "id": "trigonostigma-hengeli",
+    "name": "灯光三角",
+    "region": "asia"
+  },
+  {
+    "id": "boraras-brigittae",
+    "name": "辣椒灯",
+    "region": "asia"
+  },
+  {
+    "id": "boraras-maculatus",
+    "name": "斑点波鱼",
+    "region": "asia"
+  },
+  {
+    "id": "pangio-kuhlii",
+    "name": "库利泥鳅",
+    "region": "asia"
+  },
+  {
+    "id": "chromobotia-macracanthus",
+    "name": "皇冠泥鳅",
+    "region": "asia"
+  },
+  {
+    "id": "labidochromis-caeruleus",
+    "name": "非洲王子",
+    "region": "africa"
+  },
+  {
+    "id": "pseudotropheus-demasoni",
+    "name": "德氏岩栖丽鱼",
+    "region": "africa"
+  },
+  {
+    "id": "melanochromis-auratus",
+    "name": "金色岩栖丽鱼",
+    "region": "africa"
+  },
+  {
+    "id": "pseudotropheus-socolofi",
+    "name": "雪鲷",
+    "region": "africa"
+  },
+  {
+    "id": "julidochromis-ornatus",
+    "name": "黄金茱莉",
+    "region": "africa"
+  },
+  {
+    "id": "neolamprologus-multifasciatus",
+    "name": "多带卷贝",
+    "region": "africa"
+  },
+  {
+    "id": "neolamprologus-brichardi",
+    "name": "布氏丽鱼",
+    "region": "africa"
+  },
+  {
+    "id": "neolamprologus-leleupi",
+    "name": "金头剑沙",
+    "region": "africa"
+  },
+  {
+    "id": "cyphotilapia-frontosa",
+    "name": "六间鱼",
+    "region": "africa"
+  },
+  {
+    "id": "cyprichromis-leptosoma",
+    "name": "细鳞剑沙",
+    "region": "africa"
+  }
+]

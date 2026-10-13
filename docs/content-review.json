@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-09",
+  "speciesCount": 33,
+  "photoCount": 33,
+  "reviewLevel": "source-page-checked; not expert-reviewed",
+  "taxonomyMatches": 33,
+  "occurrenceCount": 26,
+  "behaviorProfiles": 23,
+  "missingParameters": [
+    {
+      "id": "symphysodon-aequifasciatus",
+      "fields": [
+        "temperature",
+        "ph",
+        "hardness"
+      ]
+    },
+    {
+      "id": "amphiprion-ocellaris",
+      "fields": [
+        "tank"
+      ]
+    },
+    {
+      "id": "pterapogon-kauderni",
+      "fields": [
+        "tank"
+      ]
+    }
+  ],
+  "note": "Marine volume recommendations are distinct from tank length. Expert review and physical-device QA remain pending."
+}

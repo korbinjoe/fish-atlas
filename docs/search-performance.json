@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-09",
+  "environment": "desktop Chrome localhost, warm data, synthetic input event to next animation frame after results update; one sample per query",
+  "samples": [
+    {
+      "query": "斗鱼",
+      "count": 1,
+      "paintMs": 27
+    },
+    {
+      "query": "Neon tetra",
+      "count": 2,
+      "paintMs": 33
+    },
+    {
+      "query": "zz_no_species",
+      "count": 0,
+      "paintMs": 33
+    }
+  ]
+}

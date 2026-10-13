@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-09",
+  "sampleCountPerProfile": 1,
+  "physicalMobile": false,
+  "note": "Frames counted from Three.js renderer during 4s auto rotation. CPU/network emulation is not physical-device validation. Readiness is not LCP.",
+  "results": [
+    {
+      "profile": "Desktop Chrome, no throttling",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "canvasRenderedMs": 567,
+      "subresourceBytes": 1153606,
+      "resourceCount": 12,
+      "imageRequests": 5,
+      "overflow": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "durationMs": 4006,
+      "renderFrames": 240,
+      "renderFps": 60,
+      "rafP95Ms": 17,
+      "touchDidNotOpenDetail": null
+    },
+    {
+      "profile": "Chrome touch emulation, 4x CPU, 10Mbps down, 5Mbps up, 80ms latency",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "canvasRenderedMs": 1333,
+      "subresourceBytes": 438213,
+      "resourceCount": 7,
+      "imageRequests": 0,
+      "overflow": false,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "durationMs": 4004,
+      "renderFrames": 241,
+      "renderFps": 60,
+      "rafP95Ms": 17,
+      "touchDidNotOpenDetail": true
+    }
+  ]
+}
