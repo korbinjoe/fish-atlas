@@ -21,7 +21,7 @@ Fish Atlas opens in **English by default**. Switch to **中文, Français, Deuts
 
 ## Content snapshot
 
-The current local dataset, updated on **2026-10-14**, contains:
+The bundled dataset, updated on **2026-10-14**, contains:
 
 | Content | Coverage |
 | --- | --- |
