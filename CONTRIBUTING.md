@@ -6,6 +6,8 @@
 
 网站顶部的“GitHub · Star”可打开[项目仓库](https://github.com/korbinjoe/fish-atlas)，喜欢这份图鉴可以在那里点亮 Star；“提 Issue”打开[反馈入口](https://github.com/korbinjoe/fish-atlas/issues/new/choose)，可选择资料表单，或提交普通 Issue 反馈网站问题及功能建议。
 
+网站支持英文、中文、法文、德文与日文。非中文界面的资料入口使用[英文表单](https://github.com/korbinjoe/fish-atlas/issues/new?template=fish-data-en.yml)，自动注明当前语言；可以用任一支持语言描述建议。中文界面继续使用中文表单。
+
 - **补充资料**：描述要增加的习性、养护、分布或其他信息。
 - **修正错误**：写出当前内容与建议改成的内容，包括名称、参数、定位或照片匹配问题。
 - **推荐新鱼**：提供你知道的鱼名和希望收录的原因；学名、图片与其他资料可随后补充。

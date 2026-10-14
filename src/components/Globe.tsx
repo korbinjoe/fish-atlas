@@ -26,6 +26,7 @@ import GlobeHydrology from "./GlobeHydrology";
 import { createGlobeBaseTexture, createWaterbodyHighlightTexture, globeTextureWidth } from "../lib/globeTextures";
 
 import { locations, locationById, findWaterbodyAt, locationKindNames } from "../lib/distribution";
+import { useI18n } from "../i18n";
 
 type Props = {
   region: string;
@@ -536,7 +537,13 @@ class Boundary extends Component<
   }
 }
 export default function Globe(props: Props) {
+  const { locale, t, fishName, locationName, regionName } = useI18n();
   const photoPins = useMemo(() => makeBasinPhotoPins(props.fish, props.basin), [props.fish, props.basin]);
+  // Text changes only with data or language; geographic projection stays outside i18n.
+  const pinLabels = useMemo(() => photoPins.map((pin) => ({
+    fish: fishName(pin.fish.item),
+    location: locationById.get(pin.basinId) ? locationName(locationById.get(pin.basinId)!) : "",
+  })), [photoPins, locale, fishName, locationName]);
   const [hoveredLocation, setHoveredLocation] = useState("");
   const [focusedLocation, setFocusedLocation] = useState("");
   const activeLocation = props.detailMode ? photoPins.find((pin) => pin.fish.id === props.activeFishId)?.basinId : undefined;
@@ -571,7 +578,7 @@ export default function Globe(props: Props) {
     <div className="globe-renderer" data-highlighted-location={highlightedLocation} data-detail-mode={!!props.detailMode}>
       <Boundary onError={props.onError}>
         <Canvas
-          aria-label="交互式地球，默认显示全球主要河流；点击陆地或选择水域可查看范围与鱼种"
+          aria-label={t("交互式地球，默认显示全球主要河流；点击陆地或选择水域可查看范围与鱼种")}
           dpr={[1, 2]}
           resize={{ offsetSize: true, debounce: 0 }}
           frameloop={!visible ? "never" : props.rotate ? "always" : "demand"}
@@ -582,14 +589,14 @@ export default function Globe(props: Props) {
             powerPreference: "high-performance",
             precision: "highp",
           }}
-          fallback={<span>请使用图鉴列表浏览</span>}
+          fallback={<span>{t("请使用图鉴列表浏览")}</span>}
         >
           <Suspense fallback={null}>
             <Scene {...props} photoPins={photoPins} markers={markers} photoMarkers={photoMarkers} highlightedLocation={highlightedLocation} />
           </Suspense>
         </Canvas>
       </Boundary>
-      <div className="photo-pin-overlay" aria-label="地球上的鱼类照片">
+      <div className="photo-pin-overlay" aria-label={t("地球上的鱼类照片")}>
         {photoPins.map((pin, index) => (
           <button
             key={pin.key}
@@ -609,18 +616,18 @@ export default function Globe(props: Props) {
             onBlur={() => setFocusedLocation("")}
             onClick={() => props.onFish(pin.fish.item)}
             aria-pressed={pin.fish.id === props.activeFishId}
-            aria-label={`查看${pin.fish.name}图鉴，${locationById.get(pin.basinId)?.label}关联展示点`}
-            title={`${pin.fish.name} · ${locationById.get(pin.basinId)?.label}（水域展示位置，非观测点）`}
+            aria-label={t("查看{name}图鉴，{location}关联展示点", { name: pinLabels[index].fish, location: pinLabels[index].location })}
+            title={t("{name} · {location}（水域展示位置，非观测点）", { name: pinLabels[index].fish, location: pinLabels[index].location })}
           >
             <img src={pin.fish.photo.path} alt="" loading="lazy" decoding="async" />
-            <span className="pin-tooltip"><strong>{pin.fish.name}</strong><small>原生水域 · {locationById.get(pin.basinId)?.label}</small></span>
+            <span className="pin-tooltip"><strong>{pinLabels[index].fish}</strong><small>{t("原生水域 · {location}", { location: pinLabels[index].location })}</small></span>
           </button>
         ))}
       </div>
       {highlighted && <div className="globe-waterbody-context" role="status">
-        <span>{locationKindNames[highlighted.kind]}</span>
-        <strong>{highlighted.label}</strong>
-        <small>{highlightedCount} 种鱼集中展示 · 对应水域已高亮</small>
+        <span>{t(locationKindNames[highlighted.kind])}</span>
+        <strong>{locationName(highlighted)}</strong>
+        <small>{t("{count} 种鱼集中展示 · 对应水域已高亮", { count: highlightedCount })}</small>
       </div>}
       <div className="marker-overlay">
         {!props.basin && regions.map((r, i) => {
@@ -633,11 +640,11 @@ export default function Globe(props: Props) {
             }}
             className={`map-marker ${r.id === props.region ? "active" : ""}`}
             onClick={() => props.onRegion(r.id)}
-            aria-label={`探索${r.name}，${species.length}种有照片的鱼`}
+            aria-label={t("探索{name}，{count}种有照片的鱼", { name: regionName(r), count: species.length })}
             style={{ "--marker-color": r.color } as React.CSSProperties}
           >
             <span className="marker-ring"><i /></span>
-            <span className="marker-label">{r.name}<b>{species.length}</b></span>
+            <span className="marker-label">{regionName(r)}<b>{species.length}</b></span>
           </button>
           );
         })}

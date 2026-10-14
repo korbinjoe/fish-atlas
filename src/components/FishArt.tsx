@@ -1,5 +1,6 @@
 import { useEffect, useId, useRef, useState } from "react";
 import type { Fish } from "../lib/model";
+import { useI18n } from "../i18n";
 
 /** Original schematic artwork; never presented as an identification photograph. */
 export function FishArt({
@@ -9,6 +10,7 @@ export function FishArt({
   fish: Pick<Fish, "color" | "shape" | "name">;
   className?: string;
 }) {
+  const { t, fishName } = useI18n();
   const id = useId().replace(/:/g, "");
   const round = fish.shape === "round",
     angel = fish.shape === "angel",
@@ -19,7 +21,7 @@ export function FishArt({
       className={`fish-art ${className}`}
       viewBox="0 0 320 160"
       role="img"
-      aria-label={`${fish.name}形态示意插画`}
+      aria-label={t("{name}形态示意插画", { name: fishName(fish) })}
     >
       <defs>
         <linearGradient id={id} x1="0" y1="0" x2="0.8" y2="1">
@@ -95,6 +97,7 @@ export function FishImage({
   fish: Fish;
   large?: boolean;
 }) {
+  const { t, fishName } = useI18n();
   const [broken, setBroken] = useState(false);
   const [visible, setVisible] = useState(large);
   const container = useRef<HTMLDivElement>(null);
@@ -125,7 +128,7 @@ export function FishImage({
       {fish.photo && !broken && visible ? (
         <img
           src={fish.photo.path}
-          alt={`${fish.name}，${fish.scientific}`}
+          alt={t("{name}，{scientific}", { name: fishName(fish), scientific: fish.scientific })}
           loading={large ? "eager" : "lazy"}
           decoding="async"
           onError={() => setBroken(true)}
@@ -135,11 +138,11 @@ export function FishImage({
       ) : (
         <span
           className="photo-placeholder"
-          aria-label={`${fish.name}照片待加载`}
+          aria-label={t("{name}照片待加载", { name: fishName(fish) })}
         />
       )}
       {(!fish.photo || broken) && (
-        <span className="illustration-label">形态示意 · 非鉴定照片</span>
+        <span className="illustration-label">{t("形态示意 · 非鉴定照片")}</span>
       )}
     </div>
   );

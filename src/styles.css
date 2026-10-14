@@ -165,6 +165,8 @@ a svg {
   gap: 8px;
 }
 .header-actions { gap: 14px; }
+.language-picker .ui-select-trigger { min-height: 40px; padding: 8px 10px; gap: 6px; font-size: 11px; border-color: #b6e1ba4d; }
+.language-short-name { display: none; }
 .repository-links a {
   display: inline-flex;
   align-items: center;
@@ -195,6 +197,15 @@ a svg {
   .repository-wordmark { display: none; }
   .repository-links a { padding: 8px 10px; }
 }
+@media (min-width: 621px) and (max-width: 1390px) {
+  .header nav { flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+  .header nav button { flex-shrink: 0; white-space: nowrap; }
+  .header .brand { flex-shrink: 0; }
+  .header-actions { gap: 8px; }
+  .header-actions .about-button { font-size: 0; gap: 0; min-width: 28px; min-height: 40px; }
+  .header-actions .about-button .live-dot { display: none; }
+  .repository-wordmark { display: none; }
+}
 @media (max-width: 620px) {
   .header .header-actions { gap: 5px; }
   .repository-links { gap: 5px; }
@@ -203,6 +214,22 @@ a svg {
   .repository-star-label > svg,
   .repository-issue-prefix { display: none; }
   .header-actions .about-button { min-width: 28px; min-height: 44px; }
+  .language-picker .ui-select-trigger { min-height: 44px; padding: 8px 6px; gap: 3px; }
+  .language-picker .ui-select-trigger > svg { display: none; }
+  .language-native-name { display: none; }
+  .language-short-name { display: inline; }
+  .header-actions .about-button { display: none; }
+}
+html:not([lang="zh-CN"]) .brand { letter-spacing: .5px; }
+html:not([lang="zh-CN"]) .header nav button { white-space: nowrap; }
+html:not([lang="zh-CN"]) .intro h1 { font-family: Georgia, "Times New Roman", serif; }
+html[lang="ja"] .intro h1 { font-family: var(--serif); }
+html:not([lang="zh-CN"]) .intro > p { white-space: normal; }
+html:not([lang="zh-CN"]) .intro h1 { white-space: normal; font-size: clamp(30px, 2.4vw, 42px); }
+html:not([lang="zh-CN"]) .intro h1 > span { display: inline-block; }
+html:not([lang="zh-CN"]) .explore-filter-row button { white-space: normal; flex-wrap: wrap; min-height: 40px; line-height: 1.35; overflow-wrap: anywhere; }
+@media (max-width: 620px) {
+  html[lang="ja"] .intro h1 { font-size: 28px; }
 }
 .live-dot {
   width: 5px;

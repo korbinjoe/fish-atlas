@@ -1,0 +1,73 @@
+name: Add or correct fish information
+description: Report an error, add missing information, or suggest a fish for the atlas.
+title: "[Fish data] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Fish Atlas! You do not need to know every aquarium parameter or write a full encyclopedia entry. Tell us what is missing or what needs to change.
+        If you have reliable references or photo sources, please include their links so we can check the information before updating the atlas.
+        You may write in English, Chinese, French, German, or Japanese.
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: What would you like to do?
+      options:
+        - Add information
+        - Correct an error
+        - Suggest a species
+    validations:
+      required: true
+  - type: input
+    id: fish
+    attributes:
+      label: Fish name (optional)
+      description: A common name, scientific name, or another name you know is fine. Skip this if the name is already in the title or your description.
+      placeholder: e.g. Neon tetra / Paracheirodon innesi
+  - type: input
+    id: scientific
+    attributes:
+      label: Scientific name (optional)
+      description: Filled automatically when you arrive from a species profile. Skip this if you do not know it.
+      placeholder: e.g. Paracheirodon innesi
+  - type: textarea
+    id: data-details
+    attributes:
+      label: What should be added or changed?
+      description: Explain what is currently shown and what you suggest instead, or why this species should be added. You can also mention anything you are unsure about.
+      placeholder: |
+        Current information:
+        Suggested addition or correction:
+
+        For a new species, include its name, characteristics, and why you would like to see it in the atlas.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence-links
+    attributes:
+      label: References (optional)
+      description: Include links supporting the addition or correction. If you have no link, you can still submit your observations or experience.
+      placeholder: |
+        Reference link:
+        Relevant information in the reference:
+  - type: textarea
+    id: photo-sources
+    attributes:
+      label: Photos and sources (optional)
+      description: Attach your own photos or link to original pages for reusable images. Include the author and license; a direct image URL alone does not confirm permission. For images without permission, provide the source for review.
+      placeholder: |
+        Photo or original page:
+        Author:
+        Permission or license (e.g. my own photo, approved for this project, or CC BY-SA 4.0):
+  - type: input
+    id: page_url
+    attributes:
+      label: Related atlas page (optional)
+      description: The page you were viewing, so we can find the relevant species.
+      placeholder: https://…/#/species/…
+  - type: input
+    id: language
+    attributes:
+      label: Preferred language (optional)
+      description: Filled automatically from the website. You can write your report in any supported language.
+      placeholder: English / 中文 / Français / Deutsch / 日本語

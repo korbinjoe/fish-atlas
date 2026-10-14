@@ -14,11 +14,19 @@ export const tankSchema = z.object({
 });
 export type Tank = z.infer<typeof tankSchema>;
 export type Stock = { id: string; count: number };
+type FindingFish = Pick<Fish, "id" | "name" | "scientific" | "aliases">;
 export type Finding = {
   code: string;
   level: "conflict" | "caution" | "unknown";
   text: string;
   sources: string[];
+  // Keep the original finding text and rule evaluation independent of UI language.
+  i18n?: {
+    key: string;
+    values?: Record<string, string | number>;
+    fish?: FindingFish;
+    pair?: [FindingFish, FindingFish];
+  };
 };
 type Behavior = {
   minGroup?: number;
@@ -31,6 +39,9 @@ type Behavior = {
   note: string;
 };
 export const rules: Record<string, Behavior> = rawRules;
+function findingFish(fish: Fish): FindingFish {
+  return { id: fish.id, name: fish.name, scientific: fish.scientific, aliases: fish.aliases };
+}
 export function recommendedStockCount(f: Fish): number {
   const behavior = rules[f.id];
   return behavior?.solitary ? 1 : behavior?.minGroup ?? 1;
@@ -48,13 +59,14 @@ export const emptyTank: Tank = {
 };
 export function assessFish(f: Fish, t: Tank, count = 1): Finding[] {
   const a: Finding[] = [];
-  const add = (code: string, level: Finding["level"], text: string) =>
-    a.push({ code, level, text, sources: [f.sourceUrl] });
+  const add = (code: string, level: Finding["level"], text: string, key = text, values?: Record<string, string | number>) =>
+    a.push({ code, level, text, sources: [f.sourceUrl], i18n: { key, values, fish: findingFish(f) } });
   if (f.water !== t.water) {
     add(
       "water",
       "conflict",
       `${f.name}属于${f.water === "marine" ? "海水" : "淡水"}鱼，与当前水体类型不同。`,
+      "{name}属于{water}鱼，与当前水体类型不同。", { water: f.water === "marine" ? "海水" : "淡水" },
     );
     return a;
   }
@@ -68,7 +80,7 @@ export function assessFish(f: Fish, t: Tank, count = 1): Finding[] {
   for (const [key, label, input, min] of checks) {
     if (min === null) {
       if (key === "length" && f.minVolume === null)
-        add(key, "unknown", `${f.name}的${label}参考值缺失。`);
+        add(key, "unknown", `${f.name}的${label}参考值缺失。`, "{name}的{label}参考值缺失。", { label });
       continue;
     }
     if (input === null)
@@ -76,12 +88,14 @@ export function assessFish(f: Fish, t: Tank, count = 1): Finding[] {
         key,
         "unknown",
         `未输入${label}，无法与${f.name}的来源参考 ${min} 比较。`,
+        "未输入{label}，无法与{name}的来源参考 {min} 比较。", { label, min },
       );
     else if (input < min)
       add(
         key,
         "conflict",
         `${label} ${input} 小于${f.name}的来源参考 ${min}。`,
+        "{label} {input} 小于{name}的来源参考 {min}。", { label, input, min },
       );
   }
   for (const [key, label, input, range] of [
@@ -92,38 +106,42 @@ export function assessFish(f: Fish, t: Tank, count = 1): Finding[] {
       : [["specificGravity", "比重 SG", t.specificGravity, f.specificGravity]]),
   ] as [string, string, number | null, [number, number] | null][]) {
     if (range === null)
-      add(key, "unknown", `${f.name}的${label}参考范围缺失。`);
+      add(key, "unknown", `${f.name}的${label}参考范围缺失。`, "{name}的{label}参考范围缺失。", { label });
     else if (input === null)
-      add(key, "unknown", `未输入${label}，无法核对${f.name}。`);
+      add(key, "unknown", `未输入${label}，无法核对${f.name}。`, "未输入{label}，无法核对{name}。", { label });
     else if (input < range[0] || input > range[1])
       add(
         key,
         "conflict",
         `${label} ${input} 超出${f.name}的来源范围 ${range[0]}–${range[1]}。`,
+        "{label} {input} 超出{name}的来源范围 {min}–{max}。", { label, input, min: range[0], max: range[1] },
       );
   }
   if (f.reviewStatus !== "source-checked")
-    add("review", "unknown", `${f.name}的参数尚待来源核对。`);
+    add("review", "unknown", `${f.name}的参数尚待来源核对。`, "{name}的参数尚待来源核对。");
   const b = rules[f.id];
   if (b?.minGroup && count < b.minGroup)
     add(
       "group",
       "caution",
       `${f.name}当前 ${count} 条，来源建议群体至少 ${b.minGroup} 条；增加数量也要重新评估空间。`,
+      "{name}当前 {count} 条，来源建议群体至少 {min} 条；增加数量也要重新评估空间。", { count, min: b.minGroup },
     );
   if (b?.solitary && count > 1)
     add(
       "solitary",
       "conflict",
       `${f.name}通常建议单养，当前选择了 ${count} 条。`,
+      "{name}通常建议单养，当前选择了 {count} 条。", { count },
     );
   if (b?.territorial && count > 1 && !b.solitary)
-    add("territory", "caution", `${f.name}存在同类领地风险；${b.note}`);
+    add("territory", "caution", `${f.name}存在同类领地风险；${b.note}`, "{name}存在同类领地风险；{note}", { note: b.note });
   if (!b)
     add(
       "behavior-coverage",
       "unknown",
       `${f.name}尚未编入结构化行为规则，请阅读详情中的相处说明。`,
+      "{name}尚未编入结构化行为规则，请阅读详情中的相处说明。",
     );
   return a;
 }
@@ -140,12 +158,15 @@ export function assessPairs(stock: Stock[], fishes: Fish[]): Finding[] {
         level: Finding["level"],
         text: string,
         sources = [f.sourceUrl, g.sourceUrl],
+        key = text,
+        values?: Record<string, string | number>,
       ) =>
         a.push({
           code: `${f.id}:${g.id}:${code}`,
           level,
           text: prefix + text,
           sources: [...new Set(sources)],
+          i18n: { key, values, pair: [findingFish(f), findingFish(g)] },
         });
       if (f.water !== g.water) {
         add("water", "conflict", "淡水与海水类型不同，不能按同一水体混养。");
@@ -163,6 +184,9 @@ export function assessPairs(stock: Stock[], fishes: Fish[]): Finding[] {
             key,
             "conflict",
             `${{ temperature: "水温", ph: "pH", specificGravity: "比重", hardness: "硬度" }[key]}参考范围不重叠。`,
+            undefined,
+            "{label}参考范围不重叠。",
+            { label: { temperature: "水温", ph: "pH", specificGravity: "比重", hardness: "硬度" }[key] },
           );
       }
       const x = rules[f.id],

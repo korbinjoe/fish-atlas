@@ -8,6 +8,9 @@ export default defineConfig({
     baseURL: "http://127.0.0.1:4174",
 
     viewport: { width: 1440, height: 1000 },
+    // Existing regression suites exercise the established Chinese interface.
+    // i18n.spec.ts supplies an empty storage state to verify English by default.
+    storageState: { cookies: [], origins: [{ origin: "http://127.0.0.1:4174", localStorage: [{ name: "fish-atlas:locale", value: "zh" }] }] },
     screenshot: "only-on-failure",
     trace: "retain-on-failure",
   },
