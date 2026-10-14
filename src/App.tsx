@@ -1674,7 +1674,7 @@ export default function App() {
           <div className="eyebrow">A LIVING FIELD GUIDE</div>
           <h2>{t("好奇心，从水面之下开始。")}</h2>
           <p>
-            {t("鱼类星球收录")}{fishes.length + photoProfiles.length} {t("种有照片和来源的图鉴，其中")}{fishes.length} {t("种有逐条核对的养护参考；其余")}{catalogManifest.totalEntries - fishes.length - photoProfiles.length} {t("条 GBIF 分类记录暂无照片。照片图鉴不等于适养鱼种，新增条目没有核对过的养护参数。当前为本地预览版，资料尚未经过鱼类专家审定。")}</p>
+            {t("鱼类星球收录")}{fishes.length + photoProfiles.length} {t("种有照片和来源的图鉴，其中")}{fishes.length} {t("种有逐条核对的养护参考；其余")}{catalogManifest.totalEntries - fishes.length - photoProfiles.length} {t("条 GBIF 分类记录暂无照片。照片图鉴不等于适养鱼种，新增条目没有核对过的养护参数。资料尚未经过鱼类专家审定。")}</p>
           <h3>{t("读懂这颗地球")}</h3>
           <p>
             {t("地球默认显示全球主要河流与湖泊，放大时补充重要支流；选择或查看鱼的归属时，才高亮对应水域范围。可筛选")}{basins.length} {t("个 GRDC 主要流域，以及独立湖泊和海域。FishBase 26.06 与物种分布文献提供原生水域依据，排除引入记录。有边界的展示位经多边形校验；小水域使用有来源的位置锚点。照片标记和引导线都是展示位置，不是采集点；水域边界不是物种完整分布边界。河网、陆地海岸线、湖面与海域示意来自 Natural Earth。")}</p>

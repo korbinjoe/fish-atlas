@@ -2,6 +2,8 @@
 
 # Fish Atlas
 
+**[Ouvrir le site en ligne](https://fish-atlas-korbinjoe.korbinzhao.chatgpt.site)** · Hébergé publiquement sur ChatGPT Sites.
+
 Un globe interactif, un atlas photographique des poissons, un catalogue taxonomique et un outil de préparation d'aquarium, avec des sources consultables pour chaque fiche.
 
 L'interface s'ouvre en **anglais par défaut**. Le menu de langue propose **English, 中文, Français, Deutsch et 日本語** et mémorise votre choix dans le navigateur.

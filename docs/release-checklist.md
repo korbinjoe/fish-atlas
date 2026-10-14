@@ -2,7 +2,7 @@
 
 本页保留 33 种完整图鉴的 v0.2.0 复核范围；v0.3.0 新增分类基础记录的范围与升级条件见 [物种目录扩充说明](catalog-expansion.md)。
 
-日期：2026-10-09。当前为本地可运行版本；尚未发布到公网。
+v0.2.0 复核日期：2026-10-09。公网发布记录更新于 2026-10-14：[Fish Atlas 在线站点](https://fish-atlas-korbinjoe.korbinzhao.chatgpt.site)，由 ChatGPT Sites 公开托管。下表保留 v0.2.0 的内容与验证范围；公网发布不改变专家审定和真实设备验证的待办状态。
 
 | 项目 | 状态 | 证据／处理方式 |
 | --- | --- | --- |
@@ -19,7 +19,7 @@
 | 桌面与浏览器引擎 QA | 已完成本轮 | Chrome 与 Playwright WebKit；WebKit 结果不等同于真实 Safari 版本认证 |
 | 手机布局、触摸、限速测试 | 已完成模拟测试 | 390 × 844 视口、触摸事件、4 倍 CPU 限速、10 Mbps/80 ms |
 | 真实手机性能与触摸 | 待外部设备验证 | 当前无已连接可操作手机的验证证据，且 xctrace 工具不可用；不能用模拟环境替代 |
-| 公网部署 | 尚未执行 | 已构建静态 dist，可交付任意支持静态文件的主机；未配置域名、部署目标或账号 |
+| 公网部署 | 已完成（2026-10-14） | ChatGPT Sites 公开托管：[Fish Atlas 在线站点](https://fish-atlas-korbinjoe.korbinzhao.chatgpt.site)；发布静态 `dist/`，使用 hash 路由 |
 
 ## 专家复核怎么收尾
 

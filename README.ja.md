@@ -2,6 +2,8 @@
 
 # Fish Atlas
 
+**[公開サイトを開く](https://fish-atlas-korbinjoe.korbinzhao.chatgpt.site)** · ChatGPT Sitesで公開しています。
+
 魚の写真図鑑、分類カタログ、水槽プランナーを、操作できる地球儀でつなぐアプリです。各魚の情報には、確認に使った資料と写真の出典を表示します。
 
 初回アクセス時の表示言語は**英語**です。ヘッダーのメニューから **English、中文、Français、Deutsch、日本語**に切り替えられ、選択はブラウザーに保存されます。

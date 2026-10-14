@@ -2,6 +2,8 @@
 
 **English** · [简体中文](README.zh-CN.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md)
 
+**[Open the live site](https://fish-atlas-korbinjoe.korbinzhao.chatgpt.site)** · Publicly hosted on ChatGPT Sites.
+
 Explore where fish come from on an interactive 3D globe, browse real fish photographs and source-linked habitats, and check an aquarium plan against available care references.
 
 Fish Atlas opens in **English by default**. Switch to **中文, Français, Deutsch, or 日本語** from the language menu in the header; your choice is remembered across visits.
@@ -57,7 +59,7 @@ npm run preview -- --port 4174
 
 Open [Explore](http://127.0.0.1:4174/#/explore), [Atlas](http://127.0.0.1:4174/#/atlas), [Catalog](http://127.0.0.1:4174/#/catalog), or [Planner](http://127.0.0.1:4174/#/planner). Restart the preview process if it has stopped.
 
-The build output is `dist/`. Relative asset paths and hash-based routing support static hosting in a subdirectory without SPA route rewrites. A public website has not yet been configured.
+The build output is `dist/`. Relative asset paths and hash-based routing support static hosting in a subdirectory without SPA route rewrites. The public website is hosted on [ChatGPT Sites](https://fish-atlas-korbinjoe.korbinzhao.chatgpt.site).
 
 ## Languages
 
