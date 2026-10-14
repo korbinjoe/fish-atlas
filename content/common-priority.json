@@ -1,0 +1,448 @@
+{
+  "Acanthurus leucosternon": {
+    "name": "粉蓝倒吊",
+    "aliases": []
+  },
+  "Amatitlania nigrofasciata": {
+    "name": "九间菠萝",
+    "aliases": []
+  },
+  "Amphiprion ocellaris": {
+    "name": "公子小丑鱼",
+    "aliases": []
+  },
+  "Amphiprion percula": {
+    "name": "真小丑鱼",
+    "aliases": []
+  },
+  "Ancistrus cirrhosus": {
+    "name": "胡子异形（代表种）",
+    "aliases": []
+  },
+  "Andinoacara pulcher": {
+    "name": "蓝阿卡拉",
+    "aliases": []
+  },
+  "Aphyosemion australe": {
+    "name": "孔雀鳉",
+    "aliases": []
+  },
+  "Apistogramma agassizii": {
+    "name": "阿卡西短鲷",
+    "aliases": []
+  },
+  "Apistogramma borellii": {
+    "name": "斑马短鲷",
+    "aliases": []
+  },
+  "Apistogramma cacatuoides": {
+    "name": "鸡冠短鲷",
+    "aliases": []
+  },
+  "Astronotus ocellatus": {
+    "name": "地图鱼",
+    "aliases": []
+  },
+  "Betta splendens": {
+    "name": "暹罗斗鱼",
+    "aliases": []
+  },
+  "Botia almorhae": {
+    "name": "溜溜球鳅",
+    "aliases": []
+  },
+  "Botia striata": {
+    "name": "斑马鳅",
+    "aliases": []
+  },
+  "Carassius auratus": {
+    "name": "金鱼",
+    "aliases": []
+  },
+  "Centropyge bispinosa": {
+    "name": "珊瑚美人",
+    "aliases": []
+  },
+  "Centropyge loriculus": {
+    "name": "火焰神仙",
+    "aliases": []
+  },
+  "Chromis viridis": {
+    "name": "蓝绿光鳃鱼",
+    "aliases": []
+  },
+  "Chromobotia macracanthus": {
+    "name": "皇冠泥鳅",
+    "aliases": []
+  },
+  "Chrysiptera cyanea": {
+    "name": "蓝魔雀鲷",
+    "aliases": []
+  },
+  "Chrysiptera parasema": {
+    "name": "黄尾蓝魔鬼",
+    "aliases": []
+  },
+  "Cleithracara maronii": {
+    "name": "钥匙孔慈鲷",
+    "aliases": []
+  },
+  "Corydoras aeneus": {
+    "name": "青铜鼠",
+    "aliases": []
+  },
+  "Corydoras habrosus": {
+    "name": "哈氏鼠",
+    "aliases": []
+  },
+  "Corydoras julii": {
+    "name": "茱莉鼠",
+    "aliases": []
+  },
+  "Corydoras paleatus": {
+    "name": "花椒鼠",
+    "aliases": []
+  },
+  "Corydoras panda": {
+    "name": "熊猫鼠",
+    "aliases": []
+  },
+  "Corydoras pygmaeus": {
+    "name": "小精灵鼠",
+    "aliases": []
+  },
+  "Corydoras splendens": {
+    "name": "翡翠鼠",
+    "aliases": []
+  },
+  "Crossocheilus oblongus": {
+    "name": "暹罗食藻鱼",
+    "aliases": []
+  },
+  "Cryptocentrus cinctus": {
+    "name": "黄守望虾虎",
+    "aliases": []
+  },
+  "Cyphotilapia frontosa": {
+    "name": "六间鱼",
+    "aliases": []
+  },
+  "Danio erythromicron": {
+    "name": "绿宝石斑马鱼",
+    "aliases": []
+  },
+  "Danio margaritatus": {
+    "name": "银河斑马鱼",
+    "aliases": []
+  },
+  "Danio rerio": {
+    "name": "斑马鱼",
+    "aliases": []
+  },
+  "Ecsenius bicolor": {
+    "name": "双色鳚",
+    "aliases": []
+  },
+  "Ecsenius midas": {
+    "name": "金色鳚",
+    "aliases": []
+  },
+  "Ecsenius stigmatura": {
+    "name": "尾斑鳚",
+    "aliases": []
+  },
+  "Elacatinus oceanops": {
+    "name": "霓虹虾虎",
+    "aliases": []
+  },
+  "Epiplatys annulatus": {
+    "name": "小丑鳉",
+    "aliases": []
+  },
+  "Garra flavatra": {
+    "name": "小猴飞狐",
+    "aliases": []
+  },
+  "Glossolepis incisus": {
+    "name": "红彩虹鱼",
+    "aliases": []
+  },
+  "Gobiodon okinawae": {
+    "name": "黄小丑虾虎",
+    "aliases": []
+  },
+  "Gramma loreto": {
+    "name": "皇家格兰玛",
+    "aliases": []
+  },
+  "Gymnocorymbus ternetzi": {
+    "name": "黑裙灯",
+    "aliases": []
+  },
+  "Halichoeres chrysus": {
+    "name": "黄龙",
+    "aliases": []
+  },
+  "Hasemania nana": {
+    "name": "银尖灯",
+    "aliases": []
+  },
+  "Helostoma temminckii": {
+    "name": "接吻鱼",
+    "aliases": []
+  },
+  "Hemigrammus bleheri": {
+    "name": "红鼻剪刀（代表种）",
+    "aliases": []
+  },
+  "Hemigrammus erythrozonus": {
+    "name": "红线灯",
+    "aliases": []
+  },
+  "Hypancistrus zebra": {
+    "name": "斑马异形",
+    "aliases": []
+  },
+  "Hyphessobrycon amandae": {
+    "name": "火焰灯",
+    "aliases": []
+  },
+  "Hyphessobrycon herbertaxelrodi": {
+    "name": "黑霓虹灯",
+    "aliases": []
+  },
+  "Hyphessobrycon pulchripinnis": {
+    "name": "柠檬灯",
+    "aliases": []
+  },
+  "Labidochromis caeruleus": {
+    "name": "非洲王子",
+    "aliases": []
+  },
+  "Macrotocinclus affinis": {
+    "name": "小精灵（代表种）",
+    "aliases": [
+      "Otocinclus affinis"
+    ]
+  },
+  "Melanotaenia boesemani": {
+    "name": "博氏虹银汉鱼",
+    "aliases": []
+  },
+  "Melanotaenia praecox": {
+    "name": "霓虹彩虹鱼",
+    "aliases": []
+  },
+  "Microdevario kubotai": {
+    "name": "绿晶灯",
+    "aliases": []
+  },
+  "Mikrogeophagus altispinosus": {
+    "name": "玻利维亚短鲷",
+    "aliases": []
+  },
+  "Mikrogeophagus ramirezi": {
+    "name": "荷兰凤凰",
+    "aliases": []
+  },
+  "Moenkhausia pittieri": {
+    "name": "钻石灯",
+    "aliases": []
+  },
+  "Nemateleotris decora": {
+    "name": "紫火箭鱼",
+    "aliases": []
+  },
+  "Nemateleotris helfrichi": {
+    "name": "火焰剑鱼",
+    "aliases": []
+  },
+  "Nemateleotris magnifica": {
+    "name": "雷达鱼",
+    "aliases": []
+  },
+  "Neocirrhites armatus": {
+    "name": "火焰鹰鱼",
+    "aliases": []
+  },
+  "Neolamprologus multifasciatus": {
+    "name": "多带卷贝",
+    "aliases": []
+  },
+  "Panaqolus maccus": {
+    "name": "小丑异形",
+    "aliases": []
+  },
+  "Pangio kuhlii": {
+    "name": "库利泥鳅",
+    "aliases": []
+  },
+  "Paracanthurus hepatus": {
+    "name": "蓝倒吊",
+    "aliases": []
+  },
+  "Paracheirodon axelrodi": {
+    "name": "宝莲灯",
+    "aliases": []
+  },
+  "Paracheirodon innesi": {
+    "name": "红绿灯",
+    "aliases": []
+  },
+  "Pelvicachromis pulcher": {
+    "name": "七彩凤凰",
+    "aliases": []
+  },
+  "Pethia conchonius": {
+    "name": "玫瑰鲃",
+    "aliases": []
+  },
+  "Pethia padamya": {
+    "name": "奥德萨鲃",
+    "aliases": []
+  },
+  "Phenacogrammus interruptus": {
+    "name": "刚果灯",
+    "aliases": []
+  },
+  "Poecilia latipinna": {
+    "name": "帆鳍玛丽",
+    "aliases": []
+  },
+  "Poecilia reticulata": {
+    "name": "孔雀鱼",
+    "aliases": []
+  },
+  "Poecilia sphenops": {
+    "name": "玛丽鱼",
+    "aliases": []
+  },
+  "Poecilia wingei": {
+    "name": "安德勒孔雀鱼",
+    "aliases": []
+  },
+  "Pomacentrus moluccensis": {
+    "name": "柠檬雀鲷",
+    "aliases": []
+  },
+  "Pseudocheilinus hexataenia": {
+    "name": "六线龙",
+    "aliases": []
+  },
+  "Pseudocheilinus tetrataenia": {
+    "name": "四线龙",
+    "aliases": []
+  },
+  "Pseudochromis fridmani": {
+    "name": "兰花拟雀鲷",
+    "aliases": []
+  },
+  "Pseudomugil furcatus": {
+    "name": "叉尾蓝眼",
+    "aliases": []
+  },
+  "Pseudomugil gertrudae": {
+    "name": "米字蓝眼",
+    "aliases": []
+  },
+  "Pseudotropheus demasoni": {
+    "name": "德氏岩栖丽鱼",
+    "aliases": []
+  },
+  "Pterapogon kauderni": {
+    "name": "泗水玫瑰",
+    "aliases": []
+  },
+  "Pterophyllum scalare": {
+    "name": "神仙鱼",
+    "aliases": []
+  },
+  "Puntigrus tetrazona": {
+    "name": "虎皮鱼",
+    "aliases": []
+  },
+  "Puntius titteya": {
+    "name": "樱桃鲃",
+    "aliases": []
+  },
+  "Rasbora trilineata": {
+    "name": "剪刀波鱼",
+    "aliases": []
+  },
+  "Salarias fasciatus": {
+    "name": "食藻鳚",
+    "aliases": []
+  },
+  "Siganus vulpinus": {
+    "name": "狐狸鱼",
+    "aliases": []
+  },
+  "Sphaeramia nematoptera": {
+    "name": "睡衣天竺鲷",
+    "aliases": []
+  },
+  "Symphysodon aequifasciatus": {
+    "name": "七彩神仙",
+    "aliases": []
+  },
+  "Synchiropus splendidus": {
+    "name": "青蛙鱼",
+    "aliases": []
+  },
+  "Tanichthys albonubes": {
+    "name": "白云金丝",
+    "aliases": []
+  },
+  "Trichogaster chuna": {
+    "name": "蜜丽鱼",
+    "aliases": []
+  },
+  "Trichogaster lalius": {
+    "name": "矮丽鱼",
+    "aliases": []
+  },
+  "Trichopodus leerii": {
+    "name": "珍珠马甲",
+    "aliases": []
+  },
+  "Trichopodus trichopterus": {
+    "name": "三点丝足鲈",
+    "aliases": []
+  },
+  "Trigonostigma espei": {
+    "name": "红三角灯",
+    "aliases": []
+  },
+  "Trigonostigma heteromorpha": {
+    "name": "三角灯",
+    "aliases": []
+  },
+  "Valenciennea puellaris": {
+    "name": "钻石虾虎",
+    "aliases": []
+  },
+  "Xiphophorus hellerii": {
+    "name": "剑尾鱼",
+    "aliases": []
+  },
+  "Xiphophorus maculatus": {
+    "name": "月光鱼",
+    "aliases": []
+  },
+  "Xiphophorus variatus": {
+    "name": "花斑月光鱼",
+    "aliases": []
+  },
+  "Zebrasoma flavescens": {
+    "name": "黄倒吊",
+    "aliases": []
+  },
+  "Zebrasoma veliferum": {
+    "name": "帆倒吊",
+    "aliases": []
+  },
+  "Zebrasoma xanthurum": {
+    "name": "紫倒吊",
+    "aliases": []
+  }
+}

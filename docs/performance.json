@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-09",
+  "environment": "localhost production preview; cache disabled; no network throttling; single sample",
+  "measurement": "Canvas visible and loading text hidden; not LCP or FPS",
+  "globeReadyMs": 599,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "viewport": [1440, 1000],
+  "transferBytes": 1132223,
+  "transferScope": "Resource Timing subresources only; excludes main HTML and later user interaction",
+  "requests": 12,
+  "imageRequests": 5,
+  "brokenImages": 0,
+  "horizontalOverflow": false
+}

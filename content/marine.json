@@ -1,0 +1,162 @@
+[
+  {
+    "id": "amphiprion-ocellaris",
+    "name": "公子小丑鱼",
+    "scientific": "Amphiprion ocellaris",
+    "aliases": [
+      "眼斑双锯鱼",
+      "Ocellaris clownfish",
+      "尼莫"
+    ],
+    "family": "Pomacentridae",
+    "habitat": "海葵与珊瑚礁",
+    "description": "橙色身体上的三道白纹，让这条小鱼很容易被记住。",
+    "distribution": "原生于印度洋和西太平洋的暖水海域，从琉球群岛、东南亚延伸至澳大利亚西北部。",
+    "behavior": "与海葵形成共生关系，群体有等级；配对个体在繁殖期维护领地。",
+    "caution": "“温和”不等于没有领地行为；不要把多条未经配对的小丑鱼直接视为稳定群体。",
+    "color": "#f0a564",
+    "shape": "round",
+    "length": 11,
+    "lengthType": "TL",
+    "tank": null,
+    "minVolume": 75.71,
+    "sourceUrl": "https://www.liveaquaria.com/products/ocellaris-clownfish",
+    "distributionSource": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+    "lengthSource": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+    "region": "reef",
+    "water": "marine",
+    "temperature": [
+      22.2,
+      25.6
+    ],
+    "ph": [
+      8.1,
+      8.4
+    ],
+    "hardness": null,
+    "specificGravity": [
+      1.02,
+      1.025
+    ],
+    "sourceTitle": "LiveAquaria",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/amphiprion-ocellaris.jpg",
+      "author": "Ritiks",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Clown_fish_in_the_Andaman_Coral_Reef.jpg",
+      "caption": "Clown fish in the Andaman Coral Reef."
+    },
+    "tankNote": "容积由来源美制加仑换算为升（1 US gal = 3.785411784 L），不是由缸长推测；岩石和底砂会减少有效水量。",
+    "parameterNote": "温度由来源 72–78°F 换算为 °C；比重按来源原值保留，不换算为盐度。海水 dKH 与淡水 dGH 含义不同，此处不混用。"
+  },
+  {
+    "id": "paracanthurus-hepatus",
+    "name": "蓝倒吊",
+    "scientific": "Paracanthurus hepatus",
+    "aliases": [
+      "拟刺尾鲷",
+      "蓝吊",
+      "Blue tang",
+      "多莉"
+    ],
+    "family": "Acanthuridae",
+    "habitat": "外礁与礁区水道",
+    "description": "明亮蓝色、深色纹路和黄色尾鳍，属于一条需要充足游动空间的海水鱼。",
+    "distribution": "热带印度洋—西太平洋及中太平洋；澳大利亚记录包括大堡礁、珊瑚海及部分东岸水域。",
+    "behavior": "活跃的游泳者，需要开阔空间与岩石躲避处；同类间可能发生竞争。",
+    "caution": "商店里的幼鱼体型不能代表成鱼空间需求，来源建议至少六英尺缸长。",
+    "color": "#6387e9",
+    "shape": "round",
+    "length": 31,
+    "lengthType": "TL",
+    "tank": 182.88,
+    "minVolume": 681.37,
+    "sourceUrl": "https://www.liveaquaria.com/products/blue-tang-1",
+    "distributionSource": "https://fishesofaustralia.net.au/home/species/2203",
+    "lengthSource": "https://fishesofaustralia.net.au/home/species/2203",
+    "region": "reef",
+    "water": "marine",
+    "temperature": [
+      22.2,
+      25.6
+    ],
+    "ph": [
+      8.1,
+      8.4
+    ],
+    "hardness": null,
+    "specificGravity": [
+      1.02,
+      1.025
+    ],
+    "sourceTitle": "LiveAquaria",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/paracanthurus-hepatus.jpg",
+      "author": "DerHans04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paletten-Doktorfisch_M%C3%BCnster.JPG",
+      "caption": "Paracanthurus hepatus"
+    },
+    "tankNote": "容积由来源美制加仑换算为升（1 US gal = 3.785411784 L），不是由缸长推测；岩石和底砂会减少有效水量。",
+    "parameterNote": "温度由来源 72–78°F 换算为 °C；比重按来源原值保留，不换算为盐度。海水 dKH 与淡水 dGH 含义不同，此处不混用。"
+  },
+  {
+    "id": "pterapogon-kauderni",
+    "name": "泗水玫瑰",
+    "scientific": "Pterapogon kauderni",
+    "aliases": [
+      "邦盖天竺鲷",
+      "Banggai cardinalfish",
+      "Kaudern cardinal"
+    ],
+    "family": "Apogonidae",
+    "habitat": "浅水礁区与海草床",
+    "description": "银色身体、黑色条纹与散布的白点，组成了这条口孵鱼的鲜明外形。",
+    "distribution": "原生范围位于印度尼西亚邦盖群岛；观赏鱼贸易也使它在原生范围外出现。",
+    "behavior": "游动较缓，雄鱼口孵育幼；同类之间可能有攻击，不宜据野外群体现象直接规划大群混养。",
+    "caution": "需要遮蔽物与温和同伴。来源不建议大群饲养；选购时关注人工繁育来源。",
+    "color": "#c6c8d1",
+    "shape": "angel",
+    "length": 8.64,
+    "lengthType": "来源未注明 SL/TL",
+    "tank": null,
+    "minVolume": 113.57,
+    "sourceUrl": "https://www.liveaquaria.com/products/kauderns-cardinal-1",
+    "distributionSource": "https://www.fisheries.noaa.gov/species/banggai-cardinalfish",
+    "lengthSource": "https://www.fisheries.noaa.gov/species/banggai-cardinalfish",
+    "region": "reef",
+    "water": "marine",
+    "temperature": [
+      22.2,
+      25.6
+    ],
+    "ph": [
+      8.1,
+      8.4
+    ],
+    "hardness": null,
+    "specificGravity": [
+      1.02,
+      1.025
+    ],
+    "sourceTitle": "LiveAquaria",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/pterapogon-kauderni.jpg",
+      "author": "Rickard Zerpe",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Banggai_cardinalfish_(Pterapogon_kauderni)_(43875107345).jpg",
+      "caption": "Lembeh, Indonesia - Banggai cardinalfish (Pterapogon kauderni)"
+    },
+    "tankNote": "容积由来源美制加仑换算为升（1 US gal = 3.785411784 L），不是由缸长推测；岩石和底砂会减少有效水量。",
+    "parameterNote": "温度由来源 72–78°F 换算为 °C；比重按来源原值保留，不换算为盐度。海水 dKH 与淡水 dGH 含义不同，此处不混用。"
+  }
+]

@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "paracheirodon-innesi",
+    "name": "红绿灯",
+    "scientific": "Paracheirodon innesi",
+    "aliases": [
+      "霓虹灯",
+      "Neon tetra"
+    ],
+    "region": "amazon",
+    "family": "Characidae",
+    "habitat": "森林溪流",
+    "description": "蓝绿光带与后半身红色相遇，是雨林溪流里的一抹微光。",
+    "distribution": "已知来自巴西、秘鲁与哥伦比亚的亚马孙支流；完整自然分布仍有不确定性。",
+    "behavior": "通常温和，来源建议以 8–10 条或更多的群体饲养。",
+    "caution": "避免与能吞食它的大型鱼同养；人工繁育个体与野生个体的适应性可能不同。",
+    "color": "#69cce0",
+    "shape": "slender",
+    "length": 3.0,
+    "lengthType": "SL",
+    "tank": 60.0,
+    "temperature": [
+      21.0,
+      25.0
+    ],
+    "ph": [
+      4.0,
+      7.5
+    ],
+    "hardness": [
+      1.0,
+      12.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/paracheirodon-innesi/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/paracheirodon-innesi.jpg",
+      "author": "Holger Krisp",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neonsalmler_Paracheirodon_innesi.jpg",
+      "caption": "Neon Tetra, Paracheirodon innesi, Family: Characidae"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "paracheirodon-axelrodi",
+    "name": "宝莲灯",
+    "scientific": "Paracheirodon axelrodi",
+    "aliases": [
+      "红莲灯",
+      "Cardinal tetra"
+    ],
+    "region": "amazon",
+    "family": "Characidae",
+    "habitat": "黑水支流",
+    "description": "明亮的蓝线下是一整条红色，像在黑水中游动的灯。",
+    "distribution": "巴西内格罗河中上游及部分支流，也见于奥里诺科水系；本站在亚马孙区域收录。",
+    "behavior": "偏好同类群体，来源建议至少 8–10 条，并选择体型接近的温和同伴。",
+    "caution": "相似外形不代表与红绿灯需求完全相同；不要仅按颜色选择混养对象。",
+    "color": "#f27069",
+    "shape": "slender",
+    "length": 3.5,
+    "lengthType": "SL",
+    "tank": 60.0,
+    "temperature": [
+      23.0,
+      29.0
+    ],
+    "ph": [
+      3.5,
+      7.5
+    ],
+    "hardness": [
+      1.0,
+      12.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/paracheirodon-axelrodi/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/paracheirodon-axelrodi.jpg",
+      "author": "CHUCAO",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cardinal_Paracheirodon_axelrodi_(3).jpg",
+      "caption": "The cardinal tetra, Paracheirodon axelrodi, is a freshwater fish of the characin family (family Characidae) of order Characiformes. It is native to the upper Orinoco and Negro Rivers in South America."
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "paracheirodon-simulans",
+    "name": "绿莲灯",
+    "scientific": "Paracheirodon simulans",
+    "aliases": [
+      "绿霓虹灯",
+      "Green neon tetra"
+    ],
+    "region": "amazon",
+    "family": "Characidae",
+    "habitat": "黑水溪流",
+    "description": "细小的身体上，一条蓝绿色光带格外醒目。",
+    "distribution": "巴西内格罗河中上游，以及委内瑞拉与哥伦比亚交界的部分奥里诺科水系。",
+    "behavior": "以群体生活，适合单独观赏或与很小且不具攻击性的鱼共处。",
+    "caution": "来源列出的温度跨度很大，不能将上限当成长期饲养目标；选购前需进一步核实来源条件。",
+    "color": "#70d5b6",
+    "shape": "slender",
+    "length": 2.5,
+    "lengthType": "SL",
+    "tank": 45.0,
+    "temperature": [
+      21.0,
+      35.0
+    ],
+    "ph": [
+      3.0,
+      6.5
+    ],
+    "hardness": [
+      1.0,
+      8.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/paracheirodon-simulans/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/paracheirodon-simulans.jpg",
+      "author": "Sascha Biedermann",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paracheirodon_simulans.jpg",
+      "caption": "Green Neon Tetra, Paracheirodon simulans"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "pterophyllum-scalare",
+    "name": "神仙鱼",
+    "scientific": "Pterophyllum scalare",
+    "aliases": [
+      "燕鱼",
+      "Angelfish"
+    ],
+    "region": "amazon",
+    "family": "Cichlidae",
+    "habitat": "河流缓水区",
+    "description": "高耸的背鳍与臀鳍，让身体像一片竖立在水中的银叶。",
+    "distribution": "包括秘鲁、巴西等地的亚马孙水系，也见于圭亚那地区的部分河流。",
+    "behavior": "同类间会发生争执，体型较小时温和的表现不代表成年后没有捕食风险。",
+    "caution": "可捕食小型灯鱼。所列体长不包含鳍展开后的整体高度，缸高同样重要。",
+    "color": "#d7c68e",
+    "shape": "angel",
+    "length": 15.0,
+    "lengthType": "SL",
+    "tank": 100.0,
+    "temperature": [
+      24.0,
+      30.0
+    ],
+    "ph": [
+      6.0,
+      7.4
+    ],
+    "hardness": [
+      0.0,
+      15.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/pterophyllum-scalare/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/pterophyllum-scalare.jpg",
+      "author": "Mattia Nocciola",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pterophyllum_scalare_Natural_History_Museum_University_of_Pisa.jpg",
+      "caption": "Freshwater angelfish, Pterophyllum scalare (Schultze, 1823), Natural History Museum University of Pisa"
+    },
+    "tankHeight": 50,
+    "tankNote": "来源最低尺寸 100 × 40 × 50 cm，成鱼尤其需要高度。",
+    "tankWidth": 40.0
+  },
+  {
+    "id": "hemigrammus-bleheri",
+    "name": "红鼻剪刀",
+    "scientific": "Hemigrammus bleheri",
+    "aliases": [
+      "红头剪刀",
+      "Petitella bleheri",
+      "Rummy nose tetra"
+    ],
+    "region": "amazon",
+    "family": "Characidae",
+    "habitat": "河流支流",
+    "description": "红色头部与黑白尾纹，让紧密游动的鱼群容易辨认。",
+    "distribution": "来源记录为哥伦比亚与巴西的梅塔河、内格罗河；具体分布请核对原文。",
+    "behavior": "温和且群游明显，来源建议至少 10 条，避免大型或过分活跃的同伴。",
+    "caution": "相近的红鼻鱼容易混淆。本条旧学名 Hemigrammus bleheri 也保留用于检索。",
+    "color": "#d39588",
+    "shape": "slender",
+    "length": 5.0,
+    "lengthType": "SL",
+    "tank": 90,
+    "temperature": [
+      23.0,
+      26.0
+    ],
+    "ph": [
+      5.5,
+      7.0
+    ],
+    "hardness": [
+      2.0,
+      15.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/hemigrammus-bleheri/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/hemigrammus-bleheri.jpg",
+      "author": "Lerdsuwa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brilliant_rummy_nose_-_Petitella_bleheri_-_2.jpg",
+      "caption": "Brilliant rummy nose tetra (old: Hemigrammus bleheri; new: Petitella bleheri)."
+    },
+    "tankNote": "正文要求至少 10 条群体，缸长至少 90 cm；不能按单鱼缩小缸长。"
+  },
+  {
+    "id": "nannostomus-beckfordi",
+    "name": "金线铅笔",
+    "scientific": "Nannostomus beckfordi",
+    "aliases": [
+      "铅笔鱼",
+      "Golden pencilfish"
+    ],
+    "region": "amazon",
+    "family": "Lebiasinidae",
+    "habitat": "林间缓流水域",
+    "description": "细长的身体带着纵向条纹，像一支轻巧的水下铅笔。",
+    "distribution": "圭亚那地区河流及巴西亚马孙东部，也有内格罗河下游等地的记录。",
+    "behavior": "来源建议较大的同类群体，通常不适合与过于活跃或体型悬殊的鱼共处。",
+    "caution": "小缸中不宜与安静的表层鱼强行搭配；同类互动也需要空间。",
+    "color": "#d0af76",
+    "shape": "slender",
+    "length": 6.5,
+    "lengthType": "SL",
+    "tank": 45.0,
+    "temperature": [
+      21.0,
+      27.0
+    ],
+    "ph": [
+      5.0,
+      8.0
+    ],
+    "hardness": [
+      1.0,
+      15.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/nannostomus-beckfordi/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/nannostomus-beckfordi.jpg",
+      "author": "SelEle-MS",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nannostomus-beckfordi.jpg",
+      "caption": "ベックフォルディペンシル（Nannostomus beckfordi）\n下個体は婚姻色を呈している。"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "carnegiella-strigata",
+    "name": "大理石燕子",
+    "scientific": "Carnegiella strigata",
+    "aliases": [
+      "斧头鱼",
+      "Marbled hatchetfish"
+    ],
+    "region": "amazon",
+    "family": "Gasteropelecidae",
+    "habitat": "水面与林间溪流",
+    "description": "胸腹部轮廓宽阔，如一把小斧头，身体上布满大理石般的纹路。",
+    "distribution": "广泛记录于亚马孙及部分相邻水系，来源提示其分类与分布范围仍有讨论。",
+    "behavior": "偏中上层活动，同类群居；来源建议尽可能组成较大群体。",
+    "caution": "小型、胆怯的鱼，不宜与强势或体型悬殊的同伴混养。",
+    "color": "#c1c3a9",
+    "shape": "round",
+    "length": 3.5,
+    "lengthType": "SL",
+    "tank": 75.0,
+    "temperature": [
+      20.0,
+      28.0
+    ],
+    "ph": [
+      4.0,
+      7.0
+    ],
+    "hardness": [
+      1.0,
+      10.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/carnegiella-strigata/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/carnegiella-strigata.jpg",
+      "author": "SOK, Sven Kullander",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Carnegiella_strigata_lateral_view.jpg",
+      "caption": "Carnegiella strigata, marbled hatchetfish, photographed in aquarium"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "apistogramma-cacatuoides",
+    "name": "凤尾短鲷",
+    "scientific": "Apistogramma cacatuoides",
+    "aliases": [
+      "Cockatoo dwarf cichlid"
+    ],
+    "region": "amazon",
+    "family": "Cichlidae",
+    "habitat": "上游支流",
+    "description": "雄鱼背鳍前部的高耸鳍条，让它有了凤尾般的轮廓。",
+    "distribution": "亚马孙上游，从秘鲁乌卡亚利河、亚马孙河到巴西西部索利蒙伊斯河。",
+    "behavior": "来源区分人工繁育与野生个体；野生个体更适合单养或配温和小鱼。",
+    "caution": "不同短鲷混养需谨慎。体长按来源雄鱼标准体长列示，雌鱼通常较小。",
+    "color": "#e4a460",
+    "shape": "round",
+    "length": 7.5,
+    "lengthType": "SL",
+    "tank": 60.0,
+    "temperature": [
+      22.0,
+      29.0
+    ],
+    "ph": [
+      5.0,
+      6.0
+    ],
+    "hardness": [
+      0.0,
+      15.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/apistogramma-cacatuoides/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/apistogramma-cacatuoides.jpg",
+      "author": "William Kreijkes",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cacatuoides.JPG",
+      "caption": "Apistogramma cacatuoides male"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "symphysodon-aequifasciatus",
+    "name": "七彩神仙",
+    "scientific": "Symphysodon aequifasciatus",
+    "aliases": [
+      "Discus"
+    ],
+    "region": "amazon",
+    "family": "Cichlidae",
+    "habitat": "亚马孙缓流水域",
+    "description": "圆盘状的侧扁身体，是七彩神仙最鲜明的轮廓。",
+    "distribution": "索利蒙伊斯河及亚马孙干流一带；圭亚那、苏里南的引入种群不列为原生地。",
+    "behavior": "本版尚未补全该条的行为与水质建议，请阅读原始资料后判断。",
+    "caution": "商品七彩包含多种人工品系及复杂来源，不能把所有商品鱼直接归为这一野生种。",
+    "color": "#d99d76",
+    "shape": "round",
+    "length": 14.0,
+    "lengthType": "SL",
+    "tank": 120,
+    "temperature": null,
+    "ph": null,
+    "hardness": null,
+    "sourceUrl": "https://www.seriouslyfish.com/species/symphysodon-aequifasciatus/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/symphysodon-aequifasciatus.jpg",
+      "author": "mramorn",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA._%D0%90%D0%BA%D0%B2%D0%B0%D1%80%D0%B8%D1%83%D0%BC.8_-_panoramio.jpg",
+      "caption": "Николаевский зоопарк. Аквариум.8"
+    },
+    "tankWidth": 45,
+    "tankHeight": 45,
+    "tankNote": "正文 120 × 45 × 45 cm 适用于少量幼鱼或一对繁殖成鱼，不能套用于成年群体。"
+  },
+  {
+    "id": "hyphessobrycon-eques",
+    "name": "红裙鱼",
+    "scientific": "Hyphessobrycon eques",
+    "aliases": [
+      "血心红裙",
+      "Serpae tetra"
+    ],
+    "region": "amazon",
+    "family": "Characidae",
+    "habitat": "河流与植被水域",
+    "description": "鲜红的身体和黑色鳍斑很醒目，活跃的性格同样需要留意。",
+    "distribution": "巴西、秘鲁、玻利维亚的亚马孙水系，也分布于巴拉圭河流域。",
+    "behavior": "同类间建立松散等级，来源建议至少 12 条以分散相互作用。",
+    "caution": "可能追咬其他鱼的鳍；数量少、空间不足时尤其需要注意。",
+    "color": "#d96b5d",
+    "shape": "round",
+    "length": 4.0,
+    "lengthType": "SL",
+    "tank": 80.0,
+    "temperature": [
+      20.0,
+      28.0
+    ],
+    "ph": [
+      5.0,
+      7.5
+    ],
+    "hardness": [
+      1.0,
+      15.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/hyphessobrycon-eques/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/hyphessobrycon-eques.jpg",
+      "author": "Dubrovsky Alexander (Aledubr)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyphessobrycon_eques.jpg",
+      "caption": "Dubrovsky Alexander (aka en:user:Aledubr), the author of the image, releases it to the public domain."
+    },
+    "tankNote": "80 × 30 cm 对应 12–15 条且不加其他上层鱼；混养需要更大鱼缸。",
+    "tankWidth": 30.0
+  },
+  {
+    "id": "betta-splendens",
+    "name": "暹罗斗鱼",
+    "scientific": "Betta splendens",
+    "aliases": [
+      "泰国斗鱼",
+      "Siamese fighting fish"
+    ],
+    "region": "asia",
+    "family": "Osphronemidae",
+    "habitat": "沼泽与缓流水域",
+    "description": "斗鱼能从水面呼吸空气；常见长鳍照片多来自人工培育品系。",
+    "distribution": "自然分布以泰国中部至马来半岛北缘为主。其他地区的部分记录属于引入或相似物种。",
+    "behavior": "通常以单独饲养为稳妥起点，同类特别是雄鱼间可能发生严重冲突。",
+    "caution": "不因同样是小型鱼就默认能合养；长鳍、相似外形及繁殖状态都可能影响冲突。",
+    "color": "#b076b8",
+    "shape": "betta",
+    "length": 7.0,
+    "lengthType": "SL",
+    "tank": 45.0,
+    "temperature": [
+      22.0,
+      30.0
+    ],
+    "ph": [
+      6.0,
+      8.0
+    ],
+    "hardness": [
+      1.0,
+      15.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/betta-splendens/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/betta-splendens.jpg",
+      "author": "Daniella Vereeken",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:HM_Orange_M_Sarawut.jpg",
+      "caption": "Betta splendens, male, orange halfmoon."
+    },
+    "parameterNote": "pH 6–8 对应人工观赏品系；来源称野生个体可能偏好 pH 5–7。品系未确认时不能直接套用。",
+    "tankNote": "45 × 30 cm 是来源参考底面积；行为章节通常建议单养，尺寸段提到一对不代表可长期混养。",
+    "tankWidth": 30.0
+  },
+  {
+    "id": "trichopodus-leerii",
+    "name": "珍珠马甲",
+    "scientific": "Trichopodus leerii",
+    "aliases": [
+      "珍珠鱼",
+      "Pearl gourami"
+    ],
+    "region": "asia",
+    "family": "Osphronemidae",
+    "habitat": "沼泽与植被水域",
+    "description": "细密珠点洒在身体和鳍上，腹鳍像两条细长的触须。",
+    "distribution": "泰国、马来西亚、婆罗洲与苏门答腊；新加坡和哥伦比亚存在引入记录。",
+    "behavior": "总体较温和，但雄鱼之间及繁殖期间可能产生领地行为。",
+    "caution": "避免强势、过度活跃的同伴，准备足够的植物与隐蔽空间。",
+    "color": "#b8a17f",
+    "shape": "round",
+    "length": 12.0,
+    "lengthType": "SL",
+    "tank": 90.0,
+    "temperature": [
+      24.0,
+      30.0
+    ],
+    "ph": [
+      5.5,
+      8.0
+    ],
+    "hardness": [
+      2.0,
+      30.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/trichopodus-leerii/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/trichopodus-leerii.jpg",
+      "author": "Mattia Nocciola",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Trichopodus_leerii_Natural_History_Museum_University_of_Pisa.jpg",
+      "caption": "Pearl gourami, Trichopodus leerii (Bleeker, 1852), Natural History Museum University of Pisa"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "trichopsis-pumila",
+    "name": "侏儒丽丽",
+    "scientific": "Trichopsis pumila",
+    "aliases": [
+      "小丽丽",
+      "Sparkling gourami"
+    ],
+    "region": "asia",
+    "family": "Osphronemidae",
+    "habitat": "湄公河及缓水区",
+    "description": "小小的身体上有闪烁色点，是体型很小的迷鳃鱼。",
+    "distribution": "湄公河下游，涉及老挝、越南、柬埔寨和泰国，也见于泰国中南部水系。",
+    "behavior": "可成对或小群饲养，适合同样温和、体型接近的同伴。",
+    "caution": "来源提到捕食小型观赏虾的经历，不能承诺鱼虾混养绝对安全。",
+    "color": "#88b8b2",
+    "shape": "slender",
+    "length": 4.0,
+    "lengthType": "SL",
+    "tank": 45.0,
+    "temperature": [
+      22.0,
+      28.0
+    ],
+    "ph": [
+      5.0,
+      7.5
+    ],
+    "hardness": [
+      1.0,
+      12.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/trichopsis-pumila/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/trichopsis-pumila.jpg",
+      "author": "Dezinformator15",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sparkling_gourami.jpg",
+      "caption": "Sparkling gourami (Trichopsis pumila) in an aquarium"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "trigonostigma-heteromorpha",
+    "name": "三角灯",
+    "scientific": "Trigonostigma heteromorpha",
+    "aliases": [
+      "三角波鱼",
+      "Harlequin rasbora"
+    ],
+    "region": "asia",
+    "family": "Cyprinidae",
+    "habitat": "森林沼泽",
+    "description": "银铜色身体后方的大块黑色三角，是它最常见的识别特征。",
+    "distribution": "马来半岛、新加坡及附近部分岛屿；大巽他群岛的完整分布仍需进一步厘清。",
+    "behavior": "温和的群游鱼，适合经过选择的群养组合。",
+    "caution": "要考虑成年体型及同伴捕食风险，不能仅凭“温和”标签完成混养决策。",
+    "color": "#d4ae83",
+    "shape": "slender",
+    "length": 4.5,
+    "lengthType": "SL",
+    "tank": 60.0,
+    "temperature": [
+      21.0,
+      28.0
+    ],
+    "ph": [
+      5.0,
+      7.5
+    ],
+    "hardness": [
+      1.0,
+      12.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/trigonostigma-heteromorpha/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/trigonostigma-heteromorpha.jpg",
+      "author": "Roel Balingit",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Harlequin_rasboras_03.jpg",
+      "caption": "Harlequin rasboras in a fish tank"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "trigonostigma-espei",
+    "name": "红三角灯",
+    "scientific": "Trigonostigma espei",
+    "aliases": [
+      "Espei rasbora"
+    ],
+    "region": "asia",
+    "family": "Cyprinidae",
+    "habitat": "溪流与植被水域",
+    "description": "橙红身体上的黑色楔形斑，比三角灯更细长。",
+    "distribution": "泰国西南、东南部与柬埔寨部分水系，另有越南富国岛种群。",
+    "behavior": "偏好同类群体，来源建议至少 8–10 条。",
+    "caution": "不同产地颜色可能不同；与相似波鱼的区别应结合可靠照片和学名。",
+    "color": "#e8a46c",
+    "shape": "slender",
+    "length": 3.0,
+    "lengthType": "SL",
+    "tank": 60.0,
+    "temperature": [
+      23.0,
+      28.0
+    ],
+    "ph": [
+      5.5,
+      7.5
+    ],
+    "hardness": [
+      1.0,
+      10.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/trigonostigma-espei/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/trigonostigma-espei.jpg",
+      "author": "AverageWalrus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Trigonostigma_espei_2023.jpg",
+      "caption": "An individual of Trigonostigma espei"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "trigonostigma-hengeli",
+    "name": "灯光三角",
+    "scientific": "Trigonostigma hengeli",
+    "aliases": [
+      "Hengel rasbora"
+    ],
+    "region": "asia",
+    "family": "Cyprinidae",
+    "habitat": "苏门答腊水系",
+    "description": "黑色楔形斑上方的一线橙光，像身体侧面的细小灯带。",
+    "distribution": "确认记录涉及苏门答腊占碑及淡柏西河；婆罗洲部分报告在来源中仍标为不明确。",
+    "behavior": "群游，来源建议至少 8–10 条，并搭配体型接近的温和同伴。",
+    "caution": "自然分布存在资料缺口，本站不把未确认地区绘制成确定边界。",
+    "color": "#e3bc82",
+    "shape": "slender",
+    "length": 3.0,
+    "lengthType": "SL",
+    "tank": 60.0,
+    "temperature": [
+      23.0,
+      28.0
+    ],
+    "ph": [
+      5.0,
+      7.5
+    ],
+    "hardness": [
+      1.0,
+      10.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/trigonostigma-hengeli/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/trigonostigma-hengeli.jpg",
+      "author": "Rupert A. Collins",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Trigonostigma_hengeli.jpg",
+      "caption": "Trigonostigma hengeli,"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "boraras-brigittae",
+    "name": "辣椒灯",
+    "scientific": "Boraras brigittae",
+    "aliases": [
+      "蚊子灯",
+      "Chili rasbora"
+    ],
+    "region": "asia",
+    "family": "Cyprinidae",
+    "habitat": "婆罗洲黑水区",
+    "description": "红色身体上有暗色纵斑，是适合细看的一种微型波鱼。",
+    "distribution": "主要记录于婆罗洲西南部，涉及南加里曼丹及相邻水系，记录仍较少。",
+    "behavior": "小而胆怯，来源建议 8–10 条以上的群体，与相近体型的鱼相处。",
+    "caution": "体型小不等于能放进任意小容器；留意投喂竞争与稳定环境。",
+    "color": "#ed806e",
+    "shape": "slender",
+    "length": 2.0,
+    "lengthType": "SL",
+    "tank": 45.0,
+    "temperature": [
+      20.0,
+      28.0
+    ],
+    "ph": [
+      4.0,
+      7.0
+    ],
+    "hardness": [
+      1.0,
+      10.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/boraras-brigittae/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/boraras-brigittae.jpg",
+      "author": "Fantomeno 14",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Boraras-brigittae-3191524164.jpg",
+      "caption": "Un rasbora orné"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "boraras-maculatus",
+    "name": "斑点波鱼",
+    "scientific": "Boraras maculatus",
+    "aliases": [
+      "Dwarf rasbora"
+    ],
+    "region": "asia",
+    "family": "Cyprinidae",
+    "habitat": "森林溪流",
+    "description": "身体侧面的深色圆斑，是这条微型波鱼的视觉重点。",
+    "distribution": "马来半岛、泰国南部、苏门答腊东部、新加坡及民丹岛等地。",
+    "behavior": "同类群居、较胆怯，来源建议至少 8–10 条。",
+    "caution": "不要与明显更大或抢食猛烈的鱼混养；产地间体色可能存在差异。",
+    "color": "#dba087",
+    "shape": "slender",
+    "length": 2.5,
+    "lengthType": "SL",
+    "tank": 45.0,
+    "temperature": [
+      20.0,
+      28.0
+    ],
+    "ph": [
+      4.0,
+      6.5
+    ],
+    "hardness": [
+      1.0,
+      5.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/boraras-maculatus/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/boraras-maculatus.jpg",
+      "author": "R.workoran",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:LK-%E0%B8%8B%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A21.jpg",
+      "caption": "Boraras maculatus"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "pangio-kuhlii",
+    "name": "库利泥鳅",
+    "scientific": "Pangio kuhlii",
+    "aliases": [
+      "苦力泥鳅",
+      "Kuhli loach"
+    ],
+    "region": "asia",
+    "family": "Cobitidae",
+    "habitat": "沙底与隐蔽处",
+    "description": "细长身体上的深浅环带，让它在底部阴影里很有辨识度。",
+    "distribution": "来源列出马来半岛及大巽他群岛部分地区，同时指出分类与分布仍有疑问。",
+    "behavior": "喜欢与同类聚集，来源建议至少 5–6 条，并提供隐蔽空间。",
+    "caution": "商售条纹泥鳅可能来自相近物种；也可能捕食鱼卵或幼鱼。",
+    "color": "#c6a772",
+    "shape": "loach",
+    "length": 10.0,
+    "lengthType": "SL",
+    "tank": 60.0,
+    "temperature": [
+      21.0,
+      26.0
+    ],
+    "ph": [
+      3.5,
+      7.0
+    ],
+    "hardness": [
+      0.0,
+      8.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/pangio-kuhlii/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/pangio-kuhlii.jpg",
+      "author": "User:Louie",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pangio_kuhlii.jpg",
+      "caption": "Pangio kuhlii"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "chromobotia-macracanthus",
+    "name": "皇冠泥鳅",
+    "scientific": "Chromobotia macracanthus",
+    "aliases": [
+      "小丑泥鳅",
+      "Clown loach"
+    ],
+    "region": "asia",
+    "family": "Cobitidae",
+    "habitat": "岛屿河流",
+    "description": "橙色身体上的三条黑带非常醒目；幼鱼会成长为大型泥鳅。",
+    "distribution": "婆罗洲与苏门答腊的多条河流，各地种群在花纹及体型等方面可能不同。",
+    "behavior": "具有群居与社会等级行为，需要按成年体型准备宽敞空间。",
+    "caution": "不要把幼鱼尺寸当成成鱼尺寸；长鳍、慢游鱼可能被追咬。",
+    "color": "#e4ae67",
+    "shape": "loach",
+    "length": 40.0,
+    "lengthType": "SL",
+    "tank": 180.0,
+    "temperature": [
+      24.0,
+      30.0
+    ],
+    "ph": [
+      5.0,
+      7.0
+    ],
+    "hardness": [
+      1.0,
+      12.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/chromobotia-macracanthus/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/chromobotia-macracanthus.jpg",
+      "author": "Vlad Butsky from San Jose, CA, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chromobotia_macracanthus.jpg",
+      "caption": "Chromobotia macracanthusImage #10923 (http://www.butsky.com)"
+    },
+    "tankWidth": 60.0
+  },
+  {
+    "id": "labidochromis-caeruleus",
+    "name": "非洲王子",
+    "scientific": "Labidochromis caeruleus",
+    "aliases": [
+      "黄王子",
+      "Electric yellow cichlid"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "马拉维湖岩区",
+    "description": "常见黄色品系十分醒目，但本物种并非所有产地都呈鲜黄色。",
+    "distribution": "马拉维湖北部；电光黄形态在来源中对应更局部的湖岸范围。",
+    "behavior": "在马拉维湖丽鱼中相对温和，繁殖期仍会维护领地。",
+    "caution": "需要考虑硬水环境与同伴性格；不能直接与软水鱼按颜色拼缸。",
+    "color": "#e6d275",
+    "shape": "round",
+    "length": 10.0,
+    "lengthType": "SL",
+    "tank": 90.0,
+    "temperature": [
+      24.0,
+      28.0
+    ],
+    "ph": [
+      7.7,
+      8.6
+    ],
+    "hardness": [
+      10.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/labidochromis-caeruleus/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/labidochromis-caeruleus.jpg",
+      "author": "Jmatz at English Wikipedia\n\n(Original text: Julian Matz (talk))",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Labidochromis_caeruleus_(male).jpg",
+      "caption": "A male Labidochromis caeruleus"
+    },
+    "tankWidth": 45.0
+  },
+  {
+    "id": "pseudotropheus-demasoni",
+    "name": "德氏岩栖丽鱼",
+    "scientific": "Pseudotropheus demasoni",
+    "aliases": [
+      "德氏拟丽鱼",
+      "Chindongo demasoni",
+      "Demasoni"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "马拉维湖岩区",
+    "description": "深浅蓝色竖纹几乎覆盖全身，强烈的领地性也很突出。",
+    "distribution": "马拉维湖坦桑尼亚岸的 Pombo Rocks 附近，来源记录范围较局部。",
+    "behavior": "对同类及相似花纹的鱼可能非常强势。",
+    "caution": "并非普通温和混养鱼，不能只凭体型小就把它放进小型群养缸。",
+    "color": "#7298c8",
+    "shape": "round",
+    "length": 7.5,
+    "lengthType": "SL",
+    "tank": 120.0,
+    "temperature": [
+      24.0,
+      28.0
+    ],
+    "ph": [
+      7.6,
+      8.8
+    ],
+    "hardness": [
+      10.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/pseudotropheus-demasoni/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/pseudotropheus-demasoni.jpg",
+      "author": "lee Nachtigal",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pseudotropheus_demasoni.jpg",
+      "caption": "Pseudotropheus demasoni, Lake Malawi Cichlid"
+    },
+    "tankWidth": 45.0
+  },
+  {
+    "id": "melanochromis-auratus",
+    "name": "金色岩栖丽鱼",
+    "scientific": "Melanochromis auratus",
+    "aliases": [
+      "黄金斑马",
+      "Golden mbuna"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "马拉维湖岩区",
+    "description": "纵向条纹是它的特征，成年雄雌的体色可能显著不同。",
+    "distribution": "马拉维湖西岸、南部及东岸部分区域。",
+    "behavior": "具有很强的攻击性与领地性，同类之间也可能发生严重冲突。",
+    "caution": "即使多配雌鱼也不保证消除攻击，不适合温和鱼组成的普通混养缸。",
+    "color": "#d9c282",
+    "shape": "slender",
+    "length": 11.0,
+    "lengthType": "SL",
+    "tank": 120.0,
+    "temperature": [
+      24.0,
+      28.0
+    ],
+    "ph": [
+      7.6,
+      8.8
+    ],
+    "hardness": [
+      10.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/melanochromis-auratus/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/melanochromis-auratus.jpg",
+      "author": "Vlad Butsky from San Jose, CA, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Melanochromis_auratus_(male).jpg",
+      "caption": "Melanochromis auratus (male)Image #10917 (https://www.butsky.com)"
+    },
+    "tankWidth": 45.0
+  },
+  {
+    "id": "pseudotropheus-socolofi",
+    "name": "索氏岩栖丽鱼",
+    "scientific": "Pseudotropheus socolofi",
+    "aliases": [
+      "索氏拟丽鱼",
+      "Chindongo socolofi",
+      "Pindani"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "马拉维湖岸",
+    "description": "淡蓝色身体与深色鳍边形成清晰对比，商售白化品系需单独识别。",
+    "distribution": "马拉维湖莫桑比克岸 Cobue 至 Tumbi Point 一带；其他部分地区有引入。",
+    "behavior": "雄鱼有领地性，多个雄鱼需要更大的空间。",
+    "caution": "在岩栖丽鱼中相对不那么强势，仍不适合普通综合混养缸。",
+    "color": "#9cbdd4",
+    "shape": "round",
+    "length": 11.5,
+    "lengthType": "SL",
+    "tank": 90.0,
+    "temperature": [
+      24.0,
+      28.0
+    ],
+    "ph": [
+      7.6,
+      8.8
+    ],
+    "hardness": [
+      10.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/pseudotropheus-socolofi/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/pseudotropheus-socolofi.jpg",
+      "author": "JanRehschuh",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eisblauer_Maulbr%C3%BCter_Mbuna_Pseudotropheus_Socolofi_Malawi_Male_P1000285.JPG",
+      "caption": "A Male of Pseudotropheus Socolofi from Lake Malawi"
+    },
+    "tankWidth": 45.0
+  },
+  {
+    "id": "julidochromis-ornatus",
+    "name": "黄金茱莉",
+    "scientific": "Julidochromis ornatus",
+    "aliases": [
+      "金茱莉",
+      "Golden julie"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "坦噶尼喀湖岩区",
+    "description": "修长的身体上排列着深色纵纹，常在岩石边缘活动。",
+    "distribution": "坦噶尼喀湖特有种，具体记录见原始鱼种资料。",
+    "behavior": "配对与领地行为需要结合岩石布局和足够的空间考虑。",
+    "caution": "同为湖区鱼也不意味着可以直接混养，需关注领地重叠。",
+    "color": "#c9b986",
+    "shape": "slender",
+    "length": 8.0,
+    "lengthType": "SL",
+    "tank": 75,
+    "temperature": [
+      23.0,
+      27.0
+    ],
+    "ph": [
+      7.5,
+      9.0
+    ],
+    "hardness": [
+      10.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/julidochromis-ornatus/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/julidochromis-ornatus.jpg",
+      "author": "Gerardeen92",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Juvenille_Golden_Julie.jpg",
+      "caption": "Juvenile Golden Julie Cichlid"
+    },
+    "tankWidth": 30,
+    "tankHeight": 30,
+    "tankNote": "正文 75 × 30 × 30 cm 仅为一对的参考；繁殖段另建议至少 36 英寸缸长。需要洞穴与领地分隔。"
+  },
+  {
+    "id": "neolamprologus-multifasciatus",
+    "name": "多带卷贝",
+    "scientific": "Neolamprologus multifasciatus",
+    "aliases": [
+      "多带贝鱼",
+      "Multies"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "坦噶尼喀湖贝壳区",
+    "description": "体型虽小，却会认真守护自己的贝壳和周边领地。",
+    "distribution": "坦噶尼喀湖特有种。地图上的东非入口并非具体贝壳床位置。",
+    "behavior": "可形成群落，需准备足够贝壳与底部空间。",
+    "caution": "不要因为个体小就忽略领地需求；底部空间比单独看水体积更有意义。",
+    "color": "#c7b797",
+    "shape": "slender",
+    "length": 4.5,
+    "lengthType": "SL",
+    "tank": 45,
+    "temperature": [
+      24.0,
+      27.0
+    ],
+    "ph": [
+      7.5,
+      9.0
+    ],
+    "hardness": [
+      8.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/neolamprologus-multifasciatus/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/neolamprologus-multifasciatus.jpg",
+      "author": "Richard Andre Ingebrigtsen, Department of Aquatic Biosciences, University of Tromsø, Rex shock at en.wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neolamprologus_multifasciatus_3.jpg",
+      "caption": ""
+    },
+    "tankWidth": 30,
+    "tankHeight": 30,
+    "tankNote": "正文 45 × 30 × 30 cm 仅适用于一对；群落需更大的底部空间和多于鱼数量的贝壳。"
+  },
+  {
+    "id": "neolamprologus-brichardi",
+    "name": "布氏丽鱼",
+    "scientific": "Neolamprologus brichardi",
+    "aliases": [
+      "Princess of Burundi"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "坦噶尼喀湖岩区",
+    "description": "延长的鳍缘和优雅尾鳍，给它带来轻盈的外观。",
+    "distribution": "坦噶尼喀湖，主要涉及布隆迪、坦桑尼亚及刚果（金）湖岸的北部种群。",
+    "behavior": "会持续维护领地，育幼期间尤甚，单品种缸更容易规划。",
+    "caution": "与近缘 brichardi 复合群混养可能杂交；也需要避免其他岩栖鱼领地重叠。",
+    "color": "#cbbdc7",
+    "shape": "angel",
+    "length": 9.0,
+    "lengthType": "TL",
+    "tank": 120.0,
+    "temperature": [
+      23.0,
+      26.0
+    ],
+    "ph": [
+      8.0,
+      9.0
+    ],
+    "hardness": [
+      9.0,
+      19.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/neolamprologus-brichardi/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/neolamprologus-brichardi.jpg",
+      "author": "David Midgley (www.sydneycichlid.com)",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neolamprologus_brichardi.jpg",
+      "caption": "Neolamprologus brichardi"
+    },
+    "tankWidth": 30.0
+  },
+  {
+    "id": "neolamprologus-leleupi",
+    "name": "黄珍珠丽鱼",
+    "scientific": "Neolamprologus leleupi",
+    "aliases": [
+      "黄珍珠",
+      "Lemon cichlid"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "坦噶尼喀湖岩区",
+    "description": "鲜明的黄橙色与修长轮廓，让它成为湖区鱼中的亮色。",
+    "distribution": "坦噶尼喀湖南部，来源认为在这一部分分布较广。",
+    "behavior": "繁殖期领地性增强，同类之间可能发生强烈攻击。",
+    "caution": "不宜与强势的马拉维湖岩栖鱼混搭；需要考虑足够的岩隙与分区。",
+    "color": "#edc468",
+    "shape": "slender",
+    "length": 10.0,
+    "lengthType": "SL",
+    "tank": 75,
+    "temperature": [
+      23.0,
+      27.0
+    ],
+    "ph": [
+      7.5,
+      9.0
+    ],
+    "hardness": [
+      8.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/neolamprologus-leleupi/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/neolamprologus-leleupi.jpg",
+      "author": "Mattia Nocciola",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neolamprologus_leleupi_Natural_History_Museum_University_of_Pisa.jpg",
+      "caption": "Neolamprologus leleupi (Poll, 1956), Natural History Museum University of Pisa"
+    },
+    "tankWidth": 30,
+    "tankHeight": 30,
+    "tankNote": "正文 75 × 30 × 30 cm 仅适用于一对；同类攻击与繁殖领地另行评估。"
+  },
+  {
+    "id": "cyphotilapia-frontosa",
+    "name": "六间鱼",
+    "scientific": "Cyphotilapia frontosa",
+    "aliases": [
+      "布隆迪六间",
+      "Frontosa"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "坦噶尼喀湖北部",
+    "description": "宽阔额部和黑白竖纹构成了六间鱼稳重的轮廓。",
+    "distribution": "坦噶尼喀湖北部，来源列出西岸 Cape Tembwe 至东岸 Bulu Point 间的范围。",
+    "behavior": "群居并形成等级，来源建议至少 5 条，条件允许时更大群体。",
+    "caution": "可能吞食明显更小的鱼。需按成鱼群体准备大型鱼缸，不能按幼鱼阶段规划。",
+    "color": "#a5b7d1",
+    "shape": "round",
+    "length": 25.5,
+    "lengthType": "SL",
+    "tank": 240.0,
+    "temperature": [
+      23.0,
+      27.0
+    ],
+    "ph": [
+      8.0,
+      9.0
+    ],
+    "hardness": [
+      10.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/cyphotilapia-frontosa/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/cyphotilapia-frontosa.jpg",
+      "author": "Mattia Nocciola",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cyphotilapia_frontosa_Natural_History_Museum_University_of_Pisa.jpg",
+      "caption": "Humphead cichlid, Cyphotilapia frontosa (Boulenger, 1906), Natural History Museum University of Pisa"
+    },
+    "tankWidth": 60.0
+  },
+  {
+    "id": "cyprichromis-leptosoma",
+    "name": "细鳞剑沙",
+    "scientific": "Cyprichromis leptosoma",
+    "aliases": [
+      "Sardine cichlid"
+    ],
+    "region": "africa",
+    "family": "Cichlidae",
+    "habitat": "坦噶尼喀湖开阔水层",
+    "description": "细长的身体适合开阔水层活动，雄鱼色彩因个体与产地而异。",
+    "distribution": "坦噶尼喀湖特有种。",
+    "behavior": "温和且群居，来源建议至少 8 条，并给出充分的游动空间。",
+    "caution": "避免过于强势的同伴；不同水层的分工也不能代替空间与行为评估。",
+    "color": "#a6bdd9",
+    "shape": "slender",
+    "length": 12.5,
+    "lengthType": "SL",
+    "tank": 120.0,
+    "temperature": [
+      24.0,
+      27.0
+    ],
+    "ph": [
+      7.8,
+      9.0
+    ],
+    "hardness": [
+      10.0,
+      25.0
+    ],
+    "sourceUrl": "https://www.seriouslyfish.com/species/cyprichromis-leptosoma/",
+    "sourceTitle": "Seriously Fish species profile",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/cyprichromis-leptosoma.jpg",
+      "author": "regani",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cyprichromis_leptosoma.jpg",
+      "caption": "Adult female Cyprichromis leptosoma in an aquarium"
+    },
+    "tankWidth": 45.0
+  },
+  {
+    "id": "amphiprion-ocellaris",
+    "name": "公子小丑鱼",
+    "scientific": "Amphiprion ocellaris",
+    "aliases": [
+      "眼斑双锯鱼",
+      "Ocellaris clownfish",
+      "尼莫"
+    ],
+    "family": "Pomacentridae",
+    "habitat": "海葵与珊瑚礁",
+    "description": "橙色身体上的三道白纹，让这条小鱼很容易被记住。",
+    "distribution": "原生于印度洋和西太平洋的暖水海域，从琉球群岛、东南亚延伸至澳大利亚西北部。",
+    "behavior": "与海葵形成共生关系，群体有等级；配对个体在繁殖期维护领地。",
+    "caution": "“温和”不等于没有领地行为；不要把多条未经配对的小丑鱼直接视为稳定群体。",
+    "color": "#f0a564",
+    "shape": "round",
+    "length": 11,
+    "lengthType": "TL",
+    "tank": null,
+    "minVolume": 75.71,
+    "sourceUrl": "https://www.liveaquaria.com/products/ocellaris-clownfish",
+    "distributionSource": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+    "lengthSource": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+    "region": "reef",
+    "water": "marine",
+    "temperature": [
+      22.2,
+      25.6
+    ],
+    "ph": [
+      8.1,
+      8.4
+    ],
+    "hardness": null,
+    "specificGravity": [
+      1.02,
+      1.025
+    ],
+    "sourceTitle": "LiveAquaria",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/amphiprion-ocellaris.jpg",
+      "author": "Ritiks",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Clown_fish_in_the_Andaman_Coral_Reef.jpg",
+      "caption": "Clown fish in the Andaman Coral Reef."
+    },
+    "tankNote": "容积由来源美制加仑换算为升（1 US gal = 3.785411784 L），不是由缸长推测；岩石和底砂会减少有效水量。",
+    "parameterNote": "温度由来源 72–78°F 换算为 °C；比重按来源原值保留，不换算为盐度。海水 dKH 与淡水 dGH 含义不同，此处不混用。"
+  },
+  {
+    "id": "paracanthurus-hepatus",
+    "name": "蓝倒吊",
+    "scientific": "Paracanthurus hepatus",
+    "aliases": [
+      "拟刺尾鲷",
+      "蓝吊",
+      "Blue tang",
+      "多莉"
+    ],
+    "family": "Acanthuridae",
+    "habitat": "外礁与礁区水道",
+    "description": "明亮蓝色、深色纹路和黄色尾鳍，属于一条需要充足游动空间的海水鱼。",
+    "distribution": "热带印度洋—西太平洋及中太平洋；澳大利亚记录包括大堡礁、珊瑚海及部分东岸水域。",
+    "behavior": "活跃的游泳者，需要开阔空间与岩石躲避处；同类间可能发生竞争。",
+    "caution": "商店里的幼鱼体型不能代表成鱼空间需求，来源建议至少六英尺缸长。",
+    "color": "#6387e9",
+    "shape": "round",
+    "length": 31,
+    "lengthType": "TL",
+    "tank": 182.88,
+    "minVolume": 681.37,
+    "sourceUrl": "https://www.liveaquaria.com/products/blue-tang-1",
+    "distributionSource": "https://fishesofaustralia.net.au/home/species/2203",
+    "lengthSource": "https://fishesofaustralia.net.au/home/species/2203",
+    "region": "reef",
+    "water": "marine",
+    "temperature": [
+      22.2,
+      25.6
+    ],
+    "ph": [
+      8.1,
+      8.4
+    ],
+    "hardness": null,
+    "specificGravity": [
+      1.02,
+      1.025
+    ],
+    "sourceTitle": "LiveAquaria",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/paracanthurus-hepatus.jpg",
+      "author": "DerHans04",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Paletten-Doktorfisch_M%C3%BCnster.JPG",
+      "caption": "Paracanthurus hepatus"
+    },
+    "tankNote": "容积由来源美制加仑换算为升（1 US gal = 3.785411784 L），不是由缸长推测；岩石和底砂会减少有效水量。",
+    "parameterNote": "温度由来源 72–78°F 换算为 °C；比重按来源原值保留，不换算为盐度。海水 dKH 与淡水 dGH 含义不同，此处不混用。"
+  },
+  {
+    "id": "pterapogon-kauderni",
+    "name": "泗水玫瑰",
+    "scientific": "Pterapogon kauderni",
+    "aliases": [
+      "邦盖天竺鲷",
+      "Banggai cardinalfish",
+      "Kaudern cardinal"
+    ],
+    "family": "Apogonidae",
+    "habitat": "浅水礁区与海草床",
+    "description": "银色身体、黑色条纹与散布的白点，组成了这条口孵鱼的鲜明外形。",
+    "distribution": "原生范围位于印度尼西亚邦盖群岛；观赏鱼贸易也使它在原生范围外出现。",
+    "behavior": "游动较缓，雄鱼口孵育幼；同类之间可能有攻击，不宜据野外群体现象直接规划大群混养。",
+    "caution": "需要遮蔽物与温和同伴。来源不建议大群饲养；选购时关注人工繁育来源。",
+    "color": "#c6c8d1",
+    "shape": "angel",
+    "length": 8.64,
+    "lengthType": "来源未注明 SL/TL",
+    "tank": null,
+    "minVolume": 113.57,
+    "sourceUrl": "https://www.liveaquaria.com/products/kauderns-cardinal-1",
+    "distributionSource": "https://www.fisheries.noaa.gov/species/banggai-cardinalfish",
+    "lengthSource": "https://www.fisheries.noaa.gov/species/banggai-cardinalfish",
+    "region": "reef",
+    "water": "marine",
+    "temperature": [
+      22.2,
+      25.6
+    ],
+    "ph": [
+      8.1,
+      8.4
+    ],
+    "hardness": null,
+    "specificGravity": [
+      1.02,
+      1.025
+    ],
+    "sourceTitle": "LiveAquaria",
+    "accessedAt": "2026-10-09",
+    "reviewStatus": "source-checked",
+    "photo": {
+      "path": "media/pterapogon-kauderni.jpg",
+      "author": "Rickard Zerpe",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Banggai_cardinalfish_(Pterapogon_kauderni)_(43875107345).jpg",
+      "caption": "Lembeh, Indonesia - Banggai cardinalfish (Pterapogon kauderni)"
+    },
+    "tankNote": "容积由来源美制加仑换算为升（1 US gal = 3.785411784 L），不是由缸长推测；岩石和底砂会减少有效水量。",
+    "parameterNote": "温度由来源 72–78°F 换算为 °C；比重按来源原值保留，不换算为盐度。海水 dKH 与淡水 dGH 含义不同，此处不混用。"
+  }
+]

@@ -1,0 +1,134 @@
+{
+  "paracheirodon-innesi": {
+    "minGroup": 8,
+    "source": "https://www.seriouslyfish.com/species/paracheirodon-innesi/",
+    "note": "来源行为或缸体章节的群体下限；增加数量仍需要足够空间。"
+  },
+  "paracheirodon-axelrodi": {
+    "minGroup": 8,
+    "source": "https://www.seriouslyfish.com/species/paracheirodon-axelrodi/",
+    "note": "来源行为或缸体章节的群体下限；增加数量仍需要足够空间。"
+  },
+  "trigonostigma-espei": {
+    "minGroup": 8,
+    "source": "https://www.seriouslyfish.com/species/trigonostigma-espei/",
+    "note": "来源行为章节建议至少 8–10 条同类群体；增加数量仍需核对空间。"
+  },
+  "trigonostigma-hengeli": {
+    "minGroup": 8,
+    "source": "https://www.seriouslyfish.com/species/trigonostigma-hengeli/",
+    "note": "来源行为章节建议至少 8–10 条同类群体；增加数量仍需核对空间。"
+  },
+  "boraras-brigittae": {
+    "minGroup": 8,
+    "source": "https://www.seriouslyfish.com/species/boraras-brigittae/",
+    "note": "来源行为章节建议 8–10 条以上同类群体；增加数量仍需核对空间。"
+  },
+  "boraras-maculatus": {
+    "minGroup": 8,
+    "source": "https://www.seriouslyfish.com/species/boraras-maculatus/",
+    "note": "来源行为章节建议至少 8–10 条同类群体；增加数量仍需核对空间。"
+  },
+  "pangio-kuhlii": {
+    "minGroup": 5,
+    "source": "https://www.seriouslyfish.com/species/pangio-kuhlii/",
+    "note": "来源行为章节建议至少 5–6 条同类群体，并提供躲避空间。"
+  },
+  "hemigrammus-bleheri": {
+    "minGroup": 10,
+    "source": "https://www.seriouslyfish.com/species/hemigrammus-bleheri/",
+    "note": "来源行为或缸体章节的群体下限；增加数量仍需要足够空间。"
+  },
+  "hyphessobrycon-eques": {
+    "minGroup": 12,
+    "source": "https://www.seriouslyfish.com/species/hyphessobrycon-eques/",
+    "note": "来源行为或缸体章节的群体下限；增加数量仍需要足够空间。",
+    "finNipper": true
+  },
+  "cyphotilapia-frontosa": {
+    "minGroup": 5,
+    "source": "https://www.seriouslyfish.com/species/cyphotilapia-frontosa/",
+    "note": "来源提示吞食小型鱼；此列表是谨慎的风险触发，不代表未列出的组合安全。",
+    "prey": [
+      "cyprichromis-leptosoma",
+      "paracheirodon-innesi",
+      "paracheirodon-simulans",
+      "boraras-brigittae",
+      "boraras-maculatus"
+    ]
+  },
+  "cyprichromis-leptosoma": {
+    "minGroup": 8,
+    "source": "https://www.seriouslyfish.com/species/cyprichromis-leptosoma/",
+    "note": "来源行为或缸体章节的群体下限；增加数量仍需要足够空间。"
+  },
+  "betta-splendens": {
+    "territorial": true,
+    "source": "https://www.seriouslyfish.com/species/betta-splendens/",
+    "note": "延长鳍形易与咬鳍同伴产生冲突；具体品系仍需核实。",
+    "solitary": true,
+    "longFins": true
+  },
+  "melanochromis-auratus": {
+    "territorial": true,
+    "source": "https://www.seriouslyfish.com/species/melanochromis-auratus/",
+    "note": "来源描述领地或同类攻击；数量、性别、配对与布局必须单独核对。"
+  },
+  "pseudotropheus-demasoni": {
+    "territorial": true,
+    "source": "https://www.seriouslyfish.com/species/pseudotropheus-demasoni/",
+    "note": "来源描述领地或同类攻击；数量、性别、配对与布局必须单独核对。"
+  },
+  "neolamprologus-leleupi": {
+    "territorial": true,
+    "source": "https://www.seriouslyfish.com/species/neolamprologus-leleupi/",
+    "note": "来源描述领地或同类攻击；数量、性别、配对与布局必须单独核对。"
+  },
+  "julidochromis-ornatus": {
+    "territorial": true,
+    "source": "https://www.seriouslyfish.com/species/julidochromis-ornatus/",
+    "note": "来源描述领地或同类攻击；数量、性别、配对与布局必须单独核对。"
+  },
+  "neolamprologus-multifasciatus": {
+    "territorial": true,
+    "source": "https://www.seriouslyfish.com/species/neolamprologus-multifasciatus/",
+    "note": "来源描述领地或同类攻击；数量、性别、配对与布局必须单独核对。"
+  },
+  "neolamprologus-brichardi": {
+    "territorial": true,
+    "source": "https://www.seriouslyfish.com/species/neolamprologus-brichardi/",
+    "note": "延长鳍形易与咬鳍同伴产生冲突；具体品系仍需核实。",
+    "longFins": true
+  },
+  "pterophyllum-scalare": {
+    "longFins": true,
+    "source": "https://www.seriouslyfish.com/species/pterophyllum-scalare/",
+    "note": "来源提示吞食小型鱼；此列表是谨慎的风险触发，不代表未列出的组合安全。",
+    "prey": [
+      "paracheirodon-innesi",
+      "paracheirodon-simulans",
+      "boraras-brigittae",
+      "boraras-maculatus"
+    ]
+  },
+  "trichopodus-leerii": {
+    "longFins": true,
+    "source": "https://www.seriouslyfish.com/species/trichopodus-leerii/",
+    "note": "延长鳍形易与咬鳍同伴产生冲突；具体品系仍需核实。"
+  },
+  "amphiprion-ocellaris": {
+    "territorial": true,
+    "source": "https://www.liveaquaria.com/products/ocellaris-clownfish",
+    "note": "“温和”不等于没有领地行为；不要把多条未经配对的小丑鱼直接视为稳定群体。"
+  },
+  "paracanthurus-hepatus": {
+    "territorial": true,
+    "source": "https://www.liveaquaria.com/products/blue-tang-1",
+    "note": "商店里的幼鱼体型不能代表成鱼空间需求，来源建议至少六英尺缸长。"
+  },
+  "pterapogon-kauderni": {
+    "territorial": true,
+    "source": "https://www.liveaquaria.com/products/kauderns-cardinal-1",
+    "note": "需要遮蔽物与温和同伴。来源不建议大群饲养；选购时关注人工繁育来源。"
+  }
+}

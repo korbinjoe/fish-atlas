@@ -1,0 +1,110 @@
+{
+  "hemigrammus-bleheri": {
+    "tank": 90,
+    "tankNote": "正文要求至少 10 条群体，缸长至少 90 cm；不能按单鱼缩小缸长。"
+  },
+  "symphysodon-aequifasciatus": {
+    "tank": 120,
+    "tankWidth": 45,
+    "tankHeight": 45,
+    "tankNote": "正文 120 × 45 × 45 cm 适用于少量幼鱼或一对繁殖成鱼，不能套用于成年群体。"
+  },
+  "julidochromis-ornatus": {
+    "tank": 75,
+    "tankWidth": 30,
+    "tankHeight": 30,
+    "tankNote": "正文 75 × 30 × 30 cm 仅为一对的参考；繁殖段另建议至少 36 英寸缸长。需要洞穴与领地分隔。"
+  },
+  "neolamprologus-multifasciatus": {
+    "tank": 45,
+    "tankWidth": 30,
+    "tankHeight": 30,
+    "tankNote": "正文 45 × 30 × 30 cm 仅适用于一对；群落需更大的底部空间和多于鱼数量的贝壳。"
+  },
+  "neolamprologus-leleupi": {
+    "tank": 75,
+    "tankWidth": 30,
+    "tankHeight": 30,
+    "tankNote": "正文 75 × 30 × 30 cm 仅适用于一对；同类攻击与繁殖领地另行评估。"
+  },
+  "pterophyllum-scalare": {
+    "tankHeight": 50,
+    "tankNote": "来源最低尺寸 100 × 40 × 50 cm，成鱼尤其需要高度。",
+    "tankWidth": 40.0
+  },
+  "betta-splendens": {
+    "parameterNote": "pH 6–8 对应人工观赏品系；来源称野生个体可能偏好 pH 5–7。品系未确认时不能直接套用。",
+    "tankNote": "45 × 30 cm 是来源参考底面积；行为章节通常建议单养，尺寸段提到一对不代表可长期混养。",
+    "tankWidth": 30.0
+  },
+  "hyphessobrycon-eques": {
+    "tankNote": "80 × 30 cm 对应 12–15 条且不加其他上层鱼；混养需要更大鱼缸。",
+    "tankWidth": 30.0
+  },
+  "paracheirodon-innesi": {
+    "tankWidth": 30.0
+  },
+  "paracheirodon-axelrodi": {
+    "tankWidth": 30.0
+  },
+  "paracheirodon-simulans": {
+    "tankWidth": 30.0
+  },
+  "nannostomus-beckfordi": {
+    "tankWidth": 30.0
+  },
+  "carnegiella-strigata": {
+    "tankWidth": 30.0
+  },
+  "apistogramma-cacatuoides": {
+    "tankWidth": 30.0
+  },
+  "trichopodus-leerii": {
+    "tankWidth": 30.0
+  },
+  "trichopsis-pumila": {
+    "tankWidth": 30.0
+  },
+  "trigonostigma-heteromorpha": {
+    "tankWidth": 30.0
+  },
+  "trigonostigma-espei": {
+    "tankWidth": 30.0
+  },
+  "trigonostigma-hengeli": {
+    "tankWidth": 30.0
+  },
+  "boraras-brigittae": {
+    "tankWidth": 30.0
+  },
+  "boraras-maculatus": {
+    "tankWidth": 30.0
+  },
+  "pangio-kuhlii": {
+    "tankWidth": 30.0
+  },
+  "chromobotia-macracanthus": {
+    "tankWidth": 60.0
+  },
+  "labidochromis-caeruleus": {
+    "tankWidth": 45.0
+  },
+  "pseudotropheus-demasoni": {
+    "tankWidth": 45.0
+  },
+  "melanochromis-auratus": {
+    "tankWidth": 45.0
+  },
+  "pseudotropheus-socolofi": {
+    "tankWidth": 45.0
+  },
+  "neolamprologus-brichardi": {
+    "tankWidth": 30.0
+  },
+  "cyphotilapia-frontosa": {
+    "tankWidth": 60.0
+  },
+  "cyprichromis-leptosoma": {
+    "tankWidth": 45.0
+  }
+}

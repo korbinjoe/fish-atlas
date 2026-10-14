@@ -1,0 +1,2013 @@
+{
+  "date": "2026-10-14",
+  "sourceSnapshot": "FishBase 26.06 / GBIF / Wikimedia Commons",
+  "before": {
+    "atlasTotal": 183,
+    "catalogTotal": 3597,
+    "waterbodyTotal": 133,
+    "occupiedBasins": 43,
+    "relationships": 628,
+    "locationCounts": {
+      "3203": 21,
+      "3234": 9,
+      "3219": 2,
+      "3247": 3,
+      "3238": 10,
+      "2421": 8,
+      "5415": 2,
+      "2403": 4,
+      "river-nee-soon": 2,
+      "5419": 2,
+      "5414": 3,
+      "river-barito": 2,
+      "river-klawing": 1,
+      "lake-malawi": 4,
+      "lake-tanganyika": 6,
+      "sea-260": 5,
+      "sea-245": 36,
+      "sea-126": 33,
+      "sea-110": 14,
+      "sea-109": 8,
+      "sea-11": 38,
+      "sea-9": 54,
+      "sea-7": 40,
+      "sea-267": 15,
+      "sea-243": 38,
+      "sea-128": 36,
+      "sea-banggai": 1,
+      "sea-105": 10,
+      "sea-165": 1,
+      "sea-130": 3,
+      "sea-269": 1,
+      "sea-268": 1,
+      "sea-114": 2,
+      "sea-8": 10,
+      "sea-263": 11,
+      "sea-164": 3,
+      "sea-129": 3,
+      "sea-258": 1,
+      "sea-257": 1,
+      "sea-166": 7,
+      "sea-127": 14,
+      "sea-108": 2,
+      "5422": 1,
+      "5418": 1,
+      "river-trang": 1,
+      "river-sai-buri": 1,
+      "river-padang-terap": 1,
+      "river-besut": 1,
+      "river-terengganu": 1,
+      "river-sedili-besar": 1,
+      "river-johor": 1,
+      "river-musi": 1,
+      "river-sungkai": 1,
+      "river-pegadungan": 1,
+      "river-sekampung": 1,
+      "5417": 2,
+      "sea-107": 4,
+      "sea-106": 10,
+      "sea-5": 16,
+      "4405": 1,
+      "4240": 2,
+      "4226": 1,
+      "4429": 1,
+      "river-siquia": 1,
+      "lake-nicaragua": 2,
+      "lake-managua": 1,
+      "sea-525": 9,
+      "3248": 4,
+      "sea-1104": 2,
+      "sea-549": 2,
+      "sea-548": 2,
+      "sea-148": 2,
+      "sea-13": 3,
+      "river-yombo-congo": 1,
+      "river-bondo-congo": 1,
+      "river-mbosso-congo": 1,
+      "river-mouela-congo": 1,
+      "river-polo-ogoue": 1,
+      "1233": 1,
+      "lake-san-julian-veracruz": 1,
+      "4225": 3,
+      "river-coatzacoalcos": 2,
+      "river-la-antigua": 2,
+      "river-grijalva": 2,
+      "4249": 2,
+      "river-kelani": 2,
+      "2309": 2,
+      "2302": 2,
+      "2306": 5,
+      "2312": 2,
+      "2433": 2,
+      "lake-biwa": 1,
+      "2437": 3,
+      "sea-533": 1,
+      "sea-139": 1,
+      "sea-138": 1,
+      "sea-264": 1,
+      "6243": 1,
+      "6241": 1,
+      "lake-inle": 1,
+      "2319": 3,
+      "2303": 1,
+      "2310": 2,
+      "sea-145": 2,
+      "sea-144": 2,
+      "river-kananmae-chaung": 1,
+      "river-kamyit-chaung": 1,
+      "river-baw-di-chaung": 1,
+      "4406": 1,
+      "lake-sentani": 1,
+      "3245": 1,
+      "river-caroni-trinidad": 2,
+      "river-sha-lo-tung": 1,
+      "2426": 1,
+      "3242": 1,
+      "lake-ajamaru": 1,
+      "5423": 1,
+      "lake-valencia": 1,
+      "1209": 1,
+      "4205": 1,
+      "river-balsas": 1,
+      "lake-campoma": 1,
+      "river-kwagira": 1,
+      "river-musa": 1,
+      "5434": 1,
+      "5407": 1,
+      "2420": 1,
+      "river-nautla": 1,
+      "river-actopan": 1,
+      "river-jamapa": 1,
+      "river-sontecomapan": 1,
+      "river-tonala": 1,
+      "4224": 1
+    }
+  },
+  "batches": {
+    "china": {
+      "fishIds": [
+        "wm-culter-alburnus",
+        "wm-hypophthalmichthys-nobilis",
+        "wm-megalobrama-terminalis",
+        "wm-mylopharyngodon-piceus",
+        "wm-ctenopharyngodon-idella",
+        "wm-rhodeus-ocellatus",
+        "wm-hemiculter-leucisculus",
+        "wm-hypophthalmichthys-molitrix",
+        "wm-megalobrama-amblycephala",
+        "wm-acheilognathus-macropterus",
+        "wm-siniperca-chuatsi",
+        "wm-silurus-asotus",
+        "wm-acipenser-sinensis",
+        "wm-channa-argus",
+        "wm-pseudorasbora-parva",
+        "wm-hucho-taimen",
+        "wm-spinibarbus-sinensis",
+        "wm-gymnocypris-przewalskii",
+        "wm-abbottina-rivularis",
+        "wm-hemibarbus-labeo",
+        "wm-sarcocheilichthys-sinensis",
+        "wm-perccottus-glenii",
+        "wm-anguilla-japonica",
+        "wm-hemibarbus-maculatus"
+      ],
+      "review": {
+        "region": "China / East Asia native freshwaters and diadromous coast",
+        "visualReviewed": true,
+        "reviewedAt": "2026-10-14",
+        "targetCount": 51,
+        "publishedPhotoCandidates": 24,
+        "locationLinks": 76,
+        "waterbodyCount": 16,
+        "reviewMethod": "Actual visual inspection of both contact sheets and individually opened Public domain additions; decoded image dimensions/bytes checked. Exact GBIF accepted species and Wikidata P225 matching retained. Source records and native-range contradictions reviewed before choosing specific waterbodies. No national center or introduced-population pin.",
+        "photoDecisions": {
+          "museumOrPreservedPhoto": [
+            "Culter alburnus",
+            "Megalobrama terminalis",
+            "Siniperca chuatsi",
+            "Sarcocheilichthys sinensis"
+          ],
+          "wrongSpeciesPhotoExcluded": {
+            "Opsariichthys bidens": "Commons candidate File:Opsariichthys evolans.jpg identifies another species."
+          },
+          "drawingsExcluded": [
+            "Rhinogobio typus",
+            "Acipenser dabryanus",
+            "Coreius heterodon"
+          ]
+        },
+        "publicDomainLicenseReview": [
+          {
+            "scientific": "Mylopharyngodon piceus",
+            "fileTitle": "File:Schwarzer Amur (Mylopharyngodon piceus), juvenile.jpg",
+            "proofUrl": "https://commons.wikimedia.org/wiki/File:Schwarzer_Amur_(Mylopharyngodon_piceus),_juvenile.jpg#Licensing",
+            "policyUrl": "https://www.fws.gov/disclaimer",
+            "reviewedAt": "2026-10-14",
+            "decision": "Public domain photo: exact Commons file Licensing section identifies an official USFWS work; source and author explicit. No CC0 relabeling."
+          },
+          {
+            "scientific": "Hypophthalmichthys molitrix",
+            "fileTitle": "File:Silver Carp Adult (Hypophthalmichthys molitrix).jpg",
+            "proofUrl": "https://commons.wikimedia.org/wiki/File:Silver_Carp_Adult_(Hypophthalmichthys_molitrix).jpg#Licensing",
+            "policyUrl": "https://www.fws.gov/disclaimer",
+            "reviewedAt": "2026-10-14",
+            "decision": "Public domain photo: exact Commons file Licensing section identifies an official USFWS work; source and author explicit. No CC0 relabeling."
+          },
+          {
+            "scientific": "Hypophthalmichthys molitrix",
+            "fileTitle": "File:Silver Carp Adult (Hypophthalmichthys molitrix).jpg",
+            "proofUrl": "https://commons.wikimedia.org/wiki/File:Silver_Carp_Adult_(Hypophthalmichthys_molitrix).jpg#Licensing",
+            "policyUrl": "https://www.fws.gov/disclaimer",
+            "reviewedAt": "2026-10-14",
+            "decision": "Public domain photo: exact Commons file Licensing section identifies an official USFWS work; source and author explicit. No CC0 relabeling."
+          }
+        ],
+        "imageDimensions": {
+          "Culter alburnus": {
+            "pixels": [
+              1280,
+              853
+            ],
+            "format": "JPEG",
+            "bytes": 214810
+          },
+          "Hypophthalmichthys nobilis": {
+            "pixels": [
+              1280,
+              853
+            ],
+            "format": "JPEG",
+            "bytes": 306186
+          },
+          "Megalobrama terminalis": {
+            "pixels": [
+              1280,
+              853
+            ],
+            "format": "JPEG",
+            "bytes": 118970
+          },
+          "Mylopharyngodon piceus": {
+            "pixels": [
+              1280,
+              731
+            ],
+            "format": "JPEG",
+            "bytes": 104399
+          },
+          "Ctenopharyngodon idella": {
+            "pixels": [
+              1280,
+              960
+            ],
+            "format": "JPEG",
+            "bytes": 214994
+          },
+          "Rhodeus ocellatus": {
+            "pixels": [
+              1280,
+              960
+            ],
+            "format": "JPEG",
+            "bytes": 240078
+          },
+          "Hemiculter leucisculus": {
+            "pixels": [
+              1280,
+              853
+            ],
+            "format": "JPEG",
+            "bytes": 283509
+          },
+          "Hypophthalmichthys molitrix": {
+            "pixels": [
+              1280,
+              456
+            ],
+            "format": "JPEG",
+            "bytes": 98921
+          },
+          "Megalobrama amblycephala": {
+            "pixels": [
+              1280,
+              711
+            ],
+            "format": "JPEG",
+            "bytes": 282745
+          },
+          "Acheilognathus macropterus": {
+            "pixels": [
+              800,
+              487
+            ],
+            "format": "JPEG",
+            "bytes": 52387
+          },
+          "Siniperca chuatsi": {
+            "pixels": [
+              1280,
+              720
+            ],
+            "format": "JPEG",
+            "bytes": 141614
+          },
+          "Silurus asotus": {
+            "pixels": [
+              1280,
+              960
+            ],
+            "format": "JPEG",
+            "bytes": 640903
+          },
+          "Acipenser sinensis": {
+            "pixels": [
+              1280,
+              391
+            ],
+            "format": "JPEG",
+            "bytes": 41317
+          },
+          "Channa argus": {
+            "pixels": [
+              1280,
+              799
+            ],
+            "format": "JPEG",
+            "bytes": 221164
+          },
+          "Pseudorasbora parva": {
+            "pixels": [
+              1280,
+              871
+            ],
+            "format": "JPEG",
+            "bytes": 215692
+          },
+          "Hucho taimen": {
+            "pixels": [
+              1280,
+              384
+            ],
+            "format": "JPEG",
+            "bytes": 160176
+          },
+          "Spinibarbus sinensis": {
+            "pixels": [
+              640,
+              376
+            ],
+            "format": "JPEG",
+            "bytes": 35870
+          },
+          "Gymnocypris przewalskii": {
+            "pixels": [
+              1280,
+              853
+            ],
+            "format": "JPEG",
+            "bytes": 240969
+          },
+          "Abbottina rivularis": {
+            "pixels": [
+              1280,
+              714
+            ],
+            "format": "JPEG",
+            "bytes": 250142
+          },
+          "Hemibarbus labeo": {
+            "pixels": [
+              1280,
+              960
+            ],
+            "format": "JPEG",
+            "bytes": 234449
+          },
+          "Sarcocheilichthys sinensis": {
+            "pixels": [
+              1280,
+              853
+            ],
+            "format": "JPEG",
+            "bytes": 268856
+          },
+          "Perccottus glenii": {
+            "pixels": [
+              1280,
+              960
+            ],
+            "format": "JPEG",
+            "bytes": 386753
+          },
+          "Anguilla japonica": {
+            "pixels": [
+              800,
+              532
+            ],
+            "format": "JPEG",
+            "bytes": 184558
+          },
+          "Hemibarbus maculatus": {
+            "pixels": [
+              1280,
+              960
+            ],
+            "format": "JPEG",
+            "bytes": 300831
+          }
+        },
+        "englishNames": {
+          "Culter alburnus": {
+            "name": "Topmouth Culter",
+            "sourceUrl": "https://www.fishbase.se/summary/46708",
+            "snapshot": "26.06"
+          },
+          "Hypophthalmichthys nobilis": {
+            "name": "Bighead carp",
+            "sourceUrl": "https://www.fishbase.se/summary/275",
+            "snapshot": "26.06"
+          },
+          "Megalobrama terminalis": {
+            "name": "Black Amur bream",
+            "sourceUrl": "https://www.fishbase.se/summary/4789",
+            "snapshot": "26.06"
+          },
+          "Mylopharyngodon piceus": {
+            "name": "Black carp",
+            "sourceUrl": "https://www.fishbase.se/summary/4602",
+            "snapshot": "26.06"
+          },
+          "Ctenopharyngodon idella": {
+            "name": "Grass carp",
+            "sourceUrl": "https://www.fishbase.se/summary/79",
+            "snapshot": "26.06"
+          },
+          "Rhodeus ocellatus": {
+            "name": "Rosy bitterling",
+            "sourceUrl": "https://www.fishbase.se/summary/4784",
+            "snapshot": "26.06"
+          },
+          "Hemiculter leucisculus": {
+            "name": "Sharpbelly",
+            "sourceUrl": "https://www.fishbase.se/summary/4755",
+            "snapshot": "26.06"
+          },
+          "Hypophthalmichthys molitrix": {
+            "name": "Silver carp",
+            "sourceUrl": "https://www.fishbase.se/summary/274",
+            "snapshot": "26.06"
+          },
+          "Megalobrama amblycephala": {
+            "name": "Wuchang bream",
+            "sourceUrl": "https://www.fishbase.se/summary/285",
+            "snapshot": "26.06"
+          },
+          "Acheilognathus macropterus": {
+            "name": "Giant Chinese Bitterling",
+            "sourceUrl": "https://www.fishbase.se/summary/54380",
+            "snapshot": "26.06"
+          },
+          "Siniperca chuatsi": {
+            "name": "Mandarin fish",
+            "sourceUrl": "https://www.fishbase.se/summary/28054",
+            "snapshot": "26.06"
+          },
+          "Silurus asotus": {
+            "name": "Amur catfish",
+            "sourceUrl": "https://www.fishbase.se/summary/6566",
+            "snapshot": "26.06"
+          },
+          "Acipenser sinensis": {
+            "name": "Chinese sturgeon",
+            "sourceUrl": "https://www.fishbase.se/summary/8762",
+            "snapshot": "26.06"
+          },
+          "Channa argus": {
+            "name": "Snakehead",
+            "sourceUrl": "https://www.fishbase.se/summary/4799",
+            "snapshot": "26.06"
+          },
+          "Pseudorasbora parva": {
+            "name": "Stone moroko",
+            "sourceUrl": "https://www.fishbase.se/summary/4691",
+            "snapshot": "26.06"
+          },
+          "Hucho taimen": {
+            "name": "Taimen",
+            "sourceUrl": "https://www.fishbase.se/summary/8681",
+            "snapshot": "26.06"
+          },
+          "Spinibarbus sinensis": {
+            "name": "",
+            "sourceUrl": "https://www.fishbase.se/summary/62460",
+            "snapshot": "26.06"
+          },
+          "Gymnocypris przewalskii": {
+            "name": "Przewalskii's naked carp",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Schizopygopsis_przewalskii",
+            "sourceField": "English Wikipedia introductory extract, common name explicitly stated"
+          },
+          "Abbottina rivularis": {
+            "name": "Chinese false gudgeon",
+            "sourceUrl": "https://www.fishbase.se/summary/22903",
+            "snapshot": "26.06"
+          },
+          "Hemibarbus labeo": {
+            "name": "Barbel steed",
+            "sourceUrl": "https://www.fishbase.se/summary/17301",
+            "snapshot": "26.06"
+          },
+          "Sarcocheilichthys sinensis": {
+            "name": "Chinese lake gudgeon",
+            "sourceUrl": "https://www.fishbase.se/summary/47349",
+            "snapshot": "26.06"
+          },
+          "Perccottus glenii": {
+            "name": "Chinese sleeper",
+            "sourceUrl": "https://www.fishbase.se/summary/4696",
+            "snapshot": "26.06"
+          },
+          "Anguilla japonica": {
+            "name": "Japanese eel",
+            "sourceUrl": "https://www.fishbase.se/summary/295",
+            "snapshot": "26.06"
+          },
+          "Hemibarbus maculatus": {
+            "name": "Spotted steed",
+            "sourceUrl": "https://www.fishbase.se/summary/4752",
+            "snapshot": "26.06"
+          }
+        },
+        "excluded": {
+          "Cyprinus carpio": "Asian C. carpio haematopterus / C. rubrofuscus taxonomic split; Chinese assignments not published without reconciliation.",
+          "Misgurnus anguillicaudatus": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Parabramis pekinensis": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Acrossocheilus fasciatus": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Opsariichthys bidens": "Photo filename identifies O. evolans; no exact species photo selected",
+          "Rhinogobio typus": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Psephurus gladius": "Extinct species with stale FishBase Present records; withheld pending explicit historic/native-range presentation.",
+          "Acipenser dabryanus": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Sinocyclocheilus grahami": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Brachymystax lenok": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Coreius guichenoti": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Coreius heterodon": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Onychostoma simum": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Schizothorax oconnori": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Schizothorax prenanti": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Monopterus albus": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Gymnocypris eckloni": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Saurogobio dabryi": "No CC BY / BY-SA / CC0 photo at eligible resolution",
+          "Carassius gibelio": "Origin and C. auratus identification disputes; no definite native-range assertions published in this batch.",
+          "Culter erythropterus": "GBIF exact accepted species mismatch",
+          "Paramisgurnus dabryanus": "No exact FishBase 26.06 species match",
+          "Acheilognathus chankaensis": "GBIF exact accepted species mismatch",
+          "Gobiocypris rarus": "No exact FishBase 26.06 species match",
+          "Opsariichthys platypus": "GBIF exact accepted species mismatch",
+          "Tachysurus fulvidraco": "No verified exact-species photo and/or source-compatible native waterbody available in this batch.",
+          "Lefua costata": "No verified exact-species photo and/or source-compatible native waterbody available in this batch.",
+          "Myxocyprinus asiaticus": "No verified exact-species photo and/or source-compatible native waterbody available in this batch."
+        },
+        "sourceFiles": [
+          "regional-china-source-taxa.json",
+          "regional-china-candidates.json",
+          "regional-china-prepared-distributions.json"
+        ],
+        "limitations": [
+          "This is a regional representative expansion, not a complete Chinese fish list.",
+          "Wikipedia prose sections absent from source extracts remain empty rather than fabricated; FishBase native distribution is provided separately.",
+          "Cyprinus carpio Asian populations conflict with C. rubrofuscus taxonomic separation; no Chinese pins asserted under this name.",
+          "Monopterus albus has unresolved regional species-complex taxonomy and photograph identity constraints; not added in this batch.",
+          "Dianchi species lacks a verified eligible photo and is not published with an inferred Yangtze anchor.",
+          "Present/introduced status contradictions in raw FishBase ecosystem records are excluded."
+        ],
+        "aliasMethod": "Simplified Chinese names from the regional priority checklist, conventional simplified/traditional orthographies and established vernacular forms; aliases are search-only and do not merge scientific taxa or add husbandry assumptions."
+      },
+      "photoReview": [
+        {
+          "id": "wm-culter-alburnus",
+          "file": "https://commons.wikimedia.org/wiki/File:Culter_alburnus.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-hypophthalmichthys-nobilis",
+          "file": "https://commons.wikimedia.org/wiki/File:Bighead_carp_(March_2012).jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "id": "wm-megalobrama-terminalis",
+          "file": "https://commons.wikimedia.org/wiki/File:Megalobrama_terminalis.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-mylopharyngodon-piceus",
+          "file": "https://commons.wikimedia.org/wiki/File:Schwarzer_Amur_(Mylopharyngodon_piceus),_juvenile.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-ctenopharyngodon-idella",
+          "file": "https://commons.wikimedia.org/wiki/File:2x_amur_b%C3%ADl%C3%BD.jpg",
+          "license": "CC BY 3.0"
+        },
+        {
+          "id": "wm-rhodeus-ocellatus",
+          "file": "https://commons.wikimedia.org/wiki/File:Rhodeus_ocellatus_ocellatus-m.JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-hemiculter-leucisculus",
+          "file": "https://commons.wikimedia.org/wiki/File:Hemiculter_leucisculus_-_Yung-Lun_Lin_-_586216605.jpeg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "id": "wm-hypophthalmichthys-molitrix",
+          "file": "https://commons.wikimedia.org/wiki/File:Silver_Carp_Adult_(Hypophthalmichthys_molitrix).jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-megalobrama-amblycephala",
+          "file": "https://commons.wikimedia.org/wiki/File:Megalobrama_amblycephala_Kasumigaura2.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-acheilognathus-macropterus",
+          "file": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%82%AA%E3%82%BF%E3%83%8A%E3%82%B4%E6%96%B0%E5%88%A9%E6%A0%B9%E5%B7%9D.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-siniperca-chuatsi",
+          "file": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%83%D1%85%D0%B0_(%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BE%D0%BA%D1%83%D0%BD%D1%8C)_%D1%87%D1%83%D1%87%D0%B5%D0%BB%D0%BE.JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-silurus-asotus",
+          "file": "https://commons.wikimedia.org/wiki/File:Silurus.jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "id": "wm-acipenser-sinensis",
+          "file": "https://commons.wikimedia.org/wiki/File:Acipenser_sinensis.JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-channa-argus",
+          "file": "https://commons.wikimedia.org/wiki/File:Snakehead_-_Channa_argus.jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "id": "wm-pseudorasbora-parva",
+          "file": "https://commons.wikimedia.org/wiki/File:Pseudorasbora_parva.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-hucho-taimen",
+          "file": "https://commons.wikimedia.org/wiki/File:Hucho_taimen_June_2007_Uur_River.jpg",
+          "license": "CC BY 2.5"
+        },
+        {
+          "id": "wm-spinibarbus-sinensis",
+          "file": "https://commons.wikimedia.org/wiki/File:Spinibarbis_sinensis.jpg",
+          "license": "CC BY 3.0"
+        },
+        {
+          "id": "wm-gymnocypris-przewalskii",
+          "file": "https://commons.wikimedia.org/wiki/File:Gymnocypris_przewalskii_2013.JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-abbottina-rivularis",
+          "file": "https://commons.wikimedia.org/wiki/File:Abbottina_rivularis.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-hemibarbus-labeo",
+          "file": "https://commons.wikimedia.org/wiki/File:Hemibarbus_labeo.JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-sarcocheilichthys-sinensis",
+          "file": "https://commons.wikimedia.org/wiki/File:Sarcocheilichthys_sinensis.JPG",
+          "license": "CC0"
+        },
+        {
+          "id": "wm-perccottus-glenii",
+          "file": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D1%82%D0%B0%D0%BD_%D0%B2_%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B5_%D1%84%D0%BE%D1%82%D0%BE2.JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-anguilla-japonica",
+          "file": "https://commons.wikimedia.org/wiki/File:Anguilla_japonica.jpg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "id": "wm-hemibarbus-maculatus",
+          "file": "https://commons.wikimedia.org/wiki/File:Hemibarbus_maculatus_Shanghai_Aquarium.jpg",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "europe": {
+      "fishIds": [
+        "wm-esox-lucius",
+        "wm-perca-fluviatilis",
+        "wm-rutilus-rutilus",
+        "wm-tinca-tinca",
+        "wm-gobio-gobio",
+        "wm-phoxinus-phoxinus",
+        "wm-squalius-cephalus",
+        "wm-carassius-carassius",
+        "wm-anguilla-anguilla",
+        "wm-gasterosteus-aculeatus",
+        "wm-silurus-glanis",
+        "wm-salvelinus-alpinus",
+        "wm-gadus-morhua",
+        "wm-alburnus-alburnus",
+        "wm-chondrostoma-nasus",
+        "wm-rhodeus-amarus",
+        "wm-umbra-krameri",
+        "wm-dicentrarchus-labrax",
+        "wm-hucho-hucho",
+        "wm-gymnocephalus-cernua",
+        "wm-barbatula-barbatula",
+        "wm-clupea-harengus",
+        "wm-scomber-scombrus",
+        "wm-solea-solea",
+        "wm-pleuronectes-platessa",
+        "wm-sparus-aurata",
+        "wm-coris-julis",
+        "wm-scophthalmus-maximus",
+        "wm-thymallus-thymallus",
+        "wm-barbus-barbus",
+        "wm-cottus-gobio",
+        "wm-chromis-chromis",
+        "wm-abramis-brama",
+        "wm-salmo-trutta",
+        "wm-salmo-salar",
+        "wm-leuciscus-leuciscus",
+        "wm-scardinius-erythrophthalmus",
+        "wm-sander-lucioperca",
+        "wm-misgurnus-fossilis",
+        "wm-pungitius-pungitius",
+        "wm-acipenser-ruthenus",
+        "wm-lota-lota",
+        "wm-cyprinus-carpio"
+      ],
+      "review": {
+        "visualReviewed": true,
+        "reviewedAt": "2026-10-14",
+        "scope": "European native fish, exact GBIF accepted species and exact Wikidata species-name claim, licensed real photographs and reviewed native named-waterbody relationships",
+        "visualNotes": [
+          "28 source-matched fish photographs inspected in two contact sheets; fish anatomy and coloration are visible. Dead/caught specimen photographs are retained where no better licensed underwater picture is available.",
+          "Gobio gobio photo is 800×407 and Phoxinus phoxinus 602×434; source originals are smaller than 1024px but exceed publication threshold. The other 26 accepted images are 1024–1280px wide.",
+          "Sixteen newly downloaded candidates inspected in the third contact sheet: fifteen real photographs accepted; Zingel zingel hand-painted illustration rejected. Public-domain author/government release manually checked on exact Commons description pages before download. Salmo salar is a real underwater photograph, not the Knepp illustration. Lota lota attribution independently recovered from the visible Commons file description."
+        ],
+        "nativeRangeReview": [
+          {
+            "scientific": "Esox lucius",
+            "specCode": 258,
+            "family": null,
+            "fbName": "Northern pike",
+            "nativeLinks": 17,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/258",
+            "behaviorSourceText": "Adults occur in clear vegetated lakes, quiet pools and backwaters of creeks and small to large rivers (Ref. 5723, 86798).  Usually solitary and highly territorial.  They enter brackish water in the Baltic.  Adults feed mainly on fishes, but at times feed heavily on frogs and crayfish (Ref. 27547).  Cannibalism is common.  In arctic lakes, it is sometimes the only species present in a given water body.  In such cases, juveniles feed on invertebrates and terrestrial vertebrates; large individuals are mainly cannibals (Ref. 59043). Cannibalistic as juveniles (Ref. 30578).  Feces of pike are avoided by other fish because they contain alarm pheromones.  Individuals deposit feces at specific locations, distant from its foraging area (Ref. 59043).  Eggs and young are preyed upon by fishes, aquatic insect larvae, birds, and aquatic mammals (Ref. 1998).  They do not generally undertake long migrations, but a few may move considerable distances (Ref. 27547).  Oviparous (Ref. 205). This fish can be heavily infested with parasites, including the broad tapeworm which, if not killed by thorough cooking, can infect human; is used as an intermediate host by a cestode parasite which results to large losses in usable catches of lake whitefish (Coregonus clupeaformis) in some areas; also suffers from a trematode which causes unsightly cysts on the skin (Ref. 9988).  Excellent food fish; utilized fresh and frozen; eaten pan-fried, broiled, and baked (Ref. 9988).  Valuable game fish (Ref. 5723).  In spite of numerous attempts to culture this species, it was never entirely domesticated and does not accept artificial food (Ref. 30578).  Locally impacted by habitat alterations (Ref. 59043)."
+          },
+          {
+            "scientific": "Perca fluviatilis",
+            "specCode": 358,
+            "family": null,
+            "fbName": "European perch",
+            "nativeLinks": 17,
+            "excluded": [
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/358",
+            "behaviorSourceText": "Inhabits a very wide range of habitats from estuarine lagoons, lakes of all types to medium-sized streams.  Feeding larvae occur in open water.  This is an opportunistic diurnal feeder which preys mainly during sunrise and sunset, using all available prey. Larvae and small juveniles usually feed on planktonic invertebrates.  During first summer, many juveniles move near shores to feed on benthic prey.  Often feeds on fishes at about 12 cm SL.  May undertake short spawning migrations.  Males attain first sexual maturity at 1-2 years and females at 2-4 years of age.  Spawns in February-July (Ref. 59043).  Eggs grouped in long white ribbons (up to 1 m) are found over submerged objects (Ref. 41678).  Its flesh is excellent and not so bony.  Utilized fresh and frozen; eaten pan-fried and baked (Ref. 9988).  May be captured with natural or artificial bait (Ref. 30578)."
+          },
+          {
+            "scientific": "Rutilus rutilus",
+            "specCode": 272,
+            "family": null,
+            "fbName": "Roach",
+            "nativeLinks": 19,
+            "excluded": [
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/272",
+            "behaviorSourceText": "Found in a wide variety of habitats, mainly in lowland areas.  Most abundant in nutrient-rich lakes and large to medium sized rivers and backwaters.  Also recorded from small lowland streams and from brackish coastal lagoons.  In fast-flowing rivers, confined to stretches where backwaters or shelters allow for overwintering.  Larvae and juveniles live in wide variety of littoral habitats. Preys predominantly on benthic invertebrates, zooplankton, plant material and detritus.  May shift from littoral to pelagic habitats and between benthic food and zooplankton when abundance of a specific food item is high or for avoidance of predation and/or competition.  Breeds among dense submerged vegetation in backwaters or lakes, flooded meadows or in shallow, fast-flowing river habitats on plant or gravel bottom.  Undertakes short spawning migrations.  Stays in backwaters or in deep parts of lakes to overwinter.  Produces fertile hybrids with Abramis brama (Ref. 59043).  Pale yellow eggs are found attached to vegetation and tree roots (Ref. 41678).  There is only little commercial fishing for this species, but valued for recreational fishing.  Utilized fresh and dried or salted; can be pan-fried, broiled and baked (Ref. 9988)."
+          },
+          {
+            "scientific": "Abramis brama",
+            "specCode": 268,
+            "family": null,
+            "fbName": "Freshwater bream",
+            "nativeLinks": 17,
+            "excluded": [
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/268",
+            "behaviorSourceText": "Adults inhabit a wide variety of lakes and large to medium sized rivers.  Most abundant in backwaters, lower parts of slow-flowing rivers, brackish estuaries and warm and shallow lakes (Ref. 59043).  Adults occur usually in still and slow-running waters where they travel in large shoals (Ref. 9696).  Larvae and juveniles live in still water bodies, feeding on plankton. One to two years old juveniles move from backwaters to river to feed. In the absence of opportunity to leave backwaters, juveniles may adapt but have a slower growth and attain maturity at a smaller size.  They also drift to brackishwater estuaries to forage when water level of flooded areas drops in lower reaches of large rivers. Foraging juveniles in brackish waters stay in lower parts of rivers to overwinter in freshwater (Ref. 59043).  Feed on insects, particularly chironomids, small crustaceans, mollusks and plants.  Larger specimens may feed on small fish.  Juveniles feed on zooplankton (Ref. 30578).  Able to shift to particle feeding or even filter feeding at high zooplankton abundance.  Usually spawn in backwaters, floodplains or lakes shores with dense vegetation (Ref. 59043).  Can survive out of the water for extended periods (Ref. 9988).  The flesh is bony, insipid and soft (Ref. 30578).  Marketed fresh or frozen.  Eaten steamed, broiled, fried and baked (Ref. 9988)."
+          },
+          {
+            "scientific": "Tinca tinca",
+            "specCode": 269,
+            "family": null,
+            "fbName": "Tench",
+            "nativeLinks": 19,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/269",
+            "behaviorSourceText": "Typically found in shallow, densely vegetated lakes and backwaters.  They often overwinter buried in mud.  Larvae and juveniles confined to dense vegetation (Ref. 59043).  Adults inhabit warm lakes and pools with weed and mud bottom.  Tolerates low oxygen saturations (Ref. 30578, 44894).  Feeds on detritus, benthic animals and plant materials.  Adult often prey mainly on molluscs.  They spawn among dense vegetation in still water (Ref. 59043).  Used as a fodder fish for bass (Ref. 7248).  Utilized fresh and frozen; eaten pan-fried, broiled, and baked (Ref. 9988).  Popular with amateur sport fishers.  Flesh is highly esteemed (Ref. 30578).  Locally under threat due to river engineering (Ref. 59043).  Reported to reach a maximum length of 84 cm TL (Ref. 5723)."
+          },
+          {
+            "scientific": "Salmo trutta",
+            "specCode": 238,
+            "family": null,
+            "fbName": "Sea trout",
+            "nativeLinks": 25,
+            "excluded": [],
+            "freshwater": true,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/238",
+            "behaviorSourceText": "Found in streams, ponds, rivers and lakes (Ref. 5951).  Individuals spend 1 to 5 years in fresh water and 6 months to 5 years in salt water (Ref. 51442).  Juveniles mature in 3-4 years (Ref. 6885).  Lacustrine populations undertake migration to tributaries and lake outlets to spawn, rarely spawning on stone, wave-washed lake shores.  Spawns in rivers and streams with swift current, usually characterized by downward movement of water intro gravel (Ref. 59043).  Spawning takes place normally more than one time (Ref. 51442).  They prefer cold, well-oxygenated upland waters although their tolerance limits are lower than those of rainbow trout and favors large streams in the mountainous areas with adequate cover in the form of submerged rocks, undercut banks, and overhanging vegetation (Ref. 6465).  Life history and spawning behavior is similar to the salmon Salmo salar (Ref. 51442).  Each female produces about 10.000 eggs (Ref. 35388, Ref. 51442).  Mainly diurnal (Ref. 682).  Sea and lake trouts forage in pelagic and littoral habitats, while sea trouts mainly close to coast, not very far from estuary of natal river (Ref. 59043).  Juveniles feed mainly on aquatic and terrestrial insects; adults on mollusks, crustaceans and small fish (Ref. 26523, Ref. 51442).  Marketed fresh and smoked; eaten fried, broiled, boiled, cooked in microwave, and baked (Ref. 9988)."
+          },
+          {
+            "scientific": "Salmo salar",
+            "specCode": 236,
+            "family": null,
+            "fbName": "Atlantic salmon",
+            "nativeLinks": 17,
+            "excluded": [],
+            "freshwater": true,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/236",
+            "behaviorSourceText": "Amphihaline species, spending most of its life in freshwater (Ref. 51442). Occurs in lakes and rocky runs and pools of small to large rivers (Ref. 86798).  Some landlocked populations exist. Found in all rivers where temperature rises above 10° C for about 3 months per year and does not exceed 20° C for more than a few weeks in summer (Ref. 59043) (preferred temperatures 4-12°C). Juveniles may live in cold lakes in northern Europe (Ref. 59043). Parr (i.e. juveniles) are territorial and are found in the upper reaches of rivers and streams, in riffle areas with strong current and rough gravel bottoms (Ref. 7471). During winter, parr seek refuge in small spaces or under stones during the day (Refs. 59043, 89461). Young remain in freshwater for 1 to 6 years, then migrate to coastal marine waters or even to open oceans where they remain for 1 to 4 years before returning to freshwater  for spawning (Ref. 51442). Adults inhabit cooler waters with strong to moderate flow (Ref. 44894). The Atlantic salmon is reported to live up to 10 years, but most individuals only reach 4-6 years (Ref. 88187). Juveniles feed mainly on aquatic insects, mollusks, crustaceans and fish; adults at sea feed on squids, shrimps, and fish (Ref. 51442). Most populations depend mostly or exclusively on stocking due to degradations of environmental conditions.  Fishing pressure on wild stocks has decreased due to intensive farming but other problems have increased. Farmed salmons escape in large numbers and move to any river and hybridize with wild stocks (Ref. 59043). This species may hybridize with trout (Salmo trutta) (Ref. 59043). Diseases of the species include furunculosis (Aeromonas salmonicida), corynebacterial kidney disease (Renibacterium salmoninarum), enteric red mouth disease (Yersinia ruckeri), infectious pancreatic necrosis virus, bacterial kidney disease, fin rot and fungus infections (Ref. 5951). Marketed fresh, dried or salted, smoked, and frozen; eaten steamed, fried, broiled, cooked in microwave, and baked (Ref. 9988)."
+          },
+          {
+            "scientific": "Thymallus thymallus",
+            "specCode": 4605,
+            "family": null,
+            "fbName": "Grayling",
+            "nativeLinks": 14,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4605",
+            "behaviorSourceText": "Inhabits submontane reaches of rivers with a hard sand or stone bottom and well oxygenated, cold and fast-flowing water (Ref. 59043).  Prefers running, well-oxygenated waters of rivers (Ref. 30578).  In Scandinavia, it occurs in clear lakes and freshened part of northern Baltic basin.  Usually lives in hollows behind boulders and shaded water under overhanging vegetation (Ref. 59043).  Gregarious, forms schools (Ref. 2196).  Feeds mainly on insects (Ref. 9696), nymphs, small worms and crustaceans (Ref. 30578).  Breeds in shallow stretches, usually 20-40 cm deep, or riffles, with moderate current of about 0.5 m/s and clean gravel bottom (Ref. 59043).  Can be captured with natural bait (insect larvae) or with artificial fly.  Very sensitive to pollution (Ref. 30578)."
+          },
+          {
+            "scientific": "Anguilla anguilla",
+            "specCode": 35,
+            "family": null,
+            "fbName": "European eel",
+            "nativeLinks": 30,
+            "excluded": [
+              {
+                "locationId": "6903",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/35",
+            "behaviorSourceText": "Inhabits all types of benthic habitats from streams to shores of large rivers and lakes. Naturally found only in water bodies connected to the sea (Ref. 59043). Territorial and solitary species; 'schools' of young eels which are observed from time to time are a mass response to outward conditions and not of active assembling (Ref. 172). Amphihaline (Ref. 51442). Migrates to the depths across 2,000 km Sargasso Sea to spawn (Refs. 172, 51442, 138638). Eel larvae (leptocephali) are transparent ribbon-like. They are brought to the coasts of Europe by the Gulf Stream in 7 to 11 months time (Ref. 51442) and can last for up to 3 years (Ref. 8994). They are transformed into glass eels (6-8 cm length, cylindrical in shape and transparent to slightly pigmented in colour). They enter the estuaries and colonize rivers and lakes (Ref. 11941, 51442); some individuals remain in estuaries and coastal waters to grow into adults (Ref. 88171). The glass eel stage is followed by a long feeding period (from the yellow to the silver eel stage) lasting 6-12 years in males (Ref. 6125) and 9-20 years in females (Ref. 6125). Yellow and silver eels are benthic, found under stones, buried in the mud or in crevices (Ref. 89138). Yellow eels eventually lose their pigmentation, becoming dark dorsally and silver ventrally (called silver eels). Silver eels are also characterized by a clear contrasting black lateral line and enlarged eyes (Ref. 6125). At the end of their growth period, they become sexually mature, migrate to the sea and cover great distances during their spawning migration (5,000-6,000 km); with extensive daily vertical migrations between 200 m at night and 600 m during day time, possibly for predator avoidance (Ref. 89140). Gametogenesis occurs entirely during spawning migration. Average life span is usually 15-20 years (Ref. 88171). Male eels can grow up to 50 cm TL (Ref. 39903). Occurs at temperatures ranging from 0-30°C (Ref. 172). Its food includes virtually the whole aquatic fauna (freshwater as well as marine) occurring in the eel's area, augmented with animals living out of water, e.g. worms (Ref. 172). Best temperature for making eels sexually mature is 20-25°C (Ref. 35388). Sensitive to weak magnetic fields (Ref. 89141, 89142). Their high fat content and benthic feeding habits in continental waters make them vulnerable to the bioaccumulation of pollutants, such as heavy metals and organic contaminants, that may result in organ damage and impaired migration capability (Ref. 82710) and lowered genetic variability (Ref. 82711). Review of information supports the view that the European eel population as a whole has declined in most areas, the stock is outside safe biological limits and current fisheries not sustainable (Ref. 82712). Obvious decreasing of the stocks for all the continental native distribution area (Ref. 40476). Utilized fresh, dried or salted, smoked and frozen; can be fried, boiled and baked (Ref. 9988)."
+          },
+          {
+            "scientific": "Squalius cephalus",
+            "specCode": 4482,
+            "family": null,
+            "fbName": "Chub",
+            "nativeLinks": 16,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4482",
+            "behaviorSourceText": "Most abundant in small rivers and large streams of barbel zone with riffles and pools.  Found along shores of slow-flowing lowland rivers, even in very small mountain streams, and in large lake, undertaking spawning migration to inflowing streams.  Adults are solitary while juveniles occur in groups.  Feeding larvae and juveniles live in very shallow shoreline habitats.  Feed on a wide variety of aquatic and terrestrial animals and plant material.  Large individuals prey predominantly on fishes.  Breed in fast-flowing water above gravel bottom, rarely among submerged vegetation.  Often form fertile hybrids with Alburnus alburnus (Ref. 59043).  Popular with amateur sport fishermen.  Can be caught with various baits and lures.  The flesh is of poor quality (Ref. 38587)."
+          },
+          {
+            "scientific": "Sander lucioperca",
+            "specCode": 360,
+            "family": null,
+            "fbName": "Pike-perch",
+            "nativeLinks": 10,
+            "excluded": [
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/360",
+            "behaviorSourceText": "Adults inhabit large, turbid rivers and eutrophic lakes, brackish coastal lakes and estuaries.  They feed mainly on gregarious, pelagic fishes.  They attain first sexual maturity at 3-10 years of age, usually at 4.  Undertake short spawning migrations. Individuals foraging in brackish water move to freshwater habitats.  Migrations up to 250 km have been recorded.  Homing is well developed, even nearby populations may be relatively isolated.  Spawn in pairs at dawn or night.  Spawning occurs in April-May, exceptional from late February until July, depending on latitude and altitude when temperatures reach 10-14° C on spawning grounds (Ref. 59043).  Popularly fished by sport fishers.  Its flesh is succulent (Ref. 30578).  Utilized fresh or frozen and eaten steamed, broiled and microwaved (Ref. 9988).  An individual weighing 19 kg was reportedly caught in 1959 in Starnberger, Bavaria, Germany (Peter Admicka, pers. Comm.  E-mail:  peter.adamicka@oeaw.ac.at)."
+          },
+          {
+            "scientific": "Gasterosteus aculeatus",
+            "specCode": 2420,
+            "family": null,
+            "fbName": "Three-spined stickleback",
+            "nativeLinks": 26,
+            "excluded": [],
+            "freshwater": true,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/2420",
+            "behaviorSourceText": "Adults occur in fresh waters, estuaries and coastal seas (Ref. 4119).  Anadromous, with numerous non-anadromous populations in brackish or pure freshwater, rarely in marine waters.  In the sea, confined to coastal waters.  In freshwater, adults prefer to live in small stream but may occur in a variety of habitats including lakes and large rivers (Ref. 59043).  Inhabit shallow vegetated areas, usually over mud or sand (Ref. 5723).  Form schools.  Young associated with drifting seaweed (Ref. 12114, 12115).  Juveniles move to the sea (anadromous populations) or to deeper, larger water bodies (freshwater populations) in July-August, forming large feeding schools (Ref. 59043).  Feed on worms, crustaceans, larvae and adult aquatic insects, drowned aerial insects, and small fishes; has also been reported to feed on their own fry and eggs (Ref. 1998).  Eggs are found in nests constructed from plant material (Ref. 41678).  Males build, guard and aerate the nest where the eggs are deposited (Ref. 205).  Maximum length in freshwater is 8 cm while in saltwater is 11 cm (Ref. 35388).  Occasionally taken commercially in Scandinavia and processed into fishmeal and oil (Ref. 28219, 28964).  Commonly used as a laboratory animal (Ref. 1998).  A large bibliography is available at www.geocities.com/CapeCanaveral/Hall/1345/stickbibl.html."
+          },
+          {
+            "scientific": "Blicca bjoerkna",
+            "specCode": 4471,
+            "family": null,
+            "fbName": "White bream",
+            "nativeLinks": 18,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4471",
+            "behaviorSourceText": "Gregarious and frequents stagnant waters of lakes and reservoirs, rivers and canals with calm waters.  Occurs in a wide variety of shallow, warm lowland lakes and slow-flowing lower reaches of large rivers and canals.  Frequently very abundant on bottom of large sandy rivers.  Larvae live in still water bodies.  Mainly nocturnal.  Feeds on benthic invertebrates.  Spawns along shores on submerged vegetations, roots or even on shallow gravel bottom (Ref. 59043).  Reproduction takes place in May to July.  Exhibits polyandry (Ref. 6114).  Regularly hybridizes with Vimba vimba (Ref. 59043).  Of little interest to game fishers and consumers (Ref. 30578).  Unpopular with commercial fishers due to its small size and competition with more desired species."
+          },
+          {
+            "scientific": "Barbus barbus",
+            "specCode": 4472,
+            "family": null,
+            "fbName": "Barbel",
+            "nativeLinks": 12,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4472",
+            "behaviorSourceText": "Inhabits from premontane to lowland reaches of clear, warm, medium sized to large rivers with fast current and gravel bottom.  Occasionally found in lakes.  Frequently overwinters in large group, inactive or active in slow-flowing river habitats.  Adults often form shoal, hiding under overhanging trees or bridges during the day.  Adults are encountered most active during dusk and dawn while larvae and juveniles are active during both day and night.  Larvae and juvenile stay on the bottom in very shallow shoreline habitats and leave the shores for faster-flowing waters as they grow (Ref. 59043). Lives in the deeper, faster-flowing upper reaches of rivers with stony or gravel bottom (barbel zones).  Feeds chiefly on benthic invertebrates, such as small crustaceans, insect larvae, mollusks, mayfly and midge larvae (Ref. 6258) and also on small fish and sometimes algae (Ref. 59043).  Spawns usually in very shallow, fast-flowing riffles (Ref. 59043).  Spawning occurs from May to July after the fish have migrated upriver (Ref. 556).  Eggs are poisonous (Refs. 4537, 6258).  Locally threatened due to water pollution and river regulation, especially in Baltic drainages, Elbe, South Bug and Dniepr, and heavily impacted by pollution in central Europe but recovering.  Population has declined sharply due to construction of large reservoirs and pollution during 20th century and has stabilized at a moderate level since then (Ref. 59043)."
+          },
+          {
+            "scientific": "Silurus glanis",
+            "specCode": 289,
+            "family": null,
+            "fbName": "Wels catfish",
+            "nativeLinks": 14,
+            "excluded": [
+              {
+                "locationId": "6226",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6246",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/289",
+            "behaviorSourceText": "The maximum length of the species has been recorded as 5 m for a long time and the maximum weight as 306 kg . It has been demonstatred that misidentifications and problems of measurment units have led to these numbers.  The recorded maxima with evidence are 2.73 m and 130 kg (Ref. 123627).  Inhabits large and medium size lowland rivers, backwaters and well vegetated lakes (Ref. 59043).  Occurs mainly in large lakes and rivers, though occasionally enters brackish water in the Baltic and Black Seas (Ref. 9988).  Found in deep waters of dams constructed on the lower reaches of rivers (Ref. 9696).  A nocturnal predator, foraging near bottom and in water column.  Larvae and juveniles are benthic, feeding on a wide variety of invertebrates and fish. Adults prey on fish and other aquatic vertebrates. Attains first sexual maturity at 2-3 years of age (Ref. 59043).  Spawns in the salt water of the Aral Sea (at Kulandy) (Ref. 1441).  Marketed fresh, canned and frozen; can be pan-fried and baked (Ref. 9988). Locally threatened due to river regulation destroying shallow spawning sites (Ref. 59043)."
+          },
+          {
+            "scientific": "Lota lota",
+            "specCode": 310,
+            "family": null,
+            "fbName": "Burbot",
+            "nativeLinks": 17,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/310",
+            "behaviorSourceText": "The only member of Lotidae family which lives in freshwater.  Crepuscular and nocturnal (Ref. 11941).  Adults are found in well oxygenated flowing waters and large, deep lakes as well as large rivers with slow-moving current (Ref. 5723, 10294). They occur from estuaries of large lowland rivers as well as from small mountain streams, preferring deep waters in summer (Ref. 59043).  They seek shelter under rocks, in crevices on the river banks, among roots of trees and dense vegetation (Ref. 30578, 10294).  Those in rivers tend to congregate in deep holes throughout the year, except at spawning (Ref. 27547).  Movements into shallower water during summer nights are related to feeding (Ref. 1998).  Smaller individuals feed on insect larvae, crayfish, mollusks and other invertebrates with a changing preference for fishes in larger individuals (Ref. 1998, 10294).  In Central Europe, males mature at 2 years while females at 3 years (Ref. 59043).  Spawning occurs from November to March, at temperatures below 6°C in groups of up to 20 interlaced individuals forming a ball about 60 cm in diameter which constantly move and roll on the bottom while releasing eggs and sperms (Ref. 59043). May undertake short spawning migrations (Ref. 59043).  Eggs are semipelagic, 1.2-1.8 mm in diameter and slightly sticky hatching after 40-70 days (Ref. 59043).  Larvae are positively phototactic, floating below the surface in March and April (Ref. 59043).  Larvae feed on drifting invertebrates or zooplankton (Ref. 59043).  Source of oil.  Sold mainly salted.  Liver is sold smoked or canned in Europe (Ref. 1998).  Processed into fishmeal (Ref. 1998).  Because of its nocturnal habits and its slow movements, this fish is not very much appreciated by sport fishermen.  Flesh is tasty but a little dry (Ref. 30578).  Locally threatened due to river regulation (Ref. 59043)."
+          },
+          {
+            "scientific": "Leuciscus leuciscus",
+            "specCode": 4662,
+            "family": null,
+            "fbName": "Common dace",
+            "nativeLinks": 13,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4662",
+            "behaviorSourceText": "Gregarious fish which swims near the surface (Ref. 30578).  Inhabits moderate to fast-flowing large streams to large rivers with rock or gravel bottom.  Adults aggregate in dense swarms in winter in the lower reaches of rivers or backwaters and often migrate to spawning streams in autumn and overwinter there.  Juveniles spend winter in cavities along the shores.  Early juveniles occur in very shallow shoreline habitats and when they grow, they leave the shores for faster-flowing waters.  Feeding larvae thrive along shores.  Prey on small invertebrates.  Spawns in fast-flowing water on shallow gravel beds, often in small tributaries (Ref. 59043).   Breeds in March and April (Ref. 30578).  Pale yellow eggs are found attached to gravel and stones in shallow, flowing water (Ref. 41678)."
+          },
+          {
+            "scientific": "Scardinius erythrophthalmus",
+            "specCode": 2951,
+            "family": null,
+            "fbName": "Rudd",
+            "nativeLinks": 16,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/2951",
+            "behaviorSourceText": "Adults occur mainly in nutrient-rich, well vegetated lowland rivers, backwaters, oxbows, ponds and lakes.  They feed mainly on plankton, terrestrial insects and plant material.  Breeding occurs on roots or submerged plants. They can adapt to unfavorable environmental condition (Ref. 59043).  Colorless or pale yellow eggs are found attached to vegetation in shallow water (Ref. 41678).  Consumed fresh (Ref. 30578).  They are threatened due to the introduction of other species (Ref. 26100)."
+          },
+          {
+            "scientific": "Carassius carassius",
+            "specCode": 270,
+            "family": null,
+            "fbName": "Crucian carp",
+            "nativeLinks": 13,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/270",
+            "behaviorSourceText": "Adults occur in shallow ponds, lakes rich in vegetation and slow moving rivers.  They burrow in mud in the dry season or during winter (Ref. 2163).  Usually restricted to densely vegetated backwaters and oxbows of lowland rivers.  Can survive at high temperatures and at very low oxygen concentrations during summer and under ice cover (Ref. 59043).  Tolerates cold, organic pollutants, and low oxygen levels in the water (Ref. 30578).  Feeds all day but mainly at night on plankton, benthic invertebrates, plant materials and detritus.  Usually does not occur in waters with rich ichthyofauna and abundant predatory species, but very abundant in  the absence of other fish species.  Spawns in dense submerged vegetation (Ref. 59043).  Marketed fresh and frozen; eaten fried, broiled and baked (Ref. 9988).  Live up to about 10 years.  There is a gradual but continuing extirpation in many water bodies, especially in Danube drainage and central Europe, possibly to due competition with introduced Carassius gibelio in non-optimal habitats (Ref. 59043)."
+          },
+          {
+            "scientific": "Phoxinus phoxinus",
+            "specCode": 4661,
+            "family": null,
+            "fbName": "Eurasian minnow",
+            "nativeLinks": 5,
+            "excluded": [
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6204",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6107",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6211",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6204",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6259",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6226",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6236",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6246",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6223",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6106",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6204",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6260",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6204",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6204",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6204",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6204",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6204",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6202",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4661",
+            "behaviorSourceText": "Gregarious (Ref. 2196).  Found in a wide range of cold and well oxygenated habitats from small, fast-flowing streams to large Nordic lowland rivers and from small upland lakes to large oligotrophic lakes.  Usually occurs in association with salmonid fishes (Ref. 59043).  Feeds on algae, plant debris (in rivers), mollusks, crustaceans and insects (Ref. 30578).  Spawns over clean gravel areas in flowing water or on wave-washed shores of lakes.  Overwinters in coarse substrate or in deep pools with low current (Ref. 59043).  Migrates upstream for spawning in shallow gravel areas.  Important laboratory fish, for research on sensory organs of fishes.  Mean maximum age is 6 years (Ref. 41616).  Locally threatened due to pollution and excessive stocking of species of Salmo (Ref. 59043)."
+          },
+          {
+            "scientific": "Gobio gobio",
+            "specCode": 4478,
+            "family": null,
+            "fbName": "Gudgeon",
+            "nativeLinks": 17,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4478",
+            "behaviorSourceText": "Occurs in nearly all types of riverine and lacustrine habitats with sand bottom.  Found in small mountain streams, large lowland rivers and large lakes (Ref. 59043). Inhabits fast flowing rivers with sand or gravel bottom but may also occur in still waters.  Forms schools.  Feeds on insect larvae, mollusks, and crustaceans.  Normally active during the day but if they are disturbed, in particular, by predators, they can defer their activity to periods when light intensity is weak.  Capable of emitting squeaking sounds.  These vocalizations, which is a means by which fish communicate with each other, vary with the degree of activity and the temperature and are independent of the season of reproduction (Ref. 30578).  Breeds in shallow water over stones, sand or plant material.  Eggs are released above substrate and drift with current, sinking to bottom and sticking to substrate. Larvae and juveniles occur on the bottom and prefer detritus-rich sandy habitats and low current (Ref. 59043)."
+          },
+          {
+            "scientific": "Alburnus alburnus",
+            "specCode": 4730,
+            "family": null,
+            "fbName": "Bleak",
+            "nativeLinks": 16,
+            "excluded": [
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4730",
+            "behaviorSourceText": "Inhabits open waters of lakes and medium to large rivers.  Forms large aggregations in backwaters and other still waters during winter.  Adults occur in shoals near the surface. Larvae live in littoral zone of rivers and lakes while juveniles leave shores and occupy a pelagic habitat, feeding on plankton, drifting insects or invertebrates fallen on the water surface (Ref. 59043).  Feeds mainly on plankton, including crustaceans (Ref. 30578) and  insects (Ref. 9696).  Spawns in shallow riffles or along stony shores of lakes, occasionally above submerged vegetation (Ref. 59043).  Excellent as bait for carnivorous fishes.  May be captured using the smallest hook and a fly as bait.  Its flesh is tasty (Ref. 30578).  Of little interest to commercial or sport fisheries in its native range because of its small size (Ref. 1739).  Scales were previously utilized in making Essence d\"Orient, a coating for artificial pearls (Ref. 59043)."
+          },
+          {
+            "scientific": "Misgurnus fossilis",
+            "specCode": 4790,
+            "family": null,
+            "fbName": "Weatherfish",
+            "nativeLinks": 13,
+            "excluded": [
+              {
+                "locationId": "6226",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4790",
+            "behaviorSourceText": "Found in lower reaches of slow-flowing rivers, but can also be found in still pools (Ref. 9696),  on sandy bottoms of ponds, pools and ditches.  Adults are nocturnal which burrow into mud during dry periods and strong frosts.  Usually, burrows are 20-30 cm deep, occasionally down to 70 cm during dry periods (Ref. 59043).  During the day, they stay buried in the sand.  Feed on insect larvae and small mollusks.  Seldom captured with hook and line (Ref. 30578).  Are sensitive to pollutants which accumulate in the sediment (Ref. 11941).  Facultative air-breathers (Ref. 27368).  A female specimen measuring 30.7 cm TL was recorded from Netherlands (Ref. 114650)."
+          },
+          {
+            "scientific": "Chondrostoma nasus",
+            "specCode": 4878,
+            "family": null,
+            "fbName": "Common nase",
+            "nativeLinks": 9,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4878",
+            "behaviorSourceText": "Gregarious. Adults occur in fairly shallow water with fast current, often beside the swirls created by piles of bridges or rocks (Ref. 30578).  They inhabit moderate to fast-flowing large to medium sized rivers with rock or gravel bottom. Larvae occur below surface and feeding larvae inhabit along shores.  Early juveniles live on the bottom in very shallow shoreline habitats. When growing, they move from the shore for faster-flowing waters.  Juveniles overwinter in backwaters or in cavities along shores.  During winter, adults form dense swarms in lower parts of rivers.  Larvae and early juveniles prey on small invertebrates while larger juveniles and adults feed on benthic diatoms and detritus.  Adults migrate upstream some tens of km to spawning sites which are often located in tributaries.  Spawning occurs in fast flowing water on shallow gravel beds (Ref. 556, 59043).  Its flesh is good but bony (Ref. 30578).  Locally threatened by damming, destruction of spawning sites and pollution.  In drainages where they are introduced, they outcompete and eliminate Parachondrostoma toxostoma in Rhône and Protochondrostoma genei in Soca (Ref. 59043)."
+          },
+          {
+            "scientific": "Gymnocephalus cernua",
+            "specCode": 4474,
+            "family": null,
+            "fbName": "Ruffe",
+            "nativeLinks": 14,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4474",
+            "behaviorSourceText": "Inhabits eutrophic lakes, lowland and piedmont rivers.  Most abundant in estuaries \r\nof large rivers, brackish lakes with salinities up to 10-12 ppt and reservoirs.  In general, its abundance increases with increased eutrophication (Ref. 59043).  Reported to prefer still or slow-flowing water with soft bottom and without vegetation (Ref. 59043) and deep water with deposits of sand and gravel (Ref. 9696).  Can tolerate some degradation of the environment (Ref. 30578).  Can co-exist in deep lakes with Perca fluviatilis.  Both species partly occur at different depths with Gymnocephalus cernua being more abundant in deeper layers (Ref. 59043).  The membranous external walls of the head canals of this species provide high directional sensitivity; can feed at night in the dark using the lateral line system; feeds on zooplankton, chironomids, oligochaetes and amphipods (Ref. 10999).  Pelagic in coastal lakes and tidal estuaries, preying on zooplankton and  fish.  Spawns on a variety of substrates at depths of about 3 m or less (Ref. 59043).  White to yellow eggs in sticky strands are found on rocks and weed in shallow water (Ref. 41678).  Used as bait for pike (Ref. 6258).  Females live up to 10 year while males up to 7 years (Ref. 59043)."
+          },
+          {
+            "scientific": "Rhodeus amarus",
+            "specCode": 4483,
+            "family": null,
+            "fbName": "European bitterling",
+            "nativeLinks": 12,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4483",
+            "behaviorSourceText": "Occurs most abundantly in still or slow-flowing water with dense aquatic vegetation and sand-silt bottom as lowland ponds, canals, slow-flowing rivers, backwaters and oxbows, where mussels are present (Ref. 59043).  Found among plants over sand and muddy bottoms in shallow waters.  Remarkable for its habit of deposing its eggs in the cavity of bivalves (Unio).  Feeds mainly on plants and to a lesser degree on worms, crustaceans, and insect larvae.  Formerly used for pregnancy tests:  females injected with urine from pregnant women protruded their ovipositors (Ref. 6258).  Live span is exceptionally up to 5 years but most individuals do not survive the year of their first reproduction and population sizes fluctuate  greatly over the years (Ref. 59043)."
+          },
+          {
+            "scientific": "Cottus gobio",
+            "specCode": 2439,
+            "family": null,
+            "fbName": "Bullhead",
+            "nativeLinks": 6,
+            "excluded": [
+              {
+                "locationId": "6903",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6206",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6106",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6241",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6903",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6903",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/2439",
+            "behaviorSourceText": "Occurs in cold, clear and fast-flowing water of small stream to medium-sized rivers as well as on gravel or rocky shores of cold lakes and in slightly brackish waters along eastern coast of Baltic coast (Ref. 59043).  Feeds on small bottom invertebrates, mainly insects, crustaceans.  Pink to yellow eggs are found in clumps attached to undersides of large stones (Ref. 41678). Contrary to statements in older literature, eggs and larvae of fishes are not a common food item (Ref. 45167)."
+          },
+          {
+            "scientific": "Barbatula barbatula",
+            "specCode": 6377,
+            "family": null,
+            "fbName": "Stone loach",
+            "nativeLinks": 17,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/6377",
+            "behaviorSourceText": "Usually found in flowing stretches of streams and medium-sized rivers with gravel to stone bottom, but also in a variety of other habitats, including sandy canals and lake shores.  Larvae are benthic.  Larvae and small juveniles prefer sand bottom and slow current, shifting to gravel bottom and fast current when growing.  Adults prey on relatively large benthic invertebrates such as gammarids, chironomids, insect larvae.  They breed on gravel, sand or among aquatic vegetation.  Tolerate moderate organic pollution and stream canalization and very sensitive to pollution by heavy metals (Ref. 59043).  Sensitive to pollution and low oxygen levels, therefore, its presence in a river can be taken as an indication of good water quality (Ref. 6111)."
+          },
+          {
+            "scientific": "Pungitius pungitius",
+            "specCode": 3273,
+            "family": null,
+            "fbName": "Ninespine stickleback",
+            "nativeLinks": 11,
+            "excluded": [],
+            "freshwater": true,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/3273",
+            "behaviorSourceText": "Found in shallow vegetated areas of lakes, ponds, and pools of sluggish streams; sometimes in open water over sand (Ref. 5723).  Marine populations found near shore and move into fresh water to spawn (Ref. 5723).  There appears to be seasonal movements inshore to shallow water in the spring for spawning, and, in the fall, offshore to deep water, or even to the less saline parts of the sea, by the young and adults that survive spawning (Ref. 27547).  Nerito-pelagic (Ref. 58426).  Feed on small invertebrates; also on aquatic insects and their  eggs and larvae (Ref. 1998).  Eggs are found in nests constructed from plant material (Ref. 41678).  Males build, guard and aerate the nest where the eggs are deposited (Ref. 205).  Females grow faster and live longer than do other males (Ref. 27547).  Males seldom live beyond age three, due to heavy post-spawning mortality, but females may live to age five or more (Ref. 27547).  When abundant, it is preyed upon by other fishes (Ref. 1998); also preyed by birds (Ref. 27547).  May be used as human or dog food or as a source of oil (Ref. 27547)."
+          },
+          {
+            "scientific": "Salvelinus alpinus",
+            "specCode": 247,
+            "family": null,
+            "fbName": "Arctic char",
+            "nativeLinks": 2,
+            "excluded": [
+              {
+                "locationId": "sea-104",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "sea-139",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              },
+              {
+                "locationId": "6105",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/247",
+            "behaviorSourceText": "Nerito-pelagic (Ref. 58426).  Adults occur in the sea along coasts, estuaries, rivers, and lakes with cold, clear water (Ref. 59043). They are found in deep runs and pools of medium to large rivers (Ref. 5723, 86798). Anadromous forms spend a considerable time of their lives at sea; non-migratory populations remain in lakes and rivers (Ref. 4779).  Anadromous populations enter rivers to breed during fall and winter (Ref. 86798). Freshwater populations feed on planktonic crustaceans, amphipods, mollusks, insects and fishes (Ref. 4479).  Anadromous individuals feed little in freshwater and never feed during migrations.  Spawning usually takes place on pebble to stone bottom in lakes.  Riverine stocks spawn in rivers with slow current (02.-0.8 m/s), but there are some riverine anadromous stocks (in Norway) which spawn yearly in fast-flowing waters of riffles (Ref. 59043).  Extremely sensitive to water pollution (cold water and oxygen oriented) (Ref. 2163).  Marketed fresh, smoked, canned (Ref. 27547), and frozen.  Eaten sautéed, broiled, fried, microwaved and baked (Ref. 9988).  Parasitized by tapeworm (Ref. 37032)."
+          },
+          {
+            "scientific": "Hucho hucho",
+            "specCode": 4664,
+            "family": null,
+            "fbName": "Huchen",
+            "nativeLinks": 1,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4664",
+            "behaviorSourceText": "Usually solitary, inhabits deeper regions of swift flowing streams with oxygen rich waters.  Adults are territorial but not solitary (Ref. 26170).  Carnivore.  Juveniles feed mainly on invertebrates and adults mostly on fishes, but also prey on amphibians, reptiles, small mammals and waterfowl (Ref. 26170).  Important sport fish with minimum size of catch from 50-55 cm.  Transplantations of young artificially incubated and reared fish have not been successful.  Depletion of stocks due to overexploitation, industrial pollution, waterway redirection and badly designed or non-existent fish ladders in dams and reservoirs.  Territorial, but migrates short distances upstream for spawning (Ref. 556).  Reported to be one of the biggest freshwater fishes of the world, reaching  a length of over 2 m and weight of over 100 kg (Ref. 26170); which is probably erroneous (A. Mangold, pers. comm.)."
+          },
+          {
+            "scientific": "Acipenser ruthenus",
+            "specCode": 4604,
+            "family": null,
+            "fbName": "Sterlet sturgeon",
+            "nativeLinks": 4,
+            "excluded": [
+              {
+                "locationId": "6106",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4604",
+            "behaviorSourceText": "A fluvial fish which inhabits rivers and their tributaries (Ref. 9696).  Occurs in large rivers, usually in the current and in deep water.  Moves to flooded areas to feed (Ref.  59043).  Chiefly potamodromous (Ref. 58897).  Like other sturgeons, it aggregates in bottom holes in winter and exhibits little activity.  In spring, when ice breaks, it rises from the bottom holes and moves upstream for spawning (Ref. 593).  Spawns in habitats with strong-current on gravel, rarely on gravel-sand bottom or in flooded sites.  Juveniles stay in riverine habitats during their first summer.  Classified as endangered species.  Anadromous populations are now extirpated; local populations are still surviving in most parts of range (Ref. 59043)."
+          },
+          {
+            "scientific": "Zingel zingel",
+            "specCode": 6500,
+            "family": null,
+            "fbName": "Zingel",
+            "nativeLinks": 2,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/6500",
+            "behaviorSourceText": "Adults are found in main course of large rivers, in fast-flowing waters.  Active at night, feeding on aquatic invertebrates and small fishes.  Spawning occurs on sand bottom in March-April.  A female spawn with several males in a dense spawning groups.  Eggs are very sticky and attached to gravel (Ref. 59043)."
+          },
+          {
+            "scientific": "Umbra krameri",
+            "specCode": 4670,
+            "family": null,
+            "fbName": "Mudminnow",
+            "nativeLinks": 2,
+            "excluded": [],
+            "freshwater": true,
+            "marine": false,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/4670",
+            "behaviorSourceText": "Adults inhabit small irrigation canals and slowly flowing and stagnant waters with dense vegetation (Ref. 26183), usually in small ditches, oxbows, backwaters and shallow lakes (Ref. 59043).  Territorial in shallow pools and swamps.  They feed on larger crustacean plankton and invertebrate larvae (Ref. 26183).  This species is under threat due to habitat destruction, irrigation works and disappearance of shallow ditches as suitable habitats, restrictions of river inundation, pressure from introduced fish species and chemical pollution (Ref. 26183)."
+          },
+          {
+            "scientific": "Gadus morhua",
+            "specCode": 69,
+            "family": null,
+            "fbName": "Atlantic cod",
+            "nativeLinks": 5,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/69",
+            "behaviorSourceText": "Widely distributed in a variety of habitats, from the shoreline down to the continental shelf. Juveniles prefer shallow (less than 10-30 m depth) sublittoral waters with complex habitats, such as seagrass beds, areas with gravel, rocks, or boulder, which provide protection from predators (Refs. 89383, 89384). Adults are usually found in deeper, colder waters. During the day, form schools and swim about 30-80 m above the bottom, dispersing at night to feed (Ref. 1371, 89385). Omnivorous; feed at dawn or dusk on invertebrates and fish, including young cod. (Ref. 1371). Migrate between spawning, feeding and overwintering areas, mostly within the boundaries of the respective stocks. Migrations >200 km are rare occurrences (Refs. 89386, 89387). Marketed fresh, dried or salted, smoked and frozen; eaten steamed, fried, broiled, boiled, microwaved and baked (Ref. 9988)."
+          },
+          {
+            "scientific": "Dicentrarchus labrax",
+            "specCode": 63,
+            "family": null,
+            "fbName": "European seabass",
+            "nativeLinks": 9,
+            "excluded": [],
+            "freshwater": true,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/63",
+            "behaviorSourceText": "Adults manifest demersal behavior, inhabit coastal waters down to about 100 m depth but more common in shallow waters (Ref. 54221, 57391). Found in the littoral zone on various kinds of bottoms on estuaries, lagoons and occasionally rivers.  They enter coastal waters and river mouths in summer, but migrate offshore in colder weather and occur in deep water during winter in the northern range.  Young fish form school, but adults appear to be less gregarious (Ref. 9987).  Feed chiefly on shrimps and mollusks, also on fishes (Ref. 5990).  Juveniles feed on invertebrates, taking increasingly more fish with age. Adults piscivorous . (Ref. 59043).  Spawn in batches (Ref. 51846).  Spawning takes place in the spring near the British Isles, and earlier in its southern range.  Eggs are pelagic (Ref. 35388).  Marketed fresh or smoked (Ref. 9987).  Highly sought by sport fishermen (Ref. 30578)."
+          },
+          {
+            "scientific": "Sparus aurata",
+            "specCode": 1164,
+            "family": null,
+            "fbName": "Gilthead seabream",
+            "nativeLinks": 6,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/1164",
+            "behaviorSourceText": "Found in seagrass beds and sandy bottoms as well as in the surf zone commonly to depths of about 30 m, but adults may occur to 150 m depth.  A sedentary fish, either solitary or in small aggregations.  In spring, they often occur in brackish water coastal lagoons and estuaries.  Mainly carnivorous, accessorily herbivorous (Ref. 3688).  Feed on shellfish, including mussels and oysters.  One of the most important fishes in saline and hypersaline aquaculture.  Utilized fresh and eaten steamed, pan-fried, broiled, boiled, microwaved and baked (Ref. 9987)."
+          },
+          {
+            "scientific": "Clupea harengus",
+            "specCode": 24,
+            "family": null,
+            "fbName": "Atlantic herring",
+            "nativeLinks": 5,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/24",
+            "behaviorSourceText": "Herring schools move between spawning and wintering grounds in coastal areas and feeding grounds in open water by following migration patterns learned from earlier year classes (Ref. 88171). Juveniles (up to 2 years) shoal close inshore, while adults are found more offshore (Ref. 6683). Adults spend the day in deeper water, but rise to shallower water at night (Ref. 89562). Light is an important factor in controlling their vertical distribution. A facultative zooplanktivorous filter-feeder, i.e., it can switch to filter-feeding if the food density and particle size are appropriate (Ref. 28664).  Feed mainly on copepods finding food by visual sense.  Herring schools often attract predators such as fish, birds, and marine mammals (Ref. 89563). Schooling, silvery sides, excellent hearing (capable of detecting frequencies between 30-4,000 Hz , Refs. 89391, 89564, 89566), and very fast escape response act as anti-predator devices (Ref. 28664).  The most important races in the East Atlantic are the winter-spawning Norwegian and Icelandic herring, the autumn spawning Icelandic and North Sea herring and the Baltic Sea herring. Utilized fresh, dried or salted, smoked, canned and frozen; can be fried, broiled, microwaved and baked (Ref. 9988).  "
+          },
+          {
+            "scientific": "Scomber scombrus",
+            "specCode": 118,
+            "family": null,
+            "fbName": "Atlantic mackerel",
+            "nativeLinks": 10,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/118",
+            "behaviorSourceText": "Abundant in cold and temperate shelf areas, forms large schools near the surface.  They overwinter in deeper waters but move closer to shore in spring when water temperatures range between 11° and 14°C.  Mainly diurnal, it feeds on zooplankton and small fish.  Eggs and larvae are pelagic (Ref. 6769).  Batch spawner (Ref. 51846).  The species is traded fresh, frozen, smoked and canned.  Eaten fried, broiled and baked (Ref. 9988).  Two stocks in north-east Atlantic:  North Sea (east) and British Isles (west).  North Sea stock decreased dramatically in the 1960's because of direct overfishing.  Recruitment has been poor and unstable.  After spawning, the adult feed very actively moving around in small shoals (Ref. 35388)."
+          },
+          {
+            "scientific": "Pleuronectes platessa",
+            "specCode": 1342,
+            "family": null,
+            "fbName": "European plaice",
+            "nativeLinks": 4,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/1342",
+            "behaviorSourceText": "Adults live on mixed bottoms, the older the deeper the occurrence; small individuals are usually seen on bathing beaches (Ref. 9988).  Occurs on mud and sand bottom from a few meters down to about 100 m, at sea, estuaries and rarely entering freshwaters (Ref. 59043).  Reported as resident intertidal species with homing behavior (Ref. 32612).  Feed mainly on thin-shelled mollusks and polychaetes.  Batch spawner (Ref. 51846).  The most important flatfish for fisheries in Europe.  Utilized fresh and frozen; eaten steamed, fried, boiled, microwaved and baked (Ref. 9988).  Active at night in the very shallow water while day time is spent buried in the sand.  Stationary for long periods, tagging experiments have shown that their spawning migrations can be long.  Changes in the environmental conditions have been disadvantageous.  Populations in Kattegat and Danish belts decreased in 1980's and early 1990's due to discharge of nutritive salts.  Wadden sea is still an excellent nursery ground (Ref.35388)."
+          },
+          {
+            "scientific": "Solea solea",
+            "specCode": 525,
+            "family": null,
+            "fbName": "Common sole",
+            "nativeLinks": 9,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/525",
+            "behaviorSourceText": "Adults occur at a temperature range of 8.0-24.0°C (Ref. 4944).  Usually solitary.  They burrow into sandy and muddy bottoms.  Retreat to deeper water during winter (Ref. 9988).  Juveniles are found during the first 2 to 3 years in coastal nurseries (bays and nurseries) before migrating to deeper waters (Ref. 92286).  Adults feed on worms, mollusks and small crustaceans at night.  Waden sea is the most important nursery area.  Batch spawner (Ref. 51846).  Recruitment is very variable.  Frequently found pelagically during spawning migrations (Ref. 35388).  Marketed fresh and frozen; utilized steamed, fried, broiled, microwaved and baked (Ref. 9988)."
+          },
+          {
+            "scientific": "Scophthalmus maximus",
+            "specCode": 1348,
+            "family": null,
+            "fbName": "Turbot",
+            "nativeLinks": 9,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/1348",
+            "behaviorSourceText": "Adults live on sandy, rocky or mixed bottoms; rather common in brackish waters.  Feed mainly on other bottom-living fishes (sand-eels, gobies, etc.), and also, to a lesser extent, on larger crustaceans and bivalves.  Batch spawner (Ref. 51846).  Spawning season is between April and August; pelagic eggs.  May reach 25 kg (Ref. 9988).  Highly esteemed food fish.  Utilized fresh or frozen; eaten steamed, pan-fried, broiled, boiled, microwaved and baked (Ref. 9988)."
+          },
+          {
+            "scientific": "Chromis chromis",
+            "specCode": 1706,
+            "family": null,
+            "fbName": "Damselfish",
+            "nativeLinks": 5,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/1706",
+            "behaviorSourceText": "Adults form small shoals in midwater above or near rocky reefs or above seagrass meadows (Posidonia.  They feed on small planktonic or benthic animals (Ref. 6760).  Reproduce in summer (Ref. 6760).  Eggs characterized by adhesive filaments are nested on rocky or sandy bottoms (Ref. 6760).  Males guard the eggs (Ref. 6760)."
+          },
+          {
+            "scientific": "Coris julis",
+            "specCode": 58,
+            "family": null,
+            "fbName": "Mediterranean rainbow wrasse",
+            "nativeLinks": 7,
+            "excluded": [],
+            "freshwater": false,
+            "marine": true,
+            "brackish": false,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/58",
+            "behaviorSourceText": "Occurs in the littoral zone, near rocks and eelgrass beds.  Usually found between 1-60 m, but old males stay in deeper water.  Found in deeper waters during winter.  Sometimes solitary, among rocks, often with numerous specimens in its immediate vicinity.  Buries itself in sand at night or when frightened.  Feeds on small gastropods, sea urchins, shrimps, worms, isopods and amphipods.  Sexually mature when 1 year old.  Protogynous species; females change sex to become males; specimen above 18 cm length are all males (Ref. 35388).  Pelagic eggs (Ref. 4742)."
+          },
+          {
+            "scientific": "Cyprinus carpio",
+            "specCode": 1450,
+            "family": null,
+            "fbName": "Common carp",
+            "nativeLinks": 5,
+            "excluded": [
+              {
+                "locationId": "lake-peipus",
+                "reason": "Conflicts with species-level range or restricted taxon range"
+              }
+            ],
+            "freshwater": true,
+            "marine": false,
+            "brackish": true,
+            "behaviorSourceUrl": "https://www.fishbase.se/summary/1450",
+            "behaviorSourceText": "Inhabits warm, deep, slow-flowing and still waters such as lowland rivers and large, well vegetated lakes (Ref. 59043).  Hardy and tolerant of a wide variety of conditions but generally favor large water bodies with slow flowing or standing water and soft bottom sediments.  Thrive in large turbid rivers (Ref. 1998).   Most active at dusk and dawn.  Both adults and juveniles feed on a variety of benthic organisms and plant material.  Breeds along shores or in backwaters.  Adults often undertake considerable spawning migration to suitable backwaters and flooded meadows. Larvae survive only in very warm water among shallow submerged vegetation (Ref. 59043).  Occurs at depths of 200 cm; not recommended for home aquariums (Ref. 51539)."
+          },
+          {
+            "supplement": "Thames",
+            "species": [
+              "Alburnus alburnus",
+              "Salmo trutta",
+              "Squalius cephalus",
+              "Abramis brama",
+              "Leuciscus leuciscus",
+              "Anguilla anguilla",
+              "Gobio gobio",
+              "Perca fluviatilis",
+              "Rutilus rutilus",
+              "Scardinius erythrophthalmus",
+              "Dicentrarchus labrax",
+              "Gasterosteus aculeatus"
+            ],
+            "sourceUrls": [
+              "https://questions-statements.parliament.uk/written-questions/detail/2023-10-17/HL10629/",
+              "https://data.jncc.gov.uk/data/18f27480-a7e1-498c-9cca-f9eacbed2324/SSSI-Guidelines-19-Freshwaterfish-2018.pdf"
+            ],
+            "confidence": "medium",
+            "excluded": [
+              "Cyprinus carpio (introduced Britain)",
+              "Carassius carassius (native status disputed and excluded by JNCC)",
+              "Phoxinus phoxinus / Cottus gobio (species-complex or current taxonomy vs legacy UK names not resolved)"
+            ]
+          }
+        ],
+        "existingChecks": [
+          {
+            "fishId": "wm-cobitis-bilineata",
+            "decision": "Keep Rhône and Po; Durance is explicitly native within Rhône. Do not add introduced upper Rhine.",
+            "sourceUrls": [
+              "https://www.fishbase.se/summary/49105"
+            ]
+          },
+          {
+            "fishId": "wm-chromis-viridis",
+            "decision": "Delete Mediterranean native link; Indo-Pacific source range excludes it.",
+            "sourceUrls": [
+              "https://www.fishbase.se/summary/5679",
+              "https://public-inspection.federalregister.gov/2014-20955.pdf?1409662802="
+            ]
+          }
+        ],
+        "skipped": [
+          {
+            "scientific": "Zingel zingel",
+            "reason": "Actual contact-sheet inspection shows an illustration with artist signature, not a photograph. Licensed but unsuitable for the real-photo atlas.",
+            "fileTitle": "File:Zingel zingel Magyar bucó.jpg"
+          },
+          {
+            "scientific": "Blicca bjoerkna",
+            "reason": "Wikipedia redirects to genus Blicca; Wikidata P225 is genus-level, exact species identity not established for photograph"
+          }
+        ]
+      },
+      "photoReview": [
+        {
+          "id": "wm-esox-lucius",
+          "file": "https://commons.wikimedia.org/wiki/File:Esox_lucius_ZOO_1.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-perca-fluviatilis",
+          "file": "https://commons.wikimedia.org/wiki/File:Perca_fluviatilis_-_Perche_commune_-_European_perch_(cropped).jpg",
+          "license": "CC BY-SA 2.0"
+        },
+        {
+          "id": "wm-rutilus-rutilus",
+          "file": "https://commons.wikimedia.org/wiki/File:Rutilus_rutilus_by_Algirdas_cropped.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-tinca-tinca",
+          "file": "https://commons.wikimedia.org/wiki/File:Tinca_tinca_Natural_History_Museum_University_of_Pisa.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-gobio-gobio",
+          "file": "https://commons.wikimedia.org/wiki/File:Riviergrondel.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-phoxinus-phoxinus",
+          "file": "https://commons.wikimedia.org/wiki/File:Vairon_WIKI800px_(cropped).JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-squalius-cephalus",
+          "file": "https://commons.wikimedia.org/wiki/File:Oniria_-_Squalius_cephalus_03.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-carassius-carassius",
+          "file": "https://commons.wikimedia.org/wiki/File:CarassiusCarassius8.JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-anguilla-anguilla",
+          "file": "https://commons.wikimedia.org/wiki/File:Anguilla_anguilla_France_1.jpg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "id": "wm-gasterosteus-aculeatus",
+          "file": "https://commons.wikimedia.org/wiki/File:Dreistachliger_Stichling_unterwasser.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-silurus-glanis",
+          "file": "https://commons.wikimedia.org/wiki/File:Silurus_glanis_02.jpg",
+          "license": "CC BY-SA 3.0 de"
+        },
+        {
+          "id": "wm-salvelinus-alpinus",
+          "file": "https://commons.wikimedia.org/wiki/File:Salvelinus_alpinus_311639131.jpg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "id": "wm-gadus-morhua",
+          "file": "https://commons.wikimedia.org/wiki/File:Atlantic_Cod,_Atlantischer_Kabeljau_(Gadus_morhua).jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-alburnus-alburnus",
+          "file": "https://commons.wikimedia.org/wiki/File:AlburnusAlburnus1.JPG",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "id": "wm-chondrostoma-nasus",
+          "file": "https://commons.wikimedia.org/wiki/File:Chondrostoma_nasus_(aka).jpg",
+          "license": "CC BY-SA 2.5"
+        },
+        {
+          "id": "wm-rhodeus-amarus",
+          "file": "https://commons.wikimedia.org/wiki/File:RhodeusSericeusBitterlingMaleSpawningColors.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-umbra-krameri",
+          "file": "https://commons.wikimedia.org/wiki/File:European_Mudminnow_(Umbra_krameri)_02.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-dicentrarchus-labrax",
+          "file": "https://commons.wikimedia.org/wiki/File:Sealife,_Bray,_Ireland._(6985874908).jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "id": "wm-hucho-hucho",
+          "file": "https://commons.wikimedia.org/wiki/File:Danube_Salmon_-_Huchen_(Hucho_hucho).jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-gymnocephalus-cernua",
+          "file": "https://commons.wikimedia.org/wiki/File:Gymnocephalus_cernuus_P%C3%A4rnu_River_Estonia_2010-01-06.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-barbatula-barbatula",
+          "file": "https://commons.wikimedia.org/wiki/File:Barbatula_barbatula.jpg",
+          "license": "CC BY 3.0"
+        },
+        {
+          "id": "wm-clupea-harengus",
+          "file": "https://commons.wikimedia.org/wiki/File:Clupea_harengus_New_Jersey.jpg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "id": "wm-scomber-scombrus",
+          "file": "https://commons.wikimedia.org/wiki/File:Scomber_scombrus_217326414.jpg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "id": "wm-solea-solea",
+          "file": "https://commons.wikimedia.org/wiki/File:Solea_solea_1.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-pleuronectes-platessa",
+          "file": "https://commons.wikimedia.org/wiki/File:Pleuronectes_platessa.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-sparus-aurata",
+          "file": "https://commons.wikimedia.org/wiki/File:Sparus_aurata,_Alpes-Maritimes,_Provence-Alpes-C%C3%B4te_d%27Azur,_FR_imported_from_iNaturalist_photo_207799710.jpg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "id": "wm-coris-julis",
+          "file": "https://commons.wikimedia.org/wiki/File:Doncella_(Coris_julis),_Cabo_de_Palos,_Espa%C3%B1a,_2022-07-17,_DD_69.jpg",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-scophthalmus-maximus",
+          "file": "https://commons.wikimedia.org/wiki/File:Psetta_maxima_Luc_Viatour.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-thymallus-thymallus",
+          "file": "https://commons.wikimedia.org/wiki/File:Grayling_Thymallus_thymallus.JPG",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "id": "wm-barbus-barbus",
+          "file": "https://commons.wikimedia.org/wiki/File:Barbel.jpg",
+          "license": "CC BY 2.0"
+        },
+        {
+          "id": "wm-cottus-gobio",
+          "file": "https://commons.wikimedia.org/wiki/File:Cottus_Pesh.JPG",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-chromis-chromis",
+          "file": "https://commons.wikimedia.org/wiki/File:Mediterranean_Damselfish,_Var,_Provence-Alpes-C%C3%B4te_d%27Azur,_FR_imported_from_iNaturalist_photo_140272057_(cropped).jpg",
+          "license": "CC BY 4.0"
+        },
+        {
+          "id": "wm-abramis-brama",
+          "file": "https://commons.wikimedia.org/wiki/File:Carp_bream1.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-salmo-trutta",
+          "file": "https://commons.wikimedia.org/wiki/File:Brown_Trout_(Salmo_trutta)_(53678765394).jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-salmo-salar",
+          "file": "https://commons.wikimedia.org/wiki/File:Atlantischer_Lachs.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-leuciscus-leuciscus",
+          "file": "https://commons.wikimedia.org/wiki/File:Leuciscus_leuciscus.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-scardinius-erythrophthalmus",
+          "file": "https://commons.wikimedia.org/wiki/File:Scardinius_erythropthalmus_2009_G1.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-sander-lucioperca",
+          "file": "https://commons.wikimedia.org/wiki/File:Sander_lucioperca_1.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-misgurnus-fossilis",
+          "file": "https://commons.wikimedia.org/wiki/File:Misgurnus_fossilis_2009_G1.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-pungitius-pungitius",
+          "file": "https://commons.wikimedia.org/wiki/File:Pungitius_pungitius.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-acipenser-ruthenus",
+          "file": "https://commons.wikimedia.org/wiki/File:Acipenser_ruthenus_Prague_Vltava_1.jpg",
+          "license": "Public domain"
+        },
+        {
+          "id": "wm-lota-lota",
+          "file": "https://commons.wikimedia.org/wiki/File:Tr%C3%BCsche_Walchensee.jpg",
+          "license": "CC BY-SA 3.0"
+        },
+        {
+          "id": "wm-cyprinus-carpio",
+          "file": "https://commons.wikimedia.org/wiki/File:Cyprinus_carpio_2008_G1_(cropped).jpg",
+          "license": "CC BY-SA 3.0"
+        }
+      ]
+    },
+    "us": {
+      "fishIds": [],
+      "review": {
+        "visualReviewed": true,
+        "reviewedAt": "2026-10-14",
+        "region": "North America native freshwater / anadromous fish",
+        "targetCount": 46,
+        "publishedCount": 37,
+        "skipped": [
+          {
+            "scientific": "Ptychocheilus grandis",
+            "reason": "Only attributed image is 600×248, below the readable image threshold.",
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Sacramento_pikeminnow"
+            ]
+          },
+          {
+            "scientific": "Lepomis cyanellus",
+            "reason": "Available main source is a Duane Raver drawing; no reviewed real photograph.",
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Green_sunfish"
+            ]
+          },
+          {
+            "scientific": "Sander canadensis",
+            "reason": "Available main source is a Duane Raver drawing; no reviewed real photograph.",
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Sauger"
+            ]
+          },
+          {
+            "scientific": "Ambloplites rupestris",
+            "reason": "Available source is an explicit 359×178 illustration.",
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Rock_bass"
+            ]
+          },
+          {
+            "scientific": "Pogonichthys macrolepidotus",
+            "reason": "Main real photograph is only 250×188, below the readable image threshold.",
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Sacramento_splittail"
+            ]
+          },
+          {
+            "scientific": "Lepomis auritus",
+            "reason": "Available main source is a Duane Raver drawing; no reviewed real photograph.",
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Redbreast_sunfish"
+            ]
+          },
+          {
+            "scientific": "Oncorhynchus clarkii",
+            "reason": "Available real photograph is Rio Grande O. clarkii virginalis while FishBase stock text and Wikipedia taxon are coastal clarkii; modern species/subspecies concept review remains unresolved.",
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Cutthroat_trout"
+            ]
+          },
+          {
+            "scientific": "Micropterus salmoides",
+            "reason": "2022 species concept redefinition: ordinary largemouth bass is M. nigricans; current Florida bass M. salmoides cannot inherit the older GBIF/FishBase broad northern largemouth range. Stale Wikidata P225 and exact GBIF legacy acceptance alone do not resolve this.",
+            "sourceUrls": [
+              "https://www.nature.com/articles/s41598-022-11743-2",
+              "https://en.wikipedia.org/wiki/Largemouth_bass"
+            ]
+          },
+          {
+            "scientific": "Ameiurus nebulosus",
+            "reason": "Commons metadata lacks identifiable artist/author credit for main image candidates.",
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Brown_bullhead"
+            ]
+          }
+        ],
+        "method": "Exact accepted GBIF species matches; Wikidata P225 matches exact scientific name; Commons metadata checks and real-photo visual contact sheet review; FishBase 26.06 range/native ecosystem allowlist cross-check; NOAA/FWS/USGS government supplements. No invented aquarium care data or introduced population maps.",
+        "limitations": [
+          "This representative regional batch is not a complete inventory of US fish.",
+          "Wikipedia text is included only when retrieved; absent whole-article ecology/distribution sections stay blank. FishBase native ranges appear separately in distribution records.",
+          "Common photograph age/sex/season may vary; photos remain identified via source metadata and reviewed morphology.",
+          "Legacy FishBase native ecosystem tags were not trusted blindly.",
+          "Waterbody polygons are Natural Earth visualization geometry, not species-range or fish-observation polygons."
+        ]
+      },
+      "photoReview": []
+    }
+  },
+  "corrections": {
+    "wm-chromis-viridis": {
+      "sourceUrl": "https://www.fishbase.se/summary/5679",
+      "reviewNotes": [
+        "Excluded legacy Mediterranean native ecosystem row because it conflicts with the Indo-Pacific species-level range; checked FishBase 5679 and NOAA Federal Register 2014-20955."
+      ]
+    },
+    "wm-gila-atraria": {
+      "sourceUrl": "https://www.fishbase.se/summary/2756",
+      "reviewNotes": [
+        "Existing Columbia connection is retained because native upper Snake River drains to Columbia. Added missing Bonneville / Great Salt Lake drainage. Introduced Missouri and Colorado populations excluded."
+      ]
+    },
+    "wm-esox-lucius": {
+      "sourceUrl": "https://www.fishbase.se/summary/258",
+      "reviewNotes": [
+        "North America native links reviewed separately. Rio Grande legacy native ecosystem tag excluded because it conflicts with the native species-range southern limit; lake links identify exact named lakes."
+      ]
+    },
+    "wm-pomoxis-nigromaculatus": {
+      "sourceUrl": "https://www.fishbase.se/summary/3388",
+      "reviewNotes": [
+        "FishBase notes uncertainty in original native range because of widespread stocking. Restricted to the source-presumed original St. Lawrence/Great Lakes and Mississippi systems; Fraser legacy native flag excluded.",
+        "FishBase ecosystem flags were reviewed against species-level native-range text. Inconsistent European and western introductions were excluded. This is verified waterbody coverage, not an exhaustive or fine-scale range map."
+      ]
+    }
+  },
+  "validation": {
+    "productionBuild": true,
+    "unitTestsPassed": 60,
+    "incrementalPublisherTestsPassed": 2,
+    "geographyErrors": 0,
+    "browserFirstRun": {
+      "total": 62,
+      "passed": 60,
+      "failed": 2
+    },
+    "browserUnchangedConfirmation": {
+      "total": 2,
+      "passed": 2,
+      "testsChanged": false,
+      "implementationChanged": false
+    },
+    "firstRunFailureReasons": [
+      "Chrome context setup timeout before page operations",
+      "Transient 480ms layout animation observed after completion"
+    ],
+    "manualPreview": {
+      "allPhotoPins": 287,
+      "loadedPhotos": 287,
+      "representedWaterbodies": 166,
+      "yangtzePhotos": 19,
+      "yangtzeOverflow": false,
+      "atlasAlias": "桂鱼 -> Siniperca chuatsi",
+      "catalogAlias": "白鲢 -> Hypophthalmichthys molitrix"
+    },
+    "finalRangeCorrection": "Removed unconfirmed Pomoxis nigromaculatus Waccamaw association, then rebuilt and reran unit/content/geography checks."
+  }
+}
