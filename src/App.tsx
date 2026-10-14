@@ -101,7 +101,7 @@ const allExploreSpecies: ExploreSpecies[] = [
 const allGlobePhotos = allExploreSpecies;
 const globePhotoById = new Map(allGlobePhotos.map((fish) => [fish.id, fish]));
 const basinLinkedCount = mappedSpeciesCount;
-const featuredBasins = ["3203", "4219", "1209", "1229", "2433", "6202", "5309", "2421"]
+const featuredBasins = ["3203", "4219", "4238", "1209", "1229", "2433", "2434", "2437", "6242", "6202", "5309", "2421"]
   .map((id) => basinById.get(id)!);
 
 function BasinTags({ fish }: { fish: Fish | PhotoProfile }) {
@@ -714,7 +714,7 @@ export default function App() {
       if (isSaved && !saved.includes(profile.id)) return false;
       if (water && profile.water !== water) return false;
       const needle = query.trim().toLocaleLowerCase();
-      return !needle || [profile.name, profile.scientific, profile.family, ...locales.map((language) => fishName(profile, language)), ...(commonNames[profile.scientific]?.aliases ?? [])].some((field) =>
+      return !needle || [profile.name, profile.scientific, profile.family, ...(profile.aliases ?? []), ...locales.map((language) => fishName(profile, language)), ...(commonNames[profile.scientific]?.aliases ?? [])].some((field) =>
         field.toLocaleLowerCase().includes(needle),
       );
     }),

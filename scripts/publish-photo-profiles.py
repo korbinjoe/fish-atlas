@@ -113,10 +113,14 @@ def main() -> None:
         time.sleep(1)
 
     MEDIA.mkdir(parents=True, exist_ok=True)
-    profiles: list[dict] = []
+    profiles: list[dict] = json.loads(OUTPUT.read_text()) if OUTPUT.exists() else []
+    known_scientific = {profile["scientific"].casefold() for profile in profiles}
+    initial_count = len(profiles)
     failures: list[str] = []
     for row in candidates:
         scientific = row["scientific"]
+        if scientific.casefold() in known_scientific:
+            continue  # Preserve earlier photographs, source excerpts and review.
         catalog_row = catalog.get(row["gbifKey"])
         if not catalog_row or catalog_row["scientific"].lower() != scientific.lower():
             failures.append(scientific + ": GBIF catalog mismatch")
@@ -177,10 +181,11 @@ def main() -> None:
                 },
             }
         )
+        known_scientific.add(scientific.casefold())
         # Incremental write keeps successfully vetted entries if a later source fails.
         OUTPUT.write_text(json.dumps(profiles, ensure_ascii=False, indent=2) + "\n")
 
-    print(f"Published {len(profiles)} photo-backed profiles from {len(candidates)} eligible candidates.")
+    print(f"Added {len(profiles) - initial_count} photo-backed profiles; preserved {initial_count}; total {len(profiles)}.")
     print(f"Intro: {sum(bool(p['intro']) for p in profiles)}; distribution: {sum(bool(p['distribution']) for p in profiles)}; behavior: {sum(bool(p['behavior']) for p in profiles)}.")
     if failures:
         print("Skipped downloads or mismatches:")

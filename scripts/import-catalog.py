@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import csv
 import re
+import runpy
 import time
 import urllib.error
 import urllib.parse
@@ -106,7 +107,7 @@ def write_review_queue(catalog: list[dict]) -> None:
         key=lambda row: (not bool(row.get("curatedId")), row["family"], row["scientific"]),
     )
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["stage", "scientific", "family", "gbif_key", "profile_id", "gbif_url"])
+        writer = csv.DictWriter(handle, fieldnames=["stage", "scientific", "family", "gbif_key", "profile_id", "gbif_url"], lineterminator="\n")
         writer.writeheader()
         for row in rows:
             writer.writerow({
@@ -210,7 +211,12 @@ def main():
             "curatedId": fish["id"],
             "reviewCandidate": True,
         })
-    catalog = sorted(curated + selected, key=lambda row: row["scientific"].casefold())
+    # A family refresh must not erase common-fish or regional editorial imports,
+    # including taxonomy records required by already published photographs.
+    catalog_path = ROOT / "content/catalog.json"
+    previous_catalog = json.loads(catalog_path.read_text()) if catalog_path.exists() else []
+    merge_catalog = runpy.run_path(str(ROOT / "scripts/publish-regional-batches.py"))["merge_catalog"]
+    catalog = merge_catalog(previous_catalog, curated + selected)
     keys = [row["key"] for row in catalog]
     if len(keys) != len(set(keys)):
         raise RuntimeError("Duplicate GBIF keys in catalog")
@@ -223,18 +229,22 @@ def main():
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
         "api": "https://api.gbif.org/v1/species/search",
-        "method": "Accepted species within 20 selected fish families; 240 per family cap, then round-robin to 3,500. Existing curated profiles merged by key/name. This is taxonomy, not an aquarium suitability list.",
+        "method": "Accepted species within 20 selected fish families; 240 per family cap, then round-robin to 3,500. Previous curated, common-fish and regional editorial records retained by exact taxon identity. This is taxonomy, not an aquarium suitability list.",
         "curatedProfiles": len(curated),
-        "basicEntries": len(selected),
+        "basicEntries": sum(not row.get("curatedId") for row in catalog),
         "totalEntries": len(catalog),
-        "reviewQueue": len(selected_priority_keys) + len(curated),
+        "reviewQueue": sum(row["reviewCandidate"] for row in catalog),
         "reviewMethod": "33 existing profiles plus 267 taxonomy candidates: related genera first (cap 6 per genus), then round-robin across families (cap 4 per genus), favouring available English names. Editorial work queue, not an aquarium suitability claim.",
         "families": dict(Counter(row["family"] for row in catalog)),
         "fetchedAcceptedByFamily": family_counts,
     }
-    (ROOT / "content/catalog-manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+    manifest_path = ROOT / "content/catalog-manifest.json"
+    previous_manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    manifest_path.write_text(json.dumps({**previous_manifest, **manifest}, ensure_ascii=False, indent=2) + "\n")
     write_review_queue(catalog)
-    print(f"Wrote {len(catalog)} entries, {len(selected_priority_keys) + len(curated)} review candidates")
+    english_names = {row["scientific"].strip().lower(): row["vernacular"].strip() for row in catalog if row["vernacular"].strip()}
+    (ROOT / "src/i18n/english-names.json").write_text(json.dumps(dict(sorted(english_names.items())), ensure_ascii=False, indent=2) + "\n")
+    print(f"Wrote {len(catalog)} entries, {manifest['reviewQueue']} review candidates")
 
 
 if __name__ == "__main__":

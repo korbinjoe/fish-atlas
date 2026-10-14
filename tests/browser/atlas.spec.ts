@@ -1,4 +1,4 @@
-import { mappedSpeciesCount } from "./distribution-fixture";
+import { mappedSpeciesCount, marinePhotoCount } from "./distribution-fixture";
 import { expect, test } from "@playwright/test";
 import { readFileSync } from "node:fs";
 
@@ -186,13 +186,13 @@ test("explore keeps unmapped photos in the list and maps only sourced basin link
   await page.getByRole("button", { name: `已定位 ${mappedSpeciesCount}` }).click();
   await expect(page.locator(".compact-card")).toHaveCount(mappedSpeciesCount);
   await expect(page.locator(".globe-fish-pin")).toHaveCount(mappedSpeciesCount);
-  await page.getByRole("button", { name: `待定位 ${183-mappedSpeciesCount}` }).click();
-  await expect(page.locator(".compact-card")).toHaveCount(183-mappedSpeciesCount);
+  await page.getByRole("button", { name: `待定位 ${atlasTotal-mappedSpeciesCount}` }).click();
+  await expect(page.locator(".compact-card")).toHaveCount(atlasTotal-mappedSpeciesCount);
   await expect(page.locator(".globe-fish-pin")).toHaveCount(0);
-  await page.getByRole("button", { name: "全部照片 183" }).click();
+  await page.getByRole("button", { name: `全部照片 ${atlasTotal}` }).click();
   await expect(page.locator(".globe-fish-pin")).toHaveCount(mappedSpeciesCount);
   await page.getByRole("button", { name: "海水", exact: true }).click();
-  await expect(page.locator(".globe-fish-pin")).toHaveCount(70);
+  await expect(page.locator(".globe-fish-pin")).toHaveCount(marinePhotoCount);
   await page.getByRole("button", { name: "全部水体" }).click();
   await page.getByRole("textbox", { name: "搜索鱼种" }).fill("真小丑鱼");
   await page.getByRole("textbox", { name: "搜索鱼种" }).press("Enter");

@@ -1,7 +1,8 @@
 import { geoContains, geoBounds, geoDistance } from "d3-geo";
 import type { GeoPermissibleObjects } from "d3-geo";
 import type { ExploreSpecies } from "./exploreProfiles";
-import { distributions, fishLocations } from "./distribution";
+import { distributions, fishLocations, locationById } from "./distribution";
+import { assignRepresentativeLocations } from "./representativeLocations";
 import type { WaterLocation } from "./distribution";
 import world from "world-atlas/land-110m.json";
 import { feature } from "topojson-client";
@@ -11,6 +12,13 @@ export type BasinPhotoPin = { key: string; fish: ExploreSpecies; basinId: string
 const land = feature(world as unknown as Topology<{ land: GeometryCollection }>,
   (world as unknown as Topology<{ land: GeometryCollection }>).objects.land) as GeoPermissibleObjects;
 const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+const representativeLocations = assignRepresentativeLocations(new Map(
+  Object.entries(distributions).map(([id, distribution]) => {
+    const linked = distribution.links.map((link) => link.locationId).filter((location) => locationById.has(location));
+    const specific = linked.filter((location) => !["sea-7", "sea-8", "sea-9"].includes(location));
+    return [id, specific.length ? specific : linked];
+  }),
+));
 function inside(location: WaterLocation, point: [number, number]): boolean {
   return !!location.geometry && geoContains({ type: "Feature", properties: {}, geometry: location.geometry } as GeoPermissibleObjects, point)
     && (location.kind !== "sea" || !geoContains(land, point));
@@ -61,15 +69,12 @@ function displayAnchor(fish: ExploreSpecies, location: WaterLocation): [number, 
 }
 export function makeBasinPhotoPins(fish: ExploreSpecies[], selectedLocation = ""): BasinPhotoPin[] {
   const pins: BasinPhotoPin[] = [];
-  // One representative native waterbody per fish at overview level. Every
-  // supported association remains available through the waterbody filter.
-  // Source ordering fixes the representative place across search/category
-  // filters; balancing the current list would make the same fish jump regions.
+  // One representative native waterbody per fish at overview level, assigned
+  // from the complete snapshot to keep search/category filters geographically
+  // stable. Selecting a waterbody shows every fish with a supported link there.
   for (const item of [...fish].sort((a,b) => a.id.localeCompare(b.id))) {
     const linked = fishLocations(item.item).filter((l) => !selectedLocation || l.id === selectedLocation);
-    const specific = linked.filter((l) => !["sea-7", "sea-8", "sea-9"].includes(l.id));
-    const places = specific.length ? specific : linked;
-    const location = places[0];
+    const location = selectedLocation ? linked[0] : linked.find((place) => place.id === representativeLocations.get(item.id));
     if (location) pins.push({ key: `${item.id}:${location.id}`, fish: item,
       basinId: location.id, coordinates: displayAnchor(item, location) });
   }

@@ -18,7 +18,7 @@ for (const profile of profiles) {
     throw new Error(`Catalog mismatch: ${profile.scientific}`);
   }
   if (!/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(profile.photo.pageUrl)) throw new Error(`Missing Commons file: ${profile.scientific}`);
-  if (!/^CC BY(?:-SA)? [\d.]+(?: de)?$|^CC0$/.test(profile.photo.license)) throw new Error(`Unexpected license: ${profile.scientific}`);
+  if (!/^(?:CC BY(?:-SA)? [\d.]+(?: de)?|CC0|Public domain)$/.test(profile.photo.license)) throw new Error(`Unexpected license: ${profile.scientific}`);
   if (!/^\/media\/wikimedia\/[a-z0-9-]+\.(?:jpe?g|png|webp)$/.test(profile.photo.path)) throw new Error(`Bad local path: ${profile.scientific}`);
   const bytes = readFileSync(resolve(root, "public", profile.photo.path.slice(1)));
   const jpeg = bytes[0] === 0xff && bytes[1] === 0xd8;

@@ -1,4 +1,4 @@
-import { mappedSpeciesCount, locationSpeciesCount } from "./distribution-fixture";
+import { mappedSpeciesCount, locationSpeciesCount, atlasTotal } from "./distribution-fixture";
 import { expect, test } from "@playwright/test";
 
 test("explore exposes all 520 basins and keeps empty basins honest", async ({ page }) => {
@@ -13,8 +13,8 @@ test("explore exposes all 520 basins and keeps empty basins honest", async ({ pa
   await expect(picker.locator(".basin-results button")).toHaveCount(1);
   await picker.getByRole("button", { name: /查看长江流域/ }).click();
   await expect(page).toHaveURL(/basin=2433/);
-  await expect(page.locator(".globe-fish-pin")).toHaveCount(2);
-  await expect(page.locator(".compact-card")).toHaveCount(2);
+  await expect(page.locator(".globe-fish-pin")).toHaveCount(locationSpeciesCount.get("2433")!);
+  await expect(page.locator(".compact-card")).toHaveCount(locationSpeciesCount.get("2433")!);
   await expect(page.locator("canvas")).toBeVisible();
   await page.getByRole("button", { name: "选择流域、海域或湖泊" }).click();
   await picker.getByRole("textbox", { name: "搜索水域" }).fill("Amazon");
@@ -39,7 +39,7 @@ test("atlas basin filter links to sourced species and clears cleanly", async ({ 
   await expect(page.getByRole("dialog", { name: "刚果灯图鉴" })).toContainText("原生分布水域");
   await page.getByRole("button", { name: "关闭鱼种详情" }).click();
   await page.getByRole("button", { name: "清除流域筛选" }).click();
-  await expect(page.locator(".fish-card")).toHaveCount(183);
+  await expect(page.locator(".fish-card")).toHaveCount(atlasTotal);
 });
 
 test("mobile basin search and map fit the viewport", async ({ page }) => {

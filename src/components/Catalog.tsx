@@ -86,7 +86,7 @@ export default function Catalog({ fishes, photoProfiles, onFish, onPhoto }: { fi
     const matches = catalog.filter((entry) =>
       (!family || entry.family === family) &&
       (tier === "all" || (tier === "profiles" ? hasProfile(entry) : tier === "review" ? entry.reviewCandidate : !hasProfile(entry))) &&
-      (!needle || [entry.scientific, entry.family, entry.genus, entry.vernacular, commonPriority[entry.scientific]?.name ?? "", ...(commonPriority[entry.scientific]?.aliases ?? []), entry.curatedId ? curated.get(entry.curatedId)?.name ?? "" : "", photographed.get(entry.key)?.name ?? "", entry.curatedId ? (curated.get(entry.curatedId)?.aliases ?? []).join(" ") : "", ...locales.map((language) => nameForLocale({ name: commonPriority[entry.scientific]?.name ?? entry.scientific, scientific: entry.scientific }, language))].some((field) => field.toLocaleLowerCase().includes(needle)))
+      (!needle || [entry.scientific, entry.family, entry.genus, entry.vernacular, commonPriority[entry.scientific]?.name ?? "", ...(commonPriority[entry.scientific]?.aliases ?? []), entry.curatedId ? curated.get(entry.curatedId)?.name ?? "" : "", photographed.get(entry.key)?.name ?? "", ...(photographed.get(entry.key)?.aliases ?? []), entry.curatedId ? (curated.get(entry.curatedId)?.aliases ?? []).join(" ") : "", ...locales.map((language) => nameForLocale({ name: commonPriority[entry.scientific]?.name ?? entry.scientific, scientific: entry.scientific }, language))].some((field) => field.toLocaleLowerCase().includes(needle)))
     );
     if (tier === "all" || tier === "review") matches.sort((a, b) => Number(hasProfile(b)) - Number(hasProfile(a)));
     return matches;

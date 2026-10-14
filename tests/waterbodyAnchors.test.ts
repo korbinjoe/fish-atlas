@@ -30,7 +30,7 @@ test("representative waterbodies and anchors stay fixed when fish are filtered o
     expect(filteredPin.coordinates).toEqual(pin.coordinates);
     const linked = fishLocations(pin.fish.item);
     const specific = linked.filter((location) => !["sea-7", "sea-8", "sea-9"].includes(location.id));
-    expect(pin.basinId).toBe((specific.length ? specific : linked)[0].id);
+    expect((specific.length ? specific : linked).map((location) => location.id)).toContain(pin.basinId);
   }
   expect(makeBasinPhotoPins([...photoFish].reverse())).toEqual(allPins);
 });

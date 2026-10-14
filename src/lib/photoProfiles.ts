@@ -5,6 +5,7 @@ export const photoProfileSchema = z.object({
   gbifKey: z.number().int().positive(),
   scientific: z.string().min(3),
   name: z.string().min(1),
+  aliases: z.array(z.string().min(1)).optional(),
   family: z.string().min(1),
   water: z.enum(["freshwater", "marine", "brackish"]).nullable(),
   wikipediaUrl: z.url(),
