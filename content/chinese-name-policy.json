@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "locale": "zh-CN",
+  "reviewedAt": "2026-10-15",
+  "method": "Reviewed glyph substitutions for fish display names only. Common traditional characters become simplified Chinese; established BMP fish characters such as 鮰/鮈/鮠/鰕/鱊 are retained instead of generating poorly supported supplementary-plane forms. Taxon-specific preferred names require explicit sources. Original valid spellings remain searchable aliases; rejected wrong-species labels do not.",
+  "characterReplacements": {
+    "䰾": "鲃",
+    "䲁": "鳚",
+    "亞": "亚",
+    "來": "来",
+    "倫": "伦",
+    "側": "侧",
+    "內": "内",
+    "吳": "吴",
+    "單": "单",
+    "國": "国",
+    "圓": "圆",
+    "圖": "图",
+    "團": "团",
+    "壯": "壮",
+    "奧": "奥",
+    "嬌": "娇",
+    "寬": "宽",
+    "寶": "宝",
+    "岡": "冈",
+    "島": "岛",
+    "帶": "带",
+    "庫": "库",
+    "彈": "弹",
+    "後": "后",
+    "擬": "拟",
+    "東": "东",
+    "條": "条",
+    "極": "极",
+    "櫻": "樱",
+    "歐": "欧",
+    "漢": "汉",
+    "潑": "泼",
+    "烏": "乌",
+    "無": "无",
+    "熱": "热",
+    "爾": "尔",
+    "猶": "犹",
+    "環": "环",
+    "異": "异",
+    "祕": "秘",
+    "紅": "红",
+    "紋": "纹",
+    "納": "纳",
+    "紡": "纺",
+    "細": "细",
+    "絲": "丝",
+    "綠": "绿",
+    "維": "维",
+    "線": "线",
+    "縱": "纵",
+    "纓": "缨",
+    "羅": "罗",
+    "翹": "翘",
+    "脅": "胁",
+    "腫": "肿",
+    "莖": "茎",
+    "華": "华",
+    "葉": "叶",
+    "蒼": "苍",
+    "蓋": "盖",
+    "蔭": "荫",
+    "薩": "萨",
+    "藍": "蓝",
+    "蘆": "芦",
+    "蘇": "苏",
+    "蟄": "蛰",
+    "護": "护",
+    "貓": "猫",
+    "贊": "赞",
+    "軟": "软",
+    "達": "达",
+    "遠": "远",
+    "鈍": "钝",
+    "鈎": "钩",
+    "鉛": "铅",
+    "銀": "银",
+    "銼": "锉",
+    "錘": "锤",
+    "錫": "锡",
+    "鎌": "镰",
+    "鏟": "铲",
+    "鏢": "镖",
+    "鑷": "镊",
+    "長": "长",
+    "閃": "闪",
+    "間": "间",
+    "陽": "阳",
+    "隱": "隐",
+    "雙": "双",
+    "雜": "杂",
+    "電": "电",
+    "頜": "颌",
+    "頦": "颏",
+    "頭": "头",
+    "馬": "马",
+    "駝": "驼",
+    "體": "体",
+    "鬍": "胡",
+    "鬚": "须",
+    "鬥": "斗",
+    "魚": "鱼",
+    "魨": "鲀",
+    "魴": "鲂",
+    "鮃": "鲆",
+    "鮊": "鲌",
+    "鮍": "鲏",
+    "鮭": "鲑",
+    "鯇": "鲩",
+    "鯉": "鲤",
+    "鯖": "鲭",
+    "鯛": "鲷",
+    "鯡": "鲱",
+    "鯪": "鲮",
+    "鯰": "鲶",
+    "鯽": "鲫",
+    "鯿": "鳊",
+    "鰁": "鳈",
+    "鰈": "鲽",
+    "鰍": "鳅",
+    "鰓": "鳃",
+    "鰟": "鳑",
+    "鰨": "鳎",
+    "鰭": "鳍",
+    "鰱": "鲢",
+    "鰻": "鳗",
+    "鱂": "鳉",
+    "鱅": "鳙",
+    "鱈": "鳕",
+    "鱒": "鳟",
+    "鱖": "鳜",
+    "鱗": "鳞",
+    "鱘": "鲟",
+    "鱧": "鳢",
+    "鱷": "鳄",
+    "鱸": "鲈",
+    "鱺": "鲡",
+    "鴛": "鸳",
+    "鴦": "鸯",
+    "麗": "丽",
+    "麥": "麦",
+    "黃": "黄",
+    "點": "点",
+    "齊": "齐",
+    "齒": "齿",
+    "齧": "啮",
+    "龍": "龙",
+    "𫚔": "鮰",
+    "𫚥": "鰕",
+    "𬶋": "鮈",
+    "𬶏": "鮠",
+    "𬶭": "鰶"
+  },
+  "protectedFishCharacters": {
+    "鮈": "𬶋",
+    "鮠": "𬶏",
+    "鮰": "𫚔",
+    "鰕": "𫚥",
+    "鰶": "𬶭",
+    "鱊": "𫚪"
+  },
+  "preferredNames": {
+    "Acheilognathus macropterus": {
+      "name": "大鳍鱊",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://nyncj.wuhan.gov.cn/zhlm/tzgg/202004/P020230424423477651555.pdf"
+      ],
+      "reason": "现有主名本来是大陆实际常用写法；全量OpenCC反而会生成𫚪，应保护不改。"
+    },
+    "Alphestes immaculatus": {
+      "name": "无斑鸳鸯鮨",
+      "aliases": [
+        "無斑鴛鴦鮨"
+      ],
+      "rejectedNames": [
+        "無斑鴛鴛鮨",
+        "无斑鸳鸳鮨"
+      ],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&me=&orderby=family_ch&page=421&pz=30&vn="
+      ],
+      "reason": "机构拉汉鱼典明确该学名对应無斑鴛鴦鮨；纠正旧导入标签误写的重复鴛，采用鸳鸯常用简体写法。"
+    },
+    "Ameiurus melas": {
+      "name": "黑鮰",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=3&pz=500&vn="
+      ],
+      "reason": "鱼类辞典明确黑鮰；不需要改成无来源的黑鲶鱼。"
+    },
+    "Ameiurus natalis": {
+      "name": "黄鮰",
+      "aliases": [
+        "北美鮰"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://www.gbif.org/zh/taxon/CQKF",
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=3&pz=500&vn="
+      ],
+      "reason": "黄鮰与北美鮰均有数据库来源；保留已用词并恢复BMP字形，不宣称仅一种才正确。"
+    },
+    "Aplocheilus panchax": {
+      "name": "巴基斯坦鰕鳉",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=family_name&page=67&pz=500&vn="
+      ],
+      "reason": "该生硬名称有鱼类辞典来源；只修字形，不误改成青鳉（另一属）或未经证实俗名。"
+    },
+    "Apogon atradorsatus": {
+      "name": "黑背天竺鲷",
+      "aliases": [
+        "黑背天竺鯛"
+      ],
+      "rejectedNames": [
+        "黑幼背天竺鯛",
+        "黑幼背天竺鲷"
+      ],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&me=&orderby=is_accepted_name&page=103&pz=200&vn="
+      ],
+      "reason": "机构拉汉鱼典明确该学名对应黑背天竺鲷；去除旧导入标签中多出的“幼”。"
+    },
+    "Barbonymus gonionotus": {
+      "name": "银高体鲃",
+      "aliases": [
+        "爪哇鲃",
+        "爪哇四须鲃"
+      ],
+      "rejectedNames": [
+        "银石首鱼"
+      ],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/taxon/395479-fishdb"
+      ],
+      "reason": "当前中文名含石首鱼，权威资料明确对应高体鲃属、鲤科；建议整项纠正而非繁简转换。"
+    },
+    "Canthigaster bennetti": {
+      "name": "本氏河鲀",
+      "aliases": [
+        "笨氏尖鼻魨",
+        "笨氏尖鼻鲀",
+        "本氏扁背鲀"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/mobi/species.php?id=383024",
+        "https://www.tfrin.gov.tw/theme_list.php?page=536&theme=dictionary"
+      ],
+      "reason": "台湾鱼类资料库把本氏河魨列为此学名的俗名；水产试验所另列本氏扁背魨。优先使用较易读的已有俗名，保留原先有依据的笨氏尖鼻鲀名称为检索别名。"
+    },
+    "Coregonus artedi": {
+      "name": "湖白鲑",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=science&page=525&pz=50&vn=",
+        "https://fishbase.se/ComNames/CommonNamesList.php?GenusName=Coregonus&ID=235&SpeciesName=artedi"
+      ],
+      "reason": "不能仅因 clupeaformis 英文为 lake whitefish，就把 artedi 的湖白鲑判错。"
+    },
+    "Coregonus clupeaformis": {
+      "name": "鲱形白鲑",
+      "aliases": [
+        "湖白鱼",
+        "鲱形白鲑"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=science&page=329&pz=25&vn=",
+        "https://fishbase.se/ComNames/CommonNameSummary.php?autoctr=267297",
+        "https://www.sciengine.com/doi/pdf/6C52E49D91134E1B82D2505DD7E2F8FC"
+      ],
+      "reason": "湖白鱼不是乱码或杜撰；建议展示名规范为鲱形白鲑并保留湖白鱼别名，以减少与artedi湖白鲑混淆。这是偏好规范化而非错种。"
+    },
+    "Cottus gobio": {
+      "name": "鮈杜父鱼",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=family_name&page=958&pz=25&vn="
+      ],
+      "reason": "恢复𬶋的BMP鮈形；不改变鱼种身份。"
+    },
+    "Devario aequipinnatus": {
+      "name": "大斑马",
+      "formalName": "波条鿕",
+      "aliases": [
+        "波条鿕",
+        "波条神鿕",
+        "大斑马"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/import_already_pic.php?id=1433"
+      ],
+      "reason": "大斑马为来源已有的水族俗名；不是根据 Giant danio 临时译名。 该水族名可能用于近似种，不能把市场同名照片或 Devario malabaricus 的资料挪给此物种；本记录仍以学名为准。"
+    },
+    "Hemibarbus labeo": {
+      "name": "重唇鱼",
+      "formalName": "唇䱻",
+      "aliases": [
+        "唇䱻",
+        "重唇鱼",
+        "重唇",
+        "重重",
+        "黄竹",
+        "桃花竹"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://xuebao.dlou.edu.cn/article/2025/2095-1388/202502003.html",
+        "https://patents.google.com/patent/CN101965923B/zh",
+        "https://www.moa.gov.cn/xw/bmdt/202106/P020210617329140415572.pdf"
+      ],
+      "reason": "重唇鱼适合作为易读显示名；唇䱻是应保留的科研名称。 䱻不是乱码，也不应批量替换成鲤、鲌等其他鱼名。"
+    },
+    "Hemibarbus maculatus": {
+      "name": "花骨鱼",
+      "formalName": "花䱻",
+      "aliases": [
+        "花䱻",
+        "花骨鱼",
+        "花鱼骨"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://www.xinping.gov.cn/u/cms/xpxzfxxgk/202008/2816011103h1.pdf",
+        "https://www.moa.gov.cn/xw/bmdt/202106/P020210617329140415572.pdf",
+        "https://xuebao.dlou.edu.cn/article/2020/2095-1388/202001002.html"
+      ],
+      "reason": "花骨鱼为已有文献使用的可读写法，不是本项目临时拆字造名。 规范名花䱻仍应出现在详情和别名检索中。"
+    },
+    "Hemiculter leucisculus": {
+      "name": "白条鱼",
+      "formalName": "䱗",
+      "aliases": [
+        "䱗",
+        "餐条鱼",
+        "白条",
+        "白条鱼",
+        "白鲦"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://dfz.jl.gov.cn/jltc/201802/t20180211_5217565.html",
+        "https://www.moa.gov.cn/xw/bmdt/202106/P020210617329140415572.pdf"
+      ],
+      "reason": "白条鱼是易读俗名，不是对䱗字的简化；详情和搜索应继续保留规范名䱗。 白条这一俗称可能在其他地方泛指相似鱼，页面仍需保留 Hemiculter leucisculus 作为身份依据。"
+    },
+    "Hypancistrus zebra": {
+      "name": "L046熊猫异型",
+      "formalName": "斑马下钩鲶",
+      "aliases": [
+        "斑馬下鈎鯰",
+        "斑马下钩鲶",
+        "L046熊貓異型",
+        "L046熊猫异型"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/import_forbidden_pic.php?id=37",
+        "https://www.moa.gov.cn/nybgb/2018/201811/201901/P020190102426865426990.pdf"
+      ],
+      "reason": "L046编号有助于区别其他同样带斑马纹的异型鱼；建议完整保留前缀。 斑马异型、熊猫异型等不带编号俗称在水族网站出现，但本轮优先采用官方来源逐字支持的L046全称。 鯰在不同中文规范可对应鲇或鲶；采用大陆已公开文件的斑马下钩鲶，不能仅凭字体偏好混改不同物种。"
+    },
+    "Ictalurus furcatus": {
+      "name": "长鳍真鮰",
+      "aliases": [
+        "长鳍叉尾鮰"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_ch&page=112&pz=200&vn="
+      ],
+      "reason": "同一词项恢复鱼类辞典BMP字形，不凭blue catfish自造蓝鲶俗名。"
+    },
+    "Ictalurus punctatus": {
+      "name": "斑点叉尾鮰",
+      "aliases": [
+        "斑真鮰"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://std.samr.gov.cn/db/search/stdDBDetailed?id=91D99E4D52812E24E05397BE0A0A3A10",
+        "https://yyj.moa.gov.cn/kjzl/201904/t20190428_6230770.htm",
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_ch&page=112&pz=200&vn="
+      ],
+      "reason": "国家/地方水产标准和主管部门采用鮰字，机械转换成𫚔影响可读性。"
+    },
+    "Iriatherina werneri": {
+      "name": "燕子美人",
+      "formalName": "沃氏伊岛银汉鱼",
+      "aliases": [
+        "燕子美人",
+        "沃氏伊島銀漢魚",
+        "沃氏伊岛银汉鱼"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://kmweb.moa.gov.tw/subject/subject.php?id=21704"
+      ],
+      "reason": "燕子美人有准确学名配对，可直接用于卡片显示。 不可缩为燕子鱼：这一宽泛俗称会混淆 Pseudomugil 等其他鱼类。 沃氏伊岛银汉鱼仍保留为既有中文名检索别名。"
+    },
+    "Leuciscus aspius": {
+      "name": "赤稍雅罗鱼",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesemodi.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=datelastmodified&page=65&pz=15&vn="
+      ],
+      "reason": "赤稍雅罗鱼有正式修订记录，不能因为看起来生硬就擅自纠正稍/梢或改译名。"
+    },
+    "Luxilus cornutus": {
+      "name": "角闪光美洲鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=chinese_mainland&page=269&pz=100&vn="
+      ],
+      "reason": "鱥是来源中的真实鱼名汉字，不是乱码。"
+    },
+    "Lythrurus umbratilis": {
+      "name": "蛰居美洲石鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=38&pz=500&vn="
+      ],
+      "reason": "现名有机构数据库支持；鱥不是乱码。"
+    },
+    "Macropodus hongkongensis": {
+      "name": "香港斗鱼",
+      "formalName": "香港斗鱼",
+      "aliases": [
+        "香港鬥魚",
+        "香港斗鱼"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://bih.gov.hk/tc/fast-facts/species-named-after-hong-kong/index-id-22.html",
+        "https://www.natureintouch.gov.hk/documents/275279/1049958/Species_Identification_Guide_Student_StreamEcosystem_en_20231026.pdf/42efad61-f0d7-1bdb-4f21-8c8feac77ffb?t=1698740427164"
+      ],
+      "reason": "直接做鬥→斗、魚→鱼即可；不需要另造名字。 黑叉尾斗鱼在不同年代可能指不同 Macropodus 物种，本轮不新增这个宽泛别名。"
+    },
+    "Macropodus opercularis": {
+      "name": "叉尾斗鱼",
+      "formalName": "盖斑斗鱼",
+      "aliases": [
+        "蓋斑鬥魚",
+        "盖斑斗鱼",
+        "叉尾鬥魚",
+        "叉尾斗鱼"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://www.natureintouch.gov.hk/documents/275279/1049958/Species_Identification_Guide_Student_StreamEcosystem_en_20231026.pdf/42efad61-f0d7-1bdb-4f21-8c8feac77ffb?t=1698740427164"
+      ],
+      "reason": "叉尾斗鱼为明确对应物种的官方中文名；不是将香港斗鱼或其他斗鱼合并。 盖斑斗鱼是现有名称的普通繁简统一写法，保留为别名。"
+    },
+    "Moxostoma macrolepidotum": {
+      "name": "大鳞吸口鱼",
+      "aliases": [
+        "大鳞吸口鱼"
+      ],
+      "rejectedNames": [
+        "马斯科吸口鱼",
+        "馬斯科吸口魚"
+      ],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=&fm=&gc=&me=&orderby=family_name&page=184&pz=30&vn="
+      ],
+      "reason": "错误名称不能继续作为本物种的别名保留。"
+    },
+    "Nipponocypris temminckii": {
+      "name": "特氏东瀛鲤",
+      "formalName": "特氏东瀛鲤",
+      "aliases": [
+        "特氏東瀛鯉",
+        "特氏东瀛鲤",
+        "川鯥"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_name&page=633&pz=20&vn=",
+        "https://www.cgr.mlit.go.jp/yasaka/ikimono/organism2018/d0007.htm"
+      ],
+      "reason": "特氏东瀛鲤是来源可核对且字形易显示的中文名。 川鯥可作为原数据检索别名保留；本轮不把日本俗名直接加工成川鲤等新名称。"
+    },
+    "Nocomis micropogon": {
+      "name": "小须美鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=chinese_taiwan&page=94&pz=100&vn="
+      ],
+      "reason": "现名仅作鬚到须的繁简转换；保留鱥。"
+    },
+    "Phenacobius mirabilis": {
+      "name": "奇美洲拟鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=family_name&page=432&pz=30&vn="
+      ],
+      "reason": "鱥是真实鱼名用字，不是编码损坏。"
+    },
+    "Pungitius pungitius": {
+      "name": "九棘多刺鱼",
+      "aliases": [],
+      "rejectedNames": [
+        "八棘多刺鱼",
+        "八棘多刺魚"
+      ],
+      "sourceUrls": [
+        "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/W020230522536559098623.pdf",
+        "https://www.biodiversity-science.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8668"
+      ],
+      "reason": "官方物种红名录与当前八棘名称冲突；优先官方九棘名称，不按英语自行翻译。"
+    },
+    "Pylodictis olivaris": {
+      "name": "铲鮰",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_ch&page=112&pz=200&vn="
+      ],
+      "reason": "鏟鮰为辞典对应名称，常用简体铲+保留BMP鮰。"
+    },
+    "Rhinichthys cataractae": {
+      "name": "吻鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=chinese_taiwan&page=47&pz=100&vn=",
+        "https://fishdb.sinica.edu.tw/chi/specimen_species.php?R1=recno&R2=&dere=asc&key=&m=&page=1&pz=200"
+      ],
+      "reason": "可保持短中文名吻鱥；鱥是真实鱼名汉字。"
+    },
+    "Richardsonius balteatus": {
+      "name": "红胁鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=author&page=53&pz=200&vn="
+      ],
+      "reason": "现名是来源名称的繁简转换；鱥不是乱码。"
+    },
+    "Synodontis schall": {
+      "name": "沙尔歧须鮠",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=chinese_mainland&page=34&pz=500&vn="
+      ],
+      "reason": "普通字简化、鱼字鮠保留BMP，不改为无证俗名。"
+    },
+    "Tinca tinca": {
+      "name": "丁桂鱼",
+      "formalName": "丁鱥",
+      "aliases": [
+        "丁鱥",
+        "丁桂",
+        "丁桂鱼"
+      ],
+      "rejectedNames": [
+        "丁鱥科"
+      ],
+      "sourceUrls": [
+        "https://www.schinafish.cn/cn/article/pdf/preview/10.12131/20250164.pdf",
+        "https://nyncw.cq.gov.cn/wsdw/cqsscz/tzgg/202312/P020220222732842930981.pdf",
+        "https://www.moa.gov.cn/xw/bmdt/202106/P020210617329140415572.pdf"
+      ],
+      "reason": "丁桂鱼为已使用的俗名，适合作为面向初学者的显示名。 鱥是合法鱼名用字，详情仍需保留；现有丁鱥科是科级名称，不宜当作该物种的独立俗名。"
+    }
+  }
+}

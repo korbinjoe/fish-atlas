@@ -1,0 +1,3629 @@
+{
+  "date": "2026-10-15",
+  "baselineCommit": "e93036801f5e2e071199ef0740982e71a5dffd82",
+  "scope": "All467photo species primary display names and search aliases; scientific identities, photographs and distributions unchanged.",
+  "before": {
+    "totalPhotoSpecies": 467,
+    "primaryRawOpenccDifferences": 53,
+    "primarySupplementaryHan": 11,
+    "encodingDamageFound": 0
+  },
+  "after": {
+    "totalPhotoSpecies": 467,
+    "primaryNamesChanged": 74,
+    "primarySupplementaryHan": 0
+  },
+  "method": "Reviewed glyph substitutions for fish display names only. Common traditional characters become simplified Chinese; established BMP fish characters such as 鮰/鮈/鮠/鰕/鱊 are retained instead of generating poorly supported supplementary-plane forms. Taxon-specific preferred names require explicit sources. Original valid spellings remain searchable aliases; rejected wrong-species labels do not.",
+  "changes": [
+    {
+      "id": "wm-abbottina-rivularis",
+      "scientific": "Abbottina rivularis",
+      "before": "棒花鱼",
+      "after": "棒花鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "棒花鱼"
+      ]
+    },
+    {
+      "id": "wm-abramis-brama",
+      "scientific": "Abramis brama",
+      "before": "欧鳊",
+      "after": "欧鳊",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧鳊"
+      ]
+    },
+    {
+      "id": "wm-abudefduf-bengalensis",
+      "scientific": "Abudefduf bengalensis",
+      "before": "孟加拉豆娘魚",
+      "after": "孟加拉豆娘鱼",
+      "aliasesAdded": [
+        "孟加拉豆娘魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-abudefduf-concolor",
+      "scientific": "Abudefduf concolor",
+      "before": "雜色豆娘魚",
+      "after": "杂色豆娘鱼",
+      "aliasesAdded": [
+        "雜色豆娘魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acanthistius-cinctus",
+      "scientific": "Acanthistius cinctus",
+      "before": "環帶刺鮨",
+      "after": "环带刺鮨",
+      "aliasesAdded": [
+        "環帶刺鮨"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acanthogobius-flavimanus",
+      "scientific": "Acanthogobius flavimanus",
+      "before": "黃鰭刺鰕虎魚",
+      "after": "黄鳍刺鰕虎鱼",
+      "aliasesAdded": [
+        "黃鰭刺鰕虎魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acanthurus-achilles",
+      "scientific": "Acanthurus achilles",
+      "before": "心斑刺尾魚",
+      "after": "心斑刺尾鱼",
+      "aliasesAdded": [
+        "心斑刺尾魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acanthurus-albipectoralis",
+      "scientific": "Acanthurus albipectoralis",
+      "before": "白胸鰭刺尾魚",
+      "after": "白胸鳍刺尾鱼",
+      "aliasesAdded": [
+        "白胸鰭刺尾魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acanthurus-auranticavus",
+      "scientific": "Acanthurus auranticavus",
+      "before": "橘色刺尾魚",
+      "after": "橘色刺尾鱼",
+      "aliasesAdded": [
+        "橘色刺尾魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acantopsis-dialuzona",
+      "scientific": "Acantopsis dialuzona",
+      "before": "蒼帶小刺眼鰍",
+      "after": "苍带小刺眼鳅",
+      "aliasesAdded": [
+        "蒼帶小刺眼鰍"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acantopsis-octoactinotos",
+      "scientific": "Acantopsis octoactinotos",
+      "before": "八線小刺眼鰍",
+      "after": "八线小刺眼鳅",
+      "aliasesAdded": [
+        "八線小刺眼鰍"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acentronura-breviperula",
+      "scientific": "Acentronura breviperula",
+      "before": "短身細尾海龍",
+      "after": "短身细尾海龙",
+      "aliasesAdded": [
+        "短身細尾海龍"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acentronura-tentaculata",
+      "scientific": "Acentronura tentaculata",
+      "before": "南非細尾海馬",
+      "after": "南非细尾海马",
+      "aliasesAdded": [
+        "南非細尾海馬"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acheilognathus-macropterus",
+      "scientific": "Acheilognathus macropterus",
+      "before": "大鳍鱊",
+      "after": "大鳍鱊",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大鳍鱊"
+      ]
+    },
+    {
+      "id": "wm-achoerodus-viridis",
+      "scientific": "Achoerodus viridis",
+      "before": "綠藍唇魚",
+      "after": "绿蓝唇鱼",
+      "aliasesAdded": [
+        "綠藍唇魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-acipenser-baerii",
+      "scientific": "Acipenser baerii",
+      "before": "西伯利亚鲟",
+      "after": "西伯利亚鲟",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "西伯利亚鲟"
+      ]
+    },
+    {
+      "id": "wm-acipenser-fulvescens",
+      "scientific": "Acipenser fulvescens",
+      "before": "湖鲟",
+      "after": "湖鲟",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "湖鲟"
+      ]
+    },
+    {
+      "id": "wm-acipenser-ruthenus",
+      "scientific": "Acipenser ruthenus",
+      "before": "小体鲟",
+      "after": "小体鲟",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小体鲟"
+      ]
+    },
+    {
+      "id": "wm-acipenser-sinensis",
+      "scientific": "Acipenser sinensis",
+      "before": "中华鲟",
+      "after": "中华鲟",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "中华鲟"
+      ]
+    },
+    {
+      "id": "wm-acipenser-transmontanus",
+      "scientific": "Acipenser transmontanus",
+      "before": "美国白鲟",
+      "after": "美国白鲟",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "美国白鲟"
+      ]
+    },
+    {
+      "id": "wm-aequidens-tetramerus",
+      "scientific": "Aequidens tetramerus",
+      "before": "鞍斑宝丽鱼",
+      "after": "鞍斑宝丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鞍斑宝丽鱼"
+      ]
+    },
+    {
+      "id": "wm-agosia-chrysogaster",
+      "scientific": "Agosia chrysogaster",
+      "before": "長鰭鱥",
+      "after": "长鳍鱥",
+      "aliasesAdded": [
+        "長鰭鱥"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-alburnus-alburnus",
+      "scientific": "Alburnus alburnus",
+      "before": "欧白鱼",
+      "after": "欧白鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧白鱼"
+      ]
+    },
+    {
+      "id": "wm-alcolapia-alcalica",
+      "scientific": "Alcolapia alcalica",
+      "before": "肿唇雀丽鱼",
+      "after": "肿唇雀丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "肿唇雀丽鱼"
+      ]
+    },
+    {
+      "id": "wm-alfaro-cultratus",
+      "scientific": "Alfaro cultratus",
+      "before": "刀鱗鱂",
+      "after": "刀鳞鳉",
+      "aliasesAdded": [
+        "刀鱗鱂"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-alosa-sapidissima",
+      "scientific": "Alosa sapidissima",
+      "before": "美洲西鲱",
+      "after": "美洲西鲱",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "美洲西鲱"
+      ]
+    },
+    {
+      "id": "wm-alphestes-immaculatus",
+      "scientific": "Alphestes immaculatus",
+      "before": "無斑鴛鴛鮨",
+      "after": "无斑鸳鸯鮨",
+      "aliasesAdded": [
+        "無斑鴛鴦鮨"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-alticus-monochrus",
+      "scientific": "Alticus monochrus",
+      "before": "單色跳彈䲁",
+      "after": "单色跳弹鳚",
+      "aliasesAdded": [
+        "單色跳彈䲁"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-amatitlania-siquia",
+      "scientific": "Amatitlania siquia",
+      "before": "橘斑嬌麗魚",
+      "after": "橘斑娇丽鱼",
+      "aliasesAdded": [
+        "橘斑嬌麗魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-amblyglyphidodon-flavilatus",
+      "scientific": "Amblyglyphidodon flavilatus",
+      "before": "黃側凹牙豆娘魚",
+      "after": "黄侧凹牙豆娘鱼",
+      "aliasesAdded": [
+        "黃側凹牙豆娘魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-amblypomacentrus-breviceps",
+      "scientific": "Amblypomacentrus breviceps",
+      "before": "短頭鈍雀鯛",
+      "after": "短头钝雀鲷",
+      "aliasesAdded": [
+        "短頭鈍雀鯛"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-amblyrhynchotes-honckenii",
+      "scientific": "Amblyrhynchotes honckenii",
+      "before": "白點寬吻魨",
+      "after": "白点宽吻鲀",
+      "aliasesAdded": [
+        "白點寬吻魨"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-ameiurus-melas",
+      "scientific": "Ameiurus melas",
+      "before": "黑𫚔",
+      "after": "黑鮰",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "黑鮰"
+      ]
+    },
+    {
+      "id": "wm-ameiurus-natalis",
+      "scientific": "Ameiurus natalis",
+      "before": "黄𫚔",
+      "after": "黄鮰",
+      "aliasesAdded": [
+        "北美鮰"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-amphilophus-citrinellus",
+      "scientific": "Amphilophus citrinellus",
+      "before": "橘色雙冠麗魚",
+      "after": "橘色双冠丽鱼",
+      "aliasesAdded": [
+        "橘色雙冠麗魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-anampses-caeruleopunctatus",
+      "scientific": "Anampses caeruleopunctatus",
+      "before": "青斑阿南魚",
+      "after": "青斑阿南鱼",
+      "aliasesAdded": [
+        "青斑阿南魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-anampses-cuvier",
+      "scientific": "Anampses cuvier",
+      "before": "居氏阿南魚",
+      "after": "居氏阿南鱼",
+      "aliasesAdded": [
+        "居氏阿南魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-andinoacara-blombergi",
+      "scientific": "Andinoacara blombergi",
+      "before": "Andinoacara blombergi",
+      "after": "Andinoacara blombergi",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "Andinoacara blombergi"
+      ]
+    },
+    {
+      "id": "wm-andinoacara-latifrons",
+      "scientific": "Andinoacara latifrons",
+      "before": "宽体安迪丽鱼",
+      "after": "宽体安迪丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "宽体安迪丽鱼"
+      ]
+    },
+    {
+      "id": "wm-anguilla-anguilla",
+      "scientific": "Anguilla anguilla",
+      "before": "欧洲鳗鲡",
+      "after": "欧洲鳗鲡",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧洲鳗鲡"
+      ]
+    },
+    {
+      "id": "wm-anguilla-australis",
+      "scientific": "Anguilla australis",
+      "before": "澳洲鳗鲡",
+      "after": "澳洲鳗鲡",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "澳洲鳗鲡"
+      ]
+    },
+    {
+      "id": "wm-anguilla-bicolor",
+      "scientific": "Anguilla bicolor",
+      "before": "双色鳗鲡",
+      "after": "双色鳗鲡",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "双色鳗鲡"
+      ]
+    },
+    {
+      "id": "wm-anguilla-dieffenbachii",
+      "scientific": "Anguilla dieffenbachii",
+      "before": "大鳗鲡",
+      "after": "大鳗鲡",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大鳗鲡"
+      ]
+    },
+    {
+      "id": "wm-anguilla-japonica",
+      "scientific": "Anguilla japonica",
+      "before": "日本鳗鲡",
+      "after": "日本鳗鲡",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "日本鳗鲡"
+      ]
+    },
+    {
+      "id": "wm-anguilla-marmorata",
+      "scientific": "Anguilla marmorata",
+      "before": "鲈鳗",
+      "after": "鲈鳗",
+      "aliasesAdded": [
+        "土龙",
+        "乌耳鳗",
+        "花鳗",
+        "黑鳗"
+      ],
+      "aliasesRemoved": [
+        "鲈鳗"
+      ]
+    },
+    {
+      "id": "wm-anguilla-mossambica",
+      "scientific": "Anguilla mossambica",
+      "before": "莫桑比克鳗鲡",
+      "after": "莫桑比克鳗鲡",
+      "aliasesAdded": [
+        "莫三比克鳗鲡"
+      ],
+      "aliasesRemoved": [
+        "莫桑比克鳗鲡"
+      ]
+    },
+    {
+      "id": "wm-aphanius-fasciatus",
+      "scientific": "Aphanius fasciatus",
+      "before": "斑條祕鱂",
+      "after": "斑条秘鳉",
+      "aliasesAdded": [
+        "斑條祕鱂"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-apistogramma-steindachneri",
+      "scientific": "Apistogramma steindachneri",
+      "before": "斯坦氏隐带丽鱼",
+      "after": "斯坦氏隐带丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "斯坦氏隐带丽鱼"
+      ]
+    },
+    {
+      "id": "wm-aplocheilus-panchax",
+      "scientific": "Aplocheilus panchax",
+      "before": "巴基斯坦𫚥鳉",
+      "after": "巴基斯坦鰕鳉",
+      "aliasesAdded": [],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-apogon-atradorsatus",
+      "scientific": "Apogon atradorsatus",
+      "before": "黑幼背天竺鯛",
+      "after": "黑背天竺鲷",
+      "aliasesAdded": [
+        "黑背天竺鯛"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-arothron-diadematus",
+      "scientific": "Arothron diadematus",
+      "before": "紅海叉鼻魨",
+      "after": "红海叉鼻鲀",
+      "aliasesAdded": [
+        "紅海叉鼻魨"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-arothron-firmamentum",
+      "scientific": "Arothron firmamentum",
+      "before": "瓣叉鼻魨",
+      "after": "瓣叉鼻鲀",
+      "aliasesAdded": [
+        "瓣叉鼻魨"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-aspidoras-fuscoguttatus",
+      "scientific": "Aspidoras fuscoguttatus",
+      "before": "棕點盾皮鮠",
+      "after": "棕点盾皮鮠",
+      "aliasesAdded": [
+        "棕點盾皮鮠"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-astronotus-ocellatus",
+      "scientific": "Astronotus ocellatus",
+      "before": "地圖魚",
+      "after": "地图鱼",
+      "aliasesAdded": [
+        "地圖魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-atractosteus-spatula",
+      "scientific": "Atractosteus spatula",
+      "before": "福鳄",
+      "after": "福鳄",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "福鳄"
+      ]
+    },
+    {
+      "id": "wm-axelrodia-riesei",
+      "scientific": "Axelrodia riesei",
+      "before": "里氏阿克塞脂鯉",
+      "after": "里氏阿克塞脂鲤",
+      "aliasesAdded": [
+        "里氏阿克塞脂鯉"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-barbatula-barbatula",
+      "scientific": "Barbatula barbatula",
+      "before": "条须鳅",
+      "after": "条须鳅",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "条须鳅"
+      ]
+    },
+    {
+      "id": "wm-barbonymus-gonionotus",
+      "scientific": "Barbonymus gonionotus",
+      "before": "银石首鱼",
+      "after": "银高体鲃",
+      "aliasesAdded": [
+        "爪哇鲃",
+        "爪哇四须鲃"
+      ],
+      "aliasesRemoved": [
+        "银石首鱼"
+      ]
+    },
+    {
+      "id": "wm-barbus-barbus",
+      "scientific": "Barbus barbus",
+      "before": "Barbus barbus",
+      "after": "Barbus barbus",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "Barbus barbus"
+      ]
+    },
+    {
+      "id": "wm-belonesox-belizanus",
+      "scientific": "Belonesox belizanus",
+      "before": "墨西哥魣鱂",
+      "after": "墨西哥魣鳉",
+      "aliasesAdded": [
+        "墨西哥魣鱂"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-belontia-signata",
+      "scientific": "Belontia signata",
+      "before": "梳尾格鬥魚",
+      "after": "梳尾格斗鱼",
+      "aliasesAdded": [
+        "梳尾格鬥魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-botia-birdi",
+      "scientific": "Botia birdi",
+      "before": "伯德氏沙鰍",
+      "after": "伯德氏沙鳅",
+      "aliasesAdded": [
+        "伯德氏沙鰍"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-botia-dario",
+      "scientific": "Botia dario",
+      "before": "達林沙鰍",
+      "after": "达林沙鳅",
+      "aliasesAdded": [
+        "達林沙鰍"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-brachymystax-lenok",
+      "scientific": "Brachymystax lenok",
+      "before": "细鳞鲑",
+      "after": "细鳞鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "细鳞鲑"
+      ]
+    },
+    {
+      "id": "wm-brycon-moorei",
+      "scientific": "Brycon moorei",
+      "before": "莫氏石脂鲤",
+      "after": "莫氏石脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "莫氏石脂鲤"
+      ]
+    },
+    {
+      "id": "wm-callichthys-callichthys",
+      "scientific": "Callichthys callichthys",
+      "before": "美鯰",
+      "after": "美鲶",
+      "aliasesAdded": [
+        "美鯰"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-canthigaster-axiologus",
+      "scientific": "Canthigaster axiologus",
+      "before": "三帶尖鼻魨",
+      "after": "三带尖鼻鲀",
+      "aliasesAdded": [
+        "三帶尖鼻魨"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-canthigaster-bennetti",
+      "scientific": "Canthigaster bennetti",
+      "before": "笨氏尖鼻魨",
+      "after": "本氏河鲀",
+      "aliasesAdded": [
+        "笨氏尖鼻魨",
+        "笨氏尖鼻鲀",
+        "本氏扁背鲀"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-caquetaia-kraussii",
+      "scientific": "Caquetaia kraussii",
+      "before": "克氏卡奎丽鱼",
+      "after": "克氏卡奎丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "克氏卡奎丽鱼"
+      ]
+    },
+    {
+      "id": "wm-carasobarbus-luteus",
+      "scientific": "Carasobarbus luteus",
+      "before": "黄体魮",
+      "after": "黄体魮",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "黄体魮"
+      ]
+    },
+    {
+      "id": "wm-carassius-carassius",
+      "scientific": "Carassius carassius",
+      "before": "黑鲫",
+      "after": "黑鲫",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "黑鲫"
+      ]
+    },
+    {
+      "id": "wm-catostomus-bernardini",
+      "scientific": "Catostomus bernardini",
+      "before": "伯氏亚口鱼",
+      "after": "伯氏亚口鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "伯氏亚口鱼"
+      ]
+    },
+    {
+      "id": "wm-catostomus-catostomus",
+      "scientific": "Catostomus catostomus",
+      "before": "真亚口鱼",
+      "after": "真亚口鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "真亚口鱼"
+      ]
+    },
+    {
+      "id": "wm-catostomus-commersonii",
+      "scientific": "Catostomus commersonii",
+      "before": "白亚口鱼",
+      "after": "白亚口鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "白亚口鱼"
+      ]
+    },
+    {
+      "id": "wm-centrolabrus-exoletus",
+      "scientific": "Centrolabrus exoletus",
+      "before": "小口棘隆頭魚",
+      "after": "小口棘隆头鱼",
+      "aliasesAdded": [
+        "小口棘隆頭魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-chaetodon-andamanensis",
+      "scientific": "Chaetodon andamanensis",
+      "before": "黃蝴蝶魚",
+      "after": "黄蝴蝶鱼",
+      "aliasesAdded": [
+        "黃蝴蝶魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-chaetodon-argentatus",
+      "scientific": "Chaetodon argentatus",
+      "before": "銀身蝴蝶魚",
+      "after": "银身蝴蝶鱼",
+      "aliasesAdded": [
+        "銀身蝴蝶魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-channa-argus",
+      "scientific": "Channa argus",
+      "before": "乌鳢",
+      "after": "乌鳢",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "乌鳢"
+      ]
+    },
+    {
+      "id": "wm-channa-lucius",
+      "scientific": "Channa lucius",
+      "before": "带鳢",
+      "after": "带鳢",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "带鳢"
+      ]
+    },
+    {
+      "id": "wm-channa-punctata",
+      "scientific": "Channa punctata",
+      "before": "翠鳢",
+      "after": "翠鳢",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "翠鳢"
+      ]
+    },
+    {
+      "id": "wm-channa-striata",
+      "scientific": "Channa striata",
+      "before": "线鳢",
+      "after": "线鳢",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "线鳢"
+      ]
+    },
+    {
+      "id": "wm-chelmonops-truncatus",
+      "scientific": "Chelmonops truncatus",
+      "before": "截尾鑷蝶魚",
+      "after": "截尾镊蝶鱼",
+      "aliasesAdded": [
+        "截尾鑷蝶魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-chilatherina-fasciata",
+      "scientific": "Chilatherina fasciata",
+      "before": "条纹唇银汉鱼",
+      "after": "条纹唇银汉鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "条纹唇银汉鱼"
+      ]
+    },
+    {
+      "id": "wm-chondrostoma-nasus",
+      "scientific": "Chondrostoma nasus",
+      "before": "大鼻软口鱼",
+      "after": "大鼻软口鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大鼻软口鱼"
+      ]
+    },
+    {
+      "id": "wm-chromis-chromis",
+      "scientific": "Chromis chromis",
+      "before": "光鳃鱼",
+      "after": "光鳃鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "光鳃鱼"
+      ]
+    },
+    {
+      "id": "wm-cichla-ocellaris",
+      "scientific": "Cichla ocellaris",
+      "before": "眼点丽鱼",
+      "after": "眼点丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "眼点丽鱼"
+      ]
+    },
+    {
+      "id": "wm-clarias-gariepinus",
+      "scientific": "Clarias gariepinus",
+      "before": "尖齿胡鲶",
+      "after": "尖齿胡鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "尖齿胡鲶"
+      ]
+    },
+    {
+      "id": "wm-clupea-harengus",
+      "scientific": "Clupea harengus",
+      "before": "大西洋鲱",
+      "after": "大西洋鲱",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大西洋鲱"
+      ]
+    },
+    {
+      "id": "wm-cnesterodon-decemmaculatus",
+      "scientific": "Cnesterodon decemmaculatus",
+      "before": "十斑銼齒鱂",
+      "after": "十斑锉齿鳉",
+      "aliasesAdded": [
+        "十斑銼齒鱂"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-cobitis-bilineata",
+      "scientific": "Cobitis bilineata",
+      "before": "雙線鰍",
+      "after": "双线鳅",
+      "aliasesAdded": [
+        "雙線鰍"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-coptodon-zillii",
+      "scientific": "Coptodon zillii",
+      "before": "齐氏非鲫",
+      "after": "齐氏非鲫",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "齐氏非鲫"
+      ]
+    },
+    {
+      "id": "wm-coradion-altivelis",
+      "scientific": "Coradion altivelis",
+      "before": "褐帶少女魚",
+      "after": "褐带少女鱼",
+      "aliasesAdded": [
+        "褐帶少女魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-coregonus-artedi",
+      "scientific": "Coregonus artedi",
+      "before": "湖白鲑",
+      "after": "湖白鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "湖白鲑"
+      ]
+    },
+    {
+      "id": "wm-coregonus-clupeaformis",
+      "scientific": "Coregonus clupeaformis",
+      "before": "湖白鱼",
+      "after": "鲱形白鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-coregonus-muksun",
+      "scientific": "Coregonus muksun",
+      "before": "穆森白鲑",
+      "after": "穆森白鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "穆森白鲑"
+      ]
+    },
+    {
+      "id": "wm-coregonus-nasus",
+      "scientific": "Coregonus nasus",
+      "before": "宽鼻白鲑",
+      "after": "宽鼻白鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "宽鼻白鲑"
+      ]
+    },
+    {
+      "id": "wm-coregonus-sardinella",
+      "scientific": "Coregonus sardinella",
+      "before": "小白鲑",
+      "after": "小白鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小白鲑"
+      ]
+    },
+    {
+      "id": "wm-coris-julis",
+      "scientific": "Coris julis",
+      "before": "杂斑盔鱼",
+      "after": "杂斑盔鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "杂斑盔鱼"
+      ]
+    },
+    {
+      "id": "wm-cottus-cognatus",
+      "scientific": "Cottus cognatus",
+      "before": "粘杜父鱼",
+      "after": "粘杜父鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "粘杜父鱼"
+      ]
+    },
+    {
+      "id": "wm-cottus-gobio",
+      "scientific": "Cottus gobio",
+      "before": "𬶋杜父鱼",
+      "after": "鮈杜父鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-ctenolucius-hujeta",
+      "scientific": "Ctenolucius hujeta",
+      "before": "钝吻魣脂鲤",
+      "after": "钝吻魣脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "钝吻魣脂鲤"
+      ]
+    },
+    {
+      "id": "wm-ctenopharyngodon-idella",
+      "scientific": "Ctenopharyngodon idella",
+      "before": "草鱼",
+      "after": "草鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "草鱼"
+      ]
+    },
+    {
+      "id": "wm-ctenopoma-acutirostre",
+      "scientific": "Ctenopoma acutirostre",
+      "before": "小点非洲攀鲈",
+      "after": "小点非洲攀鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小点非洲攀鲈"
+      ]
+    },
+    {
+      "id": "wm-culter-alburnus",
+      "scientific": "Culter alburnus",
+      "before": "翘嘴鲌",
+      "after": "翘嘴鲌",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "翘嘴鲌"
+      ]
+    },
+    {
+      "id": "wm-cyprinella-leedsi",
+      "scientific": "Cyprinella leedsi",
+      "before": "利氏真小鲤",
+      "after": "利氏真小鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "利氏真小鲤"
+      ]
+    },
+    {
+      "id": "wm-cyprinus-carpio",
+      "scientific": "Cyprinus carpio",
+      "before": "鲤鱼",
+      "after": "鲤鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鲤鱼"
+      ]
+    },
+    {
+      "id": "wm-devario-aequipinnatus",
+      "scientific": "Devario aequipinnatus",
+      "before": "波条鿕",
+      "after": "大斑马",
+      "aliasesAdded": [
+        "波条神鿕"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-dicentrarchus-labrax",
+      "scientific": "Dicentrarchus labrax",
+      "before": "欧洲鲈",
+      "after": "欧洲鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧洲鲈"
+      ]
+    },
+    {
+      "id": "wm-enteromius-paludinosus",
+      "scientific": "Enteromius paludinosus",
+      "before": "直鳍魮",
+      "after": "直鳍魮",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "直鳍魮"
+      ]
+    },
+    {
+      "id": "wm-erpetoichthys-calabaricus",
+      "scientific": "Erpetoichthys calabaricus",
+      "before": "芦鳗",
+      "after": "芦鳗",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "芦鳗"
+      ]
+    },
+    {
+      "id": "wm-esox-lucius",
+      "scientific": "Esox lucius",
+      "before": "白斑狗鱼",
+      "after": "白斑狗鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "白斑狗鱼"
+      ]
+    },
+    {
+      "id": "wm-esox-masquinongy",
+      "scientific": "Esox masquinongy",
+      "before": "北美狗鱼",
+      "after": "北美狗鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "北美狗鱼"
+      ]
+    },
+    {
+      "id": "wm-esox-niger",
+      "scientific": "Esox niger",
+      "before": "暗色狗鱼",
+      "after": "暗色狗鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "暗色狗鱼"
+      ]
+    },
+    {
+      "id": "wm-etheostoma-fusiforme",
+      "scientific": "Etheostoma fusiforme",
+      "before": "纺锤镖鲈",
+      "after": "纺锤镖鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "纺锤镖鲈"
+      ]
+    },
+    {
+      "id": "wm-etroplus-suratensis",
+      "scientific": "Etroplus suratensis",
+      "before": "绿腹丽鱼",
+      "after": "绿腹丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "绿腹丽鱼"
+      ]
+    },
+    {
+      "id": "wm-exoglossum-maxillingua",
+      "scientific": "Exoglossum maxillingua",
+      "before": "切唇鱼",
+      "after": "切唇鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "切唇鱼"
+      ]
+    },
+    {
+      "id": "wm-gadus-morhua",
+      "scientific": "Gadus morhua",
+      "before": "大西洋鳕",
+      "after": "大西洋鳕",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大西洋鳕"
+      ]
+    },
+    {
+      "id": "wm-galaxias-argenteus",
+      "scientific": "Galaxias argenteus",
+      "before": "银南乳鱼",
+      "after": "银南乳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "银南乳鱼"
+      ]
+    },
+    {
+      "id": "wm-galaxias-brevipinnis",
+      "scientific": "Galaxias brevipinnis",
+      "before": "短鳍南乳鱼",
+      "after": "短鳍南乳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "短鳍南乳鱼"
+      ]
+    },
+    {
+      "id": "wm-galaxias-fasciatus",
+      "scientific": "Galaxias fasciatus",
+      "before": "带纹南乳鱼",
+      "after": "带纹南乳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "带纹南乳鱼"
+      ]
+    },
+    {
+      "id": "wm-galaxias-gollumoides",
+      "scientific": "Galaxias gollumoides",
+      "before": "大洋洲南乳鱼",
+      "after": "大洋洲南乳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大洋洲南乳鱼"
+      ]
+    },
+    {
+      "id": "wm-galaxias-maculatus",
+      "scientific": "Galaxias maculatus",
+      "before": "大斑南乳鱼",
+      "after": "大斑南乳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大斑南乳鱼"
+      ]
+    },
+    {
+      "id": "wm-galaxias-platei",
+      "scientific": "Galaxias platei",
+      "before": "普拉特南乳鱼",
+      "after": "普拉特南乳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "普拉特南乳鱼"
+      ]
+    },
+    {
+      "id": "wm-garra-rufa",
+      "scientific": "Garra rufa",
+      "before": "淡红墨头鱼",
+      "after": "淡红墨头鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "淡红墨头鱼"
+      ]
+    },
+    {
+      "id": "wm-gasterosteus-aculeatus",
+      "scientific": "Gasterosteus aculeatus",
+      "before": "三刺鱼",
+      "after": "三刺鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "三刺鱼"
+      ]
+    },
+    {
+      "id": "wm-geophagus-steindachneri",
+      "scientific": "Geophagus steindachneri",
+      "before": "斯氏珠母丽鱼",
+      "after": "斯氏珠母丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "斯氏珠母丽鱼"
+      ]
+    },
+    {
+      "id": "wm-geophagus-surinamensis",
+      "scientific": "Geophagus surinamensis",
+      "before": "苏里南珠母丽鱼",
+      "after": "苏里南珠母丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "苏里南珠母丽鱼"
+      ]
+    },
+    {
+      "id": "wm-gila-atraria",
+      "scientific": "Gila atraria",
+      "before": "猶他骨尾魚",
+      "after": "犹他骨尾鱼",
+      "aliasesAdded": [
+        "猶他骨尾魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-gila-cypha",
+      "scientific": "Gila cypha",
+      "before": "隆背骨尾鱼",
+      "after": "隆背骨尾鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "隆背骨尾鱼"
+      ]
+    },
+    {
+      "id": "wm-gila-elegans",
+      "scientific": "Gila elegans",
+      "before": "美丽骨尾鱼",
+      "after": "美丽骨尾鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "美丽骨尾鱼"
+      ]
+    },
+    {
+      "id": "wm-gila-purpurea",
+      "scientific": "Gila purpurea",
+      "before": "紫骨尾鱼",
+      "after": "紫骨尾鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "紫骨尾鱼"
+      ]
+    },
+    {
+      "id": "wm-gila-robusta",
+      "scientific": "Gila robusta",
+      "before": "粗壮骨尾鱼",
+      "after": "粗壮骨尾鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "粗壮骨尾鱼"
+      ]
+    },
+    {
+      "id": "wm-glossolepis-multisquamata",
+      "scientific": "Glossolepis multisquamata",
+      "before": "多舌鳞银汉鱼",
+      "after": "多舌鳞银汉鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "多舌鳞银汉鱼"
+      ]
+    },
+    {
+      "id": "wm-gobio-gobio",
+      "scientific": "Gobio gobio",
+      "before": "𬶋",
+      "after": "鮈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鮈"
+      ]
+    },
+    {
+      "id": "wm-guianacara-owroewefi",
+      "scientific": "Guianacara owroewefi",
+      "before": "欧氏圭亚那丽鱼",
+      "after": "欧氏圭亚那丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧氏圭亚那丽鱼"
+      ]
+    },
+    {
+      "id": "wm-gymnarchus-niloticus",
+      "scientific": "Gymnarchus niloticus",
+      "before": "裸臀鱼",
+      "after": "裸臀鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "裸臀鱼"
+      ]
+    },
+    {
+      "id": "wm-gymnocephalus-cernua",
+      "scientific": "Gymnocephalus cernua",
+      "before": "梅花鲈",
+      "after": "梅花鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "梅花鲈"
+      ]
+    },
+    {
+      "id": "wm-gymnocypris-przewalskii",
+      "scientific": "Gymnocypris przewalskii",
+      "before": "青海湖裸鲤",
+      "after": "青海湖裸鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "青海湖裸鲤"
+      ]
+    },
+    {
+      "id": "wm-gymnogeophagus-tiraparae",
+      "scientific": "Gymnogeophagus tiraparae",
+      "before": "蒂氏裸光盖丽鱼",
+      "after": "蒂氏裸光盖丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "蒂氏裸光盖丽鱼"
+      ]
+    },
+    {
+      "id": "wm-hemibarbus-labeo",
+      "scientific": "Hemibarbus labeo",
+      "before": "唇䱻",
+      "after": "重唇鱼",
+      "aliasesAdded": [
+        "重唇",
+        "重重",
+        "黄竹",
+        "桃花竹"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-hemibarbus-maculatus",
+      "scientific": "Hemibarbus maculatus",
+      "before": "花䱻",
+      "after": "花骨鱼",
+      "aliasesAdded": [
+        "花鱼骨"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-hemibrycon-taeniurus",
+      "scientific": "Hemibrycon taeniurus",
+      "before": "條紋半齧脂鯉",
+      "after": "条纹半啮脂鲤",
+      "aliasesAdded": [
+        "條紋半齧脂鯉"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-hemiculter-leucisculus",
+      "scientific": "Hemiculter leucisculus",
+      "before": "䱗",
+      "after": "白条鱼",
+      "aliasesAdded": [
+        "餐条鱼",
+        "白条",
+        "白鲦"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-hemiodus-quadrimaculatus",
+      "scientific": "Hemiodus quadrimaculatus",
+      "before": "四斑半齿脂鲤",
+      "after": "四斑半齿脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "四斑半齿脂鲤"
+      ]
+    },
+    {
+      "id": "wm-hesperoleucus-symmetricus",
+      "scientific": "Hesperoleucus symmetricus",
+      "before": "昏白鱼",
+      "after": "昏白鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "昏白鱼"
+      ]
+    },
+    {
+      "id": "wm-heterobranchus-longifilis",
+      "scientific": "Heterobranchus longifilis",
+      "before": "长丝异鳃鲶",
+      "after": "长丝异鳃鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "长丝异鳃鲶"
+      ]
+    },
+    {
+      "id": "wm-heteropneustes-fossilis",
+      "scientific": "Heteropneustes fossilis",
+      "before": "印度囊鳃鲶",
+      "after": "印度囊鳃鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "印度囊鳃鲶"
+      ]
+    },
+    {
+      "id": "wm-heterotis-niloticus",
+      "scientific": "Heterotis niloticus",
+      "before": "尼罗异耳骨舌鱼",
+      "after": "尼罗异耳骨舌鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "尼罗异耳骨舌鱼"
+      ]
+    },
+    {
+      "id": "wm-hiodon-alosoides",
+      "scientific": "Hiodon alosoides",
+      "before": "似鲱月眼鱼",
+      "after": "似鲱月眼鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "似鲱月眼鱼"
+      ]
+    },
+    {
+      "id": "wm-hoplias-curupira",
+      "scientific": "Hoplias curupira",
+      "before": "库伦利齿脂鲤",
+      "after": "库伦利齿脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "库伦利齿脂鲤"
+      ]
+    },
+    {
+      "id": "wm-hoplias-microlepis",
+      "scientific": "Hoplias microlepis",
+      "before": "小鳞利齿脂鲤",
+      "after": "小鳞利齿脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小鳞利齿脂鲤"
+      ]
+    },
+    {
+      "id": "wm-hoplosternum-magdalenae",
+      "scientific": "Hoplosternum magdalenae",
+      "before": "马格达护胸鲶",
+      "after": "马格达护胸鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "马格达护胸鲶"
+      ]
+    },
+    {
+      "id": "wm-hucho-hucho",
+      "scientific": "Hucho hucho",
+      "before": "多瑙哲罗鱼",
+      "after": "多瑙哲罗鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "多瑙哲罗鱼"
+      ]
+    },
+    {
+      "id": "wm-hucho-taimen",
+      "scientific": "Hucho taimen",
+      "before": "哲罗鲑",
+      "after": "哲罗鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "哲罗鲑"
+      ]
+    },
+    {
+      "id": "wm-hybognathus-hayi",
+      "scientific": "Hybognathus hayi",
+      "before": "海氏突颌鱼",
+      "after": "海氏突颌鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "海氏突颌鱼"
+      ]
+    },
+    {
+      "id": "wm-hybognathus-placitus",
+      "scientific": "Hybognathus placitus",
+      "before": "素色突颌鱼",
+      "after": "素色突颌鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "素色突颌鱼"
+      ]
+    },
+    {
+      "id": "wm-hydrocynus-brevis",
+      "scientific": "Hydrocynus brevis",
+      "before": "短身狗脂鲤",
+      "after": "短身狗脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "短身狗脂鲤"
+      ]
+    },
+    {
+      "id": "wm-hydrocynus-forskahlii",
+      "scientific": "Hydrocynus forskahlii",
+      "before": "福氏狗脂鲤",
+      "after": "福氏狗脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "福氏狗脂鲤"
+      ]
+    },
+    {
+      "id": "wm-hydrocynus-vittatus",
+      "scientific": "Hydrocynus vittatus",
+      "before": "虎鱼",
+      "after": "虎鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "虎鱼"
+      ]
+    },
+    {
+      "id": "wm-hypancistrus-zebra",
+      "scientific": "Hypancistrus zebra",
+      "before": "斑馬下鈎鯰",
+      "after": "L046熊猫异型",
+      "aliasesAdded": [
+        "斑馬下鈎鯰",
+        "斑马下钩鲶",
+        "L046熊貓異型"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-hyphessobrycon-flammeus",
+      "scientific": "Hyphessobrycon flammeus",
+      "before": "火焰魮脂鲤",
+      "after": "火焰魮脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "火焰魮脂鲤"
+      ]
+    },
+    {
+      "id": "wm-hypophthalmichthys-molitrix",
+      "scientific": "Hypophthalmichthys molitrix",
+      "before": "鲢",
+      "after": "鲢",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鲢"
+      ]
+    },
+    {
+      "id": "wm-hypophthalmichthys-nobilis",
+      "scientific": "Hypophthalmichthys nobilis",
+      "before": "鳙",
+      "after": "鳙",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鳙"
+      ]
+    },
+    {
+      "id": "wm-hypseleotris-compressa",
+      "scientific": "Hypseleotris compressa",
+      "before": "扁头黄黝鱼",
+      "after": "扁头黄黝鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "扁头黄黝鱼"
+      ]
+    },
+    {
+      "id": "wm-hypsolebias-antenori",
+      "scientific": "Hypsolebias antenori",
+      "before": "安氏高鳉",
+      "after": "安氏高鳉",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "安氏高鳉"
+      ]
+    },
+    {
+      "id": "wm-ictalurus-furcatus",
+      "scientific": "Ictalurus furcatus",
+      "before": "长鳍真𫚔",
+      "after": "长鳍真鮰",
+      "aliasesAdded": [
+        "长鳍叉尾鮰"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-ictalurus-punctatus",
+      "scientific": "Ictalurus punctatus",
+      "before": "斑点叉尾𫚔",
+      "after": "斑点叉尾鮰",
+      "aliasesAdded": [
+        "斑真鮰"
+      ],
+      "aliasesRemoved": [
+        "斑点叉尾鮰"
+      ]
+    },
+    {
+      "id": "wm-iriatherina-werneri",
+      "scientific": "Iriatherina werneri",
+      "before": "沃氏伊岛银汉鱼",
+      "after": "燕子美人",
+      "aliasesAdded": [],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-labeo-molybdinus",
+      "scientific": "Labeo molybdinus",
+      "before": "铅色野鲮",
+      "after": "铅色野鲮",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "铅色野鲮"
+      ]
+    },
+    {
+      "id": "wm-lates-calcarifer",
+      "scientific": "Lates calcarifer",
+      "before": "尖吻鲈",
+      "after": "尖吻鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "尖吻鲈"
+      ]
+    },
+    {
+      "id": "wm-lates-niloticus",
+      "scientific": "Lates niloticus",
+      "before": "尼罗尖吻鲈",
+      "after": "尼罗尖吻鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "尼罗尖吻鲈"
+      ]
+    },
+    {
+      "id": "wm-lepisosteus-osseus",
+      "scientific": "Lepisosteus osseus",
+      "before": "长吻雀鳝",
+      "after": "长吻雀鳝",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "长吻雀鳝"
+      ]
+    },
+    {
+      "id": "wm-lepomis-gibbosus",
+      "scientific": "Lepomis gibbosus",
+      "before": "驼背太阳鱼",
+      "after": "驼背太阳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "驼背太阳鱼"
+      ]
+    },
+    {
+      "id": "wm-lepomis-macrochirus",
+      "scientific": "Lepomis macrochirus",
+      "before": "蓝鳃太阳鱼",
+      "after": "蓝鳃太阳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "蓝鳃太阳鱼"
+      ]
+    },
+    {
+      "id": "wm-lepomis-megalotis",
+      "scientific": "Lepomis megalotis",
+      "before": "长耳太阳鱼",
+      "after": "长耳太阳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "长耳太阳鱼"
+      ]
+    },
+    {
+      "id": "wm-lepomis-microlophus",
+      "scientific": "Lepomis microlophus",
+      "before": "小冠太阳鱼",
+      "after": "小冠太阳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小冠太阳鱼"
+      ]
+    },
+    {
+      "id": "wm-leporacanthicus-heterodon",
+      "scientific": "Leporacanthicus heterodon",
+      "before": "異牙兔甲鯰",
+      "after": "异牙兔甲鲶",
+      "aliasesAdded": [
+        "異牙兔甲鯰"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-leuciscus-leuciscus",
+      "scientific": "Leuciscus leuciscus",
+      "before": "雅罗鱼",
+      "after": "雅罗鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "雅罗鱼"
+      ]
+    },
+    {
+      "id": "wm-loricariichthys-anus",
+      "scientific": "Loricariichthys anus",
+      "before": "小肛真甲鲶",
+      "after": "小肛真甲鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小肛真甲鲶"
+      ]
+    },
+    {
+      "id": "wm-lota-lota",
+      "scientific": "Lota lota",
+      "before": "江鳕",
+      "after": "江鳕",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "江鳕"
+      ]
+    },
+    {
+      "id": "wm-luxilus-cornutus",
+      "scientific": "Luxilus cornutus",
+      "before": "角闪光美洲鱥",
+      "after": "角闪光美洲鱥",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "角闪光美洲鱥"
+      ]
+    },
+    {
+      "id": "wm-lythrurus-umbratilis",
+      "scientific": "Lythrurus umbratilis",
+      "before": "蛰居美洲石鱥",
+      "after": "蛰居美洲石鱥",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "蛰居美洲石鱥"
+      ]
+    },
+    {
+      "id": "wm-maccullochella-peelii",
+      "scientific": "Maccullochella peelii",
+      "before": "墨瑞鳕",
+      "after": "墨瑞鳕",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "墨瑞鳕"
+      ]
+    },
+    {
+      "id": "wm-macquaria-ambigua",
+      "scientific": "Macquaria ambigua",
+      "before": "圆尾麦氏鲈",
+      "after": "圆尾麦氏鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "圆尾麦氏鲈"
+      ]
+    },
+    {
+      "id": "wm-macquaria-australasica",
+      "scientific": "Macquaria australasica",
+      "before": "澳洲麦氏鲈",
+      "after": "澳洲麦氏鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "澳洲麦氏鲈"
+      ]
+    },
+    {
+      "id": "wm-macropodus-hongkongensis",
+      "scientific": "Macropodus hongkongensis",
+      "before": "香港鬥魚",
+      "after": "香港斗鱼",
+      "aliasesAdded": [
+        "香港鬥魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-macropodus-opercularis",
+      "scientific": "Macropodus opercularis",
+      "before": "蓋斑鬥魚",
+      "after": "叉尾斗鱼",
+      "aliasesAdded": [
+        "蓋斑鬥魚",
+        "盖斑斗鱼",
+        "叉尾鬥魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-malapterurus-electricus",
+      "scientific": "Malapterurus electricus",
+      "before": "电鲶",
+      "after": "电鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "电鲶"
+      ]
+    },
+    {
+      "id": "wm-mastacembelus-armatus",
+      "scientific": "Mastacembelus armatus",
+      "before": "大刺鳅",
+      "after": "大刺鳅",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大刺鳅"
+      ]
+    },
+    {
+      "id": "wm-megalobrama-amblycephala",
+      "scientific": "Megalobrama amblycephala",
+      "before": "团头鲂",
+      "after": "团头鲂",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "团头鲂"
+      ]
+    },
+    {
+      "id": "wm-megalobrama-terminalis",
+      "scientific": "Megalobrama terminalis",
+      "before": "三角鲂",
+      "after": "三角鲂",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "三角鲂"
+      ]
+    },
+    {
+      "id": "wm-melanotaenia-australis",
+      "scientific": "Melanotaenia australis",
+      "before": "澳洲虹银汉鱼",
+      "after": "澳洲虹银汉鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "澳洲虹银汉鱼"
+      ]
+    },
+    {
+      "id": "wm-melanotaenia-duboulayi",
+      "scientific": "Melanotaenia duboulayi",
+      "before": "杜氏虹银汉鱼",
+      "after": "杜氏虹银汉鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "杜氏虹银汉鱼"
+      ]
+    },
+    {
+      "id": "wm-melanotaenia-fluviatilis",
+      "scientific": "Melanotaenia fluviatilis",
+      "before": "河虹银汉鱼",
+      "after": "河虹银汉鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "河虹银汉鱼"
+      ]
+    },
+    {
+      "id": "wm-melanotaenia-maccullochi",
+      "scientific": "Melanotaenia maccullochi",
+      "before": "麦氏虹银汉鱼",
+      "after": "麦氏虹银汉鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "麦氏虹银汉鱼"
+      ]
+    },
+    {
+      "id": "wm-melanotaenia-trifasciata",
+      "scientific": "Melanotaenia trifasciata",
+      "before": "三带虹银汉鱼",
+      "after": "三带虹银汉鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "三带虹银汉鱼"
+      ]
+    },
+    {
+      "id": "wm-micropterus-dolomieu",
+      "scientific": "Micropterus dolomieu",
+      "before": "小口黑鲈",
+      "after": "小口黑鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小口黑鲈"
+      ]
+    },
+    {
+      "id": "wm-micropterus-treculii",
+      "scientific": "Micropterus treculii",
+      "before": "特氏黑鲈",
+      "after": "特氏黑鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "特氏黑鲈"
+      ]
+    },
+    {
+      "id": "wm-misgurnus-fossilis",
+      "scientific": "Misgurnus fossilis",
+      "before": "纵带泥鳅",
+      "after": "纵带泥鳅",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "纵带泥鳅"
+      ]
+    },
+    {
+      "id": "wm-moenkhausia-bonita",
+      "scientific": "Moenkhausia bonita",
+      "before": "博奈直線脂鯉",
+      "after": "博奈直线脂鲤",
+      "aliasesAdded": [
+        "博奈直線脂鯉"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-moxostoma-macrolepidotum",
+      "scientific": "Moxostoma macrolepidotum",
+      "before": "马斯科吸口鱼",
+      "after": "大鳞吸口鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "馬斯科吸口魚",
+        "马斯科吸口鱼"
+      ]
+    },
+    {
+      "id": "wm-mugil-cephalus",
+      "scientific": "Mugil cephalus",
+      "before": "鲻鱼",
+      "after": "鲻鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鲻鱼"
+      ]
+    },
+    {
+      "id": "wm-mylopharodon-conocephalus",
+      "scientific": "Mylopharodon conocephalus",
+      "before": "臼齿鱼",
+      "after": "臼齿鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "臼齿鱼"
+      ]
+    },
+    {
+      "id": "wm-mylopharyngodon-piceus",
+      "scientific": "Mylopharyngodon piceus",
+      "before": "青鱼",
+      "after": "青鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "青鱼"
+      ]
+    },
+    {
+      "id": "wm-nannacara-anomala",
+      "scientific": "Nannacara anomala",
+      "before": "矮丽鱼",
+      "after": "矮丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "矮丽鱼"
+      ]
+    },
+    {
+      "id": "wm-nannatherina-balstoni",
+      "scientific": "Nannatherina balstoni",
+      "before": "巴氏南脂鲈",
+      "after": "巴氏南脂鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "巴氏南脂鲈"
+      ]
+    },
+    {
+      "id": "wm-nematalosa-erebi",
+      "scientific": "Nematalosa erebi",
+      "before": "北澳海𬶭",
+      "after": "北澳海鰶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "北澳海鰶"
+      ]
+    },
+    {
+      "id": "wm-nematocharax-venustus",
+      "scientific": "Nematocharax venustus",
+      "before": "维纳斯线纹脂鲤",
+      "after": "维纳斯线纹脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "维纳斯线纹脂鲤"
+      ]
+    },
+    {
+      "id": "wm-neoarius-graeffei",
+      "scientific": "Neoarius graeffei",
+      "before": "格氏新海鲶",
+      "after": "格氏新海鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "格氏新海鲶"
+      ]
+    },
+    {
+      "id": "wm-nipponocypris-temminckii",
+      "scientific": "Nipponocypris temminckii",
+      "before": "川鯥",
+      "after": "特氏东瀛鲤",
+      "aliasesAdded": [
+        "特氏東瀛鯉"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-nocomis-biguttatus",
+      "scientific": "Nocomis biguttatus",
+      "before": "双点美鱥",
+      "after": "双点美鱥",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "双点美鱥"
+      ]
+    },
+    {
+      "id": "wm-nocomis-micropogon",
+      "scientific": "Nocomis micropogon",
+      "before": "小须美鱥",
+      "after": "小须美鱥",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小须美鱥"
+      ]
+    },
+    {
+      "id": "wm-notemigonus-crysoleucas",
+      "scientific": "Notemigonus crysoleucas",
+      "before": "金体美鳊",
+      "after": "金体美鳊",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "金体美鳊"
+      ]
+    },
+    {
+      "id": "wm-nothobranchius-furzeri",
+      "scientific": "Nothobranchius furzeri",
+      "before": "弗氏假鳃鳉",
+      "after": "弗氏假鳃鳉",
+      "aliasesAdded": [
+        "弗氏假鳃鮰"
+      ],
+      "aliasesRemoved": [
+        "弗氏假鳃鳉"
+      ]
+    },
+    {
+      "id": "wm-odontesthes-bonariensis",
+      "scientific": "Odontesthes bonariensis",
+      "before": "博纳里牙汉鱼",
+      "after": "博纳里牙汉鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "博纳里牙汉鱼"
+      ]
+    },
+    {
+      "id": "wm-oncorhynchus-gorbuscha",
+      "scientific": "Oncorhynchus gorbuscha",
+      "before": "粉红马哈鱼",
+      "after": "粉红马哈鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "粉红马哈鱼"
+      ]
+    },
+    {
+      "id": "wm-oncorhynchus-keta",
+      "scientific": "Oncorhynchus keta",
+      "before": "大马哈鱼",
+      "after": "大马哈鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大马哈鱼"
+      ]
+    },
+    {
+      "id": "wm-oncorhynchus-kisutch",
+      "scientific": "Oncorhynchus kisutch",
+      "before": "银鲑",
+      "after": "银鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "银鲑"
+      ]
+    },
+    {
+      "id": "wm-oncorhynchus-masou",
+      "scientific": "Oncorhynchus masou",
+      "before": "樱鳟",
+      "after": "樱鳟",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "樱鳟"
+      ]
+    },
+    {
+      "id": "wm-oncorhynchus-mykiss",
+      "scientific": "Oncorhynchus mykiss",
+      "before": "虹鳟",
+      "after": "虹鳟",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "虹鳟"
+      ]
+    },
+    {
+      "id": "wm-oncorhynchus-nerka",
+      "scientific": "Oncorhynchus nerka",
+      "before": "红马哈鱼",
+      "after": "红马哈鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "红马哈鱼"
+      ]
+    },
+    {
+      "id": "wm-oncorhynchus-tshawytscha",
+      "scientific": "Oncorhynchus tshawytscha",
+      "before": "帝王鲑",
+      "after": "帝王鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "帝王鲑"
+      ]
+    },
+    {
+      "id": "wm-opsaridium-peringueyi",
+      "scientific": "Opsaridium peringueyi",
+      "before": "Opsaridium peringueyi",
+      "after": "Opsaridium peringueyi",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "Opsaridium peringueyi"
+      ]
+    },
+    {
+      "id": "wm-opsariichthys-uncirostris",
+      "scientific": "Opsariichthys uncirostris",
+      "before": "真马口鱼",
+      "after": "真马口鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "真马口鱼"
+      ]
+    },
+    {
+      "id": "wm-oreochromis-aureus",
+      "scientific": "Oreochromis aureus",
+      "before": "奥利亚口孵非鲫",
+      "after": "奥利亚口孵非鲫",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "奥利亚口孵非鲫"
+      ]
+    },
+    {
+      "id": "wm-oreochromis-mossambicus",
+      "scientific": "Oreochromis mossambicus",
+      "before": "莫三比克口孵非鲫",
+      "after": "莫三比克口孵非鲫",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "莫三比克口孵非鲫"
+      ]
+    },
+    {
+      "id": "wm-oreochromis-niloticus",
+      "scientific": "Oreochromis niloticus",
+      "before": "尼罗口孵非鲫",
+      "after": "尼罗口孵非鲫",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "尼罗口孵非鲫"
+      ]
+    },
+    {
+      "id": "wm-pachypanchax-omalonotus",
+      "scientific": "Pachypanchax omalonotus",
+      "before": "扁粗背鳉",
+      "after": "扁粗背鳉",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "扁粗背鳉"
+      ]
+    },
+    {
+      "id": "wm-pachypanchax-sakaramyi",
+      "scientific": "Pachypanchax sakaramyi",
+      "before": "萨氏粗背鳉",
+      "after": "萨氏粗背鳉",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "萨氏粗背鳉"
+      ]
+    },
+    {
+      "id": "wm-pantodon-buchholzi",
+      "scientific": "Pantodon buchholzi",
+      "before": "齿蝶鱼",
+      "after": "齿蝶鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "齿蝶鱼"
+      ]
+    },
+    {
+      "id": "wm-parachanna-obscura",
+      "scientific": "Parachanna obscura",
+      "before": "暗副鳢",
+      "after": "暗副鳢",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "暗副鳢"
+      ]
+    },
+    {
+      "id": "wm-parachromis-managuensis",
+      "scientific": "Parachromis managuensis",
+      "before": "花身副丽鱼",
+      "after": "花身副丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "花身副丽鱼"
+      ]
+    },
+    {
+      "id": "wm-paretroplus-kieneri",
+      "scientific": "Paretroplus kieneri",
+      "before": "基氏副热鲷",
+      "after": "基氏副热鲷",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "基氏副热鲷"
+      ]
+    },
+    {
+      "id": "wm-paretroplus-maculatus",
+      "scientific": "Paretroplus maculatus",
+      "before": "斑副热鲷",
+      "after": "斑副热鲷",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "斑副热鲷"
+      ]
+    },
+    {
+      "id": "wm-peckoltia-greedoi",
+      "scientific": "Peckoltia greedoi",
+      "before": "Peckoltia greedoi",
+      "after": "Peckoltia greedoi",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "Peckoltia greedoi"
+      ]
+    },
+    {
+      "id": "wm-perca-flavescens",
+      "scientific": "Perca flavescens",
+      "before": "黄鲈",
+      "after": "黄鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "黄鲈"
+      ]
+    },
+    {
+      "id": "wm-perca-fluviatilis",
+      "scientific": "Perca fluviatilis",
+      "before": "欧洲河鲈",
+      "after": "欧洲河鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧洲河鲈"
+      ]
+    },
+    {
+      "id": "wm-perccottus-glenii",
+      "scientific": "Perccottus glenii",
+      "before": "葛氏鲈塘鳢",
+      "after": "葛氏鲈塘鳢",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "葛氏鲈塘鳢"
+      ]
+    },
+    {
+      "id": "wm-percichthys-trucha",
+      "scientific": "Percichthys trucha",
+      "before": "真鲈",
+      "after": "真鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "真鲈"
+      ]
+    },
+    {
+      "id": "wm-percopsis-omiscomaycus",
+      "scientific": "Percopsis omiscomaycus",
+      "before": "鲑鲈",
+      "after": "鲑鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鲑鲈"
+      ]
+    },
+    {
+      "id": "wm-pethia-ticto",
+      "scientific": "Pethia ticto",
+      "before": "真无须魮",
+      "after": "真无须魮",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "真无须魮"
+      ]
+    },
+    {
+      "id": "wm-phalloceros-caudimaculatus",
+      "scientific": "Phalloceros caudimaculatus",
+      "before": "尾点角茎鳉",
+      "after": "尾点角茎鳉",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "尾点角茎鳉"
+      ]
+    },
+    {
+      "id": "wm-phenacobius-mirabilis",
+      "scientific": "Phenacobius mirabilis",
+      "before": "奇美洲拟鱥",
+      "after": "奇美洲拟鱥",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "奇美洲拟鱥"
+      ]
+    },
+    {
+      "id": "wm-phoxinus-phoxinus",
+      "scientific": "Phoxinus phoxinus",
+      "before": "真鱥",
+      "after": "真鱥",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "真鱥"
+      ]
+    },
+    {
+      "id": "wm-plecoglossus-altivelis",
+      "scientific": "Plecoglossus altivelis",
+      "before": "香鱼",
+      "after": "香鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "香鱼"
+      ]
+    },
+    {
+      "id": "wm-pleuronectes-platessa",
+      "scientific": "Pleuronectes platessa",
+      "before": "欧洲鲽",
+      "after": "欧洲鲽",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧洲鲽"
+      ]
+    },
+    {
+      "id": "wm-poeciliopsis-occidentalis",
+      "scientific": "Poeciliopsis occidentalis",
+      "before": "西域若花鳉",
+      "after": "西域若花鳉",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "西域若花鳉"
+      ]
+    },
+    {
+      "id": "wm-polypterus-endlicherii",
+      "scientific": "Polypterus endlicherii",
+      "before": "恩氏多鳍鱼",
+      "after": "恩氏多鳍鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "恩氏多鳍鱼"
+      ]
+    },
+    {
+      "id": "wm-polypterus-senegalus",
+      "scientific": "Polypterus senegalus",
+      "before": "塞内加尔多鳍鱼",
+      "after": "塞内加尔多鳍鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "塞内加尔多鳍鱼"
+      ]
+    },
+    {
+      "id": "wm-pomoxis-annularis",
+      "scientific": "Pomoxis annularis",
+      "before": "白刺盖太阳鱼",
+      "after": "白刺盖太阳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "白刺盖太阳鱼"
+      ]
+    },
+    {
+      "id": "wm-pomoxis-nigromaculatus",
+      "scientific": "Pomoxis nigromaculatus",
+      "before": "黑斑刺盖太阳鱼",
+      "after": "黑斑刺盖太阳鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "黑斑刺盖太阳鱼"
+      ]
+    },
+    {
+      "id": "wm-prionurus-biafraensis",
+      "scientific": "Prionurus biafraensis",
+      "before": "比夫拉多板盾尾魚",
+      "after": "比夫拉多板盾尾鱼",
+      "aliasesAdded": [
+        "比夫拉多板盾尾魚"
+      ],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-prochilodus-lineatus",
+      "scientific": "Prochilodus lineatus",
+      "before": "条纹鲮脂鲤",
+      "after": "条纹鲮脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "条纹鲮脂鲤"
+      ]
+    },
+    {
+      "id": "wm-prochilodus-magdalenae",
+      "scientific": "Prochilodus magdalenae",
+      "before": "马格达河鲮脂鲤",
+      "after": "马格达河鲮脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "马格达河鲮脂鲤"
+      ]
+    },
+    {
+      "id": "wm-prosopium-cylindraceum",
+      "scientific": "Prosopium cylindraceum",
+      "before": "真柱白鲑",
+      "after": "真柱白鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "真柱白鲑"
+      ]
+    },
+    {
+      "id": "wm-protopterus-aethiopicus",
+      "scientific": "Protopterus aethiopicus",
+      "before": "石花肺鱼",
+      "after": "石花肺鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "石花肺鱼"
+      ]
+    },
+    {
+      "id": "wm-protopterus-annectens",
+      "scientific": "Protopterus annectens",
+      "before": "西非肺鱼",
+      "after": "西非肺鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "西非肺鱼"
+      ]
+    },
+    {
+      "id": "wm-protopterus-dolloi",
+      "scientific": "Protopterus dolloi",
+      "before": "长肺鱼",
+      "after": "长肺鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "长肺鱼"
+      ]
+    },
+    {
+      "id": "wm-prototroctes-maraena",
+      "scientific": "Prototroctes maraena",
+      "before": "澳洲南茴鱼",
+      "after": "澳洲南茴鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "澳洲南茴鱼"
+      ]
+    },
+    {
+      "id": "wm-pseudobarbus-asper",
+      "scientific": "Pseudobarbus asper",
+      "before": "Pseudobarbus asper",
+      "after": "Pseudobarbus asper",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "Pseudobarbus asper"
+      ]
+    },
+    {
+      "id": "wm-pseudobarbus-tenuis",
+      "scientific": "Pseudobarbus tenuis",
+      "before": "细拟魮",
+      "after": "细拟魮",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "细拟魮"
+      ]
+    },
+    {
+      "id": "wm-pseudogobio-esocinus",
+      "scientific": "Pseudogobio esocinus",
+      "before": "镰柄",
+      "after": "镰柄",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "镰柄"
+      ]
+    },
+    {
+      "id": "wm-pseudorasbora-parva",
+      "scientific": "Pseudorasbora parva",
+      "before": "麦穗鱼",
+      "after": "麦穗鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "麦穗鱼"
+      ]
+    },
+    {
+      "id": "wm-ptychocheilus-oregonensis",
+      "scientific": "Ptychocheilus oregonensis",
+      "before": "俄勒冈叶唇鱼",
+      "after": "俄勒冈叶唇鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "俄勒冈叶唇鱼"
+      ]
+    },
+    {
+      "id": "wm-pungitius-pungitius",
+      "scientific": "Pungitius pungitius",
+      "before": "八棘多刺鱼",
+      "after": "九棘多刺鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "八棘多刺鱼",
+        "八棘多刺魚"
+      ]
+    },
+    {
+      "id": "wm-puntius-sophore",
+      "scientific": "Puntius sophore",
+      "before": "斑尾小鲃",
+      "after": "斑尾小鲃",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "斑尾小鲃"
+      ]
+    },
+    {
+      "id": "wm-pylodictis-olivaris",
+      "scientific": "Pylodictis olivaris",
+      "before": "铲𫚔",
+      "after": "铲鮰",
+      "aliasesAdded": [],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-rasbora-daniconius",
+      "scientific": "Rasbora daniconius",
+      "before": "细波鱼",
+      "after": "细波鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "细波鱼"
+      ]
+    },
+    {
+      "id": "wm-retropinna-semoni",
+      "scientific": "Retropinna semoni",
+      "before": "西氏后鳍鲑",
+      "after": "西氏后鳍鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "西氏后鳍鲑"
+      ]
+    },
+    {
+      "id": "wm-rhinichthys-cataractae",
+      "scientific": "Rhinichthys cataractae",
+      "before": "吻鱥",
+      "after": "吻鱥",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "吻鱥"
+      ]
+    },
+    {
+      "id": "wm-rhodeus-amarus",
+      "scientific": "Rhodeus amarus",
+      "before": "欧洲苦鱼",
+      "after": "欧洲苦鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧洲苦鱼"
+      ]
+    },
+    {
+      "id": "wm-rhodeus-ocellatus",
+      "scientific": "Rhodeus ocellatus",
+      "before": "高体鳑鲏",
+      "after": "高体鳑鲏",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "高体鳑鲏"
+      ]
+    },
+    {
+      "id": "wm-richardsonius-balteatus",
+      "scientific": "Richardsonius balteatus",
+      "before": "红胁鱥",
+      "after": "红胁鱥",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "红胁鱥"
+      ]
+    },
+    {
+      "id": "wm-rutilus-rutilus",
+      "scientific": "Rutilus rutilus",
+      "before": "湖拟鲤",
+      "after": "湖拟鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "湖拟鲤"
+      ]
+    },
+    {
+      "id": "wm-salmo-salar",
+      "scientific": "Salmo salar",
+      "before": "大西洋鲑",
+      "after": "大西洋鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大西洋鲑"
+      ]
+    },
+    {
+      "id": "wm-salmo-trutta",
+      "scientific": "Salmo trutta",
+      "before": "褐鳟",
+      "after": "褐鳟",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "褐鳟"
+      ]
+    },
+    {
+      "id": "wm-salvelinus-alpinus",
+      "scientific": "Salvelinus alpinus",
+      "before": "北极红点鲑",
+      "after": "北极红点鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "北极红点鲑"
+      ]
+    },
+    {
+      "id": "wm-salvelinus-fontinalis",
+      "scientific": "Salvelinus fontinalis",
+      "before": "美洲红点鲑",
+      "after": "美洲红点鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "美洲红点鲑"
+      ]
+    },
+    {
+      "id": "wm-salvelinus-leucomaenis",
+      "scientific": "Salvelinus leucomaenis",
+      "before": "远东红点鲑",
+      "after": "远东红点鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "远东红点鲑"
+      ]
+    },
+    {
+      "id": "wm-salvelinus-malma",
+      "scientific": "Salvelinus malma",
+      "before": "花羔红点鲑",
+      "after": "花羔红点鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "花羔红点鲑"
+      ]
+    },
+    {
+      "id": "wm-salvelinus-namaycush",
+      "scientific": "Salvelinus namaycush",
+      "before": "突吻红点鲑",
+      "after": "突吻红点鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "突吻红点鲑"
+      ]
+    },
+    {
+      "id": "wm-sandelia-capensis",
+      "scientific": "Sandelia capensis",
+      "before": "Sandelia capensis",
+      "after": "Sandelia capensis",
+      "aliasesAdded": [
+        "岬圆鳞攀鲈"
+      ],
+      "aliasesRemoved": [
+        "Sandelia capensis"
+      ]
+    },
+    {
+      "id": "wm-sander-lucioperca",
+      "scientific": "Sander lucioperca",
+      "before": "白梭吻鲈",
+      "after": "白梭吻鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "白梭吻鲈"
+      ]
+    },
+    {
+      "id": "wm-sander-vitreus",
+      "scientific": "Sander vitreus",
+      "before": "玻璃梭鲈",
+      "after": "玻璃梭鲈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "玻璃梭鲈"
+      ]
+    },
+    {
+      "id": "wm-sarcocheilichthys-sinensis",
+      "scientific": "Sarcocheilichthys sinensis",
+      "before": "华鳈",
+      "after": "华鳈",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "华鳈"
+      ]
+    },
+    {
+      "id": "wm-sarotherodon-galilaeus",
+      "scientific": "Sarotherodon galilaeus",
+      "before": "加利略帚齿非鲫",
+      "after": "加利略帚齿非鲫",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "加利略帚齿非鲫"
+      ]
+    },
+    {
+      "id": "wm-sarotherodon-melanotheron",
+      "scientific": "Sarotherodon melanotheron",
+      "before": "黑颏帚齿非鲫",
+      "after": "黑颏帚齿非鲫",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "黑颏帚齿非鲫"
+      ]
+    },
+    {
+      "id": "wm-scardinius-erythrophthalmus",
+      "scientific": "Scardinius erythrophthalmus",
+      "before": "红眼鱼",
+      "after": "红眼鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "红眼鱼"
+      ]
+    },
+    {
+      "id": "wm-schilbe-intermedius",
+      "scientific": "Schilbe intermedius",
+      "before": "中间锡伯鲶",
+      "after": "中间锡伯鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "中间锡伯鲶"
+      ]
+    },
+    {
+      "id": "wm-scleropages-jardinii",
+      "scientific": "Scleropages jardinii",
+      "before": "珍珠龙鱼",
+      "after": "珍珠龙鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "珍珠龙鱼"
+      ]
+    },
+    {
+      "id": "wm-scomber-scombrus",
+      "scientific": "Scomber scombrus",
+      "before": "鲭鱼",
+      "after": "鲭鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鲭鱼"
+      ]
+    },
+    {
+      "id": "wm-scophthalmus-maximus",
+      "scientific": "Scophthalmus maximus",
+      "before": "大菱鲆",
+      "after": "大菱鲆",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大菱鲆"
+      ]
+    },
+    {
+      "id": "wm-semotilus-atromaculatus",
+      "scientific": "Semotilus atromaculatus",
+      "before": "黑斑须雅罗鱼",
+      "after": "黑斑须雅罗鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "黑斑须雅罗鱼"
+      ]
+    },
+    {
+      "id": "wm-semotilus-corporalis",
+      "scientific": "Semotilus corporalis",
+      "before": "小眼须雅罗鱼",
+      "after": "小眼须雅罗鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "小眼须雅罗鱼"
+      ]
+    },
+    {
+      "id": "wm-serranochromis-macrocephalus",
+      "scientific": "Serranochromis macrocephalus",
+      "before": "大头鮨丽鱼",
+      "after": "大头鮨丽鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "大头鮨丽鱼"
+      ]
+    },
+    {
+      "id": "wm-silurus-asotus",
+      "scientific": "Silurus asotus",
+      "before": "鲇",
+      "after": "鲇",
+      "aliasesAdded": [
+        "鲶"
+      ],
+      "aliasesRemoved": [
+        "鲇"
+      ]
+    },
+    {
+      "id": "wm-silurus-glanis",
+      "scientific": "Silurus glanis",
+      "before": "欧鲶",
+      "after": "欧鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧鲶"
+      ]
+    },
+    {
+      "id": "wm-siniperca-chuatsi",
+      "scientific": "Siniperca chuatsi",
+      "before": "鳜",
+      "after": "鳜",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鳜"
+      ]
+    },
+    {
+      "id": "wm-solea-solea",
+      "scientific": "Solea solea",
+      "before": "鳎",
+      "after": "鳎",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "鳎"
+      ]
+    },
+    {
+      "id": "wm-sorubim-lima",
+      "scientific": "Sorubim lima",
+      "before": "铲吻油鲶",
+      "after": "铲吻油鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "铲吻油鲶"
+      ]
+    },
+    {
+      "id": "wm-sparus-aurata",
+      "scientific": "Sparus aurata",
+      "before": "金头鲷",
+      "after": "金头鲷",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "金头鲷"
+      ]
+    },
+    {
+      "id": "wm-spinibarbus-sinensis",
+      "scientific": "Spinibarbus sinensis",
+      "before": "中华倒刺鲃",
+      "after": "中华倒刺鲃",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "中华倒刺鲃"
+      ]
+    },
+    {
+      "id": "wm-squalius-cephalus",
+      "scientific": "Squalius cephalus",
+      "before": "欧鲢",
+      "after": "欧鲢",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "欧鲢"
+      ]
+    },
+    {
+      "id": "wm-steindachneridion-parahybae",
+      "scientific": "Steindachneridion parahybae",
+      "before": "拟驼背施氏油鲶",
+      "after": "拟驼背施氏油鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "拟驼背施氏油鲶"
+      ]
+    },
+    {
+      "id": "wm-stenodus-nelma",
+      "scientific": "Stenodus nelma",
+      "before": "白北鲑",
+      "after": "白北鲑",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "白北鲑"
+      ]
+    },
+    {
+      "id": "wm-sternopygus-macrurus",
+      "scientific": "Sternopygus macrurus",
+      "before": "Sternopygus macrurus",
+      "after": "Sternopygus macrurus",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "Sternopygus macrurus"
+      ]
+    },
+    {
+      "id": "wm-synodontis-schall",
+      "scientific": "Synodontis schall",
+      "before": "沙尔歧须𬶏",
+      "after": "沙尔歧须鮠",
+      "aliasesAdded": [],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-synodontis-zambezensis",
+      "scientific": "Synodontis zambezensis",
+      "before": "赞比西河歧须𬶏",
+      "after": "赞比西河歧须鮠",
+      "aliasesAdded": [],
+      "aliasesRemoved": []
+    },
+    {
+      "id": "wm-tandanus-tandanus",
+      "scientific": "Tandanus tandanus",
+      "before": "澳洲鳗鲶",
+      "after": "澳洲鳗鲶",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "澳洲鳗鲶"
+      ]
+    },
+    {
+      "id": "wm-tetragonopterus-argenteus",
+      "scientific": "Tetragonopterus argenteus",
+      "before": "银大眼脂鲤",
+      "after": "银大眼脂鲤",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "银大眼脂鲤"
+      ]
+    },
+    {
+      "id": "wm-thymallus-arcticus",
+      "scientific": "Thymallus arcticus",
+      "before": "北极茴鱼",
+      "after": "北极茴鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "北极茴鱼"
+      ]
+    },
+    {
+      "id": "wm-thymallus-thymallus",
+      "scientific": "Thymallus thymallus",
+      "before": "茴鱼",
+      "after": "茴鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "茴鱼"
+      ]
+    },
+    {
+      "id": "wm-tilapia-sparrmanii",
+      "scientific": "Tilapia sparrmanii",
+      "before": "斯氏非鲫",
+      "after": "斯氏非鲫",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "斯氏非鲫"
+      ]
+    },
+    {
+      "id": "wm-tinca-tinca",
+      "scientific": "Tinca tinca",
+      "before": "丁鱥",
+      "after": "丁桂鱼",
+      "aliasesAdded": [
+        "丁桂"
+      ],
+      "aliasesRemoved": [
+        "丁鱥科"
+      ]
+    },
+    {
+      "id": "wm-umbra-krameri",
+      "scientific": "Umbra krameri",
+      "before": "荫鱼",
+      "after": "荫鱼",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "荫鱼"
+      ]
+    },
+    {
+      "id": "wm-wallago-attu",
+      "scientific": "Wallago attu",
+      "before": "叉尾鲇",
+      "after": "叉尾鲇",
+      "aliasesAdded": [],
+      "aliasesRemoved": [
+        "叉尾鲇"
+      ]
+    }
+  ],
+  "preferredNames": {
+    "Acheilognathus macropterus": {
+      "name": "大鳍鱊",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://nyncj.wuhan.gov.cn/zhlm/tzgg/202004/P020230424423477651555.pdf"
+      ],
+      "reason": "现有主名本来是大陆实际常用写法；全量OpenCC反而会生成𫚪，应保护不改。"
+    },
+    "Alphestes immaculatus": {
+      "name": "无斑鸳鸯鮨",
+      "aliases": [
+        "無斑鴛鴦鮨"
+      ],
+      "rejectedNames": [
+        "無斑鴛鴛鮨",
+        "无斑鸳鸳鮨"
+      ],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&me=&orderby=family_ch&page=421&pz=30&vn="
+      ],
+      "reason": "机构拉汉鱼典明确该学名对应無斑鴛鴦鮨；纠正旧导入标签误写的重复鴛，采用鸳鸯常用简体写法。"
+    },
+    "Ameiurus melas": {
+      "name": "黑鮰",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=3&pz=500&vn="
+      ],
+      "reason": "鱼类辞典明确黑鮰；不需要改成无来源的黑鲶鱼。"
+    },
+    "Ameiurus natalis": {
+      "name": "黄鮰",
+      "aliases": [
+        "北美鮰"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://www.gbif.org/zh/taxon/CQKF",
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=3&pz=500&vn="
+      ],
+      "reason": "黄鮰与北美鮰均有数据库来源；保留已用词并恢复BMP字形，不宣称仅一种才正确。"
+    },
+    "Aplocheilus panchax": {
+      "name": "巴基斯坦鰕鳉",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=family_name&page=67&pz=500&vn="
+      ],
+      "reason": "该生硬名称有鱼类辞典来源；只修字形，不误改成青鳉（另一属）或未经证实俗名。"
+    },
+    "Apogon atradorsatus": {
+      "name": "黑背天竺鲷",
+      "aliases": [
+        "黑背天竺鯛"
+      ],
+      "rejectedNames": [
+        "黑幼背天竺鯛",
+        "黑幼背天竺鲷"
+      ],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&me=&orderby=is_accepted_name&page=103&pz=200&vn="
+      ],
+      "reason": "机构拉汉鱼典明确该学名对应黑背天竺鲷；去除旧导入标签中多出的“幼”。"
+    },
+    "Barbonymus gonionotus": {
+      "name": "银高体鲃",
+      "aliases": [
+        "爪哇鲃",
+        "爪哇四须鲃"
+      ],
+      "rejectedNames": [
+        "银石首鱼"
+      ],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/taxon/395479-fishdb"
+      ],
+      "reason": "当前中文名含石首鱼，权威资料明确对应高体鲃属、鲤科；建议整项纠正而非繁简转换。"
+    },
+    "Canthigaster bennetti": {
+      "name": "本氏河鲀",
+      "aliases": [
+        "笨氏尖鼻魨",
+        "笨氏尖鼻鲀",
+        "本氏扁背鲀"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/mobi/species.php?id=383024",
+        "https://www.tfrin.gov.tw/theme_list.php?page=536&theme=dictionary"
+      ],
+      "reason": "台湾鱼类资料库把本氏河魨列为此学名的俗名；水产试验所另列本氏扁背魨。优先使用较易读的已有俗名，保留原先有依据的笨氏尖鼻鲀名称为检索别名。"
+    },
+    "Coregonus artedi": {
+      "name": "湖白鲑",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?D1=&R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=science&page=525&pz=50&vn=",
+        "https://fishbase.se/ComNames/CommonNamesList.php?GenusName=Coregonus&ID=235&SpeciesName=artedi"
+      ],
+      "reason": "不能仅因 clupeaformis 英文为 lake whitefish，就把 artedi 的湖白鲑判错。"
+    },
+    "Coregonus clupeaformis": {
+      "name": "鲱形白鲑",
+      "aliases": [
+        "湖白鱼",
+        "鲱形白鲑"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=science&page=329&pz=25&vn=",
+        "https://fishbase.se/ComNames/CommonNameSummary.php?autoctr=267297",
+        "https://www.sciengine.com/doi/pdf/6C52E49D91134E1B82D2505DD7E2F8FC"
+      ],
+      "reason": "湖白鱼不是乱码或杜撰；建议展示名规范为鲱形白鲑并保留湖白鱼别名，以减少与artedi湖白鲑混淆。这是偏好规范化而非错种。"
+    },
+    "Cottus gobio": {
+      "name": "鮈杜父鱼",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=desc&fm=&gc=&orderby=family_name&page=958&pz=25&vn="
+      ],
+      "reason": "恢复𬶋的BMP鮈形；不改变鱼种身份。"
+    },
+    "Devario aequipinnatus": {
+      "name": "大斑马",
+      "formalName": "波条鿕",
+      "aliases": [
+        "波条鿕",
+        "波条神鿕",
+        "大斑马"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/import_already_pic.php?id=1433"
+      ],
+      "reason": "大斑马为来源已有的水族俗名；不是根据 Giant danio 临时译名。 该水族名可能用于近似种，不能把市场同名照片或 Devario malabaricus 的资料挪给此物种；本记录仍以学名为准。"
+    },
+    "Hemibarbus labeo": {
+      "name": "重唇鱼",
+      "formalName": "唇䱻",
+      "aliases": [
+        "唇䱻",
+        "重唇鱼",
+        "重唇",
+        "重重",
+        "黄竹",
+        "桃花竹"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://xuebao.dlou.edu.cn/article/2025/2095-1388/202502003.html",
+        "https://patents.google.com/patent/CN101965923B/zh",
+        "https://www.moa.gov.cn/xw/bmdt/202106/P020210617329140415572.pdf"
+      ],
+      "reason": "重唇鱼适合作为易读显示名；唇䱻是应保留的科研名称。 䱻不是乱码，也不应批量替换成鲤、鲌等其他鱼名。"
+    },
+    "Hemibarbus maculatus": {
+      "name": "花骨鱼",
+      "formalName": "花䱻",
+      "aliases": [
+        "花䱻",
+        "花骨鱼",
+        "花鱼骨"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://www.xinping.gov.cn/u/cms/xpxzfxxgk/202008/2816011103h1.pdf",
+        "https://www.moa.gov.cn/xw/bmdt/202106/P020210617329140415572.pdf",
+        "https://xuebao.dlou.edu.cn/article/2020/2095-1388/202001002.html"
+      ],
+      "reason": "花骨鱼为已有文献使用的可读写法，不是本项目临时拆字造名。 规范名花䱻仍应出现在详情和别名检索中。"
+    },
+    "Hemiculter leucisculus": {
+      "name": "白条鱼",
+      "formalName": "䱗",
+      "aliases": [
+        "䱗",
+        "餐条鱼",
+        "白条",
+        "白条鱼",
+        "白鲦"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://dfz.jl.gov.cn/jltc/201802/t20180211_5217565.html",
+        "https://www.moa.gov.cn/xw/bmdt/202106/P020210617329140415572.pdf"
+      ],
+      "reason": "白条鱼是易读俗名，不是对䱗字的简化；详情和搜索应继续保留规范名䱗。 白条这一俗称可能在其他地方泛指相似鱼，页面仍需保留 Hemiculter leucisculus 作为身份依据。"
+    },
+    "Hypancistrus zebra": {
+      "name": "L046熊猫异型",
+      "formalName": "斑马下钩鲶",
+      "aliases": [
+        "斑馬下鈎鯰",
+        "斑马下钩鲶",
+        "L046熊貓異型",
+        "L046熊猫异型"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/import_forbidden_pic.php?id=37",
+        "https://www.moa.gov.cn/nybgb/2018/201811/201901/P020190102426865426990.pdf"
+      ],
+      "reason": "L046编号有助于区别其他同样带斑马纹的异型鱼；建议完整保留前缀。 斑马异型、熊猫异型等不带编号俗称在水族网站出现，但本轮优先采用官方来源逐字支持的L046全称。 鯰在不同中文规范可对应鲇或鲶；采用大陆已公开文件的斑马下钩鲶，不能仅凭字体偏好混改不同物种。"
+    },
+    "Ictalurus furcatus": {
+      "name": "长鳍真鮰",
+      "aliases": [
+        "长鳍叉尾鮰"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_ch&page=112&pz=200&vn="
+      ],
+      "reason": "同一词项恢复鱼类辞典BMP字形，不凭blue catfish自造蓝鲶俗名。"
+    },
+    "Ictalurus punctatus": {
+      "name": "斑点叉尾鮰",
+      "aliases": [
+        "斑真鮰"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://std.samr.gov.cn/db/search/stdDBDetailed?id=91D99E4D52812E24E05397BE0A0A3A10",
+        "https://yyj.moa.gov.cn/kjzl/201904/t20190428_6230770.htm",
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_ch&page=112&pz=200&vn="
+      ],
+      "reason": "国家/地方水产标准和主管部门采用鮰字，机械转换成𫚔影响可读性。"
+    },
+    "Iriatherina werneri": {
+      "name": "燕子美人",
+      "formalName": "沃氏伊岛银汉鱼",
+      "aliases": [
+        "燕子美人",
+        "沃氏伊島銀漢魚",
+        "沃氏伊岛银汉鱼"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://kmweb.moa.gov.tw/subject/subject.php?id=21704"
+      ],
+      "reason": "燕子美人有准确学名配对，可直接用于卡片显示。 不可缩为燕子鱼：这一宽泛俗称会混淆 Pseudomugil 等其他鱼类。 沃氏伊岛银汉鱼仍保留为既有中文名检索别名。"
+    },
+    "Leuciscus aspius": {
+      "name": "赤稍雅罗鱼",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesemodi.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=datelastmodified&page=65&pz=15&vn="
+      ],
+      "reason": "赤稍雅罗鱼有正式修订记录，不能因为看起来生硬就擅自纠正稍/梢或改译名。"
+    },
+    "Luxilus cornutus": {
+      "name": "角闪光美洲鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=chinese_mainland&page=269&pz=100&vn="
+      ],
+      "reason": "鱥是来源中的真实鱼名汉字，不是乱码。"
+    },
+    "Lythrurus umbratilis": {
+      "name": "蛰居美洲石鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=&fm=&gc=&orderby=science&page=38&pz=500&vn="
+      ],
+      "reason": "现名有机构数据库支持；鱥不是乱码。"
+    },
+    "Macropodus hongkongensis": {
+      "name": "香港斗鱼",
+      "formalName": "香港斗鱼",
+      "aliases": [
+        "香港鬥魚",
+        "香港斗鱼"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://bih.gov.hk/tc/fast-facts/species-named-after-hong-kong/index-id-22.html",
+        "https://www.natureintouch.gov.hk/documents/275279/1049958/Species_Identification_Guide_Student_StreamEcosystem_en_20231026.pdf/42efad61-f0d7-1bdb-4f21-8c8feac77ffb?t=1698740427164"
+      ],
+      "reason": "直接做鬥→斗、魚→鱼即可；不需要另造名字。 黑叉尾斗鱼在不同年代可能指不同 Macropodus 物种，本轮不新增这个宽泛别名。"
+    },
+    "Macropodus opercularis": {
+      "name": "叉尾斗鱼",
+      "formalName": "盖斑斗鱼",
+      "aliases": [
+        "蓋斑鬥魚",
+        "盖斑斗鱼",
+        "叉尾鬥魚",
+        "叉尾斗鱼"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://www.natureintouch.gov.hk/documents/275279/1049958/Species_Identification_Guide_Student_StreamEcosystem_en_20231026.pdf/42efad61-f0d7-1bdb-4f21-8c8feac77ffb?t=1698740427164"
+      ],
+      "reason": "叉尾斗鱼为明确对应物种的官方中文名；不是将香港斗鱼或其他斗鱼合并。 盖斑斗鱼是现有名称的普通繁简统一写法，保留为别名。"
+    },
+    "Moxostoma macrolepidotum": {
+      "name": "大鳞吸口鱼",
+      "aliases": [
+        "大鳞吸口鱼"
+      ],
+      "rejectedNames": [
+        "马斯科吸口鱼",
+        "馬斯科吸口魚"
+      ],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=&fm=&gc=&me=&orderby=family_name&page=184&pz=30&vn="
+      ],
+      "reason": "错误名称不能继续作为本物种的别名保留。"
+    },
+    "Nipponocypris temminckii": {
+      "name": "特氏东瀛鲤",
+      "formalName": "特氏东瀛鲤",
+      "aliases": [
+        "特氏東瀛鯉",
+        "特氏东瀛鲤",
+        "川鯥"
+      ],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_name&page=633&pz=20&vn=",
+        "https://www.cgr.mlit.go.jp/yasaka/ikimono/organism2018/d0007.htm"
+      ],
+      "reason": "特氏东瀛鲤是来源可核对且字形易显示的中文名。 川鯥可作为原数据检索别名保留；本轮不把日本俗名直接加工成川鲤等新名称。"
+    },
+    "Nocomis micropogon": {
+      "name": "小须美鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=chinese_taiwan&page=94&pz=100&vn="
+      ],
+      "reason": "现名仅作鬚到须的繁简转换；保留鱥。"
+    },
+    "Phenacobius mirabilis": {
+      "name": "奇美洲拟鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=family_name&page=432&pz=30&vn="
+      ],
+      "reason": "鱥是真实鱼名用字，不是编码损坏。"
+    },
+    "Pungitius pungitius": {
+      "name": "九棘多刺鱼",
+      "aliases": [],
+      "rejectedNames": [
+        "八棘多刺鱼",
+        "八棘多刺魚"
+      ],
+      "sourceUrls": [
+        "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/W020230522536559098623.pdf",
+        "https://www.biodiversity-science.net/CN/article/downloadArticleFile.do?attachType=PDF&id=8668"
+      ],
+      "reason": "官方物种红名录与当前八棘名称冲突；优先官方九棘名称，不按英语自行翻译。"
+    },
+    "Pylodictis olivaris": {
+      "name": "铲鮰",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=family_ch&page=112&pz=200&vn="
+      ],
+      "reason": "鏟鮰为辞典对应名称，常用简体铲+保留BMP鮰。"
+    },
+    "Rhinichthys cataractae": {
+      "name": "吻鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=chinese_taiwan&page=47&pz=100&vn=",
+        "https://fishdb.sinica.edu.tw/chi/specimen_species.php?R1=recno&R2=&dere=asc&key=&m=&page=1&pz=200"
+      ],
+      "reason": "可保持短中文名吻鱥；鱥是真实鱼名汉字。"
+    },
+    "Richardsonius balteatus": {
+      "name": "红胁鱥",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/chi/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=author&page=53&pz=200&vn="
+      ],
+      "reason": "现名是来源名称的繁简转换；鱥不是乱码。"
+    },
+    "Synodontis schall": {
+      "name": "沙尔歧须鮠",
+      "aliases": [],
+      "rejectedNames": [],
+      "sourceUrls": [
+        "https://fishdb.sinica.edu.tw/eng/chinesequer2.php?R1=&T1=&cn=&dere=asc&fm=&gc=&orderby=chinese_mainland&page=34&pz=500&vn="
+      ],
+      "reason": "普通字简化、鱼字鮠保留BMP，不改为无证俗名。"
+    },
+    "Tinca tinca": {
+      "name": "丁桂鱼",
+      "formalName": "丁鱥",
+      "aliases": [
+        "丁鱥",
+        "丁桂",
+        "丁桂鱼"
+      ],
+      "rejectedNames": [
+        "丁鱥科"
+      ],
+      "sourceUrls": [
+        "https://www.schinafish.cn/cn/article/pdf/preview/10.12131/20250164.pdf",
+        "https://nyncw.cq.gov.cn/wsdw/cqsscz/tzgg/202312/P020220222732842930981.pdf",
+        "https://www.moa.gov.cn/xw/bmdt/202106/P020210617329140415572.pdf"
+      ],
+      "reason": "丁桂鱼为已使用的俗名，适合作为面向初学者的显示名。 鱥是合法鱼名用字，详情仍需保留；现有丁鱥科是科级名称，不宜当作该物种的独立俗名。"
+    }
+  },
+  "validation": {
+    "unitTestsPassed": 73,
+    "publisherTestsPassed": 11,
+    "browserChecksPassed": 6,
+    "browserReport": "docs/chinese-name-e2e-results.json",
+    "build": "passed; production Sites build-site helper",
+    "geographyErrors": 0,
+    "namesPolicyIdempotent": true,
+    "unchanged": "Scientific identities, IDs, photographs, GBIF catalog, all2615 native relationships and waterbodies exactly preserved."
+  }
+}

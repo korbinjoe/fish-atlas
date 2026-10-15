@@ -68,6 +68,7 @@ import ImeInput from "./components/ImeInput";
 import FeedbackLink, { FeedbackNote } from "./components/FeedbackLink";
 import { feedbackRepository, repositoryUrl } from "./lib/feedback";
 import { translate, fishName, locationName, regionName, fishText, formatNumber, useI18n, localeInfo, locales } from "./i18n";
+import ChineseNameSources from "./components/ChineseNameSources";
 import type { Locale } from "./i18n";
 function t(source: string, values?: Record<string, string | number | null | undefined>): string {
   return translate(source, undefined, values ? Object.fromEntries(Object.entries(values).map(([key, value]) => [key, value ?? ""])) : undefined);
@@ -571,6 +572,7 @@ function FishDetail({
             {t("资料来源与图片署名")}<ChevronRight size={15} />
           </summary>
           <SourceLink fish={fish} />
+          <ChineseNameSources scientific={fish.scientific} />
           <p>
             {t("访问：")}{fish.accessedAt} {t("· 已核对页面信息，尚未经过鱼类专家审定。")}</p>
           <p>
@@ -628,6 +630,7 @@ function PhotoDetail({ profile, close, saved, toggleSave, openPhotoViewer }: {
         <section className="detail-section"><h3><Waves size={16} />{t("野外习性")}</h3><p lang={profile.behavior ? textLanguage : undefined} dir="auto">{profile.behavior || t("资料待补充；不能根据近缘鱼推断本物种的食性或相处方式。")}</p></section>
         <div className="caution"><Info size={15} /><span>{t("这条鱼尚无经核对的鱼缸养护参数，因此不进入鱼缸规划。图片依据文件名、描述与学名匹配，尚待鱼类专家复核；来源节选需结合原文及引用文献阅读。")}</span></div>
         <details className="source-details" open><summary>{t("资料来源与图片署名")}<ChevronRight size={15} /></summary>
+          <ChineseNameSources scientific={profile.scientific} />
           <p>{t("分类：")}<a href={`https://www.gbif.org/species/${profile.gbifKey}`} target="_blank" rel="noreferrer">{t("GBIF 物种记录")}</a>{profile.wikidataUrl && <> · <a href={profile.wikidataUrl} target="_blank" rel="noreferrer">Wikidata</a></>}</p>
           {profile.wikipediaUrl && <p>{t("文字来源：Wikipedia contributors，")}<a href={profile.wikipediaUrl} target="_blank" rel="noreferrer">{t("物种词条与编辑历史")}</a>，<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC BY-SA 4.0</a>{t("；本站仅保留短段落，不视为专家复核。")}</p>}
           <p>{t("照片：")}{profile.photo.author} · <a href={profile.photo.pageUrl} target="_blank" rel="noreferrer">{t("原始文件")}</a> · <a href={profile.photo.licenseUrl} target="_blank" rel="noreferrer">{profile.photo.license}</a>。</p>

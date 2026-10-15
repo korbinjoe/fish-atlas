@@ -16,7 +16,7 @@
   --line: #bfd8d51c;
   --muted: #89a3a7;
   --mint: #b6e1ba;
-  --serif: "Songti SC", "Noto Serif SC", "STSong", Georgia, serif;
+  --serif: "Songti SC", "Noto Serif SC", "STSong", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", Georgia, serif;
 }
 * {
   box-sizing: border-box;

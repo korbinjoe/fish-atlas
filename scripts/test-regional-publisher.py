@@ -8,6 +8,32 @@ publisher = runpy.run_path(str(Path(__file__).with_name("publish-regional-batche
 merge = publisher["merge_catalog"]
 validate_distribution = publisher["validate_distribution"]
 merge_native = publisher["merge_distribution_additions"]
+normalize_name = publisher["normalize_profile_name"]
+
+
+class ChineseDisplayNameTests(unittest.TestCase):
+    def test_script_repair_preserves_source_aliases_and_species_identity(self):
+        source = {"id": "example", "scientific": "Example fish", "name": "黃鰭刺鰕虎魚",
+                  "photo": {"path": "/media/source.jpg"}, "aliases": ["Source English name"]}
+        result = normalize_name(source)
+        self.assertEqual(result["name"], "黄鳍刺鰕虎鱼")
+        self.assertIn(source["name"], result["aliases"])
+        self.assertEqual(result["scientific"], source["scientific"])
+        self.assertEqual(result["photo"], source["photo"])
+        self.assertEqual(source["name"], "黃鰭刺鰕虎魚")
+        self.assertEqual(normalize_name(result), result)
+
+    def test_wrong_species_name_does_not_survive_as_a_search_alias(self):
+        result = normalize_name({"scientific": "Moxostoma macrolepidotum", "name": "马斯科吸口鱼",
+                                 "aliases": ["馬斯科吸口魚", "Shorthead redhorse"]})
+        self.assertEqual(result["name"], "大鳞吸口鱼")
+        self.assertEqual(result["aliases"], ["Shorthead redhorse"])
+
+    def test_standard_bmp_spelling_stays_stable_after_repeated_imports(self):
+        result = normalize_name({"scientific": "Ictalurus punctatus", "name": "斑点叉尾𫚔"})
+        self.assertEqual(result["name"], "斑点叉尾鮰")
+        self.assertIn("斑点叉尾𫚔", result["aliases"])
+        self.assertEqual(normalize_name(result), result)
 
 
 class IncrementalCatalogTests(unittest.TestCase):

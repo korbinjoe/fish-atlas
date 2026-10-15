@@ -18,6 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 LICENSE = re.compile(r"CC BY(?:-SA)? [\d.]+(?: de)?|CC0|Public domain")
+normalize_profile_name = runpy.run_path(str(ROOT / "scripts/chinese-name-policy.py"))["normalize_profile_name"]
 
 
 def read(path: Path):
@@ -151,6 +152,7 @@ def main():
                 raise ValueError(f"Invalid reviewed search aliases: {profile['scientific']}")
             if aliases:
                 profile["aliases"] = list(dict.fromkeys(alias.strip() for alias in aliases))
+            profile = normalize_profile_name(profile)
             id, scientific = profile["id"], profile["scientific"]
             row = by_key[profile["gbifKey"]]
             if any(profile.get(field, "").strip() for field in ("intro", "distribution", "behavior")) and not profile.get("wikipediaUrl"):

@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { photoProfileSchema } from "../src/lib/photoProfiles";
+import { chineseFishName } from "../src/lib/chineseNames";
 
 const root = resolve(import.meta.dirname, "..");
 const read = (name: string) => JSON.parse(readFileSync(resolve(root, "content", name), "utf8"));
@@ -10,6 +11,10 @@ const byKey = new Map(catalog.map((row) => [row.key, row]));
 const ids = new Set<string>();
 const keys = new Set<number>();
 for (const profile of profiles) {
+  if (profile.name !== chineseFishName(profile) || /\uFFFD/u.test(profile.name)
+      || Array.from(profile.name).some(character => /\p{Script=Han}/u.test(character) && character.codePointAt(0)! > 0xffff)) {
+    throw new Error(`Review Chinese display-name spelling: ${profile.scientific}`);
+  }
   if ([profile.intro, profile.distribution, profile.behavior].some((text) => text.trim()) && !profile.wikipediaUrl) {
     throw new Error(`Missing source for Wikipedia excerpts: ${profile.scientific}`);
   }

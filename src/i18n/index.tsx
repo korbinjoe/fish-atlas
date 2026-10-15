@@ -5,6 +5,7 @@ import { appMessages } from "./app";
 import { plannerMessages } from "./planner";
 import { componentMessages } from "./components";
 import { dataMessages, fishTranslations, geographicNames } from "./data";
+import { chineseFishName } from "../lib/chineseNames";
 
 export type Locale = "en" | "zh" | "fr" | "de" | "ja";
 export type MessageTranslations = Record<Exclude<Locale, "zh">, string>;
@@ -76,12 +77,12 @@ const englishNames: Record<string, string> = {
   "corydoras panda": "Panda corydoras", "corydoras paleatus": "Peppered corydoras",
 };
 export function fishName(fish: FishNameSource, locale: Locale = activeLocale): string {
-  if (locale === "zh") return fish.name;
+  if (locale === "zh") return chineseFishName(fish);
   const key = fish.scientific ? scientificKey(fish.scientific) : "";
   // Common names come from the existing source catalogue. Uncertain local names
   // fall back to the scientific name rather than a guessed vernacular identity.
   const common = englishNames[key] ?? englishFishNames.get(key)
-    ?? fish.aliases?.find((alias) => !/[\u3400-\u9fff]/u.test(alias) && scientificKey(alias) !== key)
+    ?? fish.aliases?.find((alias) => !/\p{Script=Han}/u.test(alias) && scientificKey(alias) !== key)
     ?? fish.scientific ?? fish.name;
   return locale === "en" ? common : fishTranslations[key]?.name?.[locale] ?? fish.scientific ?? common;
 }

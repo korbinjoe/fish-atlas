@@ -20,7 +20,6 @@
       "caption": "ja:ツチフキ。ja:井の頭自然文化園飼育展示個体。"
     },
     "aliases": [
-      "棒花鱼",
       "棒花魚"
     ]
   },
@@ -29,9 +28,7 @@
     "gbifKey": 9809222,
     "scientific": "Abramis brama",
     "name": "欧鳊",
-    "aliases": [
-      "欧鳊"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Common_bream",
@@ -52,7 +49,7 @@
     "id": "wm-abudefduf-bengalensis",
     "gbifKey": 2398657,
     "scientific": "Abudefduf bengalensis",
-    "name": "孟加拉豆娘魚",
+    "name": "孟加拉豆娘鱼",
     "family": "Pomacentridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Abudefduf_bengalensis",
@@ -67,13 +64,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Abudefduf_bengalensis.jpg",
       "caption": "A Narrow-Banded Sergeant Major (Abudefduf bengalensis) picks algae from a rock. Fairy Bower, Manly, NSW"
-    }
+    },
+    "aliases": [
+      "孟加拉豆娘魚"
+    ]
   },
   {
     "id": "wm-abudefduf-concolor",
     "gbifKey": 2398689,
     "scientific": "Abudefduf concolor",
-    "name": "雜色豆娘魚",
+    "name": "杂色豆娘鱼",
     "family": "Pomacentridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Dusky_sergeant",
@@ -88,7 +88,10 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Abudefduf_concolor.jpg",
       "caption": "Abudefduf concolor, Puntarenas Province, Costa Rica"
-    }
+    },
+    "aliases": [
+      "雜色豆娘魚"
+    ]
   },
   {
     "id": "wm-acanthistius-brasilianus",
@@ -115,7 +118,7 @@
     "id": "wm-acanthistius-cinctus",
     "gbifKey": 2388070,
     "scientific": "Acanthistius cinctus",
-    "name": "環帶刺鮨",
+    "name": "环带刺鮨",
     "family": "Serranidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Yellowbanded_perch",
@@ -130,7 +133,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthistius_cinctus_345561528.jpg",
       "caption": "Yellowbanded Wirrah (Acanthistius cinctus)"
-    }
+    },
+    "aliases": [
+      "環帶刺鮨"
+    ]
   },
   {
     "id": "wm-acanthistius-ocellatus",
@@ -157,7 +163,7 @@
     "id": "wm-acanthogobius-flavimanus",
     "gbifKey": 2375974,
     "scientific": "Acanthogobius flavimanus",
-    "name": "黃鰭刺鰕虎魚",
+    "name": "黄鳍刺鰕虎鱼",
     "family": "Gobiidae",
     "water": null,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Acanthogobius_flavimanus",
@@ -172,13 +178,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthogobius_flavimanus_Nakagawa.jpg",
       "caption": "マハゼ。なかがわ水遊園飼育展示個体。"
-    }
+    },
+    "aliases": [
+      "黃鰭刺鰕虎魚"
+    ]
   },
   {
     "id": "wm-acanthurus-achilles",
     "gbifKey": 5209178,
     "scientific": "Acanthurus achilles",
-    "name": "心斑刺尾魚",
+    "name": "心斑刺尾鱼",
     "family": "Acanthuridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Acanthurus_achilles",
@@ -193,13 +202,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_achilles_352489336.jpg",
       "caption": "Achilles Tang (Acanthurus achilles)"
-    }
+    },
+    "aliases": [
+      "心斑刺尾魚"
+    ]
   },
   {
     "id": "wm-acanthurus-albipectoralis",
     "gbifKey": 5209262,
     "scientific": "Acanthurus albipectoralis",
-    "name": "白胸鰭刺尾魚",
+    "name": "白胸鳍刺尾鱼",
     "family": "Acanthuridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Acanthurus_albipectoralis",
@@ -214,13 +226,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_albipectoralis.JPG",
       "caption": "Acanthurus albipectoralis. Locality: Récif Snark, Off Nouméa, New Caledonia. Fork Length 243 mm, Weight 243 grams. Date 2008-06-05; See also other photograph of same fish, with white paper to show white pectoral"
-    }
+    },
+    "aliases": [
+      "白胸鰭刺尾魚"
+    ]
   },
   {
     "id": "wm-acanthurus-auranticavus",
     "gbifKey": 5209158,
     "scientific": "Acanthurus auranticavus",
-    "name": "橘色刺尾魚",
+    "name": "橘色刺尾鱼",
     "family": "Acanthuridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Acanthurus_auranticavus",
@@ -235,7 +250,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acanthurus_auranticavus.jpg",
       "caption": "Orange-socket Surgeonfish (Acanthurus auranticavus). Species of fish."
-    }
+    },
+    "aliases": [
+      "橘色刺尾魚"
+    ]
   },
   {
     "id": "wm-acanthurus-leucosternon",
@@ -262,7 +280,7 @@
     "id": "wm-acantopsis-dialuzona",
     "gbifKey": 2368334,
     "scientific": "Acantopsis dialuzona",
-    "name": "蒼帶小刺眼鰍",
+    "name": "苍带小刺眼鳅",
     "family": "Cobitidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Acantopsis_dialuzona",
@@ -277,13 +295,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acantopsis_dialuzona.jpg",
       "caption": "Acantopsis dialuzona"
-    }
+    },
+    "aliases": [
+      "蒼帶小刺眼鰍"
+    ]
   },
   {
     "id": "wm-acantopsis-octoactinotos",
     "gbifKey": 2368325,
     "scientific": "Acantopsis octoactinotos",
-    "name": "八線小刺眼鰍",
+    "name": "八线小刺眼鳅",
     "family": "Cobitidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Acantopsis_octoactinotos",
@@ -298,13 +319,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acantopsis_octoactinotos.jpg",
       "caption": "Acantopsis octoactinotos"
-    }
+    },
+    "aliases": [
+      "八線小刺眼鰍"
+    ]
   },
   {
     "id": "wm-acentronura-breviperula",
     "gbifKey": 2332980,
     "scientific": "Acentronura breviperula",
-    "name": "短身細尾海龍",
+    "name": "短身细尾海龙",
     "family": "Syngnathidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Acentronura_breviperula",
@@ -319,13 +343,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acentronura_breviperula_-_Pygmy_Pipehorse_2.jpg",
       "caption": "Pygmy Pipehorse (Acentronura breviperula Syn. Acentronura tentaculata)"
-    }
+    },
+    "aliases": [
+      "短身細尾海龍"
+    ]
   },
   {
     "id": "wm-acentronura-tentaculata",
     "gbifKey": 2332977,
     "scientific": "Acentronura tentaculata",
-    "name": "南非細尾海馬",
+    "name": "南非细尾海马",
     "family": "Syngnathidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Acentronura_tentaculata",
@@ -340,7 +367,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Acentronura_tentaculata,_Egipto.jpg",
       "caption": "Acentronura tentaculata, Dhahab, Janub Sina', Egipto"
-    }
+    },
+    "aliases": [
+      "南非細尾海馬"
+    ]
   },
   {
     "id": "wm-acheilognathus-macropterus",
@@ -363,7 +393,6 @@
       "caption": "Acheilognathus macropterus by Shintonegawa"
     },
     "aliases": [
-      "大鳍鱊",
       "大鰭鱊",
       "大鳍鳑鲏",
       "大鰭鰟鮍"
@@ -373,7 +402,7 @@
     "id": "wm-achoerodus-viridis",
     "gbifKey": 2383154,
     "scientific": "Achoerodus viridis",
-    "name": "綠藍唇魚",
+    "name": "绿蓝唇鱼",
     "family": "Labridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Achoerodus_viridis",
@@ -388,7 +417,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Achoerodus_viridis.jpg",
       "caption": "A male Eastern Blue Groper (Achoerodus viridis) with escorts. Shelly Beach, Manly, NSW156766944"
-    }
+    },
+    "aliases": [
+      "綠藍唇魚"
+    ]
   },
   {
     "id": "wm-acipenser-baerii",
@@ -396,8 +428,7 @@
     "scientific": "Acipenser baerii",
     "name": "西伯利亚鲟",
     "aliases": [
-      "西伯利亞鱘",
-      "西伯利亚鲟"
+      "西伯利亞鱘"
     ],
     "family": "Acipenseridae",
     "water": "freshwater",
@@ -421,8 +452,7 @@
     "scientific": "Acipenser fulvescens",
     "name": "湖鲟",
     "aliases": [
-      "湖鱘",
-      "湖鲟"
+      "湖鱘"
     ],
     "family": "Acipenseridae",
     "water": "freshwater",
@@ -445,9 +475,7 @@
     "gbifKey": 2402168,
     "scientific": "Acipenser ruthenus",
     "name": "小体鲟",
-    "aliases": [
-      "小体鲟"
-    ],
+    "aliases": [],
     "family": "Acipenseridae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Sterlet",
@@ -485,7 +513,6 @@
       "caption": "​北京海洋馆的中华鲟"
     },
     "aliases": [
-      "中华鲟",
       "中華鱘"
     ]
   },
@@ -495,8 +522,7 @@
     "scientific": "Acipenser transmontanus",
     "name": "美国白鲟",
     "aliases": [
-      "美國白鱘",
-      "美国白鲟"
+      "美國白鱘"
     ],
     "family": "Acipenseridae",
     "water": "freshwater",
@@ -520,8 +546,7 @@
     "scientific": "Aequidens tetramerus",
     "name": "鞍斑宝丽鱼",
     "aliases": [
-      "鞍斑寶麗魚",
-      "鞍斑宝丽鱼"
+      "鞍斑寶麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -544,7 +569,7 @@
     "id": "wm-agosia-chrysogaster",
     "gbifKey": 2359113,
     "scientific": "Agosia chrysogaster",
-    "name": "長鰭鱥",
+    "name": "长鳍鱥",
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Longfin_dace",
@@ -559,7 +584,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Agosia_chrysogaster_188561078.jpg",
       "caption": "Longfin Dace (Agosia chrysogaster) in the United States"
-    }
+    },
+    "aliases": [
+      "長鰭鱥"
+    ]
   },
   {
     "id": "wm-alburnus-alburnus",
@@ -567,8 +595,7 @@
     "scientific": "Alburnus alburnus",
     "name": "欧白鱼",
     "aliases": [
-      "歐白魚",
-      "欧白鱼"
+      "歐白魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -592,8 +619,7 @@
     "scientific": "Alcolapia alcalica",
     "name": "肿唇雀丽鱼",
     "aliases": [
-      "腫唇雀麗魚",
-      "肿唇雀丽鱼"
+      "腫唇雀麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -616,7 +642,7 @@
     "id": "wm-alfaro-cultratus",
     "gbifKey": 2349754,
     "scientific": "Alfaro cultratus",
-    "name": "刀鱗鱂",
+    "name": "刀鳞鳉",
     "family": "Poeciliidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfaro_cultratus",
@@ -631,7 +657,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Alfaro_cultratus.jpg",
       "caption": "Messerkärpfling (Alfaro cultratus)"
-    }
+    },
+    "aliases": [
+      "刀鱗鱂"
+    ]
   },
   {
     "id": "wm-alosa-sapidissima",
@@ -639,8 +668,7 @@
     "scientific": "Alosa sapidissima",
     "name": "美洲西鲱",
     "aliases": [
-      "美洲西鯡",
-      "美洲西鲱"
+      "美洲西鯡"
     ],
     "family": "Clupeidae",
     "water": "freshwater",
@@ -663,7 +691,7 @@
     "id": "wm-alphestes-immaculatus",
     "gbifKey": 2387800,
     "scientific": "Alphestes immaculatus",
-    "name": "無斑鴛鴛鮨",
+    "name": "无斑鸳鸯鮨",
     "family": "Serranidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Alphestes_immaculatus",
@@ -678,7 +706,10 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Alphestes_immaculatus_448666519.jpg",
       "caption": "Pacific Mutton Hamlet (Alphestes immaculatus) in Costa Rica"
-    }
+    },
+    "aliases": [
+      "無斑鴛鴦鮨"
+    ]
   },
   {
     "id": "wm-alticus-arnoldorum",
@@ -705,7 +736,7 @@
     "id": "wm-alticus-monochrus",
     "gbifKey": 2395601,
     "scientific": "Alticus monochrus",
-    "name": "單色跳彈䲁",
+    "name": "单色跳弹鳚",
     "family": "Blenniidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Alticus_monochrus",
@@ -720,7 +751,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Alticus_monochrus1.jpg",
       "caption": "Alticus monochrus observed in Mauritius"
-    }
+    },
+    "aliases": [
+      "單色跳彈䲁"
+    ]
   },
   {
     "id": "wm-amatitlania-nigrofasciata",
@@ -747,7 +781,7 @@
     "id": "wm-amatitlania-siquia",
     "gbifKey": 2370024,
     "scientific": "Amatitlania siquia",
-    "name": "橘斑嬌麗魚",
+    "name": "橘斑娇丽鱼",
     "family": "Cichlidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Amatitlania_siquia",
@@ -762,7 +796,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Amatitlania_siquia.jpg",
       "caption": "Amatitlania siquia from Lake Xiloá"
-    }
+    },
+    "aliases": [
+      "橘斑嬌麗魚"
+    ]
   },
   {
     "id": "wm-amblyglyphidodon-aureus",
@@ -810,7 +847,7 @@
     "id": "wm-amblyglyphidodon-flavilatus",
     "gbifKey": 2398501,
     "scientific": "Amblyglyphidodon flavilatus",
-    "name": "黃側凹牙豆娘魚",
+    "name": "黄侧凹牙豆娘鱼",
     "family": "Pomacentridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Amblyglyphidodon_flavilatus",
@@ -825,13 +862,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Pomac%C3%A9ntrido_(Amblyglyphidodon_flavilatus),_mar_Rojo,_Egipto,_2023-04-17,_DD_139.jpg",
       "caption": "Maldives damselfish (Amblyglyphidodon flavilatus), Red Sea, Egypt"
-    }
+    },
+    "aliases": [
+      "黃側凹牙豆娘魚"
+    ]
   },
   {
     "id": "wm-amblypomacentrus-breviceps",
     "gbifKey": 2398474,
     "scientific": "Amblypomacentrus breviceps",
-    "name": "短頭鈍雀鯛",
+    "name": "短头钝雀鲷",
     "family": "Pomacentridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Amblypomacentrus_breviceps",
@@ -846,13 +886,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Amblypomacentrus_breviceps_(Chlegel_%26_M%C3%BCller,_1839).jpg",
       "caption": "Amblypomacentrus breviceps (Chlegel & Müller, 1839)"
-    }
+    },
+    "aliases": [
+      "短頭鈍雀鯛"
+    ]
   },
   {
     "id": "wm-amblyrhynchotes-honckenii",
     "gbifKey": 2407890,
     "scientific": "Amblyrhynchotes honckenii",
-    "name": "白點寬吻魨",
+    "name": "白点宽吻鲀",
     "family": "Tetraodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Amblyrhynchotes_honckenii",
@@ -867,15 +910,17 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Amblyrhynchotes_honckenii_in_Two_Oceans_Aquarium,_Cape_Town_-_2018-07-19_-_Andy_Mabbett_-_04_(cropped).jpg",
       "caption": "Amblyrhynchotes honckenii (\"Evileye Pufferfish\", \"Evileye Puffer\", or \"Evileye Blaasop\") in Two Oceans Aquarium, Cape Town, South Africa."
-    }
+    },
+    "aliases": [
+      "白點寬吻魨"
+    ]
   },
   {
     "id": "wm-ameiurus-melas",
     "gbifKey": 2340977,
     "scientific": "Ameiurus melas",
-    "name": "黑𫚔",
+    "name": "黑鮰",
     "aliases": [
-      "黑鮰",
       "黑𫚔"
     ],
     "family": "Ictaluridae",
@@ -898,10 +943,11 @@
     "id": "wm-ameiurus-natalis",
     "gbifKey": 2340969,
     "scientific": "Ameiurus natalis",
-    "name": "黄𫚔",
+    "name": "黄鮰",
     "aliases": [
       "黃鮰",
-      "黄𫚔"
+      "黄𫚔",
+      "北美鮰"
     ],
     "family": "Ictaluridae",
     "water": "freshwater",
@@ -923,7 +969,7 @@
     "id": "wm-amphilophus-citrinellus",
     "gbifKey": 2370102,
     "scientific": "Amphilophus citrinellus",
-    "name": "橘色雙冠麗魚",
+    "name": "橘色双冠丽鱼",
     "family": "Cichlidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Amphilophus_citrinellus",
@@ -938,7 +984,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Amphilophus_citrinellus_2015_G5.jpg",
       "caption": "Midas cichlid (Amphilophus citrinellus). A private zoo collection. Ukraine."
-    }
+    },
+    "aliases": [
+      "橘色雙冠麗魚"
+    ]
   },
   {
     "id": "wm-amphiprion-percula",
@@ -965,7 +1014,7 @@
     "id": "wm-anampses-caeruleopunctatus",
     "gbifKey": 2383466,
     "scientific": "Anampses caeruleopunctatus",
-    "name": "青斑阿南魚",
+    "name": "青斑阿南鱼",
     "family": "Labridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Blue-spotted_wrasse",
@@ -980,13 +1029,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue-spotted_wrasse,_initial_phase_-_Anampses_caeruleopunctatus.jpg",
       "caption": "(EN) Blue-spotted wrasse - (FR) Labre constellé\nAnampses caeruleopunctatus initial phase, Réunion Island"
-    }
+    },
+    "aliases": [
+      "青斑阿南魚"
+    ]
   },
   {
     "id": "wm-anampses-cuvier",
     "gbifKey": 2383461,
     "scientific": "Anampses cuvier",
-    "name": "居氏阿南魚",
+    "name": "居氏阿南鱼",
     "family": "Labridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Anampses_cuvier",
@@ -1001,7 +1053,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Anampses_cuvier_471960341.jpg",
       "caption": "Pearl Wrasse (Anampses cuvier) in the United States"
-    }
+    },
+    "aliases": [
+      "居氏阿南魚"
+    ]
   },
   {
     "id": "wm-ancistrus-cirrhosus",
@@ -1029,9 +1084,7 @@
     "gbifKey": 7642658,
     "scientific": "Andinoacara blombergi",
     "name": "Andinoacara blombergi",
-    "aliases": [
-      "Andinoacara blombergi"
-    ],
+    "aliases": [],
     "family": "Cichlidae",
     "water": "freshwater",
     "intro": "Andinoacara blombergi is a species of fish in the family Cichlidae.",
@@ -1055,8 +1108,7 @@
     "scientific": "Andinoacara latifrons",
     "name": "宽体安迪丽鱼",
     "aliases": [
-      "寬體安迪麗魚",
-      "宽体安迪丽鱼"
+      "寬體安迪麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -1102,7 +1154,6 @@
     "scientific": "Anguilla anguilla",
     "name": "欧洲鳗鲡",
     "aliases": [
-      "欧洲鳗鲡",
       "歐洲鰻鱺"
     ],
     "family": "Anguillidae",
@@ -1127,8 +1178,7 @@
     "scientific": "Anguilla australis",
     "name": "澳洲鳗鲡",
     "aliases": [
-      "澳洲鰻鱺",
-      "澳洲鳗鲡"
+      "澳洲鰻鱺"
     ],
     "family": "Anguillidae",
     "water": "freshwater",
@@ -1151,9 +1201,7 @@
     "gbifKey": 5712355,
     "scientific": "Anguilla bicolor",
     "name": "双色鳗鲡",
-    "aliases": [
-      "双色鳗鲡"
-    ],
+    "aliases": [],
     "family": "Anguillidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Anguilla_bicolor",
@@ -1175,9 +1223,7 @@
     "gbifKey": 5213018,
     "scientific": "Anguilla dieffenbachii",
     "name": "大鳗鲡",
-    "aliases": [
-      "大鳗鲡"
-    ],
+    "aliases": [],
     "family": "Anguillidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/New_Zealand_longfin_eel",
@@ -1215,7 +1261,6 @@
       "caption": "Japanese eel Anguilla japonica (Temminck & Schlegel, 1847)"
     },
     "aliases": [
-      "日本鳗鲡",
       "日本鳗",
       "日本鰻鱺",
       "日本鰻"
@@ -1228,13 +1273,16 @@
     "name": "鲈鳗",
     "aliases": [
       "鱸鰻",
-      "鲈鳗",
       "土龍",
       "烏耳鰻",
       "花鰻",
       "花鰻鱺",
       "花鳗鲡",
-      "黑鰻"
+      "黑鰻",
+      "土龙",
+      "乌耳鳗",
+      "花鳗",
+      "黑鳗"
     ],
     "family": "Anguillidae",
     "water": "brackish",
@@ -1259,8 +1307,8 @@
     "scientific": "Anguilla mossambica",
     "name": "莫桑比克鳗鲡",
     "aliases": [
-      "莫桑比克鳗鲡",
-      "莫三比克鰻鱺"
+      "莫三比克鰻鱺",
+      "莫三比克鳗鲡"
     ],
     "family": "Anguillidae",
     "water": "brackish",
@@ -1325,7 +1373,7 @@
     "id": "wm-aphanius-fasciatus",
     "gbifKey": 2348104,
     "scientific": "Aphanius fasciatus",
-    "name": "斑條祕鱂",
+    "name": "斑条秘鳉",
     "family": "Cyprinodontidae",
     "water": null,
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Mediterranean_killifish",
@@ -1340,7 +1388,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Aphanius_fasciatus_male.jpg",
       "caption": "Male Apanius fasciatus photographed near Grosseto (Tuscany, central Italy).\nPhoto by Paolo Fastelli, Massimiliano Marcelli and Flavio Monti."
-    }
+    },
+    "aliases": [
+      "斑條祕鱂"
+    ]
   },
   {
     "id": "wm-aphyosemion-australe",
@@ -1411,8 +1462,7 @@
     "scientific": "Apistogramma steindachneri",
     "name": "斯坦氏隐带丽鱼",
     "aliases": [
-      "斯坦氏隱帶麗魚",
-      "斯坦氏隐带丽鱼"
+      "斯坦氏隱帶麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -1435,7 +1485,7 @@
     "id": "wm-aplocheilus-panchax",
     "gbifKey": 2347811,
     "scientific": "Aplocheilus panchax",
-    "name": "巴基斯坦𫚥鳉",
+    "name": "巴基斯坦鰕鳉",
     "aliases": [
       "巴基斯坦鰕鱂",
       "巴基斯坦𫚥鳉"
@@ -1460,7 +1510,7 @@
     "id": "wm-apogon-atradorsatus",
     "gbifKey": 5211623,
     "scientific": "Apogon atradorsatus",
-    "name": "黑幼背天竺鯛",
+    "name": "黑背天竺鲷",
     "family": "Apogonidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Blacktip_cardinalfish",
@@ -1475,13 +1525,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Apogon_atradorsatus.jpg",
       "caption": "Blacktip Cardinalfish"
-    }
+    },
+    "aliases": [
+      "黑背天竺鯛"
+    ]
   },
   {
     "id": "wm-arothron-diadematus",
     "gbifKey": 2407403,
     "scientific": "Arothron diadematus",
-    "name": "紅海叉鼻魨",
+    "name": "红海叉鼻鲀",
     "family": "Tetraodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Masked_puffer",
@@ -1496,13 +1549,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Pez_globo_(Arothron_diadematus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-30,_DD_35.jpg",
       "caption": "Masked puffer (Arothron diadematus), Ras Muhammad National Park, Egypt"
-    }
+    },
+    "aliases": [
+      "紅海叉鼻魨"
+    ]
   },
   {
     "id": "wm-arothron-firmamentum",
     "gbifKey": 2407389,
     "scientific": "Arothron firmamentum",
-    "name": "瓣叉鼻魨",
+    "name": "瓣叉鼻鲀",
     "family": "Tetraodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Starry_toado",
@@ -1517,13 +1573,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Arothron_firmamentum_Kaikyokan.jpg",
       "caption": "ホシフグ。ja:下関市立しものせき水族館飼育展示個体。"
-    }
+    },
+    "aliases": [
+      "瓣叉鼻魨"
+    ]
   },
   {
     "id": "wm-aspidoras-fuscoguttatus",
     "gbifKey": 2342557,
     "scientific": "Aspidoras fuscoguttatus",
-    "name": "棕點盾皮鮠",
+    "name": "棕点盾皮鮠",
     "family": "Callichthyidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Aspidoras_fuscoguttatus",
@@ -1538,13 +1597,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Aspidoras_fuscoguttatus.jpg",
       "caption": "Aspidoras fuscoguttatus"
-    }
+    },
+    "aliases": [
+      "棕點盾皮鮠"
+    ]
   },
   {
     "id": "wm-astronotus-ocellatus",
     "gbifKey": 2370243,
     "scientific": "Astronotus ocellatus",
-    "name": "地圖魚",
+    "name": "地图鱼",
     "family": "Cichlidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Oscar_%28fish%29",
@@ -1559,7 +1621,10 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Astronotus_ocellatus.jpg",
       "caption": "Oscar (Astronotus ocellatus), a popular aquarium fish from South America."
-    }
+    },
+    "aliases": [
+      "地圖魚"
+    ]
   },
   {
     "id": "wm-atractosteus-spatula",
@@ -1567,8 +1632,7 @@
     "scientific": "Atractosteus spatula",
     "name": "福鳄",
     "aliases": [
-      "福鱷",
-      "福鳄"
+      "福鱷"
     ],
     "family": "Lepisosteidae",
     "water": "freshwater",
@@ -1590,7 +1654,7 @@
     "id": "wm-axelrodia-riesei",
     "gbifKey": 2352795,
     "scientific": "Axelrodia riesei",
-    "name": "里氏阿克塞脂鯉",
+    "name": "里氏阿克塞脂鲤",
     "family": "Characidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Ruby_tetra",
@@ -1605,7 +1669,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Pfeffersalmler_Axelrodia_riesei_(16467043916).jpg",
       "caption": "Axelrodia riesei in aquaria. Can be told apart from congener Axelrodia stigmatias by body color; A. riesei is red, while A. stigmatias is silvery-yellow."
-    }
+    },
+    "aliases": [
+      "里氏阿克塞脂鯉"
+    ]
   },
   {
     "id": "wm-ballerus-ballerus",
@@ -1665,8 +1732,7 @@
     "scientific": "Barbatula barbatula",
     "name": "条须鳅",
     "aliases": [
-      "條鬚鰍",
-      "条须鳅"
+      "條鬚鰍"
     ],
     "family": "Nemacheilidae",
     "water": "freshwater",
@@ -1688,9 +1754,10 @@
     "id": "wm-barbonymus-gonionotus",
     "gbifKey": 2366114,
     "scientific": "Barbonymus gonionotus",
-    "name": "银石首鱼",
+    "name": "银高体鲃",
     "aliases": [
-      "银石首鱼"
+      "爪哇鲃",
+      "爪哇四须鲃"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -1713,9 +1780,7 @@
     "gbifKey": 5739539,
     "scientific": "Barbus barbus",
     "name": "Barbus barbus",
-    "aliases": [
-      "Barbus barbus"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Common_barbel",
@@ -1736,7 +1801,7 @@
     "id": "wm-belonesox-belizanus",
     "gbifKey": 2350149,
     "scientific": "Belonesox belizanus",
-    "name": "墨西哥魣鱂",
+    "name": "墨西哥魣鳉",
     "family": "Poeciliidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Pike_topminnow",
@@ -1751,13 +1816,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Belonesox_belizanus_(Wroclaw_zoo).JPG",
       "caption": "Picture taken in the zoo of Wrocław (Poland):\n\n Belonesox belizanus (Kner, 1860). Male specimen."
-    }
+    },
+    "aliases": [
+      "墨西哥魣鱂"
+    ]
   },
   {
     "id": "wm-belontia-signata",
     "gbifKey": 2394196,
     "scientific": "Belontia signata",
-    "name": "梳尾格鬥魚",
+    "name": "梳尾格斗鱼",
     "family": "Osphronemidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Belontia_signata",
@@ -1772,7 +1840,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Belontia_signata_-_Wilhelma_01.jpg",
       "caption": "Belontia signata (Günther, 1861), Ceylonese combtail; Wilhelma, Stuttgart, Baden-Württemberg, Germany."
-    }
+    },
+    "aliases": [
+      "梳尾格鬥魚"
+    ]
   },
   {
     "id": "wm-betta-anabatoides",
@@ -1799,7 +1870,7 @@
     "id": "wm-botia-birdi",
     "gbifKey": 2368031,
     "scientific": "Botia birdi",
-    "name": "伯德氏沙鰍",
+    "name": "伯德氏沙鳅",
     "family": "Cobitidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Botia_birdi",
@@ -1814,13 +1885,16 @@
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Botia_birdi.png",
       "caption": "Botia birdi"
-    }
+    },
+    "aliases": [
+      "伯德氏沙鰍"
+    ]
   },
   {
     "id": "wm-botia-dario",
     "gbifKey": 2368034,
     "scientific": "Botia dario",
-    "name": "達林沙鰍",
+    "name": "达林沙鳅",
     "family": "Cobitidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Botia_dario",
@@ -1835,7 +1909,10 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Botia_dario.jpg",
       "caption": "Bengal loach Botia dario. Size about 5cm SL."
-    }
+    },
+    "aliases": [
+      "達林沙鰍"
+    ]
   },
   {
     "id": "wm-botia-striata",
@@ -1863,9 +1940,7 @@
     "gbifKey": 2351356,
     "scientific": "Brachymystax lenok",
     "name": "细鳞鲑",
-    "aliases": [
-      "细鳞鲑"
-    ],
+    "aliases": [],
     "family": "Salmonidae",
     "water": "freshwater",
     "intro": "Brachymystax lenok, the sharp-snouted lenok or yeolmogeo, is a salmonid fish distributed in rivers and lakes in northeastern Asia. It formerly included the blunt-snouted lenok, but recent authorities typically treat the latter as a separate species, B. tumensis, based on differences in morphology and genetics.\n\nAs presently defined, the sharp-snouted lenok is widespread in central and eastern Russia, and also found widely in northern Mongolia, locally in northeastern Kazakhstan (Irtysh Basin) and northeastern China (Amur Basin). The blunt-snouted lenok (B. tumensis) is found widely in southeastern Russia and more locally in northeastern and central parts of the country, as well as northeastern Mongolia (Amur Basin), northern China and Korea. Although the two generally are found in separate areas, there are also regions where their ranges overlap such as the Amur Basin.",
@@ -1888,8 +1963,7 @@
     "scientific": "Brycon moorei",
     "name": "莫氏石脂鲤",
     "aliases": [
-      "莫氏石脂鯉",
-      "莫氏石脂鲤"
+      "莫氏石脂鯉"
     ],
     "family": "Bryconidae",
     "water": "freshwater",
@@ -1912,7 +1986,7 @@
     "id": "wm-callichthys-callichthys",
     "gbifKey": 5202866,
     "scientific": "Callichthys callichthys",
-    "name": "美鯰",
+    "name": "美鲶",
     "family": "Callichthyidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Callichthys_callichthys",
@@ -1927,13 +2001,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Callichthys_callichthys.JPG",
       "caption": "The cascarudo, armored catfish, bubblenest catfish, hassar, or mailed catfish (Callichthys callichthys)."
-    }
+    },
+    "aliases": [
+      "美鯰"
+    ]
   },
   {
     "id": "wm-canthigaster-axiologus",
     "gbifKey": 2407729,
     "scientific": "Canthigaster axiologus",
-    "name": "三帶尖鼻魨",
+    "name": "三带尖鼻鲀",
     "family": "Tetraodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Canthigaster_axiologus",
@@ -1948,13 +2025,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Pacific_crown_toby_(Canthigaster_axiologus)_(36235027944).jpg",
       "caption": "Romblon, Philippines - Pacific crown toby (Canthigaster axiologus)"
-    }
+    },
+    "aliases": [
+      "三帶尖鼻魨"
+    ]
   },
   {
     "id": "wm-canthigaster-bennetti",
     "gbifKey": 2407713,
     "scientific": "Canthigaster bennetti",
-    "name": "笨氏尖鼻魨",
+    "name": "本氏河鲀",
     "family": "Tetraodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Canthigaster_bennetti",
@@ -1969,7 +2049,12 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Tambor%C3%ADn_de_Bennett_(Canthigaster_bennetti),_Zanz%C3%ADbar,_Tanzania,_2024-05-30,_DD_79.jpg",
       "caption": "Pufferfish (Canthigaster bennetti), Zanzibar, Tanzania"
-    }
+    },
+    "aliases": [
+      "笨氏尖鼻魨",
+      "笨氏尖鼻鲀",
+      "本氏扁背鲀"
+    ]
   },
   {
     "id": "wm-caquetaia-kraussii",
@@ -1977,8 +2062,7 @@
     "scientific": "Caquetaia kraussii",
     "name": "克氏卡奎丽鱼",
     "aliases": [
-      "克氏卡奎麗魚",
-      "克氏卡奎丽鱼"
+      "克氏卡奎麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -2003,8 +2087,7 @@
     "scientific": "Carasobarbus luteus",
     "name": "黄体魮",
     "aliases": [
-      "黃體魮",
-      "黄体魮"
+      "黃體魮"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -2048,9 +2131,7 @@
     "gbifKey": 2366645,
     "scientific": "Carassius carassius",
     "name": "黑鲫",
-    "aliases": [
-      "黑鲫"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Crucian_carp",
@@ -2073,8 +2154,7 @@
     "scientific": "Catostomus bernardini",
     "name": "伯氏亚口鱼",
     "aliases": [
-      "伯氏亞口魚",
-      "伯氏亚口鱼"
+      "伯氏亞口魚"
     ],
     "family": "Catostomidae",
     "water": "freshwater",
@@ -2099,8 +2179,7 @@
     "scientific": "Catostomus catostomus",
     "name": "真亚口鱼",
     "aliases": [
-      "真亞口魚",
-      "真亚口鱼"
+      "真亞口魚"
     ],
     "family": "Catostomidae",
     "water": "freshwater",
@@ -2125,8 +2204,7 @@
     "scientific": "Catostomus commersonii",
     "name": "白亚口鱼",
     "aliases": [
-      "白亞口魚",
-      "白亚口鱼"
+      "白亞口魚"
     ],
     "family": "Catostomidae",
     "water": "freshwater",
@@ -2148,7 +2226,7 @@
     "id": "wm-centrolabrus-exoletus",
     "gbifKey": 2383720,
     "scientific": "Centrolabrus exoletus",
-    "name": "小口棘隆頭魚",
+    "name": "小口棘隆头鱼",
     "family": "Labridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Rock_cook",
@@ -2163,7 +2241,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Centrolabro_(Centrolabrus_exoletus),_Sesimbra,_Portugal,_2025-08-01,_DD_23.jpg",
       "caption": "Rock cook (Centrolabrus exoletus), Arrábida National Park, Portugal"
-    }
+    },
+    "aliases": [
+      "小口棘隆頭魚"
+    ]
   },
   {
     "id": "wm-centropyge-bispinosa",
@@ -2232,7 +2313,7 @@
     "id": "wm-chaetodon-andamanensis",
     "gbifKey": 2385541,
     "scientific": "Chaetodon andamanensis",
-    "name": "黃蝴蝶魚",
+    "name": "黄蝴蝶鱼",
     "family": "Chaetodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Chaetodon_andamanensis",
@@ -2247,13 +2328,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Chaetodon_andamanensis_(Kuiter_%26_Debelius,_1999).jpg",
       "caption": "Chaetodon andamanensis (Kuiter & Debelius, 1999)"
-    }
+    },
+    "aliases": [
+      "黃蝴蝶魚"
+    ]
   },
   {
     "id": "wm-chaetodon-argentatus",
     "gbifKey": 2385518,
     "scientific": "Chaetodon argentatus",
-    "name": "銀身蝴蝶魚",
+    "name": "银身蝴蝶鱼",
     "family": "Chaetodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Chaetodon_argentatus",
@@ -2268,7 +2352,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Chaetodon_argentatus_by_DaijuAzuma.JPG",
       "caption": "ja:カガミチョウチョウウオ en:Three-band Butterflyfish, Asian butterflyfish\nDomain: Eukaryota • Regnum: Animalia • Phylum: Chordata • Subphylum: Vertebrata • Infraphylum: Gnathostomata • Cladus: Osteichthyes • Classis: Actinopterygii • Ordo: Perciformes • Familia: Chaetodontidae • Genus: Chaetodon\n\n\n\n\n\nWikispecies has an entry on:  Chaetodon argentatus.\n\nSpecies\nChaetodon argentatus Smith and Radcliffe, 1911\n"
-    }
+    },
+    "aliases": [
+      "銀身蝴蝶魚"
+    ]
   },
   {
     "id": "wm-channa-argus",
@@ -2291,7 +2378,6 @@
       "caption": "Northern snakehead (Channa argus)"
     },
     "aliases": [
-      "乌鳢",
       "乌鱼",
       "黑鱼",
       "烏鱧",
@@ -2305,8 +2391,7 @@
     "scientific": "Channa lucius",
     "name": "带鳢",
     "aliases": [
-      "帶鱧",
-      "带鳢"
+      "帶鱧"
     ],
     "family": "Channidae",
     "water": "freshwater",
@@ -2330,8 +2415,7 @@
     "scientific": "Channa punctata",
     "name": "翠鳢",
     "aliases": [
-      "翠鱧",
-      "翠鳢"
+      "翠鱧"
     ],
     "family": "Channidae",
     "water": "freshwater",
@@ -2355,8 +2439,7 @@
     "scientific": "Channa striata",
     "name": "线鳢",
     "aliases": [
-      "線鱧",
-      "线鳢"
+      "線鱧"
     ],
     "family": "Channidae",
     "water": "freshwater",
@@ -2441,7 +2524,7 @@
     "id": "wm-chelmonops-truncatus",
     "gbifKey": 2385297,
     "scientific": "Chelmonops truncatus",
-    "name": "截尾鑷蝶魚",
+    "name": "截尾镊蝶鱼",
     "family": "Chaetodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Chelmonops_truncatus",
@@ -2456,7 +2539,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelmonops_truncatus.jpg",
       "caption": "An Eastern Talma (Chelmonops truncatus). Fly Point, Port Stephens, NSW"
-    }
+    },
+    "aliases": [
+      "截尾鑷蝶魚"
+    ]
   },
   {
     "id": "wm-chilatherina-fasciata",
@@ -2464,8 +2550,7 @@
     "scientific": "Chilatherina fasciata",
     "name": "条纹唇银汉鱼",
     "aliases": [
-      "條紋唇銀漢魚",
-      "条纹唇银汉鱼"
+      "條紋唇銀漢魚"
     ],
     "family": "Melanotaeniidae",
     "water": "freshwater",
@@ -2511,8 +2596,7 @@
     "scientific": "Chondrostoma nasus",
     "name": "大鼻软口鱼",
     "aliases": [
-      "大鼻軟口魚",
-      "大鼻软口鱼"
+      "大鼻軟口魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -2536,7 +2620,6 @@
     "scientific": "Chromis chromis",
     "name": "光鳃鱼",
     "aliases": [
-      "光鳃鱼",
       "地中海光鰓雀鯛",
       "地中海光鳃雀鲷"
     ],
@@ -2627,8 +2710,7 @@
     "aliases": [
       "皇冠三間",
       "眼點麗魚",
-      "皇冠三间",
-      "眼点丽鱼"
+      "皇冠三间"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -2653,7 +2735,6 @@
     "scientific": "Clarias gariepinus",
     "name": "尖齿胡鲶",
     "aliases": [
-      "尖齿胡鲶",
       "尖齒鬍鯰",
       "革胡子鲶"
     ],
@@ -2701,7 +2782,6 @@
     "scientific": "Clupea harengus",
     "name": "大西洋鲱",
     "aliases": [
-      "大西洋鲱",
       "大西洋鯡"
     ],
     "family": "Clupeidae",
@@ -2724,7 +2804,7 @@
     "id": "wm-cnesterodon-decemmaculatus",
     "gbifKey": 2350394,
     "scientific": "Cnesterodon decemmaculatus",
-    "name": "十斑銼齒鱂",
+    "name": "十斑锉齿鳉",
     "family": "Poeciliidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Cnesterodon_decemmaculatus",
@@ -2739,13 +2819,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Cnesterodon_decemmaculatus,_female_2.JPG",
       "caption": "Ten spotted live-bearer -female- (Cnesterodon decemmaculatus)."
-    }
+    },
+    "aliases": [
+      "十斑銼齒鱂"
+    ]
   },
   {
     "id": "wm-cobitis-bilineata",
     "gbifKey": 2368222,
     "scientific": "Cobitis bilineata",
-    "name": "雙線鰍",
+    "name": "双线鳅",
     "family": "Cobitidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Cobitis_bilineata",
@@ -2760,7 +2843,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Cobitis_bilineata_France_(cropped).jpg",
       "caption": "Cobitis bilineata, Kembs, France"
-    }
+    },
+    "aliases": [
+      "雙線鰍"
+    ]
   },
   {
     "id": "wm-coptodon-zillii",
@@ -2768,8 +2854,7 @@
     "scientific": "Coptodon zillii",
     "name": "齐氏非鲫",
     "aliases": [
-      "齊氏非鯽",
-      "齐氏非鲫"
+      "齊氏非鯽"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -2792,7 +2877,7 @@
     "id": "wm-coradion-altivelis",
     "gbifKey": 2385654,
     "scientific": "Coradion altivelis",
-    "name": "褐帶少女魚",
+    "name": "褐带少女鱼",
     "family": "Chaetodontidae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Coradion_altivelis",
@@ -2807,7 +2892,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Coradion_altivelis_340757152.jpg",
       "caption": "Highfin Coralfish (Coradion altivelis) in Thailand"
-    }
+    },
+    "aliases": [
+      "褐帶少女魚"
+    ]
   },
   {
     "id": "wm-coregonus-artedi",
@@ -2815,8 +2903,7 @@
     "scientific": "Coregonus artedi",
     "name": "湖白鲑",
     "aliases": [
-      "湖白鮭",
-      "湖白鲑"
+      "湖白鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -2839,7 +2926,7 @@
     "id": "wm-coregonus-clupeaformis",
     "gbifKey": 2351119,
     "scientific": "Coregonus clupeaformis",
-    "name": "湖白鱼",
+    "name": "鲱形白鲑",
     "aliases": [
       "湖白鱼"
     ],
@@ -2866,8 +2953,7 @@
     "scientific": "Coregonus muksun",
     "name": "穆森白鲑",
     "aliases": [
-      "穆森白鮭",
-      "穆森白鲑"
+      "穆森白鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -2891,8 +2977,7 @@
     "scientific": "Coregonus nasus",
     "name": "宽鼻白鲑",
     "aliases": [
-      "寬鼻白鮭",
-      "宽鼻白鲑"
+      "寬鼻白鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -2916,8 +3001,7 @@
     "scientific": "Coregonus sardinella",
     "name": "小白鲑",
     "aliases": [
-      "小白鮭",
-      "小白鲑"
+      "小白鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -2941,8 +3025,7 @@
     "scientific": "Coris julis",
     "name": "杂斑盔鱼",
     "aliases": [
-      "雜斑盔魚",
-      "杂斑盔鱼"
+      "雜斑盔魚"
     ],
     "family": "Labridae",
     "water": "marine",
@@ -3092,8 +3175,7 @@
     "scientific": "Cottus cognatus",
     "name": "粘杜父鱼",
     "aliases": [
-      "粘杜父魚",
-      "粘杜父鱼"
+      "粘杜父魚"
     ],
     "family": "Cottidae",
     "water": "freshwater",
@@ -3116,7 +3198,7 @@
     "id": "wm-cottus-gobio",
     "gbifKey": 7807208,
     "scientific": "Cottus gobio",
-    "name": "𬶋杜父鱼",
+    "name": "鮈杜父鱼",
     "aliases": [
       "鮈杜父魚",
       "𬶋杜父鱼"
@@ -3206,8 +3288,7 @@
     "scientific": "Ctenolucius hujeta",
     "name": "钝吻魣脂鲤",
     "aliases": [
-      "鈍吻魣脂鯉",
-      "钝吻魣脂鲤"
+      "鈍吻魣脂鯉"
     ],
     "family": "Ctenoluciidae",
     "water": "freshwater",
@@ -3247,7 +3328,6 @@
       "caption": "Amur bílý, větší vážil podle prodejce 2,70 kg, menší 2,20 kg. Menší byl samec a měřil cca 60 cm."
     },
     "aliases": [
-      "草鱼",
       "草魚",
       "鲩鱼",
       "鯇魚"
@@ -3259,7 +3339,6 @@
     "scientific": "Ctenopoma acutirostre",
     "name": "小点非洲攀鲈",
     "aliases": [
-      "小点非洲攀鲈",
       "小點非洲攀鱸"
     ],
     "family": "Anabantidae",
@@ -3300,7 +3379,6 @@
       "caption": "Culter alburnus"
     },
     "aliases": [
-      "翘嘴鲌",
       "翘嘴",
       "翹嘴鮊"
     ]
@@ -3311,8 +3389,7 @@
     "scientific": "Cyprinella leedsi",
     "name": "利氏真小鲤",
     "aliases": [
-      "利氏真小鯉",
-      "利氏真小鲤"
+      "利氏真小鯉"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -3340,7 +3417,6 @@
       "歐亞鯉",
       "歐洲鯉",
       "西鯉",
-      "鲤鱼",
       "欧亚鲤",
       "欧洲鲤",
       "西鲤"
@@ -3449,12 +3525,13 @@
     "id": "wm-devario-aequipinnatus",
     "gbifKey": 2361515,
     "scientific": "Devario aequipinnatus",
-    "name": "波条鿕",
+    "name": "大斑马",
     "aliases": [
       "波條(魚丹)",
       "波条(鱼丹)",
       "波条鱼丹",
-      "波条鿕"
+      "波条鿕",
+      "波条神鿕"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -3478,8 +3555,7 @@
     "scientific": "Dicentrarchus labrax",
     "name": "欧洲鲈",
     "aliases": [
-      "歐洲鱸",
-      "欧洲鲈"
+      "歐洲鱸"
     ],
     "family": "Moronidae",
     "water": "brackish",
@@ -3587,7 +3663,6 @@
     "scientific": "Enteromius paludinosus",
     "name": "直鳍魮",
     "aliases": [
-      "直鳍魮",
       "双线魮",
       "泰坦魮",
       "直鰭魮",
@@ -3617,8 +3692,7 @@
     "scientific": "Erpetoichthys calabaricus",
     "name": "芦鳗",
     "aliases": [
-      "蘆鰻",
-      "芦鳗"
+      "蘆鰻"
     ],
     "family": "Polypteridae",
     "water": "freshwater",
@@ -3644,8 +3718,7 @@
     "name": "白斑狗鱼",
     "aliases": [
       "白斑狗魚",
-      "北梭子鱼",
-      "白斑狗鱼"
+      "北梭子鱼"
     ],
     "family": "Esocidae",
     "water": "freshwater",
@@ -3668,9 +3741,7 @@
     "gbifKey": 2346634,
     "scientific": "Esox masquinongy",
     "name": "北美狗鱼",
-    "aliases": [
-      "北美狗鱼"
-    ],
+    "aliases": [],
     "family": "Esocidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Muskellunge",
@@ -3693,8 +3764,7 @@
     "scientific": "Esox niger",
     "name": "暗色狗鱼",
     "aliases": [
-      "暗色狗魚",
-      "暗色狗鱼"
+      "暗色狗魚"
     ],
     "family": "Esocidae",
     "water": "freshwater",
@@ -3718,8 +3788,7 @@
     "scientific": "Etheostoma fusiforme",
     "name": "纺锤镖鲈",
     "aliases": [
-      "紡錘鏢鱸",
-      "纺锤镖鲈"
+      "紡錘鏢鱸"
     ],
     "family": "Percidae",
     "water": "freshwater",
@@ -3744,8 +3813,7 @@
     "scientific": "Etroplus suratensis",
     "name": "绿腹丽鱼",
     "aliases": [
-      "綠腹麗魚",
-      "绿腹丽鱼"
+      "綠腹麗魚"
     ],
     "family": "Cichlidae",
     "water": "brackish",
@@ -3769,8 +3837,7 @@
     "scientific": "Exoglossum maxillingua",
     "name": "切唇鱼",
     "aliases": [
-      "切唇魚",
-      "切唇鱼"
+      "切唇魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -3795,8 +3862,7 @@
     "scientific": "Gadus morhua",
     "name": "大西洋鳕",
     "aliases": [
-      "大西洋鱈",
-      "大西洋鳕"
+      "大西洋鱈"
     ],
     "family": "Gadidae",
     "water": "marine",
@@ -3820,8 +3886,7 @@
     "scientific": "Galaxias argenteus",
     "name": "银南乳鱼",
     "aliases": [
-      "銀南乳魚",
-      "银南乳鱼"
+      "銀南乳魚"
     ],
     "family": "Galaxiidae",
     "water": "freshwater",
@@ -3845,8 +3910,7 @@
     "scientific": "Galaxias brevipinnis",
     "name": "短鳍南乳鱼",
     "aliases": [
-      "短鰭南乳魚",
-      "短鳍南乳鱼"
+      "短鰭南乳魚"
     ],
     "family": "Galaxiidae",
     "water": "freshwater",
@@ -3870,8 +3934,7 @@
     "scientific": "Galaxias fasciatus",
     "name": "带纹南乳鱼",
     "aliases": [
-      "帶紋南乳魚",
-      "带纹南乳鱼"
+      "帶紋南乳魚"
     ],
     "family": "Galaxiidae",
     "water": "freshwater",
@@ -3895,8 +3958,7 @@
     "scientific": "Galaxias gollumoides",
     "name": "大洋洲南乳鱼",
     "aliases": [
-      "大洋洲南乳魚",
-      "大洋洲南乳鱼"
+      "大洋洲南乳魚"
     ],
     "family": "Galaxiidae",
     "water": "freshwater",
@@ -3920,8 +3982,7 @@
     "scientific": "Galaxias maculatus",
     "name": "大斑南乳鱼",
     "aliases": [
-      "大斑南乳魚",
-      "大斑南乳鱼"
+      "大斑南乳魚"
     ],
     "family": "Galaxiidae",
     "water": "freshwater",
@@ -3945,8 +4006,7 @@
     "scientific": "Galaxias platei",
     "name": "普拉特南乳鱼",
     "aliases": [
-      "普拉特南乳魚",
-      "普拉特南乳鱼"
+      "普拉特南乳魚"
     ],
     "family": "Galaxiidae",
     "water": "brackish",
@@ -4013,9 +4073,7 @@
     "gbifKey": 2366850,
     "scientific": "Garra rufa",
     "name": "淡红墨头鱼",
-    "aliases": [
-      "淡红墨头鱼"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Red_garra",
@@ -4037,9 +4095,7 @@
     "gbifKey": 4286327,
     "scientific": "Gasterosteus aculeatus",
     "name": "三刺鱼",
-    "aliases": [
-      "三刺鱼"
-    ],
+    "aliases": [],
     "family": "Gasterosteidae",
     "water": "brackish",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Three-spined_stickleback",
@@ -4062,8 +4118,7 @@
     "scientific": "Geophagus steindachneri",
     "name": "斯氏珠母丽鱼",
     "aliases": [
-      "斯氏珠母麗魚",
-      "斯氏珠母丽鱼"
+      "斯氏珠母麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -4088,8 +4143,7 @@
     "scientific": "Geophagus surinamensis",
     "name": "苏里南珠母丽鱼",
     "aliases": [
-      "蘇里南珠母麗魚",
-      "苏里南珠母丽鱼"
+      "蘇里南珠母麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -4112,7 +4166,7 @@
     "id": "wm-gila-atraria",
     "gbifKey": 2360064,
     "scientific": "Gila atraria",
-    "name": "猶他骨尾魚",
+    "name": "犹他骨尾鱼",
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Utah_chub",
@@ -4127,7 +4181,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Gila_atraria_409938714.jpg",
       "caption": "Utah Chub (Gila atraria) in the United States"
-    }
+    },
+    "aliases": [
+      "猶他骨尾魚"
+    ]
   },
   {
     "id": "wm-gila-cypha",
@@ -4135,8 +4192,7 @@
     "scientific": "Gila cypha",
     "name": "隆背骨尾鱼",
     "aliases": [
-      "隆背骨尾魚",
-      "隆背骨尾鱼"
+      "隆背骨尾魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -4160,8 +4216,7 @@
     "scientific": "Gila elegans",
     "name": "美丽骨尾鱼",
     "aliases": [
-      "美麗骨尾魚",
-      "美丽骨尾鱼"
+      "美麗骨尾魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -4184,9 +4239,7 @@
     "gbifKey": 2360079,
     "scientific": "Gila purpurea",
     "name": "紫骨尾鱼",
-    "aliases": [
-      "紫骨尾鱼"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Yaqui_chub",
@@ -4210,8 +4263,7 @@
     "scientific": "Gila robusta",
     "name": "粗壮骨尾鱼",
     "aliases": [
-      "粗壯骨尾魚",
-      "粗壮骨尾鱼"
+      "粗壯骨尾魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -4256,8 +4308,7 @@
     "scientific": "Glossolepis multisquamata",
     "name": "多舌鳞银汉鱼",
     "aliases": [
-      "多舌鱗銀漢魚",
-      "多舌鳞银汉鱼"
+      "多舌鱗銀漢魚"
     ],
     "family": "Melanotaeniidae",
     "water": "freshwater",
@@ -4279,9 +4330,8 @@
     "id": "wm-gobio-gobio",
     "gbifKey": 4409628,
     "scientific": "Gobio gobio",
-    "name": "𬶋",
+    "name": "鮈",
     "aliases": [
-      "鮈",
       "𬶋"
     ],
     "family": "Cyprinidae",
@@ -4348,8 +4398,7 @@
     "scientific": "Guianacara owroewefi",
     "name": "欧氏圭亚那丽鱼",
     "aliases": [
-      "歐氏圭亞那麗魚",
-      "欧氏圭亚那丽鱼"
+      "歐氏圭亞那麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -4374,7 +4423,6 @@
     "scientific": "Gymnarchus niloticus",
     "name": "裸臀鱼",
     "aliases": [
-      "裸臀鱼",
       "裸臀魚"
     ],
     "family": "Gymnarchidae",
@@ -4399,9 +4447,7 @@
     "gbifKey": 5209574,
     "scientific": "Gymnocephalus cernua",
     "name": "梅花鲈",
-    "aliases": [
-      "梅花鲈"
-    ],
+    "aliases": [],
     "family": "Percidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Ruffe",
@@ -4460,7 +4506,6 @@
       "caption": "​青海湖裸鲤（学名：Gymnocypris przewalskii）"
     },
     "aliases": [
-      "青海湖裸鲤",
       "湟鱼",
       "青海湖裸鯉",
       "湟魚"
@@ -4472,8 +4517,7 @@
     "scientific": "Gymnogeophagus tiraparae",
     "name": "蒂氏裸光盖丽鱼",
     "aliases": [
-      "蒂氏裸光蓋麗魚",
-      "蒂氏裸光盖丽鱼"
+      "蒂氏裸光蓋麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -4559,7 +4603,7 @@
     "id": "wm-hemibarbus-labeo",
     "gbifKey": 2366001,
     "scientific": "Hemibarbus labeo",
-    "name": "唇䱻",
+    "name": "重唇鱼",
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Barbel_steed",
@@ -4576,14 +4620,18 @@
       "caption": "Hemibarbus labeo in Hampyung Korea. 함평 나비축제에 전시된 누치"
     },
     "aliases": [
-      "唇䱻"
+      "唇䱻",
+      "重唇",
+      "重重",
+      "黄竹",
+      "桃花竹"
     ]
   },
   {
     "id": "wm-hemibarbus-maculatus",
     "gbifKey": 2365995,
     "scientific": "Hemibarbus maculatus",
-    "name": "花䱻",
+    "name": "花骨鱼",
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Spotted_steed",
@@ -4600,14 +4648,15 @@
       "caption": "Hemibarbus maculatus at the Shanghai Aquarium"
     },
     "aliases": [
-      "花䱻"
+      "花䱻",
+      "花鱼骨"
     ]
   },
   {
     "id": "wm-hemibrycon-taeniurus",
     "gbifKey": 2352668,
     "scientific": "Hemibrycon taeniurus",
-    "name": "條紋半齧脂鯉",
+    "name": "条纹半啮脂鲤",
     "family": "Characidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Hemibrycon_taeniurus",
@@ -4622,13 +4671,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Hemibrycon_taeniurus.jpg",
       "caption": "Mountain Stream Sardine (Hemibrycon taeniurus)"
-    }
+    },
+    "aliases": [
+      "條紋半齧脂鯉"
+    ]
   },
   {
     "id": "wm-hemiculter-leucisculus",
     "gbifKey": 2367280,
     "scientific": "Hemiculter leucisculus",
-    "name": "䱗",
+    "name": "白条鱼",
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Sharpbelly",
@@ -4645,7 +4697,10 @@
       "caption": "Hemiculter leucisculus, 741台灣臺南市善化區, 2025-10-29 (iNaturalist)."
     },
     "aliases": [
-      "䱗"
+      "䱗",
+      "餐条鱼",
+      "白条",
+      "白鲦"
     ]
   },
   {
@@ -4675,8 +4730,7 @@
     "scientific": "Hemiodus quadrimaculatus",
     "name": "四斑半齿脂鲤",
     "aliases": [
-      "四斑半齒脂鯉",
-      "四斑半齿脂鲤"
+      "四斑半齒脂鯉"
     ],
     "family": "Hemiodontidae",
     "water": "freshwater",
@@ -4701,8 +4755,7 @@
     "scientific": "Hesperoleucus symmetricus",
     "name": "昏白鱼",
     "aliases": [
-      "昏白魚",
-      "昏白鱼"
+      "昏白魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -4726,8 +4779,7 @@
     "scientific": "Heterobranchus longifilis",
     "name": "长丝异鳃鲶",
     "aliases": [
-      "長絲異鰓鯰",
-      "长丝异鳃鲶"
+      "長絲異鰓鯰"
     ],
     "family": "Clariidae",
     "water": "freshwater",
@@ -4752,8 +4804,7 @@
     "scientific": "Heteropneustes fossilis",
     "name": "印度囊鳃鲶",
     "aliases": [
-      "印度囊鰓鯰",
-      "印度囊鳃鲶"
+      "印度囊鰓鯰"
     ],
     "family": "Heteropneustidae",
     "water": "freshwater",
@@ -4777,8 +4828,7 @@
     "scientific": "Heterotis niloticus",
     "name": "尼罗异耳骨舌鱼",
     "aliases": [
-      "尼羅異耳骨舌魚",
-      "尼罗异耳骨舌鱼"
+      "尼羅異耳骨舌魚"
     ],
     "family": "Arapaimidae",
     "water": "freshwater",
@@ -4803,8 +4853,7 @@
     "scientific": "Hiodon alosoides",
     "name": "似鲱月眼鱼",
     "aliases": [
-      "似鯡月眼魚",
-      "似鲱月眼鱼"
+      "似鯡月眼魚"
     ],
     "family": "Hiodontidae",
     "water": "freshwater",
@@ -4828,8 +4877,7 @@
     "scientific": "Hoplias curupira",
     "name": "库伦利齿脂鲤",
     "aliases": [
-      "庫倫利齒脂鯉",
-      "库伦利齿脂鲤"
+      "庫倫利齒脂鯉"
     ],
     "family": "Erythrinidae",
     "water": "freshwater",
@@ -4854,8 +4902,7 @@
     "scientific": "Hoplias microlepis",
     "name": "小鳞利齿脂鲤",
     "aliases": [
-      "小鱗利齒脂鯉",
-      "小鳞利齿脂鲤"
+      "小鱗利齒脂鯉"
     ],
     "family": "Erythrinidae",
     "water": "freshwater",
@@ -4880,8 +4927,7 @@
     "scientific": "Hoplosternum magdalenae",
     "name": "马格达护胸鲶",
     "aliases": [
-      "馬格達護胸鯰",
-      "马格达护胸鲶"
+      "馬格達護胸鯰"
     ],
     "family": "Callichthyidae",
     "water": "freshwater",
@@ -4906,8 +4952,7 @@
     "scientific": "Hucho hucho",
     "name": "多瑙哲罗鱼",
     "aliases": [
-      "多瑙哲羅魚",
-      "多瑙哲罗鱼"
+      "多瑙哲羅魚"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -4946,7 +4991,6 @@
       "caption": "Picture of a taimen (Hucho taimen) caught in the Uur River (Northwestern Mongolia) and tagged and released"
     },
     "aliases": [
-      "哲罗鲑",
       "哲羅鮭"
     ]
   },
@@ -4956,8 +5000,7 @@
     "scientific": "Hybognathus hayi",
     "name": "海氏突颌鱼",
     "aliases": [
-      "海氏突頜魚",
-      "海氏突颌鱼"
+      "海氏突頜魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -4982,8 +5025,7 @@
     "scientific": "Hybognathus placitus",
     "name": "素色突颌鱼",
     "aliases": [
-      "素色突頜魚",
-      "素色突颌鱼"
+      "素色突頜魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -5008,8 +5050,7 @@
     "scientific": "Hydrocynus brevis",
     "name": "短身狗脂鲤",
     "aliases": [
-      "短身狗脂鯉",
-      "短身狗脂鲤"
+      "短身狗脂鯉"
     ],
     "family": "Alestidae",
     "water": "freshwater",
@@ -5034,8 +5075,7 @@
     "scientific": "Hydrocynus forskahlii",
     "name": "福氏狗脂鲤",
     "aliases": [
-      "福氏狗脂鯉",
-      "福氏狗脂鲤"
+      "福氏狗脂鯉"
     ],
     "family": "Alestidae",
     "water": "freshwater",
@@ -5059,9 +5099,7 @@
     "gbifKey": 2356183,
     "scientific": "Hydrocynus vittatus",
     "name": "虎鱼",
-    "aliases": [
-      "虎鱼"
-    ],
+    "aliases": [],
     "family": "Alestidae",
     "water": "freshwater",
     "intro": "Hydrocynus vittatus, the African tigerfish, tiervis or ngwesh is a freshwater fish distributed throughout much of Africa.",
@@ -5083,7 +5121,7 @@
     "id": "wm-hypancistrus-zebra",
     "gbifKey": 2339299,
     "scientific": "Hypancistrus zebra",
-    "name": "斑馬下鈎鯰",
+    "name": "L046熊猫异型",
     "family": "Loricariidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Zebra_pleco",
@@ -5098,7 +5136,12 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Hypancistrus_zebra4305.jpg",
       "caption": "Ungfisk av L-046 (Hypancistrus zebra) - Juvenile L-046 (Hypancistrus zebra)"
-    }
+    },
+    "aliases": [
+      "斑馬下鈎鯰",
+      "斑马下钩鲶",
+      "L046熊貓異型"
+    ]
   },
   {
     "id": "wm-hyphessobrycon-amandae",
@@ -5127,8 +5170,7 @@
     "scientific": "Hyphessobrycon flammeus",
     "name": "火焰魮脂鲤",
     "aliases": [
-      "火焰魮脂鯉",
-      "火焰魮脂鲤"
+      "火焰魮脂鯉"
     ],
     "family": "Characidae",
     "water": "freshwater",
@@ -5210,7 +5252,6 @@
       "caption": "Photographed at Gavins Point National Fish Hatchery in Yankton, SD  by Sam Stukel (USFWS)."
     },
     "aliases": [
-      "鲢",
       "鲢鱼",
       "白鲢",
       "鰱",
@@ -5239,7 +5280,6 @@
       "caption": "A bighead carp, photo taken in March 2012."
     },
     "aliases": [
-      "鳙",
       "鳙鱼",
       "花鲢",
       "大头鱼",
@@ -5254,9 +5294,7 @@
     "gbifKey": 2386343,
     "scientific": "Hypseleotris compressa",
     "name": "扁头黄黝鱼",
-    "aliases": [
-      "扁头黄黝鱼"
-    ],
+    "aliases": [],
     "family": "Eleotridae",
     "water": "freshwater",
     "intro": "Hypseleotris compressa, the empire gudgeon, is a species of Gobiiform fish in the family Eleotridae endemic to Australia and south-central New Guinea.",
@@ -5279,8 +5317,7 @@
     "scientific": "Hypsolebias antenori",
     "name": "安氏高鳉",
     "aliases": [
-      "安氏高鱂",
-      "安氏高鳉"
+      "安氏高鱂"
     ],
     "family": "Rivulidae",
     "water": "freshwater",
@@ -5326,9 +5363,10 @@
     "id": "wm-ictalurus-furcatus",
     "gbifKey": 5202525,
     "scientific": "Ictalurus furcatus",
-    "name": "长鳍真𫚔",
+    "name": "长鳍真鮰",
     "aliases": [
-      "长鳍真𫚔"
+      "长鳍真𫚔",
+      "长鳍叉尾鮰"
     ],
     "family": "Ictaluridae",
     "water": "freshwater",
@@ -5350,10 +5388,10 @@
     "id": "wm-ictalurus-punctatus",
     "gbifKey": 5202520,
     "scientific": "Ictalurus punctatus",
-    "name": "斑点叉尾𫚔",
+    "name": "斑点叉尾鮰",
     "aliases": [
-      "斑点叉尾鮰",
-      "斑点叉尾𫚔"
+      "斑点叉尾𫚔",
+      "斑真鮰"
     ],
     "family": "Ictaluridae",
     "water": "freshwater",
@@ -5375,7 +5413,7 @@
     "id": "wm-iriatherina-werneri",
     "gbifKey": 2411742,
     "scientific": "Iriatherina werneri",
-    "name": "沃氏伊岛银汉鱼",
+    "name": "燕子美人",
     "aliases": [
       "沃氏伊島銀漢魚",
       "沃氏伊岛银汉鱼"
@@ -5402,8 +5440,7 @@
     "scientific": "Labeo molybdinus",
     "name": "铅色野鲮",
     "aliases": [
-      "鉛色野鯪",
-      "铅色野鲮"
+      "鉛色野鯪"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -5502,9 +5539,7 @@
     "gbifKey": 2393172,
     "scientific": "Lates calcarifer",
     "name": "尖吻鲈",
-    "aliases": [
-      "尖吻鲈"
-    ],
+    "aliases": [],
     "family": "Latidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Barramundi",
@@ -5527,8 +5562,7 @@
     "scientific": "Lates niloticus",
     "name": "尼罗尖吻鲈",
     "aliases": [
-      "尼羅尖吻鱸",
-      "尼罗尖吻鲈"
+      "尼羅尖吻鱸"
     ],
     "family": "Latidae",
     "water": "freshwater",
@@ -5552,9 +5586,7 @@
     "gbifKey": 2346701,
     "scientific": "Lepisosteus osseus",
     "name": "长吻雀鳝",
-    "aliases": [
-      "长吻雀鳝"
-    ],
+    "aliases": [],
     "family": "Lepisosteidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Longnose_gar",
@@ -5577,8 +5609,7 @@
     "scientific": "Lepomis gibbosus",
     "name": "驼背太阳鱼",
     "aliases": [
-      "駝背太陽魚",
-      "驼背太阳鱼"
+      "駝背太陽魚"
     ],
     "family": "Centrarchidae",
     "water": "freshwater",
@@ -5602,8 +5633,7 @@
     "scientific": "Lepomis macrochirus",
     "name": "蓝鳃太阳鱼",
     "aliases": [
-      "藍鰓太陽魚",
-      "蓝鳃太阳鱼"
+      "藍鰓太陽魚"
     ],
     "family": "Centrarchidae",
     "water": "freshwater",
@@ -5627,8 +5657,7 @@
     "scientific": "Lepomis megalotis",
     "name": "长耳太阳鱼",
     "aliases": [
-      "長耳太陽魚",
-      "长耳太阳鱼"
+      "長耳太陽魚"
     ],
     "family": "Centrarchidae",
     "water": "freshwater",
@@ -5651,9 +5680,7 @@
     "gbifKey": 2394501,
     "scientific": "Lepomis microlophus",
     "name": "小冠太阳鱼",
-    "aliases": [
-      "小冠太阳鱼"
-    ],
+    "aliases": [],
     "family": "Centrarchidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Redear_sunfish",
@@ -5674,7 +5701,7 @@
     "id": "wm-leporacanthicus-heterodon",
     "gbifKey": 2339393,
     "scientific": "Leporacanthicus heterodon",
-    "name": "異牙兔甲鯰",
+    "name": "异牙兔甲鲶",
     "family": "Loricariidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Leporacanthicus_heterodon",
@@ -5689,7 +5716,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Leporacanthicus_heterodon.jpg",
       "caption": "Leporacanthicus heterodon"
-    }
+    },
+    "aliases": [
+      "異牙兔甲鯰"
+    ]
   },
   {
     "id": "wm-leuciscus-aspius",
@@ -5748,8 +5778,7 @@
     "scientific": "Leuciscus leuciscus",
     "name": "雅罗鱼",
     "aliases": [
-      "雅羅魚",
-      "雅罗鱼"
+      "雅羅魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -5773,8 +5802,7 @@
     "scientific": "Loricariichthys anus",
     "name": "小肛真甲鲶",
     "aliases": [
-      "小肛真甲鯰",
-      "小肛真甲鲶"
+      "小肛真甲鯰"
     ],
     "family": "Loricariidae",
     "water": "freshwater",
@@ -5799,8 +5827,7 @@
     "scientific": "Lota lota",
     "name": "江鳕",
     "aliases": [
-      "江鱈",
-      "江鳕"
+      "江鱈"
     ],
     "family": "Lotidae",
     "water": "freshwater",
@@ -5899,8 +5926,7 @@
     "scientific": "Luxilus cornutus",
     "name": "角闪光美洲鱥",
     "aliases": [
-      "角閃光美洲鱥",
-      "角闪光美洲鱥"
+      "角閃光美洲鱥"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -5925,8 +5951,7 @@
     "scientific": "Lythrurus umbratilis",
     "name": "蛰居美洲石鱥",
     "aliases": [
-      "蟄居美洲石鱥",
-      "蛰居美洲石鱥"
+      "蟄居美洲石鱥"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -5951,8 +5976,7 @@
     "scientific": "Maccullochella peelii",
     "name": "墨瑞鳕",
     "aliases": [
-      "墨瑞鱈",
-      "墨瑞鳕"
+      "墨瑞鱈"
     ],
     "family": "Percichthyidae",
     "water": "freshwater",
@@ -5976,8 +6000,7 @@
     "scientific": "Macquaria ambigua",
     "name": "圆尾麦氏鲈",
     "aliases": [
-      "圓尾麥氏鱸",
-      "圆尾麦氏鲈"
+      "圓尾麥氏鱸"
     ],
     "family": "Percichthyidae",
     "water": "freshwater",
@@ -6001,8 +6024,7 @@
     "scientific": "Macquaria australasica",
     "name": "澳洲麦氏鲈",
     "aliases": [
-      "澳洲麥氏鱸",
-      "澳洲麦氏鲈"
+      "澳洲麥氏鱸"
     ],
     "family": "Percichthyidae",
     "water": "freshwater",
@@ -6024,7 +6046,7 @@
     "id": "wm-macropodus-hongkongensis",
     "gbifKey": 5211149,
     "scientific": "Macropodus hongkongensis",
-    "name": "香港鬥魚",
+    "name": "香港斗鱼",
     "family": "Osphronemidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Macropodus_hongkongensis",
@@ -6039,13 +6061,16 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:HK_Macropodus_hongkongensis.JPG",
       "caption": "​香港鬥魚"
-    }
+    },
+    "aliases": [
+      "香港鬥魚"
+    ]
   },
   {
     "id": "wm-macropodus-opercularis",
     "gbifKey": 5211160,
     "scientific": "Macropodus opercularis",
-    "name": "蓋斑鬥魚",
+    "name": "叉尾斗鱼",
     "family": "Osphronemidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Paradise_fish",
@@ -6060,7 +6085,12 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Macropodus_opercularis_-_front_(aka).jpg",
       "caption": "This image shows a Paradise fish (Macropodus opercularis)."
-    }
+    },
+    "aliases": [
+      "蓋斑鬥魚",
+      "盖斑斗鱼",
+      "叉尾鬥魚"
+    ]
   },
   {
     "id": "wm-macrotocinclus-affinis",
@@ -6089,8 +6119,7 @@
     "scientific": "Malapterurus electricus",
     "name": "电鲶",
     "aliases": [
-      "電鯰",
-      "电鲶"
+      "電鯰"
     ],
     "family": "Malapteruridae",
     "water": "freshwater",
@@ -6114,9 +6143,7 @@
     "gbifKey": 2351784,
     "scientific": "Mastacembelus armatus",
     "name": "大刺鳅",
-    "aliases": [
-      "大刺鳅"
-    ],
+    "aliases": [],
     "family": "Mastacembelidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Zig-zag_eel",
@@ -6154,7 +6181,6 @@
       "caption": "ダントウボウ。かすみがうら市水族館"
     },
     "aliases": [
-      "团头鲂",
       "武昌鱼",
       "團頭魴",
       "武昌魚"
@@ -6181,7 +6207,6 @@
       "caption": "(Амурский) чёрный лещ (Megalobrama terminalis)"
     },
     "aliases": [
-      "三角鲂",
       "三角魴"
     ]
   },
@@ -6191,8 +6216,7 @@
     "scientific": "Melanotaenia australis",
     "name": "澳洲虹银汉鱼",
     "aliases": [
-      "澳洲虹銀漢魚",
-      "澳洲虹银汉鱼"
+      "澳洲虹銀漢魚"
     ],
     "family": "Melanotaeniidae",
     "water": "freshwater",
@@ -6237,8 +6261,7 @@
     "scientific": "Melanotaenia duboulayi",
     "name": "杜氏虹银汉鱼",
     "aliases": [
-      "杜氏虹銀漢魚",
-      "杜氏虹银汉鱼"
+      "杜氏虹銀漢魚"
     ],
     "family": "Melanotaeniidae",
     "water": "freshwater",
@@ -6262,8 +6285,7 @@
     "scientific": "Melanotaenia fluviatilis",
     "name": "河虹银汉鱼",
     "aliases": [
-      "河虹銀漢魚",
-      "河虹银汉鱼"
+      "河虹銀漢魚"
     ],
     "family": "Melanotaeniidae",
     "water": "freshwater",
@@ -6287,8 +6309,7 @@
     "scientific": "Melanotaenia maccullochi",
     "name": "麦氏虹银汉鱼",
     "aliases": [
-      "麥氏虹銀漢魚",
-      "麦氏虹银汉鱼"
+      "麥氏虹銀漢魚"
     ],
     "family": "Melanotaeniidae",
     "water": "freshwater",
@@ -6355,8 +6376,7 @@
     "scientific": "Melanotaenia trifasciata",
     "name": "三带虹银汉鱼",
     "aliases": [
-      "三帶虹銀漢魚",
-      "三带虹银汉鱼"
+      "三帶虹銀漢魚"
     ],
     "family": "Melanotaeniidae",
     "water": "freshwater",
@@ -6400,9 +6420,7 @@
     "gbifKey": 5211250,
     "scientific": "Micropterus dolomieu",
     "name": "小口黑鲈",
-    "aliases": [
-      "小口黑鲈"
-    ],
+    "aliases": [],
     "family": "Centrarchidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Smallmouth_bass",
@@ -6425,8 +6443,7 @@
     "scientific": "Micropterus treculii",
     "name": "特氏黑鲈",
     "aliases": [
-      "特氏黑鱸",
-      "特氏黑鲈"
+      "特氏黑鱸"
     ],
     "family": "Centrarchidae",
     "water": "freshwater",
@@ -6493,8 +6510,7 @@
     "scientific": "Misgurnus fossilis",
     "name": "纵带泥鳅",
     "aliases": [
-      "縱帶泥鰍",
-      "纵带泥鳅"
+      "縱帶泥鰍"
     ],
     "family": "Cobitidae",
     "water": "freshwater",
@@ -6516,7 +6532,7 @@
     "id": "wm-moenkhausia-bonita",
     "gbifKey": 2352553,
     "scientific": "Moenkhausia bonita",
-    "name": "博奈直線脂鯉",
+    "name": "博奈直线脂鲤",
     "family": "Characidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Moenkhausia_bonita",
@@ -6531,7 +6547,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Moenkhausia_bonita_(uncat_Riachuelo).png",
       "caption": "Moenkhausia bonita, uncatalogued specimen, Lagoon at rio Riachuelo, Paraná basin, San Luis del Palmar, Argentina."
-    }
+    },
+    "aliases": [
+      "博奈直線脂鯉"
+    ]
   },
   {
     "id": "wm-moenkhausia-pittieri",
@@ -6558,11 +6577,8 @@
     "id": "wm-moxostoma-macrolepidotum",
     "gbifKey": 2359006,
     "scientific": "Moxostoma macrolepidotum",
-    "name": "马斯科吸口鱼",
-    "aliases": [
-      "馬斯科吸口魚",
-      "马斯科吸口鱼"
-    ],
+    "name": "大鳞吸口鱼",
+    "aliases": [],
     "family": "Catostomidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Shorthead_redhorse",
@@ -6585,9 +6601,7 @@
     "gbifKey": 8189568,
     "scientific": "Mugil cephalus",
     "name": "鲻鱼",
-    "aliases": [
-      "鲻鱼"
-    ],
+    "aliases": [],
     "family": "Mugilidae",
     "water": "brackish",
     "intro": "The striped mullet (Mugil cephalus) is an important food fish species in the mullet family Mugilidae.",
@@ -6611,8 +6625,7 @@
     "scientific": "Mylopharodon conocephalus",
     "name": "臼齿鱼",
     "aliases": [
-      "臼齒魚",
-      "臼齿鱼"
+      "臼齒魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -6651,7 +6664,6 @@
       "caption": "Schwarzer Amur oder Schwarzer Graskarpfen (Mylopharyngodon piceus), juvenile"
     },
     "aliases": [
-      "青鱼",
       "青魚",
       "黑鲩",
       "黑鯇"
@@ -6663,8 +6675,7 @@
     "scientific": "Nannacara anomala",
     "name": "矮丽鱼",
     "aliases": [
-      "矮麗魚",
-      "矮丽鱼"
+      "矮麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -6689,8 +6700,7 @@
     "scientific": "Nannatherina balstoni",
     "name": "巴氏南脂鲈",
     "aliases": [
-      "巴氏南脂鱸",
-      "巴氏南脂鲈"
+      "巴氏南脂鱸"
     ],
     "family": "Percichthyidae",
     "water": "freshwater",
@@ -6754,9 +6764,8 @@
     "id": "wm-nematalosa-erebi",
     "gbifKey": 2413015,
     "scientific": "Nematalosa erebi",
-    "name": "北澳海𬶭",
+    "name": "北澳海鰶",
     "aliases": [
-      "北澳海鰶",
       "北澳海𬶭"
     ],
     "family": "Clupeidae",
@@ -6823,8 +6832,7 @@
     "scientific": "Nematocharax venustus",
     "name": "维纳斯线纹脂鲤",
     "aliases": [
-      "維納斯線紋脂鯉",
-      "维纳斯线纹脂鲤"
+      "維納斯線紋脂鯉"
     ],
     "family": "Characidae",
     "water": "freshwater",
@@ -6849,8 +6857,7 @@
     "scientific": "Neoarius graeffei",
     "name": "格氏新海鲶",
     "aliases": [
-      "格氏新海鯰",
-      "格氏新海鲶"
+      "格氏新海鯰"
     ],
     "family": "Ariidae",
     "water": "freshwater",
@@ -6893,9 +6900,10 @@
     "id": "wm-nipponocypris-temminckii",
     "gbifKey": 2360929,
     "scientific": "Nipponocypris temminckii",
-    "name": "川鯥",
+    "name": "特氏东瀛鲤",
     "aliases": [
-      "川鯥"
+      "川鯥",
+      "特氏東瀛鯉"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -6919,8 +6927,7 @@
     "scientific": "Nocomis biguttatus",
     "name": "双点美鱥",
     "aliases": [
-      "雙點美鱥",
-      "双点美鱥"
+      "雙點美鱥"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -6944,8 +6951,7 @@
     "scientific": "Nocomis micropogon",
     "name": "小须美鱥",
     "aliases": [
-      "小鬚美鱥",
-      "小须美鱥"
+      "小鬚美鱥"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -6970,8 +6976,7 @@
     "scientific": "Notemigonus crysoleucas",
     "name": "金体美鳊",
     "aliases": [
-      "金體美鯿",
-      "金体美鳊"
+      "金體美鯿"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -6997,8 +7002,8 @@
     "name": "弗氏假鳃鳉",
     "aliases": [
       "弗氏假鰓鱂",
-      "弗氏假鳃鳉",
-      "弗氏假鰓鮰"
+      "弗氏假鰓鮰",
+      "弗氏假鳃鮰"
     ],
     "family": "Nothobranchiidae",
     "water": "freshwater",
@@ -7023,8 +7028,7 @@
     "scientific": "Odontesthes bonariensis",
     "name": "博纳里牙汉鱼",
     "aliases": [
-      "博納里牙漢魚",
-      "博纳里牙汉鱼"
+      "博納里牙漢魚"
     ],
     "family": "Atherinopsidae",
     "water": "brackish",
@@ -7048,9 +7052,7 @@
     "gbifKey": 5204037,
     "scientific": "Oncorhynchus gorbuscha",
     "name": "粉红马哈鱼",
-    "aliases": [
-      "粉红马哈鱼"
-    ],
+    "aliases": [],
     "family": "Salmonidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Pink_salmon",
@@ -7072,9 +7074,7 @@
     "gbifKey": 5204014,
     "scientific": "Oncorhynchus keta",
     "name": "大马哈鱼",
-    "aliases": [
-      "大马哈鱼"
-    ],
+    "aliases": [],
     "family": "Salmonidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Chum_salmon",
@@ -7096,9 +7096,7 @@
     "gbifKey": 5204034,
     "scientific": "Oncorhynchus kisutch",
     "name": "银鲑",
-    "aliases": [
-      "银鲑"
-    ],
+    "aliases": [],
     "family": "Salmonidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Coho_salmon",
@@ -7121,8 +7119,7 @@
     "scientific": "Oncorhynchus masou",
     "name": "樱鳟",
     "aliases": [
-      "櫻鱒",
-      "樱鳟"
+      "櫻鱒"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -7146,8 +7143,7 @@
     "scientific": "Oncorhynchus mykiss",
     "name": "虹鳟",
     "aliases": [
-      "虹鱒",
-      "虹鳟"
+      "虹鱒"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -7170,9 +7166,7 @@
     "gbifKey": 5204039,
     "scientific": "Oncorhynchus nerka",
     "name": "红马哈鱼",
-    "aliases": [
-      "红马哈鱼"
-    ],
+    "aliases": [],
     "family": "Salmonidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Sockeye_salmon",
@@ -7195,8 +7189,7 @@
     "scientific": "Oncorhynchus tshawytscha",
     "name": "帝王鲑",
     "aliases": [
-      "帝王鮭",
-      "帝王鲑"
+      "帝王鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -7219,9 +7212,7 @@
     "gbifKey": 2360232,
     "scientific": "Opsaridium peringueyi",
     "name": "Opsaridium peringueyi",
-    "aliases": [
-      "Opsaridium peringueyi"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "intro": "The southern barred minnow (Opsaridium peringueyi) is a species of freshwater ray-finned fish belonging to the family Danionidae, the danios or danionins.",
@@ -7245,8 +7236,7 @@
     "scientific": "Opsariichthys uncirostris",
     "name": "真马口鱼",
     "aliases": [
-      "真馬口魚",
-      "真马口鱼"
+      "真馬口魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -7270,8 +7260,7 @@
     "scientific": "Oreochromis aureus",
     "name": "奥利亚口孵非鲫",
     "aliases": [
-      "奧利亞口孵非鯽",
-      "奥利亚口孵非鲫"
+      "奧利亞口孵非鯽"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -7297,7 +7286,6 @@
     "name": "莫三比克口孵非鲫",
     "aliases": [
       "莫三比克口孵非鯽",
-      "莫三比克口孵非鲫",
       "南洋鯽仔",
       "吳郭魚",
       "在來吳郭魚",
@@ -7333,8 +7321,7 @@
     "scientific": "Oreochromis niloticus",
     "name": "尼罗口孵非鲫",
     "aliases": [
-      "尼羅口孵非鯽",
-      "尼罗口孵非鲫"
+      "尼羅口孵非鯽"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -7423,8 +7410,7 @@
     "scientific": "Pachypanchax omalonotus",
     "name": "扁粗背鳉",
     "aliases": [
-      "扁粗背鱂",
-      "扁粗背鳉"
+      "扁粗背鱂"
     ],
     "family": "Aplocheilidae",
     "water": "freshwater",
@@ -7449,8 +7435,7 @@
     "scientific": "Pachypanchax sakaramyi",
     "name": "萨氏粗背鳉",
     "aliases": [
-      "薩氏粗背鱂",
-      "萨氏粗背鳉"
+      "薩氏粗背鱂"
     ],
     "family": "Aplocheilidae",
     "water": "freshwater",
@@ -7475,8 +7460,7 @@
     "scientific": "Pantodon buchholzi",
     "name": "齿蝶鱼",
     "aliases": [
-      "齒蝶魚",
-      "齿蝶鱼"
+      "齒蝶魚"
     ],
     "family": "Pantodontidae",
     "water": "freshwater",
@@ -7501,8 +7485,7 @@
     "scientific": "Parachanna obscura",
     "name": "暗副鳢",
     "aliases": [
-      "暗副鱧",
-      "暗副鳢"
+      "暗副鱧"
     ],
     "family": "Channidae",
     "water": "freshwater",
@@ -7527,8 +7510,7 @@
     "scientific": "Parachromis managuensis",
     "name": "花身副丽鱼",
     "aliases": [
-      "花身副麗魚",
-      "花身副丽鱼"
+      "花身副麗魚"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -7553,8 +7535,7 @@
     "scientific": "Paretroplus kieneri",
     "name": "基氏副热鲷",
     "aliases": [
-      "基氏副熱鯛",
-      "基氏副热鲷"
+      "基氏副熱鯛"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -7579,8 +7560,7 @@
     "scientific": "Paretroplus maculatus",
     "name": "斑副热鲷",
     "aliases": [
-      "斑副熱鯛",
-      "斑副热鲷"
+      "斑副熱鯛"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -7604,9 +7584,7 @@
     "gbifKey": 8920750,
     "scientific": "Peckoltia greedoi",
     "name": "Peckoltia greedoi",
-    "aliases": [
-      "Peckoltia greedoi"
-    ],
+    "aliases": [],
     "family": "Loricariidae",
     "water": "freshwater",
     "intro": "Peckoltia greedoi is a species of freshwater ray-finned fish belonging to the family Loricariidae, the suckermouth armoured catfishes, and the subfamily Hypostominae, the suckermouth catfishes.",
@@ -7630,8 +7608,7 @@
     "scientific": "Perca flavescens",
     "name": "黄鲈",
     "aliases": [
-      "黃鱸",
-      "黄鲈"
+      "黃鱸"
     ],
     "family": "Percidae",
     "water": "freshwater",
@@ -7657,7 +7634,6 @@
     "aliases": [
       "鲈鱼",
       "河鲈",
-      "欧洲河鲈",
       "鱸(河鱸)",
       "鲈(河鲈)"
     ],
@@ -7698,7 +7674,6 @@
       "caption": "Perccottus glenii (Chinese sleeper)"
     },
     "aliases": [
-      "葛氏鲈塘鳢",
       "葛氏鱸塘鱧"
     ]
   },
@@ -7708,8 +7683,7 @@
     "scientific": "Percichthys trucha",
     "name": "真鲈",
     "aliases": [
-      "真鱸",
-      "真鲈"
+      "真鱸"
     ],
     "family": "Percichthyidae",
     "water": "freshwater",
@@ -7734,8 +7708,7 @@
     "scientific": "Percopsis omiscomaycus",
     "name": "鲑鲈",
     "aliases": [
-      "鮭鱸",
-      "鲑鲈"
+      "鮭鱸"
     ],
     "family": "Percopsidae",
     "water": "freshwater",
@@ -7802,8 +7775,7 @@
     "scientific": "Pethia ticto",
     "name": "真无须魮",
     "aliases": [
-      "真無鬚魮",
-      "真无须魮"
+      "真無鬚魮"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -7853,8 +7825,7 @@
     "scientific": "Phalloceros caudimaculatus",
     "name": "尾点角茎鳉",
     "aliases": [
-      "尾點角莖鱂",
-      "尾点角茎鳉"
+      "尾點角莖鱂"
     ],
     "family": "Poeciliidae",
     "water": "freshwater",
@@ -7879,8 +7850,7 @@
     "scientific": "Phenacobius mirabilis",
     "name": "奇美洲拟鱥",
     "aliases": [
-      "奇美洲擬鱥",
-      "奇美洲拟鱥"
+      "奇美洲擬鱥"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -7925,9 +7895,7 @@
     "gbifKey": 4409653,
     "scientific": "Phoxinus phoxinus",
     "name": "真鱥",
-    "aliases": [
-      "真鱥"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Phoxinus_phoxinus",
@@ -7949,9 +7917,7 @@
     "gbifKey": 4283980,
     "scientific": "Plecoglossus altivelis",
     "name": "香鱼",
-    "aliases": [
-      "香鱼"
-    ],
+    "aliases": [],
     "family": "Plecoglossidae",
     "water": "freshwater",
     "intro": "The ayu sweetfish (Plecoglossus altivelis), ayu (アユ, 鮎, 年魚, 香魚) or sweetfish, is a species of bony fish. It is the only species in the genus Plecoglossus and family Plecoglossidae. It is a relative of the smelts and other fish in the order Osmeriformes.\n\nNative to East Asia, it is distributed in the northwestern Pacific Ocean along the coast of Hokkaidō in Japan southward to the Korean Peninsula, China, Hong Kong and northern Vietnam. It is amphidromous, moving between coastal marine waters and freshwater lakes and rivers. A few landlocked populations also exist in lakes in Japan such as Lake Biwa. Original wild populations in Taiwan became extinct in 1968 due to pollution and present extant populations were reintroduced from Japan in the 1990s.",
@@ -7974,8 +7940,7 @@
     "scientific": "Pleuronectes platessa",
     "name": "欧洲鲽",
     "aliases": [
-      "歐洲鰈",
-      "欧洲鲽"
+      "歐洲鰈"
     ],
     "family": "Pleuronectidae",
     "water": "marine",
@@ -8083,8 +8048,7 @@
     "scientific": "Poeciliopsis occidentalis",
     "name": "西域若花鳉",
     "aliases": [
-      "西域若花鱂",
-      "西域若花鳉"
+      "西域若花鱂"
     ],
     "family": "Poeciliidae",
     "water": "freshwater",
@@ -8109,7 +8073,6 @@
     "scientific": "Polypterus endlicherii",
     "name": "恩氏多鳍鱼",
     "aliases": [
-      "恩氏多鳍鱼",
       "恩氏多鰭魚"
     ],
     "family": "Polypteridae",
@@ -8135,8 +8098,7 @@
     "scientific": "Polypterus senegalus",
     "name": "塞内加尔多鳍鱼",
     "aliases": [
-      "塞內加爾多鰭魚",
-      "塞内加尔多鳍鱼"
+      "塞內加爾多鰭魚"
     ],
     "family": "Polypteridae",
     "water": "freshwater",
@@ -8161,8 +8123,7 @@
     "scientific": "Pomoxis annularis",
     "name": "白刺盖太阳鱼",
     "aliases": [
-      "白刺蓋太陽魚",
-      "白刺盖太阳鱼"
+      "白刺蓋太陽魚"
     ],
     "family": "Centrarchidae",
     "water": "freshwater",
@@ -8186,8 +8147,7 @@
     "scientific": "Pomoxis nigromaculatus",
     "name": "黑斑刺盖太阳鱼",
     "aliases": [
-      "黑斑刺蓋太陽魚",
-      "黑斑刺盖太阳鱼"
+      "黑斑刺蓋太陽魚"
     ],
     "family": "Centrarchidae",
     "water": "freshwater",
@@ -8209,7 +8169,7 @@
     "id": "wm-prionurus-biafraensis",
     "gbifKey": 5209136,
     "scientific": "Prionurus biafraensis",
-    "name": "比夫拉多板盾尾魚",
+    "name": "比夫拉多板盾尾鱼",
     "family": "Acanthuridae",
     "water": "marine",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Prionurus_biafraensis",
@@ -8224,7 +8184,10 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Prionurus_biafraensis.jpg",
       "caption": "Prionurus biafraensis, Bom Bom, Principe, São Tomé & Príncipe"
-    }
+    },
+    "aliases": [
+      "比夫拉多板盾尾魚"
+    ]
   },
   {
     "id": "wm-prochilodus-lineatus",
@@ -8232,8 +8195,7 @@
     "scientific": "Prochilodus lineatus",
     "name": "条纹鲮脂鲤",
     "aliases": [
-      "條紋鯪脂鯉",
-      "条纹鲮脂鲤"
+      "條紋鯪脂鯉"
     ],
     "family": "Prochilodontidae",
     "water": "freshwater",
@@ -8258,8 +8220,7 @@
     "scientific": "Prochilodus magdalenae",
     "name": "马格达河鲮脂鲤",
     "aliases": [
-      "馬格達河鯪脂鯉",
-      "马格达河鲮脂鲤"
+      "馬格達河鯪脂鯉"
     ],
     "family": "Prochilodontidae",
     "water": "freshwater",
@@ -8284,8 +8245,7 @@
     "scientific": "Prosopium cylindraceum",
     "name": "真柱白鲑",
     "aliases": [
-      "真柱白鮭",
-      "真柱白鲑"
+      "真柱白鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -8310,7 +8270,6 @@
     "scientific": "Protopterus aethiopicus",
     "name": "石花肺鱼",
     "aliases": [
-      "石花肺鱼",
       "石花肺魚"
     ],
     "family": "Protopteridae",
@@ -8337,7 +8296,6 @@
     "name": "西非肺鱼",
     "aliases": [
       "西非肺魚",
-      "西非肺鱼",
       "原鰭魚",
       "原鳍鱼"
     ],
@@ -8364,7 +8322,6 @@
     "scientific": "Protopterus dolloi",
     "name": "长肺鱼",
     "aliases": [
-      "长肺鱼",
       "長肺魚"
     ],
     "family": "Protopteridae",
@@ -8390,8 +8347,7 @@
     "scientific": "Prototroctes maraena",
     "name": "澳洲南茴鱼",
     "aliases": [
-      "澳洲南茴魚",
-      "澳洲南茴鱼"
+      "澳洲南茴魚"
     ],
     "family": "Retropinnidae",
     "water": "freshwater",
@@ -8414,9 +8370,7 @@
     "gbifKey": 2359871,
     "scientific": "Pseudobarbus asper",
     "name": "Pseudobarbus asper",
-    "aliases": [
-      "Pseudobarbus asper"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "intro": "The smallscale redfin (Pseudobarbus asper) is a  freshwater fish in the family Cyprinidae which is endemic to South Africa.",
@@ -8440,8 +8394,7 @@
     "scientific": "Pseudobarbus tenuis",
     "name": "细拟魮",
     "aliases": [
-      "細擬魮",
-      "细拟魮"
+      "細擬魮"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -8534,8 +8487,7 @@
     "scientific": "Pseudogobio esocinus",
     "name": "镰柄",
     "aliases": [
-      "鎌柄",
-      "镰柄"
+      "鎌柄"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -8616,7 +8568,6 @@
       "caption": "Motsugo(Stone moroko), Pseudorasbora parva, Collected from Hamamatsu, Shizuoka, Japan and later photographed an aquarium."
     },
     "aliases": [
-      "麦穗鱼",
       "麥穗魚"
     ]
   },
@@ -8626,8 +8577,7 @@
     "scientific": "Ptychocheilus oregonensis",
     "name": "俄勒冈叶唇鱼",
     "aliases": [
-      "俄勒岡葉唇魚",
-      "俄勒冈叶唇鱼"
+      "俄勒岡葉唇魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -8649,11 +8599,8 @@
     "id": "wm-pungitius-pungitius",
     "gbifKey": 5739510,
     "scientific": "Pungitius pungitius",
-    "name": "八棘多刺鱼",
-    "aliases": [
-      "八棘多刺鱼",
-      "八棘多刺魚"
-    ],
+    "name": "九棘多刺鱼",
+    "aliases": [],
     "family": "Gasterosteidae",
     "water": "brackish",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Ninespine_stickleback",
@@ -8696,9 +8643,7 @@
     "gbifKey": 2363965,
     "scientific": "Puntius sophore",
     "name": "斑尾小鲃",
-    "aliases": [
-      "斑尾小鲃"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "intro": "The pool barb, spotfin swamp barb, or stigma barb (Puntius sophore) is a tropical freshwater and brackish fish belonging to the Puntius genus in the family Cyprinidae. It is native to inland waters in Asia and is found in India, Nepal, Bangladesh, Myanmar, Bhutan, Afghanistan, Pakistan and Yunnan, China.",
@@ -8740,7 +8685,7 @@
     "id": "wm-pylodictis-olivaris",
     "gbifKey": 2341077,
     "scientific": "Pylodictis olivaris",
-    "name": "铲𫚔",
+    "name": "铲鮰",
     "aliases": [
       "鏟鮰",
       "铲𫚔"
@@ -8789,8 +8734,7 @@
     "scientific": "Rasbora daniconius",
     "name": "细波鱼",
     "aliases": [
-      "細波魚",
-      "细波鱼"
+      "細波魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -8835,8 +8779,7 @@
     "scientific": "Retropinna semoni",
     "name": "西氏后鳍鲑",
     "aliases": [
-      "西氏後鰭鮭",
-      "西氏后鳍鲑"
+      "西氏後鰭鮭"
     ],
     "family": "Retropinnidae",
     "water": "freshwater",
@@ -8859,9 +8802,7 @@
     "gbifKey": 2359811,
     "scientific": "Rhinichthys cataractae",
     "name": "吻鱥",
-    "aliases": [
-      "吻鱥"
-    ],
+    "aliases": [],
     "family": "Cyprinidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Longnose_dace",
@@ -8885,8 +8826,7 @@
     "scientific": "Rhodeus amarus",
     "name": "欧洲苦鱼",
     "aliases": [
-      "歐洲苦魚",
-      "欧洲苦鱼"
+      "歐洲苦魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -8925,7 +8865,6 @@
       "caption": "Rhodeus ocellatus ocellatus , Tairiku-baratanago(Rosy bitterling), Sex M , from The river which flows into Lake Biwa, Shiga, Japan."
     },
     "aliases": [
-      "高体鳑鲏",
       "高體鰟鮍"
     ]
   },
@@ -8935,8 +8874,7 @@
     "scientific": "Richardsonius balteatus",
     "name": "红胁鱥",
     "aliases": [
-      "紅脅鱥",
-      "红胁鱥"
+      "紅脅鱥"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -8961,8 +8899,7 @@
     "scientific": "Rutilus rutilus",
     "name": "湖拟鲤",
     "aliases": [
-      "湖擬鯉",
-      "湖拟鲤"
+      "湖擬鯉"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -9009,7 +8946,6 @@
     "aliases": [
       "大西洋鮭",
       "安大略鱒",
-      "大西洋鲑",
       "安大略鳟"
     ],
     "family": "Salmonidae",
@@ -9036,7 +8972,6 @@
     "aliases": [
       "褐鱒",
       "鱒",
-      "褐鳟",
       "鳟"
     ],
     "family": "Salmonidae",
@@ -9067,7 +9002,6 @@
       "科氏紅點鮭",
       "纓紅點鮭",
       "鈍頭紅點鮭",
-      "北极红点鲑",
       "格雷红点鲑",
       "瑞士红点鲑",
       "科氏红点鲑",
@@ -9096,8 +9030,7 @@
     "scientific": "Salvelinus fontinalis",
     "name": "美洲红点鲑",
     "aliases": [
-      "美洲紅點鮭",
-      "美洲红点鲑"
+      "美洲紅點鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -9121,8 +9054,7 @@
     "scientific": "Salvelinus leucomaenis",
     "name": "远东红点鲑",
     "aliases": [
-      "遠東紅點鮭",
-      "远东红点鲑"
+      "遠東紅點鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -9145,9 +9077,7 @@
     "gbifKey": 4284020,
     "scientific": "Salvelinus malma",
     "name": "花羔红点鲑",
-    "aliases": [
-      "花羔红点鲑"
-    ],
+    "aliases": [],
     "family": "Salmonidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Dolly_Varden_trout",
@@ -9171,8 +9101,7 @@
     "scientific": "Salvelinus namaycush",
     "name": "突吻红点鲑",
     "aliases": [
-      "突吻紅點鮭",
-      "突吻红点鲑"
+      "突吻紅點鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -9196,8 +9125,8 @@
     "scientific": "Sandelia capensis",
     "name": "Sandelia capensis",
     "aliases": [
-      "Sandelia capensis",
-      "岬圓鱗攀鱸"
+      "岬圓鱗攀鱸",
+      "岬圆鳞攀鲈"
     ],
     "family": "Anabantidae",
     "water": "freshwater",
@@ -9222,8 +9151,7 @@
     "scientific": "Sander lucioperca",
     "name": "白梭吻鲈",
     "aliases": [
-      "白梭吻鱸",
-      "白梭吻鲈"
+      "白梭吻鱸"
     ],
     "family": "Percidae",
     "water": "freshwater",
@@ -9247,8 +9175,7 @@
     "scientific": "Sander vitreus",
     "name": "玻璃梭鲈",
     "aliases": [
-      "玻璃梭鱸",
-      "玻璃梭鲈"
+      "玻璃梭鱸"
     ],
     "family": "Percidae",
     "water": "freshwater",
@@ -9287,7 +9214,6 @@
       "caption": "Sarcocheilichthys sinensis"
     },
     "aliases": [
-      "华鳈",
       "華鰁"
     ]
   },
@@ -9297,8 +9223,7 @@
     "scientific": "Sarotherodon galilaeus",
     "name": "加利略帚齿非鲫",
     "aliases": [
-      "加利略帚齒非鯽",
-      "加利略帚齿非鲫"
+      "加利略帚齒非鯽"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -9323,8 +9248,7 @@
     "scientific": "Sarotherodon melanotheron",
     "name": "黑颏帚齿非鲫",
     "aliases": [
-      "黑頦帚齒非鯽",
-      "黑颏帚齿非鲫"
+      "黑頦帚齒非鯽"
     ],
     "family": "Cichlidae",
     "water": "brackish",
@@ -9349,8 +9273,7 @@
     "scientific": "Scardinius erythrophthalmus",
     "name": "红眼鱼",
     "aliases": [
-      "紅眼魚",
-      "红眼鱼"
+      "紅眼魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -9374,8 +9297,7 @@
     "scientific": "Schilbe intermedius",
     "name": "中间锡伯鲶",
     "aliases": [
-      "中間錫伯鯰",
-      "中间锡伯鲶"
+      "中間錫伯鯰"
     ],
     "family": "Schilbeidae",
     "water": "freshwater",
@@ -9399,9 +9321,7 @@
     "gbifKey": 2402234,
     "scientific": "Scleropages jardinii",
     "name": "珍珠龙鱼",
-    "aliases": [
-      "珍珠龙鱼"
-    ],
+    "aliases": [],
     "family": "Osteoglossidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Scleropages_jardinii",
@@ -9426,7 +9346,6 @@
     "aliases": [
       "鯖魚",
       "大西洋鯖",
-      "鲭鱼",
       "大西洋鲭"
     ],
     "family": "Scombridae",
@@ -9453,7 +9372,6 @@
     "aliases": [
       "大菱鮃",
       "多宝鱼（多寶魚）",
-      "大菱鲆",
       "多宝鱼（多宝鱼）"
     ],
     "family": "Scophthalmidae",
@@ -9478,8 +9396,7 @@
     "scientific": "Semotilus atromaculatus",
     "name": "黑斑须雅罗鱼",
     "aliases": [
-      "黑斑鬚雅羅魚",
-      "黑斑须雅罗鱼"
+      "黑斑鬚雅羅魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -9504,8 +9421,7 @@
     "scientific": "Semotilus corporalis",
     "name": "小眼须雅罗鱼",
     "aliases": [
-      "小眼鬚雅羅魚",
-      "小眼须雅罗鱼"
+      "小眼鬚雅羅魚"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -9530,7 +9446,6 @@
     "scientific": "Serranochromis macrocephalus",
     "name": "大头鮨丽鱼",
     "aliases": [
-      "大头鮨丽鱼",
       "大頭鮨麗魚"
     ],
     "family": "Cichlidae",
@@ -9568,11 +9483,11 @@
       "caption": "Amur catfish Silurus asotus caught at Lake Biwa, Japan."
     },
     "aliases": [
-      "鲇",
       "鲇鱼",
       "鲶鱼",
       "鯰",
-      "鯰魚"
+      "鯰魚",
+      "鲶"
     ]
   },
   {
@@ -9581,8 +9496,7 @@
     "scientific": "Silurus glanis",
     "name": "欧鲶",
     "aliases": [
-      "歐鯰",
-      "欧鲶"
+      "歐鯰"
     ],
     "family": "Siluridae",
     "water": "freshwater",
@@ -9621,7 +9535,6 @@
       "caption": "Китайский окунь - ауха (лат. Siniperca chuatsi) (Photograph of a taxidermy museum specimen.)"
     },
     "aliases": [
-      "鳜",
       "鳜鱼",
       "桂鱼",
       "鱖",
@@ -9635,8 +9548,7 @@
     "scientific": "Solea solea",
     "name": "鳎",
     "aliases": [
-      "鰨",
-      "鳎"
+      "鰨"
     ],
     "family": "Soleidae",
     "water": "marine",
@@ -9660,8 +9572,7 @@
     "scientific": "Sorubim lima",
     "name": "铲吻油鲶",
     "aliases": [
-      "鏟吻油鯰",
-      "铲吻油鲶"
+      "鏟吻油鯰"
     ],
     "family": "Pimelodidae",
     "water": "freshwater",
@@ -9686,8 +9597,7 @@
     "scientific": "Sparus aurata",
     "name": "金头鲷",
     "aliases": [
-      "金頭鯛",
-      "金头鲷"
+      "金頭鯛"
     ],
     "family": "Sparidae",
     "water": "marine",
@@ -9747,7 +9657,6 @@
       "caption": "China, Guizhou province,2011-01-19,150mm, by Zeng zhi xuan"
     },
     "aliases": [
-      "中华倒刺鲃",
       "中華倒刺䰾"
     ]
   },
@@ -9757,8 +9666,7 @@
     "scientific": "Squalius cephalus",
     "name": "欧鲢",
     "aliases": [
-      "歐鰱",
-      "欧鲢"
+      "歐鰱"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -9782,8 +9690,7 @@
     "scientific": "Steindachneridion parahybae",
     "name": "拟驼背施氏油鲶",
     "aliases": [
-      "擬駝背施氏油鯰",
-      "拟驼背施氏油鲶"
+      "擬駝背施氏油鯰"
     ],
     "family": "Pimelodidae",
     "water": "freshwater",
@@ -9808,8 +9715,7 @@
     "scientific": "Stenodus nelma",
     "name": "白北鲑",
     "aliases": [
-      "白北鮭",
-      "白北鲑"
+      "白北鮭"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -9832,9 +9738,7 @@
     "gbifKey": 2402060,
     "scientific": "Sternopygus macrurus",
     "name": "Sternopygus macrurus",
-    "aliases": [
-      "Sternopygus macrurus"
-    ],
+    "aliases": [],
     "family": "Sternopygidae",
     "water": "freshwater",
     "intro": "",
@@ -9874,7 +9778,7 @@
     "id": "wm-synodontis-schall",
     "gbifKey": 2344327,
     "scientific": "Synodontis schall",
-    "name": "沙尔歧须𬶏",
+    "name": "沙尔歧须鮠",
     "aliases": [
       "沙爾歧鬚鮠",
       "沙尔歧须𬶏"
@@ -9900,7 +9804,7 @@
     "id": "wm-synodontis-zambezensis",
     "gbifKey": 2344285,
     "scientific": "Synodontis zambezensis",
-    "name": "赞比西河歧须𬶏",
+    "name": "赞比西河歧须鮠",
     "aliases": [
       "贊比西河歧鬚鮠",
       "赞比西河歧须𬶏"
@@ -9950,8 +9854,7 @@
     "scientific": "Tandanus tandanus",
     "name": "澳洲鳗鲶",
     "aliases": [
-      "澳洲鰻鯰",
-      "澳洲鳗鲶"
+      "澳洲鰻鯰"
     ],
     "family": "Plotosidae",
     "water": "freshwater",
@@ -9996,8 +9899,7 @@
     "scientific": "Tetragonopterus argenteus",
     "name": "银大眼脂鲤",
     "aliases": [
-      "銀大眼脂鯉",
-      "银大眼脂鲤"
+      "銀大眼脂鯉"
     ],
     "family": "Characidae",
     "water": "freshwater",
@@ -10021,9 +9923,7 @@
     "gbifKey": 5711974,
     "scientific": "Thymallus arcticus",
     "name": "北极茴鱼",
-    "aliases": [
-      "北极茴鱼"
-    ],
+    "aliases": [],
     "family": "Salmonidae",
     "water": "freshwater",
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Arctic_grayling",
@@ -10047,8 +9947,7 @@
     "scientific": "Thymallus thymallus",
     "name": "茴鱼",
     "aliases": [
-      "茴魚",
-      "茴鱼"
+      "茴魚"
     ],
     "family": "Salmonidae",
     "water": "freshwater",
@@ -10072,8 +9971,7 @@
     "scientific": "Tilapia sparrmanii",
     "name": "斯氏非鲫",
     "aliases": [
-      "斯氏非鯽",
-      "斯氏非鲫"
+      "斯氏非鯽"
     ],
     "family": "Cichlidae",
     "water": "freshwater",
@@ -10096,10 +9994,10 @@
     "id": "wm-tinca-tinca",
     "gbifKey": 2362524,
     "scientific": "Tinca tinca",
-    "name": "丁鱥",
+    "name": "丁桂鱼",
     "aliases": [
       "丁鱥",
-      "丁鱥科"
+      "丁桂"
     ],
     "family": "Cyprinidae",
     "water": "freshwater",
@@ -10186,8 +10084,7 @@
     "scientific": "Umbra krameri",
     "name": "荫鱼",
     "aliases": [
-      "蔭魚",
-      "荫鱼"
+      "蔭魚"
     ],
     "family": "Umbridae",
     "water": "freshwater",
@@ -10257,9 +10154,7 @@
     "gbifKey": 2337824,
     "scientific": "Wallago attu",
     "name": "叉尾鲇",
-    "aliases": [
-      "叉尾鲇"
-    ],
+    "aliases": [],
     "family": "Siluridae",
     "water": "freshwater",
     "intro": "Wallago attu, boal, or helicopter catfish, is a species of freshwater catfish of the family Siluridae, native to South and Southeast Asia. W. attu is found in large rivers and lakes in two geographically disconnected regions (disjunct distribution), with one population living over much of the Indian subcontinent and the other in parts of Southeast Asia. This species can reach a length up to 1.1 m (3 ft 7 in).\n\nIt shares parts of its native range with the externally similar, but much larger Wallagonia leerii, and is subsequently often confused for it. It can, however, be differentiated by its relatively long and narrower head, as well as its dorsal fin, which is high and sharp, opposed to that of W. leerii, which is lower and rounded. Additionally, the eyes of W. attu lie above the mouth of the fish, whilst they lie on the same level as the mouth in W. leerii.",

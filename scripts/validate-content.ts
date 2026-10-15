@@ -4,11 +4,13 @@ import { fishSchema, regions } from "../src/lib/model";
 import { geography } from "../src/lib/evidence";
 import { rules } from "../src/lib/planner";
 import datasets from "../content/enrichment/datasets.json";
+import { chineseFishName } from "../src/lib/chineseNames";
 const fish = fishSchema
   .array()
   .parse(JSON.parse(readFileSync(resolve("content/species.json"), "utf8")));
 const ids = new Set<string>();
 for (const f of fish) {
+  if (f.name !== chineseFishName(f)) throw new Error(`Review Chinese display-name spelling: ${f.id}`);
   if (ids.has(f.id)) throw new Error(`Duplicate ID ${f.id}`);
   ids.add(f.id);
   if (!regions.some((r) => r.id === f.region))
