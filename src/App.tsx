@@ -125,10 +125,11 @@ function exploreLocationLabel(fish: Fish | PhotoProfile): string {
 function DistributionDetails({ fish }: { fish: Fish | PhotoProfile }) {
   const distribution = distributions[fish.id];
   if (!distribution) return null;
+  const fishBaseSource = /(^|\.)fishbase\.[a-z.]+$/i.test(new URL(distribution.sourceUrl).hostname);
   return <details className="source-details distribution-details">
     <summary>{t("分布资料与关联依据")}<ChevronRight size={15} /></summary>
     <p lang="en">{distribution.rangeText}</p>
-    <p><a href={distribution.sourceUrl} target="_blank" rel="noreferrer">{t("FishBase 物种分布")}</a> {t("· 快照")}{distribution.snapshot} {t("· 原文参考文献 #")}{distribution.rangeRef} · <a href="https://fishbaseapi.readme.io/reference/license" target="_blank" rel="noreferrer">CC BY-NC 3.0</a></p>
+    <p><a href={distribution.sourceUrl} target="_blank" rel="noreferrer">{t(fishBaseSource ? "FishBase 物种分布" : "原生分布来源")}</a> {t("· 快照")}{distribution.snapshot}{fishBaseSource && <>{distribution.rangeRef != null && <>{t("· 原文参考文献 #")}{distribution.rangeRef}</>} · <a href="https://fishbaseapi.readme.io/reference/license" target="_blank" rel="noreferrer">CC BY-NC 3.0</a></>}</p>
     {distribution.acceptedScientific !== fish.scientific && <p>{t("FishBase 接受名：")}<i>{distribution.acceptedScientific}</i>{t("，通过学名异名匹配。")}</p>}
     {distribution.links.map((link) => <div key={link.locationId}>
       <p><strong>{locationById.get(link.locationId) ? locationName(locationById.get(link.locationId)!) : link.locationId}</strong>: <span lang={/[\u3400-\u9fff]/.test(link.evidence) ? "zh-CN" : "en"}>{link.evidence}</span> <a href={link.sourceUrl} target="_blank" rel="noreferrer">{t("物种依据")}</a> · <a href={locationById.get(link.locationId)?.sourceUrl} target="_blank" rel="noreferrer">{t("地理位置来源")}</a>{link.additionalSourceUrls?.map((url, index) => <span key={url}> · <a href={url} target="_blank" rel="noreferrer">{t("补充来源")}{index + 1}</a></span>)}</p>
@@ -603,6 +604,7 @@ function PhotoDetail({ profile, close, saved, toggleSave, openPhotoViewer }: {
   toggleSave: () => void;
   openPhotoViewer: () => void;
 }) {
+  const textLanguage = profile.textLanguage ?? "en";
   const waterName = profile.water === "marine" ? t("海水") : profile.water === "freshwater" ? t("淡水") : profile.water === "brackish" ? t("半咸水") : t("待核实");
   return (
     <>
@@ -618,15 +620,15 @@ function PhotoDetail({ profile, close, saved, toggleSave, openPhotoViewer }: {
         <div className="eyebrow">PHOTO-BACKED FIELD GUIDE</div>
         <h2>{fishName(profile)}</h2>
         <p className="scientific">{profile.scientific}</p>
-        {profile.intro && <p className="detail-intro" lang="en">{profile.intro}</p>}
+        {profile.intro && <p className="detail-intro" lang={textLanguage} dir="auto">{profile.intro}</p>}
         <div className="detail-actions"><button className={`soft-button ${saved ? "selected" : ""}`} onClick={toggleSave}><Bookmark size={16} fill={saved ? "currentColor" : "none"} />{saved ? t("已收藏") : t("收藏鱼种")}</button><FeedbackLink fish={profile} /></div>
         <div className="metrics"><Metric label={t("科")} value={profile.family} /><Metric label={t("属")} value={profile.scientific.split(" ")[0]} /><Metric label={t("GBIF 环境标签")} value={waterName} /></div>
         <section className="detail-section"><h3><Globe2 size={16} />{t("地理分布")}</h3><p>{fishLocations(profile).length ? t("已关联原生水域：{value0}。", { value0: fishLocations(profile).map((place) => locationName(place)).join("、") }) : distributions[profile.id]?.unlocatedReason}</p><BasinTags fish={profile} /><DistributionDetails fish={profile} /></section>
-        <section className="detail-section"><h3><Waves size={16} />{t("野外习性")}</h3><p lang={profile.behavior ? "en" : undefined}>{profile.behavior || t("资料待补充；不能根据近缘鱼推断本物种的食性或相处方式。")}</p></section>
-        <div className="caution"><Info size={15} /><span>{t("这条鱼尚无经核对的鱼缸养护参数，因此不进入鱼缸规划。图片依据文件名、描述与学名匹配，尚待鱼类专家复核；英文节选需结合原文及引用文献阅读。")}</span></div>
+        <section className="detail-section"><h3><Waves size={16} />{t("野外习性")}</h3><p lang={profile.behavior ? textLanguage : undefined} dir="auto">{profile.behavior || t("资料待补充；不能根据近缘鱼推断本物种的食性或相处方式。")}</p></section>
+        <div className="caution"><Info size={15} /><span>{t("这条鱼尚无经核对的鱼缸养护参数，因此不进入鱼缸规划。图片依据文件名、描述与学名匹配，尚待鱼类专家复核；来源节选需结合原文及引用文献阅读。")}</span></div>
         <details className="source-details" open><summary>{t("资料来源与图片署名")}<ChevronRight size={15} /></summary>
-          <p>{t("分类：")}<a href={`https://www.gbif.org/species/${profile.gbifKey}`} target="_blank" rel="noreferrer">{t("GBIF 物种记录")}</a> · <a href={profile.wikidataUrl} target="_blank" rel="noreferrer">Wikidata</a></p>
-          <p>{t("英文文字：Wikipedia contributors，")}<a href={profile.wikipediaUrl} target="_blank" rel="noreferrer">{t("物种词条与编辑历史")}</a>，<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC BY-SA 4.0</a>{t("；本站仅保留短段落，不视为专家复核。")}</p>
+          <p>{t("分类：")}<a href={`https://www.gbif.org/species/${profile.gbifKey}`} target="_blank" rel="noreferrer">{t("GBIF 物种记录")}</a>{profile.wikidataUrl && <> · <a href={profile.wikidataUrl} target="_blank" rel="noreferrer">Wikidata</a></>}</p>
+          {profile.wikipediaUrl && <p>{t("文字来源：Wikipedia contributors，")}<a href={profile.wikipediaUrl} target="_blank" rel="noreferrer">{t("物种词条与编辑历史")}</a>，<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC BY-SA 4.0</a>{t("；本站仅保留短段落，不视为专家复核。")}</p>}
           <p>{t("照片：")}{profile.photo.author} · <a href={profile.photo.pageUrl} target="_blank" rel="noreferrer">{t("原始文件")}</a> · <a href={profile.photo.licenseUrl} target="_blank" rel="noreferrer">{profile.photo.license}</a>。</p>
         </details>
         <FeedbackNote />

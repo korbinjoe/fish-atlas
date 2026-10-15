@@ -52,6 +52,11 @@ def merge_catalog(existing: list[dict], additions: list[dict]) -> list[dict]:
 def validate_distribution(id: str, record: dict, scientific: str, location_ids: set[str]):
     if record["scientific"] != scientific or not record.get("rangeText", "").strip():
         raise ValueError(f"Missing or mismatched range text: {id}")
+    if (not record.get("acceptedScientific", "").strip() or not record.get("snapshot", "").strip()
+            or "rangeRef" not in record or "unlocatedReason" not in record):
+        raise ValueError(f"Missing distribution provenance fields: {id}")
+    if record["rangeRef"] is not None and (type(record["rangeRef"]) is not int or record["rangeRef"] <= 0):
+        raise ValueError(f"Invalid distribution reference: {id}")
     if not record.get("sourceUrl", "").startswith("https://") or not record.get("links"):
         raise ValueError(f"Missing native distribution source/location: {id}")
     seen = set()
@@ -61,6 +66,9 @@ def validate_distribution(id: str, record: dict, scientific: str, location_ids: 
             raise ValueError(f"Unknown or duplicate waterbody {place}: {id}")
         if not link["evidence"].strip() or not link["sourceUrl"].startswith("https://"):
             raise ValueError(f"Unsourced native relationship: {id}, {place}")
+        if "ecosystemCode" not in link or (link["ecosystemCode"] is not None
+                and (type(link["ecosystemCode"]) is not int or link["ecosystemCode"] <= 0)):
+            raise ValueError(f"Missing or invalid ecosystem provenance: {id}, {place}")
         seen.add(place)
 
 
@@ -110,6 +118,8 @@ def main():
                 profile["aliases"] = list(dict.fromkeys(alias.strip() for alias in aliases))
             id, scientific = profile["id"], profile["scientific"]
             row = by_key[profile["gbifKey"]]
+            if any(profile.get(field, "").strip() for field in ("intro", "distribution", "behavior")) and not profile.get("wikipediaUrl"):
+                raise ValueError(f"Wikipedia excerpts need their actual source URL: {scientific}")
             if row.get("curatedId") or row["scientific"] != scientific or row["family"] != profile["family"]:
                 raise ValueError(f"Photo taxonomy mismatch: {scientific}")
             photo = profile["photo"]

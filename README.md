@@ -23,17 +23,19 @@ Fish Atlas opens in **English by default**. Switch to **中文, Français, Deuts
 
 ## Content snapshot
 
-The bundled dataset, updated on **2026-10-14**, contains:
+The bundled dataset, updated on **2026-10-15**, contains:
 
 | Content | Coverage |
 | --- | --- |
-| Photo atlas | **287 species**, all linked to a named native waterbody |
+| Photo atlas | **379 species**, all linked to a named native waterbody |
 | Profiles with care references | **33 species**, available for comparison and aquarium planning |
-| Additional photo profiles | **254 species**, with incomplete care data; excluded from planning |
-| Taxonomy catalog | **3,697 records**, including **3,410 without photographs** |
+| Additional photo profiles | **346 species**, with incomplete care data; excluded from planning |
+| Taxonomy catalog | **3,786 records**, including **3,407 without photographs** |
 | Geographic background | **520 major basins** plus independent seas, lakes, and river systems |
-| Waterbodies linked to photo profiles | **203**: 94 GRDC basins, 47 seas, 25 lakes/lagoons, and 37 additional river systems |
+| Waterbodies linked to photo profiles | **338**: 210 GRDC basins, 47 seas, 37 lakes/lagoons, and 44 additional river systems |
 | Selected historical observations | **26 GBIF records**, with dates, precision, datasets, and licenses |
+
+The latest [blank-basin expansion](docs/blank-basin-expansion.md) adds 92 photo species and fills 116 previously empty major basins, prioritizing Africa, the Americas, Oceania, and South/West Asia. All 379 photo species have sourced native-waterbody links; 310 of the 520 major basins still have no verified photo-species association.
 
 The representative checklist of 111 common aquarium fish currently has 101 photo profiles and 10 catalog-only records. It is a selected checklist, not a complete inventory of aquarium species. See the [coverage table](docs/common-aquarium-fish-coverage.md) and [regional expansion notes](docs/regional-fish-expansion.md).
 

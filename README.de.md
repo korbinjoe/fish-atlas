@@ -24,13 +24,15 @@ Die Oberfläche startet **standardmäßig auf Englisch**. Über das Sprachmenü 
 
 | Bereich | Umfang |
 | --- | --- |
-| Artenprofile mit Foto | **287 Arten** |
+| Artenprofile mit Foto | **379 Arten** |
 | Profile mit Haltungsreferenzen, die im Planer verwendet werden können | **33 Arten** |
-| Fotoprofile ohne ausreichende Haltungsdaten | **254 Arten**, im Planer nicht auswählbar |
-| Taxonomischer Katalog | **3.697 Einträge**, davon **3.410 ohne Foto** |
+| Fotoprofile ohne ausreichende Haltungsdaten | **346 Arten**, im Planer nicht auswählbar |
+| Taxonomischer Katalog | **3.786 Einträge**, davon **3.407 ohne Foto** |
 | Geografie | **520 große Fluss- und Seeeinzugsgebiete** des GRDC und 4 ausgewählte Regionen |
 
-Alle 287 Arten mit Foto sind benannten, durch Quellen belegten Herkunftsgewässern zugeordnet. Der Katalog dient der taxonomischen Erkundung und ist keine Liste geeigneter Aquarienfische. Arten ohne Foto lassen sich im Katalog suchen, erscheinen aber nicht im Fotoatlas.
+Alle 379 Arten mit Foto sind benannten, durch Quellen belegten Herkunftsgewässern zugeordnet. Der Katalog dient der taxonomischen Erkundung und ist keine Liste geeigneter Aquarienfische. Arten ohne Foto lassen sich im Katalog suchen, erscheinen aber nicht im Fotoatlas.
+
+Die [aktuelle Erweiterung](docs/blank-basin-expansion.md) ergänzt 92 Arten mit Fotos und 116 zuvor leere Flusseinzugsgebiete. Für 210 der 520 großen Einzugsgebiete sind natürliche Vorkommen belegt; 310 haben noch keine zugeordneten Fotoprofile.
 
 ## Schnellstart
 
@@ -65,7 +67,7 @@ Ein Sprachwechsel aktualisiert Navigation, Filter, Artenprofile, geografische Na
 
 Die wichtigsten Beschreibungen und Haltungshinweise der 33 dokumentierten Artenprofile liegen in allen fünf Sprachen vor. Die Suche berücksichtigt chinesische und englische Namen, vorhandene Übersetzungen, Synonyme und wissenschaftliche Namen unabhängig von der Anzeigesprache.
 
-Wissenschaftliche Namen, Messwerte, Urheber, Lizenzen und Originalzitate bleiben den Quellen treu. Die Quellenauszüge der 254 zusätzlichen Fotoprofile sind nicht vollständig übersetzt. Rückmeldungen verwenden in der chinesischen Oberfläche ein chinesisches GitHub-Formular, in den übrigen Sprachen ein englisches. Einzelheiten stehen in der [Dokumentation zur Mehrsprachigkeit](docs/i18n.md).
+Wissenschaftliche Namen, Messwerte, Urheber, Lizenzen und Originalzitate bleiben den Quellen treu. Die Quellenauszüge der 346 zusätzlichen Fotoprofile sind nicht vollständig übersetzt. Rückmeldungen verwenden in der chinesischen Oberfläche ein chinesisches GitHub-Formular, in den übrigen Sprachen ein englisches. Einzelheiten stehen in der [Dokumentation zur Mehrsprachigkeit](docs/i18n.md).
 
 ## Daten richtig einordnen
 

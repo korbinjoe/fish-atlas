@@ -10,6 +10,9 @@ const byKey = new Map(catalog.map((row) => [row.key, row]));
 const ids = new Set<string>();
 const keys = new Set<number>();
 for (const profile of profiles) {
+  if ([profile.intro, profile.distribution, profile.behavior].some((text) => text.trim()) && !profile.wikipediaUrl) {
+    throw new Error(`Missing source for Wikipedia excerpts: ${profile.scientific}`);
+  }
   if (ids.has(profile.id) || keys.has(profile.gbifKey)) throw new Error(`Duplicate photo profile: ${profile.scientific}`);
   ids.add(profile.id);
   keys.add(profile.gbifKey);

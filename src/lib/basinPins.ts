@@ -31,6 +31,9 @@ function latitudeBand(fish: ExploreSpecies, location: WaterLocation): [number, n
     if (text.includes("southern") && !text.includes("northern")) return [-91, -6];
   }
   if (location.id === "lake-malawi" && text.includes("northwestern")) return [-11.7, 91];
+  // FishBase confines native Asian tench to western Yenisei south of 60°N.
+  // The catchment's generic centre is farther north than that supported range.
+  if (fish.scientific === "Tinca tinca" && location.id === "2117") return [-91, 60];
   return [-91, 91];
 }
 const displayAnchors = new Map<string, [number, number]>();

@@ -24,13 +24,15 @@ L'interface s'ouvre en **anglais par défaut**. Le menu de langue propose **Engl
 
 | Couche | Couverture |
 | --- | --- |
-| Fiches avec photo | **287 espèces** |
+| Fiches avec photo | **379 espèces** |
 | Fiches avec références de maintenance, utilisables dans le planificateur | **33 espèces** |
-| Fiches avec photo mais sans données de maintenance suffisantes | **254 espèces**, exclues du planificateur |
-| Catalogue taxonomique | **3 697 entrées**, dont **3 410 sans photo** |
+| Fiches avec photo mais sans données de maintenance suffisantes | **346 espèces**, exclues du planificateur |
+| Catalogue taxonomique | **3 786 entrées**, dont **3 407 sans photo** |
 | Géographie | **520 grands bassins fluviaux ou lacustres** du GRDC et 4 régions sélectionnées |
 
-Les 287 espèces photographiées sont associées à des milieux d'origine nommés et documentés. Le catalogue est une couche d'exploration taxonomique : il ne constitue pas une liste de poissons adaptés à l'aquarium. Une espèce sans photo reste consultable dans le catalogue, mais n'apparaît pas dans l'atlas photographique.
+Les 379 espèces photographiées sont associées à des milieux d'origine nommés et documentés. Le catalogue est une couche d'exploration taxonomique : il ne constitue pas une liste de poissons adaptés à l'aquarium. Une espèce sans photo reste consultable dans le catalogue, mais n'apparaît pas dans l'atlas photographique.
+
+La [dernière extension](docs/blank-basin-expansion.md) ajoute 92 espèces photographiées et renseigne 116 bassins auparavant vides. Au total, 210 des 520 grands bassins ont une association indigène vérifiée ; 310 restent sans fiche photographique associée.
 
 ## Démarrage rapide
 
@@ -65,7 +67,7 @@ Le changement de langue met à jour la navigation, les filtres, les fiches, les 
 
 Les principales descriptions et notes de maintenance des 33 fiches documentées sont traduites dans les cinq langues. La recherche reconnaît les noms chinois, anglais, les traductions disponibles, les alias et les noms scientifiques, quelle que soit la langue affichée.
 
-Les noms scientifiques, valeurs, auteurs, licences et citations originales restent fidèles aux sources. Les extraits des 254 fiches supplémentaires ne sont pas tous traduits. Les formulaires de contribution sont en chinois pour l'interface chinoise et en anglais pour les autres langues. Voir [l'implémentation multilingue](docs/i18n.md).
+Les noms scientifiques, valeurs, auteurs, licences et citations originales restent fidèles aux sources. Les extraits des 346 fiches supplémentaires ne sont pas tous traduits. Les formulaires de contribution sont en chinois pour l'interface chinoise et en anglais pour les autres langues. Voir [l'implémentation multilingue](docs/i18n.md).
 
 ## Interpréter les données
 

@@ -490,6 +490,32 @@
     }
   },
   {
+    "id": "wm-aequidens-tetramerus",
+    "gbifKey": 5208316,
+    "scientific": "Aequidens tetramerus",
+    "name": "鞍斑宝丽鱼",
+    "aliases": [
+      "鞍斑寶麗魚",
+      "鞍斑宝丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saddle_cichlid",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q130698",
+    "textLanguage": "en",
+    "intro": "The saddle cichlid (Aequidens tetramerus) is a species of cichlid from the tribe Cichlasomatini, part of the subfamily Cichlasomatinae from South America.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Gabriel Lelis Togni",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aequidens_tetramerus1.jpg",
+      "caption": "Brazil, Xingu river, Para, December 2012",
+      "path": "/media/wikimedia/aequidens-tetramerus.jpg"
+    }
+  },
+  {
     "id": "wm-agosia-chrysogaster",
     "gbifKey": 2359113,
     "scientific": "Agosia chrysogaster",
@@ -922,6 +948,32 @@
     }
   },
   {
+    "id": "wm-andinoacara-latifrons",
+    "gbifKey": 7856519,
+    "scientific": "Andinoacara latifrons",
+    "name": "宽体安迪丽鱼",
+    "aliases": [
+      "寬體安迪麗魚",
+      "宽体安迪丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Andinoacara_latifrons",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q20722418",
+    "textLanguage": "en",
+    "intro": "Andinoacara latifrons, the platinum acara, is a species of fish in the family Cichlidae in the order Perciformes, native to the Magdalena, Atrato, Sinú, and San Juan River basins in Colombia.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Ictiologia Universidad Católica de Oriente",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Andinoacara_latifrons_(16495110976).jpg",
+      "caption": "Andinoacara latifrons",
+      "path": "/media/wikimedia/andinoacara-latifrons.jpg"
+    }
+  },
+  {
     "id": "wm-andinoacara-pulcher",
     "gbifKey": 7525430,
     "scientific": "Andinoacara pulcher",
@@ -965,6 +1017,54 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Anguilla_anguilla_France_1.jpg",
       "caption": "Anguilla anguilla, Loup, Cagnes-sur-Mer, Provence-Alpes-Côte d'Azur, France"
+    }
+  },
+  {
+    "id": "wm-anguilla-bicolor",
+    "gbifKey": 5712355,
+    "scientific": "Anguilla bicolor",
+    "name": "双色鳗鲡",
+    "aliases": [
+      "双色鳗鲡"
+    ],
+    "family": "Anguillidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Anguilla_bicolor",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1329808",
+    "intro": "Anguilla bicolor is a species of eel in the genus Anguilla of the family Anguillidae, consisting of two subspecies.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "SSR2000",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Specimen_of_Anguilla_bicolor_pacifica.JPG",
+      "caption": "Specimen of Anguilla bicolor pacifica",
+      "path": "/media/wikimedia/anguilla-bicolor.jpg"
+    }
+  },
+  {
+    "id": "wm-anguilla-dieffenbachii",
+    "gbifKey": 5213018,
+    "scientific": "Anguilla dieffenbachii",
+    "name": "大鳗鲡",
+    "aliases": [
+      "大鳗鲡"
+    ],
+    "family": "Anguillidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/New_Zealand_longfin_eel",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q614800",
+    "intro": "The New Zealand longfin eel (Anguilla dieffenbachii) is a species of freshwater eel that is endemic to New Zealand. It is the largest freshwater eel in New Zealand and the only endemic species – the other eels found in New Zealand are the native shortfin eel (Anguilla australis), also found in Australia, and the naturally introduced Australian longfin eel (Anguilla reinhardtii). Longfin eels are long-lived, migrating to an unknown site in the tropical Pacific Ocean to breed at the end of their lives. They are good climbers as juveniles and so are found in streams and lakes a long way inland. An important traditional food source for Māori (who name them ōrea), longfin eel numbers are declining and they are classified as endangered, but over one hundred tonnes are still commercially fished each year.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:New_Zealand_longfin_eel_(Anguilla_dieffenbachii)_Piha.jpg",
+      "caption": "New Zealand longfin eel (Anguilla dieffenbachii), river behind Piha Beach, North Island, New Zealand",
+      "path": "/media/wikimedia/anguilla-dieffenbachii.jpg"
     }
   },
   {
@@ -1118,6 +1218,57 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Gelber_Buntbarsch.JPG",
       "caption": "Apistogramma sp., probably umbrella cichlid (Apistogramma borellii) or a hybrid thereof."
+    }
+  },
+  {
+    "id": "wm-apistogramma-steindachneri",
+    "gbifKey": 2371295,
+    "scientific": "Apistogramma steindachneri",
+    "name": "斯坦氏隐带丽鱼",
+    "aliases": [
+      "斯坦氏隱帶麗魚",
+      "斯坦氏隐带丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Apistogramma_steindachneri",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q128398",
+    "textLanguage": "es",
+    "intro": "Apistogramma steindachneri es una especie de peces de la familia Cichlidae en el orden de los Perciformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Jonathan (Jon) Armbruster",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apistogramma_steindachneri_Armbruster.jpg",
+      "caption": "Apistogramma steindachneri AUFT2145 GUY14-28 67mm",
+      "path": "/media/wikimedia/apistogramma-steindachneri.jpg"
+    }
+  },
+  {
+    "id": "wm-aplocheilus-panchax",
+    "gbifKey": 2347811,
+    "scientific": "Aplocheilus panchax",
+    "name": "巴基斯坦𫚥鳉",
+    "aliases": [
+      "巴基斯坦鰕鱂",
+      "巴基斯坦𫚥鳉"
+    ],
+    "family": "Aplocheilidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Blue_panchax",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2200326",
+    "intro": "The blue panchax or whitespot (Aplocheilus panchax) is a common freshwater fish found in a large variety of habitats due to its high adaptability. This species is native to southern Asia from Pakistan, India, Malaysia to Indonesia. It has been discovered in two hot springs in Singapore. The species also commonly spotted in Johor Bahru rivers and estuaries. Identified by a white-coloured spot on its head, the species can reach up to 9 cm (3.5 in) in length; it tends to keep to the surface of the water, and controls the mosquito population by feeding on their larvae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Sahat Ratmuangkhwang",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aplocheilus_panchax.jpg",
+      "caption": "Aplocheilus panchax, Thailand, Ranong, souther Thailand, 2012. Male specimen, 36,5 mm SL.",
+      "path": "/media/wikimedia/aplocheilus-panchax.jpg"
     }
   },
   {
@@ -1447,6 +1598,32 @@
     }
   },
   {
+    "id": "wm-brycon-moorei",
+    "gbifKey": 2353526,
+    "scientific": "Brycon moorei",
+    "name": "莫氏石脂鲤",
+    "aliases": [
+      "莫氏石脂鯉",
+      "莫氏石脂鲤"
+    ],
+    "family": "Bryconidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Brycon_moorei",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q11680333",
+    "textLanguage": "es",
+    "intro": "La dorada (Brycon moorei) es una especie de pez de la familia Characidae en el orden de los Characiformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Petruss",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brycon_moorei.jpg",
+      "caption": "Dorada (Brycon moorei) en el acuario del Zoológico de Cali, Colombia",
+      "path": "/media/wikimedia/brycon-moorei.jpg"
+    }
+  },
+  {
     "id": "wm-callichthys-callichthys",
     "gbifKey": 5202866,
     "scientific": "Callichthys callichthys",
@@ -1510,6 +1687,57 @@
     }
   },
   {
+    "id": "wm-caquetaia-kraussii",
+    "gbifKey": 2371467,
+    "scientific": "Caquetaia kraussii",
+    "name": "克氏卡奎丽鱼",
+    "aliases": [
+      "克氏卡奎麗魚",
+      "克氏卡奎丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Caquetaia_kraussii",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6424782",
+    "textLanguage": "en",
+    "intro": "Caquetaia kraussii is a species of fish endemic to the basin of the Atrato, Cauca, Magdalena, as well as the basin of Lake Maracaibo.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Ictiologia Universidad Católica de Oriente",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Caquetaia_kraussi_(16797021605).jpg",
+      "caption": "Caquetaia kraussi",
+      "path": "/media/wikimedia/caquetaia-kraussii.jpg"
+    }
+  },
+  {
+    "id": "wm-carasobarbus-luteus",
+    "gbifKey": 2360330,
+    "scientific": "Carasobarbus luteus",
+    "name": "黄体魮",
+    "aliases": [
+      "黃體魮",
+      "黄体魮"
+    ],
+    "family": "Cyprinidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mesopotamian_himri",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3768528",
+    "intro": "The Mesopotamian himri (Carasobarbus luteus) is a species of ray-finned fish in the genus Carasobarbus.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Borkenhagen K, Krupp F",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Carasobarbus_luteus_-_ZooKeys-339-001-g024.jpg",
+      "caption": "Carasobarbus luteus, live specimen from Nahr al Khābūr.",
+      "path": "/media/wikimedia/carasobarbus-luteus.jpg"
+    }
+  },
+  {
     "id": "wm-carassius-auratus",
     "gbifKey": 4286942,
     "scientific": "Carassius auratus",
@@ -1552,6 +1780,32 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:CarassiusCarassius8.JPG",
       "caption": "Crucian carp, around 6 months old, 7 cm, from Haarlem, the Netherlands. The eyespot at the base of the tail is fading a little."
+    }
+  },
+  {
+    "id": "wm-catostomus-bernardini",
+    "gbifKey": 2359039,
+    "scientific": "Catostomus bernardini",
+    "name": "伯氏亚口鱼",
+    "aliases": [
+      "伯氏亞口魚",
+      "伯氏亚口鱼"
+    ],
+    "family": "Catostomidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Yaqui_sucker",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q306990",
+    "textLanguage": "en",
+    "intro": "The Yaqui sucker (Catostomus bernardini) is a species of ray-finned fish in the family Catostomidae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Jacob Malcom",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Catostomus_bernardini.jpg",
+      "caption": "Catostomus bernardini - Yaqui sucker (middle) with Yaqui Catfish (left) and Roundtail Chub (right).",
+      "path": "/media/wikimedia/catostomus-bernardini.jpg"
     }
   },
   {
@@ -1735,6 +1989,31 @@
     ]
   },
   {
+    "id": "wm-channa-striata",
+    "gbifKey": 2391463,
+    "scientific": "Channa striata",
+    "name": "线鳢",
+    "aliases": [
+      "線鱧",
+      "线鳢"
+    ],
+    "family": "Channidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Channa_striata",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q686439",
+    "intro": "Channa striata, the striped snakehead, is a species of snakehead fish. It is also known as the common snakehead, chevron snakehead, or snakehead murrel and generally referred simply as mudfish. It is native to South and Southeast Asia, and has been introduced to some Pacific Islands. Reports from Madagascar and Hawaii are misidentifications of C. maculata.\n\nA genetic study published in 2017 indicates that C. striata is a species complex.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Wie146",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gabus_070909_0074_rwg.jpg",
+      "caption": "Snakehead murrel, Channa striata. From Banyumas, Central Java, Indonesia",
+      "path": "/media/wikimedia/channa-striata.jpg"
+    }
+  },
+  {
     "id": "wm-cheilinus-chlorourus",
     "gbifKey": 2383308,
     "scientific": "Cheilinus chlorourus",
@@ -1816,6 +2095,53 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Chelmonops_truncatus.jpg",
       "caption": "An Eastern Talma (Chelmonops truncatus). Fly Point, Port Stephens, NSW"
+    }
+  },
+  {
+    "id": "wm-chilatherina-fasciata",
+    "gbifKey": 2411723,
+    "scientific": "Chilatherina fasciata",
+    "name": "条纹唇银汉鱼",
+    "aliases": [
+      "條紋唇銀漢魚",
+      "条纹唇银汉鱼"
+    ],
+    "family": "Melanotaeniidae",
+    "water": "freshwater",
+    "wikipediaUrl": null,
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6413219",
+    "intro": "",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Dirk Godlinski",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chilatherina_fasciata_male.jpg",
+      "caption": "Barred Rainbowfish (Chilatherina fasciata) from Pagai Village (Mamberamo, West Papua) - male - in aquarium.",
+      "path": "/media/wikimedia/chilatherina-fasciata.jpg"
+    }
+  },
+  {
+    "id": "wm-chlamydogobius-eremius",
+    "gbifKey": 2379254,
+    "scientific": "Chlamydogobius eremius",
+    "name": "Chlamydogobius eremius",
+    "aliases": [],
+    "family": "Gobiidae",
+    "water": "freshwater",
+    "wikipediaUrl": null,
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q782041",
+    "intro": "",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "No machine-readable author provided. Annalog~commonswiki assumed (based on copyright claims).",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chlamydogobius_eremius.jpg",
+      "caption": "Desert goby, Chlamydogobius eremius, male",
+      "path": "/media/wikimedia/chlamydogobius-eremius.jpg"
     }
   },
   {
@@ -1933,6 +2259,61 @@
     }
   },
   {
+    "id": "wm-cichla-ocellaris",
+    "gbifKey": 5208153,
+    "scientific": "Cichla ocellaris",
+    "name": "眼点丽鱼",
+    "aliases": [
+      "皇冠三間",
+      "眼點麗魚",
+      "皇冠三间",
+      "眼点丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cichla_ocellaris",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q4889552",
+    "textLanguage": "en",
+    "intro": "Cichla ocellaris, sometimes known as the butterfly peacock bass (\"peacock bass\" is also used for some of its relatives), is a very large species of cichlid from South America, and a prized game fish.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "LuisGomez111 at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:ButterflyPeacockBass_01.jpg",
+      "caption": "Cichla monoculus en:Category:Cichlid images",
+      "path": "/media/wikimedia/cichla-ocellaris.jpg"
+    }
+  },
+  {
+    "id": "wm-clarias-gariepinus",
+    "gbifKey": 5202793,
+    "scientific": "Clarias gariepinus",
+    "name": "尖齿胡鲶",
+    "aliases": [
+      "尖齿胡鲶",
+      "尖齒鬍鯰",
+      "革胡子鲶"
+    ],
+    "family": "Clariidae",
+    "water": "freshwater",
+    "intro": "Clarias gariepinus or African sharptooth catfish is a species of catfish of the family Clariidae, the airbreathing catfishes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/clarias-gariepinus.jpg",
+      "author": "W.A. Djatmiko (Wie146)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Clarias_garie_080516_9166_H_tdp.jpg",
+      "caption": "Clarias gariepinus. Bogor, West Java, Indonesia."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Clarias_gariepinus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q387344",
+    "textLanguage": "en"
+  },
+  {
     "id": "wm-cleithracara-maronii",
     "gbifKey": 2373115,
     "scientific": "Cleithracara maronii",
@@ -2019,6 +2400,32 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Cobitis_bilineata_France_(cropped).jpg",
       "caption": "Cobitis bilineata, Kembs, France"
     }
+  },
+  {
+    "id": "wm-coptodon-zillii",
+    "gbifKey": 2370703,
+    "scientific": "Coptodon zillii",
+    "name": "齐氏非鲫",
+    "aliases": [
+      "齊氏非鯽",
+      "齐氏非鲫"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "intro": "The redbelly tilapia (Coptodon zillii, syn.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/coptodon-zillii.jpg",
+      "author": "SuperJew",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Fish.jpg",
+      "caption": "A St. Peter's Fish (Tilapia zilli) at the Jerusalem Biblical Zoo."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Redbelly_tilapia",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q137396",
+    "textLanguage": "en"
   },
   {
     "id": "wm-coradion-altivelis",
@@ -2281,6 +2688,32 @@
     }
   },
   {
+    "id": "wm-ctenolucius-hujeta",
+    "gbifKey": 2355989,
+    "scientific": "Ctenolucius hujeta",
+    "name": "钝吻魣脂鲤",
+    "aliases": [
+      "鈍吻魣脂鯉",
+      "钝吻魣脂鲤"
+    ],
+    "family": "Ctenoluciidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ctenolucius_hujeta",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6421320",
+    "textLanguage": "en",
+    "intro": "Ctenolucius hujeta, the silver gar, rocket gar, hujeta gar and freshwater barracuda, is a species of freshwater ray-finned fish belonging to the family Ctenoluciidae, the pike-characins.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "T.Voekler",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Freshwater_Barracuda_-_Ctenolucius_hujeta.png",
+      "caption": "Scientific Name: Ctenolucius hujeta.\nCommon: Freshwater Barracuda.",
+      "path": "/media/wikimedia/ctenolucius-hujeta.png"
+    }
+  },
+  {
     "id": "wm-ctenopharyngodon-idella",
     "gbifKey": 2362030,
     "scientific": "Ctenopharyngodon idella",
@@ -2306,6 +2739,32 @@
       "鲩鱼",
       "鯇魚"
     ]
+  },
+  {
+    "id": "wm-ctenopoma-acutirostre",
+    "gbifKey": 5210826,
+    "scientific": "Ctenopoma acutirostre",
+    "name": "小点非洲攀鲈",
+    "aliases": [
+      "小点非洲攀鲈",
+      "小點非洲攀鱸"
+    ],
+    "family": "Anabantidae",
+    "water": "freshwater",
+    "intro": "The leopard bush fish (Ctenopoma acutirostre), also known as leopard bushfish, spotted ctenopoma, leopard ctenopoma, spotted climbing perch, spotted leaf fish, spotted cichlid or spotted bushfish, is a freshwater fish.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/ctenopoma-acutirostre.jpg",
+      "author": "Zaire",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leopard-Buschfisch.jpg",
+      "caption": "Leopard-Buschfisch (Ctenopoma acutirostre)"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Leopard_bush_fish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1819560",
+    "textLanguage": "en"
   },
   {
     "id": "wm-culter-alburnus",
@@ -2448,6 +2907,33 @@
     }
   },
   {
+    "id": "wm-devario-aequipinnatus",
+    "gbifKey": 2361515,
+    "scientific": "Devario aequipinnatus",
+    "name": "波条鿕",
+    "aliases": [
+      "波條(魚丹)",
+      "波条(鱼丹)",
+      "波条鱼丹",
+      "波条鿕"
+    ],
+    "family": "Cyprinidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Giant_danio",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q637325",
+    "intro": "The giant danio (Devario aequipinnatus) is a species of freshwater ray-finned fish in the family Danionidae, native to parts of South and Southeast Asia. With a maximum length of about 15 cm (5.9 in), it is one of the largest species in the family. It may be found in the aquarium trade.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Faucon",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Devario_aequipinnatus.JPG",
+      "caption": "Giant Danio, Devario aequipinnatus",
+      "path": "/media/wikimedia/devario-aequipinnatus.jpg"
+    }
+  },
+  {
     "id": "wm-dicentrarchus-labrax",
     "gbifKey": 2394622,
     "scientific": "Dicentrarchus labrax",
@@ -2557,6 +3043,62 @@
     }
   },
   {
+    "id": "wm-enteromius-paludinosus",
+    "gbifKey": 9264695,
+    "scientific": "Enteromius paludinosus",
+    "name": "直鳍魮",
+    "aliases": [
+      "直鳍魮",
+      "双线魮",
+      "泰坦魮",
+      "直鰭魮",
+      "雙線魮",
+      "Barbus paludinosus"
+    ],
+    "family": "Cyprinidae",
+    "water": "freshwater",
+    "intro": "The straightfin barb (Enteromius paludinosus) is a species of ray-finned fish in the  family Cyprinidae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/enteromius-paludinosus.jpg",
+      "author": "Englmaier GK, Tesfaye G, Bogutskaya NG (2020) A new species of Enteromius (Actinopterygii, Cyprinidae, Smiliogastrinae) from the Awash River, Ethiopia, and the re-establishment of E. akakianus. ZooKeys 902: 107-150. https://doi.org/10.3897/zookeys.902.39606",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Enteromius_paludinosus_(10.3897-zookeys.902.39606)_Figure_13.jpg",
+      "caption": "Figure 13; General appearance of Enteromius paludinosus (same specimen as Fig. 10C) The Trustees of the Natural History Museum, London."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Straightfin_barb",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1522428",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-erpetoichthys-calabaricus",
+    "gbifKey": 2346564,
+    "scientific": "Erpetoichthys calabaricus",
+    "name": "芦鳗",
+    "aliases": [
+      "蘆鰻",
+      "芦鳗"
+    ],
+    "family": "Polypteridae",
+    "water": "freshwater",
+    "intro": "The reedfish, ropefish (more commonly used in the United States), or snakefish, Erpetoichthys calabaricus, is a species of fish in the family Polypteridae alongside the bichirs.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/erpetoichthys-calabaricus.jpg",
+      "author": "Michał Zalewski",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Akwa19_reedfish.jpg",
+      "caption": "en:Reedfish"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Reedfish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q549760",
+    "textLanguage": "en"
+  },
+  {
     "id": "wm-esox-lucius",
     "gbifKey": 2346633,
     "scientific": "Esox lucius",
@@ -2632,6 +3174,31 @@
     }
   },
   {
+    "id": "wm-etroplus-suratensis",
+    "gbifKey": 2372834,
+    "scientific": "Etroplus suratensis",
+    "name": "绿腹丽鱼",
+    "aliases": [
+      "綠腹麗魚",
+      "绿腹丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "brackish",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Green_chromide",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1519619",
+    "intro": "The green chromide (Etroplus suratensis) is a species of cichlid fish that is native to fresh and brackish water habitats in some parts in India such as Kerala, Goa, Chilika Lake in Odisha and Sri Lanka. The species was first described by Marcus Elieser Bloch in 1790. This species and other members of the genus Etroplus are relatively closely related to the Paretroplus cichlids from Madagascar.\n\nOther common names include pearlspot cichlid, banded pearlspot, and striped chromide. In Kerala, it is known locally as karimeen. In Tamil Nadu, it is known locally as the pappan or pappa. In Goa, the fish is known as kalundar. In Odisha, the local name is kundal. In Sri Lanka this fish is known as Mal koraliya.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Peter Corbett",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Etroplus_suratensis.jpg",
+      "caption": "Green chromide (Etroplus suratensis)",
+      "path": "/media/wikimedia/etroplus-suratensis.jpg"
+    }
+  },
+  {
     "id": "wm-gadus-morhua",
     "gbifKey": 8084280,
     "scientific": "Gadus morhua",
@@ -2657,6 +3224,82 @@
     }
   },
   {
+    "id": "wm-galaxias-brevipinnis",
+    "gbifKey": 5214227,
+    "scientific": "Galaxias brevipinnis",
+    "name": "短鳍南乳鱼",
+    "aliases": [
+      "短鰭南乳魚",
+      "短鳍南乳鱼"
+    ],
+    "family": "Galaxiidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Climbing_galaxias",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2067492",
+    "intro": "The climbing galaxias or kōaro (Galaxias brevipinnis) is a fish of the family Galaxiidae found in Australia, New Zealand, and nearby islands. The name climbing galaxias is used in Australia, and koaro or kōaro in New Zealand. Further vernacular names include short-finned galaxias, broad-finned galaxias, Cox's mountain galaxias, and Pieman galaxias.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "StellaMcQ",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Juvenile_koaro,_photo_by_Stella_McQueen.jpg",
+      "caption": "Juvenile koaro (Galaxias brevipinnis) from the Manawatu region. Taken in an aquarium.",
+      "path": "/media/wikimedia/galaxias-brevipinnis.jpg"
+    }
+  },
+  {
+    "id": "wm-galaxias-maculatus",
+    "gbifKey": 5214265,
+    "scientific": "Galaxias maculatus",
+    "name": "大斑南乳鱼",
+    "aliases": [
+      "大斑南乳魚",
+      "大斑南乳鱼"
+    ],
+    "family": "Galaxiidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Common_galaxias",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q44229",
+    "intro": "The common galaxias (Galaxias maculatus) or inanga (from the Māori īnanga or īnaka) is a species of ray-finned fish from the family Galaxiidae that is widespread in the Southern Hemisphere. It is migratory, living in fresh water but spawning at river mouths, spending the first six months of its life at sea, and returning en masse in spring. Its vernacular names include cowfish, jollytail, common jollytail, eel gudgeon, inaka, native trout, pulangi, puye, slippery tarki, spotted minnow, Falklands minnow and whitebait.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Shaun Lee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Inanga.jpg",
+      "caption": "Photographed in Selwyn Bush, Auckland New Zealand",
+      "path": "/media/wikimedia/galaxias-maculatus.jpg"
+    }
+  },
+  {
+    "id": "wm-galaxias-platei",
+    "gbifKey": 5214305,
+    "scientific": "Galaxias platei",
+    "name": "普拉特南乳鱼",
+    "aliases": [
+      "普拉特南乳魚",
+      "普拉特南乳鱼"
+    ],
+    "family": "Galaxiidae",
+    "water": "brackish",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Galaxias_platei",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q44510",
+    "textLanguage": "en",
+    "intro": "Galaxias platei is a ray-finned fish of the genus Galaxias.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "(c) Inao Vasquez, some rights reserved (CC BY)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Plate%27s_Galaxias,_Vicente_P%C3%A9rez_Rosales_-_Avenida_Presidente_Jorge_Alessandri,_Llanquihue,_Los_Lagos,_Chile_imported_from_iNaturalist_photo_113175422.jpg",
+      "caption": "Photo of Plate's Galaxias uploaded from iNaturalist.",
+      "path": "/media/wikimedia/galaxias-platei.jpg"
+    }
+  },
+  {
     "id": "wm-garra-flavatra",
     "gbifKey": 2366783,
     "scientific": "Garra flavatra",
@@ -2675,6 +3318,52 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Panda_Garra.jpg",
       "caption": "Panda Garra"
+    }
+  },
+  {
+    "id": "wm-garra-mullya",
+    "gbifKey": 2366755,
+    "scientific": "Garra mullya",
+    "name": "Garra mullya",
+    "aliases": [],
+    "family": "Cyprinidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Garra_mullya",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q616489",
+    "intro": "The mullya garra (Garra mullya) or sucker fish is a species of ray-finned fish in the genus Garra. It is found in streams and rivers throughout India except for Assam and the Himalayas. Reports of the species from Nepal have not been verified.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Girish Gowda",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Garra_mullya.jpg",
+      "caption": "Adult photographed from aumbe.",
+      "path": "/media/wikimedia/garra-mullya.jpg"
+    }
+  },
+  {
+    "id": "wm-garra-rufa",
+    "gbifKey": 2366850,
+    "scientific": "Garra rufa",
+    "name": "淡红墨头鱼",
+    "aliases": [
+      "淡红墨头鱼"
+    ],
+    "family": "Cyprinidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Red_garra",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q908440",
+    "intro": "The red garra (Garra rufa), also known as the doctor fish or nibble fish, is a species of cyprinid native to a wide range of freshwater habitats in subtropical parts of Western Asia. This small fish typically is up to about 14 cm (5.5 in) in total length, but some individuals can reach as much as 24 cm (9.5 in).\n\nIn the wild, G. rufa feeds on detritus, algae, and tiny animals (arthropods and other zooplankton).",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Dances",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Garra_Rufa.JPG",
+      "caption": "Garra rufa",
+      "path": "/media/wikimedia/garra-rufa.jpg"
     }
   },
   {
@@ -2699,6 +3388,58 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Dreistachliger_Stichling_unterwasser.jpg",
       "caption": "Unterwasseraufnahme des Dreistachligen Stichling"
+    }
+  },
+  {
+    "id": "wm-geophagus-steindachneri",
+    "gbifKey": 5208440,
+    "scientific": "Geophagus steindachneri",
+    "name": "斯氏珠母丽鱼",
+    "aliases": [
+      "斯氏珠母麗魚",
+      "斯氏珠母丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Redhump_eartheater",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q130214",
+    "textLanguage": "en",
+    "intro": "The redhump eartheater (Geophagus steindachneri) is a species of eartheater cichlid from freshwater habitats in northwestern South America.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Хомелка",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Geophagus_steindachneri_in_Tropicarium-Oceanarium_Budapest.jpg",
+      "caption": "Geophagus steindachneri in Tropicarium-Oceanarium Budapest",
+      "path": "/media/wikimedia/geophagus-steindachneri.jpg"
+    }
+  },
+  {
+    "id": "wm-geophagus-surinamensis",
+    "gbifKey": 5208434,
+    "scientific": "Geophagus surinamensis",
+    "name": "苏里南珠母丽鱼",
+    "aliases": [
+      "蘇里南珠母麗魚",
+      "苏里南珠母丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Geophagus_surinamensis",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q128345",
+    "textLanguage": "es",
+    "intro": "Geophagus surinamensis es una especie de peces de la familia Cichlidae en el orden de los Perciformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Lerdsuwa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Geophagus_surinamensis.jpg",
+      "caption": "A Geophagus surinamensis from The 6th \"Pramong Nomjai Thaituala\" Thailand Tropical Fish Competition 2007.",
+      "path": "/media/wikimedia/geophagus-surinamensis.jpg"
     }
   },
   {
@@ -2773,6 +3514,31 @@
     }
   },
   {
+    "id": "wm-gila-purpurea",
+    "gbifKey": 2360079,
+    "scientific": "Gila purpurea",
+    "name": "紫骨尾鱼",
+    "aliases": [
+      "紫骨尾鱼"
+    ],
+    "family": "Cyprinidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Yaqui_chub",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q305651",
+    "textLanguage": "en",
+    "intro": "The Yaqui chub (Gila purpurea) is a species of freshwater ray-finned fish belonging to the family Leuciscidae, which includes the daces, chubs, Eurasian minnows, and related species.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "USFWS",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-FWS",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gila_purpurea.jpg",
+      "caption": "Gila purpurea",
+      "path": "/media/wikimedia/gila-purpurea.jpg"
+    }
+  },
+  {
     "id": "wm-gila-robusta",
     "gbifKey": 2360128,
     "scientific": "Gila robusta",
@@ -2816,6 +3582,31 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Melanotaeniidae_-_Glossolepis_incisus.JPG",
       "caption": "Male of Glossolepis incisus"
+    }
+  },
+  {
+    "id": "wm-glossolepis-multisquamata",
+    "gbifKey": 5214491,
+    "scientific": "Glossolepis multisquamata",
+    "name": "多舌鳞银汉鱼",
+    "aliases": [
+      "多舌鱗銀漢魚",
+      "多舌鳞银汉鱼"
+    ],
+    "family": "Melanotaeniidae",
+    "water": "freshwater",
+    "wikipediaUrl": null,
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6412962",
+    "intro": "",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Rino Porrovecchio from Palermo, Italy",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Glossolepis_multisquamatus_at_Berlin_acquarium_(2521285743).jpg",
+      "caption": "Berlin, DEU",
+      "path": "/media/wikimedia/glossolepis-multisquamata.jpg"
     }
   },
   {
@@ -2884,6 +3675,58 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Gramma_loreto,_Fairy_Basslet.jpg",
       "caption": "Gramma loreto, Fairy Basslet"
     }
+  },
+  {
+    "id": "wm-guianacara-owroewefi",
+    "gbifKey": 2370795,
+    "scientific": "Guianacara owroewefi",
+    "name": "欧氏圭亚那丽鱼",
+    "aliases": [
+      "歐氏圭亞那麗魚",
+      "欧氏圭亚那丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Guianacara_owroewefi",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q130474",
+    "textLanguage": "es",
+    "intro": "Guianacara owroewefi es una especie de peces de la familia Cichlidae en el orden de los Perciformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Julien Renoult",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Guianacara_owroewefi_5587337.jpg",
+      "caption": "Blue Guianacara (Guianacara owroewefi)",
+      "path": "/media/wikimedia/guianacara-owroewefi.jpg"
+    }
+  },
+  {
+    "id": "wm-gymnarchus-niloticus",
+    "gbifKey": 2402253,
+    "scientific": "Gymnarchus niloticus",
+    "name": "裸臀鱼",
+    "aliases": [
+      "裸臀鱼",
+      "裸臀魚"
+    ],
+    "family": "Gymnarchidae",
+    "water": "freshwater",
+    "intro": "Gymnarchus niloticus – the aba,  aba aba or frankfish – is an electric fish, living at the bottoms of rivers and lakes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/gymnarchus-niloticus.jpg",
+      "author": "Wiki-Harfus; modified by Wildfeuer",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gymnarchus007.JPG",
+      "caption": "Gymnarchus niloticus (Großnilhecht)"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gymnarchus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q18510882",
+    "textLanguage": "en"
   },
   {
     "id": "wm-gymnocephalus-cernua",
@@ -3135,6 +3978,32 @@
     }
   },
   {
+    "id": "wm-hemiodus-quadrimaculatus",
+    "gbifKey": 2354872,
+    "scientific": "Hemiodus quadrimaculatus",
+    "name": "四斑半齿脂鲤",
+    "aliases": [
+      "四斑半齒脂鯉",
+      "四斑半齿脂鲤"
+    ],
+    "family": "Hemiodontidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Hemiodus_quadrimaculatus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q5556116",
+    "textLanguage": "es",
+    "intro": "Hemiodus quadrimaculatus es una especie de peces de la familia Hemiodontidae en el orden de los Characiformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Jonathan (Jon) Armbruster",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hemiodus_quadrimaculatus_Armbruster.jpg",
+      "caption": "Hemiodus quadrimaculatus GUY14-29 115mm",
+      "path": "/media/wikimedia/hemiodus-quadrimaculatus.jpg"
+    }
+  },
+  {
     "id": "wm-hesperoleucus-symmetricus",
     "gbifKey": 2360051,
     "scientific": "Hesperoleucus symmetricus",
@@ -3160,6 +4029,58 @@
     }
   },
   {
+    "id": "wm-heterobranchus-longifilis",
+    "gbifKey": 5202831,
+    "scientific": "Heterobranchus longifilis",
+    "name": "长丝异鳃鲶",
+    "aliases": [
+      "長絲異鰓鯰",
+      "长丝异鳃鲶"
+    ],
+    "family": "Clariidae",
+    "water": "freshwater",
+    "intro": "The vundu (Heterobranchus longifilis) is a species of large airbreathing catfish found widely in rivers and other freshwater habitats of sub-Saharan Africa, as well as the Nile.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/heterobranchus-longifilis.jpg",
+      "author": "John P. Friel Ph.D.",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Heterobranchus_longifilis_53146551.jpg",
+      "caption": "Vundu (Heterobranchus longifilis)"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Vundu",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1856859",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-heterotis-niloticus",
+    "gbifKey": 5212880,
+    "scientific": "Heterotis niloticus",
+    "name": "尼罗异耳骨舌鱼",
+    "aliases": [
+      "尼羅異耳骨舌魚",
+      "尼罗异耳骨舌鱼"
+    ],
+    "family": "Arapaimidae",
+    "water": "freshwater",
+    "intro": "The African arowana or Nile arowana (Heterotis niloticus) is a species of bonytongue.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/heterotis-niloticus.png",
+      "author": "Brent Tibbatts",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Heterotis_niloticus.png",
+      "caption": "Heterotis niloticus\nPublic aquarium Singapore 10-9-2015 60cm"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/African_arowana",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q387247",
+    "textLanguage": "en"
+  },
+  {
     "id": "wm-hiodon-alosoides",
     "gbifKey": 2402320,
     "scientific": "Hiodon alosoides",
@@ -3182,6 +4103,58 @@
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Goldeye_Hiodon_alosoides.jpg",
       "caption": "Goldeye (Hiodon alosoides) photographed at Gavins Point National Fish Hatchery in Yankton, South Dakota.\nPhoto: Sam Stukel/USFWS"
+    }
+  },
+  {
+    "id": "wm-hoplias-microlepis",
+    "gbifKey": 2352250,
+    "scientific": "Hoplias microlepis",
+    "name": "小鳞利齿脂鲤",
+    "aliases": [
+      "小鱗利齒脂鯉",
+      "小鳞利齿脂鲤"
+    ],
+    "family": "Erythrinidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hoplias_microlepis",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6411089",
+    "textLanguage": "en",
+    "intro": "Hoplias microlepis, the smallscale wolffish, is a species of freshwater ray-finned fish belonging to the family Erythrinidae, the trahiras.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "The Trustees of the Natural History Museum, London",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hoplias_microlepis_BMNH_1864.1.26.309.tif",
+      "caption": "Paralectotype of H. microlepis in the Natural History Museum, London.\nCatalogue number:\t1864.1.26.309",
+      "path": "/media/wikimedia/hoplias-microlepis.jpg"
+    }
+  },
+  {
+    "id": "wm-hoplosternum-magdalenae",
+    "gbifKey": 2342515,
+    "scientific": "Hoplosternum magdalenae",
+    "name": "马格达护胸鲶",
+    "aliases": [
+      "馬格達護胸鯰",
+      "马格达护胸鲶"
+    ],
+    "family": "Callichthyidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hoplosternum_magdalenae",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q969384",
+    "textLanguage": "en",
+    "intro": "Hoplosternum magdalenae, the striped hoplo, is a species of freshwater ray-finned fish belonging to the subfamily Callichthyinae of the family Callichthyidae, the armoured catfishes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Ricardo Álvarez Zamora",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hoplosternum_magdalenae.png",
+      "caption": "Hoplosternum magdalenae",
+      "path": "/media/wikimedia/hoplosternum-magdalenae.png"
     }
   },
   {
@@ -3235,6 +4208,109 @@
     ]
   },
   {
+    "id": "wm-hybognathus-placitus",
+    "gbifKey": 2364391,
+    "scientific": "Hybognathus placitus",
+    "name": "素色突颌鱼",
+    "aliases": [
+      "素色突頜魚",
+      "素色突颌鱼"
+    ],
+    "family": "Cyprinidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Plains_minnow",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1150934",
+    "textLanguage": "en",
+    "intro": "The plains minnow (Hybognathus placitus) is a species of freshwater ray-finned fish belonging to the family Leuciscidae, the shiners, daces and minnows.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Niall Clancy",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hybognathus_placitus.jpg",
+      "caption": "Plains minnow (Hybognathus placitus)",
+      "path": "/media/wikimedia/hybognathus-placitus.jpg"
+    }
+  },
+  {
+    "id": "wm-hydrocynus-brevis",
+    "gbifKey": 2356188,
+    "scientific": "Hydrocynus brevis",
+    "name": "短身狗脂鲤",
+    "aliases": [
+      "短身狗脂鯉",
+      "短身狗脂鲤"
+    ],
+    "family": "Alestidae",
+    "water": "freshwater",
+    "intro": "Hydrocynus brevis, also known as the tigerfish, Nile tigerfish or Sahelian tigerfish, is a predatory freshwater fish distributed throughout northern Africa.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/hydrocynus-brevis.jpg",
+      "author": "Sablegsd",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrocynus_brevis.jpg",
+      "caption": "\"Billy Badass\" the Hydrocynus brevis at about six inches long.  I will update this file as he grows."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hydrocynus_brevis",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2305702",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-hydrocynus-forskahlii",
+    "gbifKey": 2356166,
+    "scientific": "Hydrocynus forskahlii",
+    "name": "福氏狗脂鲤",
+    "aliases": [
+      "福氏狗脂鯉",
+      "福氏狗脂鲤"
+    ],
+    "family": "Alestidae",
+    "water": "freshwater",
+    "intro": "Hydrocynus forskahlii, the elongate tigerfish, is a species of predatory characin from the family Alestidae which is found in northern and western Africa.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/hydrocynus-forskahlii.jpg",
+      "author": "Sablegsd",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrocynus_forskahlii.jpg",
+      "caption": "I recognize that this isn't the best quality image, but unfortunately my photography skills and my involvement in the aquarium community didn't develop at the same time.  In spite of the quality of the image that I've had to use here, I feel that this image is unique and could potentially contribute to the site.\nHydrocynus forskahlii.\n\nFish pictured here was between five and six inches (13-15 cm) in length."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hydrocynus_forskahlii",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2128982",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-hydrocynus-vittatus",
+    "gbifKey": 2356183,
+    "scientific": "Hydrocynus vittatus",
+    "name": "虎鱼",
+    "aliases": [
+      "虎鱼"
+    ],
+    "family": "Alestidae",
+    "water": "freshwater",
+    "intro": "Hydrocynus vittatus, the African tigerfish, tiervis or ngwesh is a freshwater fish distributed throughout much of Africa.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/hydrocynus-vittatus.jpg",
+      "author": "Totti",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrocynus_vittatus_Gifu.jpg",
+      "caption": "タイガーフィッシュ。アクア・トトぎふ飼育展示個体。"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hydrocynus_vittatus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q596263",
+    "textLanguage": "en"
+  },
+  {
     "id": "wm-hypancistrus-zebra",
     "gbifKey": 2339299,
     "scientific": "Hypancistrus zebra",
@@ -3274,6 +4350,32 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyphessobrycon_amandae_A.jpg",
       "caption": "Hyphessobrycon amandae"
+    }
+  },
+  {
+    "id": "wm-hyphessobrycon-flammeus",
+    "gbifKey": 2354538,
+    "scientific": "Hyphessobrycon flammeus",
+    "name": "火焰魮脂鲤",
+    "aliases": [
+      "火焰魮脂鯉",
+      "火焰魮脂鲤"
+    ],
+    "family": "Characidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Flame_tetra",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q969545",
+    "textLanguage": "en",
+    "intro": "The flame tetra (Hyphessobrycon flammeus), also known as the red tetra or Rio tetra, is a species of freshwater ray-finned fish in the family Acestrorhamphidae, the American tetras.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "(c) Igor Balashov, some rights reserved (CC BY)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyphessobrycon_flammeus,_%D0%91%D0%B5%D1%81%D0%B0%D1%80%D0%B0%D0%B1%D0%BA%D0%B0,_%D0%9A%D0%B8%D1%97%D0%B2,_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0,_02000_imported_from_iNaturalist_photo_319666874.jpg",
+      "caption": "Photo of Hyphessobrycon flammeus (undefined) uploaded from iNaturalist.",
+      "path": "/media/wikimedia/hyphessobrycon-flammeus.jpg"
     }
   },
   {
@@ -3379,6 +4481,32 @@
     ]
   },
   {
+    "id": "wm-hypsolebias-antenori",
+    "gbifKey": 8091606,
+    "scientific": "Hypsolebias antenori",
+    "name": "安氏高鳉",
+    "aliases": [
+      "安氏高鱂",
+      "安氏高鳉"
+    ],
+    "family": "Rivulidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Hypsolebias_antenori",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q18107487",
+    "textLanguage": "es",
+    "intro": "Hypsolebias antenori, es una especie de pez actinopeterigio de agua dulce, de la familia de los rivulines.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Diego de Medeiros Bento",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hypsolebias_antenori,_Parque_Nacional_da_Furna_Feia,_Diego_Bento.jpg",
+      "caption": "Peixe anual (Hypsolebias antenori), no Parque Nacional da Furna Feia, de nível Federal, localizado em Baraúna (RN)",
+      "path": "/media/wikimedia/hypsolebias-antenori.jpg"
+    }
+  },
+  {
     "id": "wm-ictalurus-furcatus",
     "gbifKey": 5202525,
     "scientific": "Ictalurus furcatus",
@@ -3426,6 +4554,56 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Channel_Catfish.jpg",
       "caption": "Ictalurus punctatus. \nTaken at the Virginia Living Museum."
     }
+  },
+  {
+    "id": "wm-lates-calcarifer",
+    "gbifKey": 2393172,
+    "scientific": "Lates calcarifer",
+    "name": "尖吻鲈",
+    "aliases": [
+      "尖吻鲈"
+    ],
+    "family": "Latidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Barramundi",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q74411",
+    "intro": "The barramundi (Lates calcarifer), Asian sea bass, Asian sea lates, giant sea lates, or giant sea perch (also known as dangri, kalanji, apahap, siakap, or chonok) is a species of catadromous fish in the family Latidae of the order Carangiformes. The species is widely distributed in the Indo-West Pacific, spanning the waters of the Middle East, South Asia, Southeast Asia, East Asia, and Oceania.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Mitch Ames",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lates_calcarifer,_2014-09-19a.jpg",
+      "caption": "Lates calcarifer (Barramundi) at the National Zoo & Aquarium in Canberra, Australia",
+      "path": "/media/wikimedia/lates-calcarifer.jpg"
+    }
+  },
+  {
+    "id": "wm-lates-niloticus",
+    "gbifKey": 2393184,
+    "scientific": "Lates niloticus",
+    "name": "尼罗尖吻鲈",
+    "aliases": [
+      "尼羅尖吻鱸",
+      "尼罗尖吻鲈"
+    ],
+    "family": "Latidae",
+    "water": "freshwater",
+    "intro": "The Nile perch (Lates niloticus), also known as the African snook, Goliath perch, Nile lates, African lates, Goliath lates, Victoria lates, African barramundi, Goliath barramundi, Giant lates or the Victoria perch, is a species of freshwater fish in the family Latidae of the order Carangiformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/lates-niloticus.jpg",
+      "author": "Daiju Azuma",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lates_niloticus_by_DaijuAzuma.jpg",
+      "caption": "ja:ナイルパーチ en:Nile perch\nDomain: Eukaryota • Regnum: Animalia • Phylum: Chordata • Subphylum: Vertebrata • Infraphylum: Gnathostomata • Cladus: Osteichthyes • Classis: Actinopterygii • Ordo: Perciformes • Familia: Centropomidae • Genus: Lates\n\n\n\n\n\nWikispecies has an entry on:  Lates niloticus.\n\nSpecies\nLates niloticus (Linnaeus, 1758)\n動物界 脊索動物門 条鰭綱 スズキ目 アカメ科 アカメ属 \n\n\nLocation: 滋賀県立琵琶湖博物館 / Lake Biwa Museum\nOther photos: http://opencage.info/pics/Lates_niloticus.asp\nNCBI Taxonomy ID:29147\nITIS link: Lates niloticus (Linnaeus, 1758) \nEOL link: Lates niloticus \nuBio search link: Lates niloticus"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nile_perch",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q654130",
+    "textLanguage": "en"
   },
   {
     "id": "wm-lepisosteus-osseus",
@@ -3622,6 +4800,81 @@
     }
   },
   {
+    "id": "wm-maccullochella-peelii",
+    "gbifKey": 2380484,
+    "scientific": "Maccullochella peelii",
+    "name": "墨瑞鳕",
+    "aliases": [
+      "墨瑞鱈",
+      "墨瑞鳕"
+    ],
+    "family": "Percichthyidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Murray_cod",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q23366",
+    "intro": "The Murray cod (Maccullochella peelii) is a large Australian predatory freshwater fish of the genus Maccullochella in the family Percichthyidae. Although the species is called a cod in the vernacular, it is not related to the Northern Hemisphere marine cod (Gadus) species. The Murray cod is an important part of Australia's vertebrate wildlife—as an apex predator in the Murray-Darling River system—and also significant in Australia's human culture. The Murray cod is the largest exclusively freshwater fish in Australia, and one of the largest in the world. Other common names for Murray cod include cod, greenfish, goodoo, Mary River cod, Murray perch, ponde, pondi and Queensland freshwater cod.\n\nThe scientific name of Murray cod derives from an early Australian fish researcher Allan Riverstone McCulloch and the river from which the explorer Major Mitchell first scientifically described the species, the Peel River.  This was for a number of years changed to M. peelii peelii to differentiate Murray cod from Mary River cod, which were designated as a subspecies of Murray cod. However, as of 2010, Mary River cod have been raised to full species status (M. mariensis), thus Murray cod have reverted simply to M. peelii.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Codman (talk)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Murray_cod_resting_in_an_aquarium.jpg",
+      "caption": "A en:Murray cod resting in an aquarium.",
+      "path": "/media/wikimedia/maccullochella-peelii.jpg"
+    }
+  },
+  {
+    "id": "wm-macquaria-ambigua",
+    "gbifKey": 5209327,
+    "scientific": "Macquaria ambigua",
+    "name": "圆尾麦氏鲈",
+    "aliases": [
+      "圓尾麥氏鱸",
+      "圆尾麦氏鲈"
+    ],
+    "family": "Percichthyidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Golden_perch",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q783248",
+    "intro": "The golden perch (Macquaria ambigua) is a medium-sized, yellow or gold-coloured species of Australian freshwater fish found primarily in the Murray-Darling River system. A subspecies is found in the Lake Eyre-Cooper Creek system, and another subspecies, suspected to be ancestral to all other populations, is found in the Fitzroy River system in Queensland. Other common names for golden perch are \"goldens\", \"yellowbelly\" and \"callop\", the last generally used only in South Australia.\n\nGolden perch are not a true perch, which belongs to the genus Perca from the family Percidae, but a member of the Percichthyidae (temperate perch) family. This relatively widespread and widely stocked species is an important angling sport fish in Australia.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Codman",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_perch.JPG",
+      "caption": "A large female Golden perch Macquaria ambigua. The belly heavily distended with roe (eggs), the dorsal spines (unfortunately partially obscured by a rock), and the fishing lure in its mouth.  Golden perch from impoundments are deeper-bodied and more heavily built than river fish due to greater food resources.",
+      "path": "/media/wikimedia/macquaria-ambigua.jpg"
+    }
+  },
+  {
+    "id": "wm-macquaria-australasica",
+    "gbifKey": 5209326,
+    "scientific": "Macquaria australasica",
+    "name": "澳洲麦氏鲈",
+    "aliases": [
+      "澳洲麥氏鱸",
+      "澳洲麦氏鲈"
+    ],
+    "family": "Percichthyidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Macquarie_perch",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3100700",
+    "intro": "The Macquarie perch (Macquaria australasica) is an Australian native freshwater fish of the Murray-Darling river system. It is a member of the family Percichthyidae and is closely related to the golden perch (Macquaria ambigua).\n\nThe Macquarie perch derives its scientific name from the Macquarie River where the first scientifically described specimen was collected (Macquaria) and a derivation of the Latin word for \"southern\" (australasica).",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "The original uploader was Codman at English Wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Macquarie_perch.jpg",
+      "caption": "Macquaria australasica\nA highly endangered Macquarie perch.  This exceptionally large specimen was caught on a lure fitted with barbless hooks (visible in the picture) in a high altitude upland river dominated by introduced Trout species and was carefully released.\n\nThe Macquarie perch is now extinct in most of its upland river habitats due to the total domination of these upland river habitats by introduced Trout species. Gross siltation from agricultural practices and flow regulation and thermal pollution by dams have also caused the extinction of Macquarie perch in some upland rivers.",
+      "path": "/media/wikimedia/macquaria-australasica.jpg"
+    }
+  },
+  {
     "id": "wm-macropodus-hongkongensis",
     "gbifKey": 5211149,
     "scientific": "Macropodus hongkongensis",
@@ -3685,6 +4938,56 @@
     }
   },
   {
+    "id": "wm-malapterurus-electricus",
+    "gbifKey": 2342026,
+    "scientific": "Malapterurus electricus",
+    "name": "电鲶",
+    "aliases": [
+      "電鯰",
+      "电鲶"
+    ],
+    "family": "Malapteruridae",
+    "water": "freshwater",
+    "intro": "Malapterurus electricus is a thickset fish with six mouth barbels and a single fin on its back, just anterior to the rounded tail fin.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/malapterurus-electricus.jpg",
+      "author": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Malapterurus_electricus_1.jpg",
+      "caption": "Photo of Malapterurus electricus (electric catfish) at the Steinhart Aquarium in San Francisco"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Malapterurus_electricus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3779283",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-mastacembelus-armatus",
+    "gbifKey": 2351784,
+    "scientific": "Mastacembelus armatus",
+    "name": "大刺鳅",
+    "aliases": [
+      "大刺鳅"
+    ],
+    "family": "Mastacembelidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Zig-zag_eel",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2045293",
+    "intro": "The zig-zag eel (Mastacembelus armatus Scopoli, 1777), also known as the Baim, tire-track, tire-track spiny-eel, freshwater spiny eel, or marbled spiny eel, is a species of freshwater ray-finned fish in the family Mastacembelidae. It is native to the riverine systems of the Indian Subcontinent (India, Bangladesh, Pakistan, Nepal), Sri Lanka, South China, Malaysia, Thailand, Vietnam, Cambodia, Indonesia, and other parts of South and Southeast Asia. The species was initially described as Macrognathus armature (Lacepède, 1800). Other common names for this popular captive species include the leopard spiny eel and white-spotted spiny eel.\n\nThis eel has remained fairly popular as an aquarium fish for years, owing to its unique appearance and behaviors. Additionally, like other species of eels throughout the world, the zig-zag eel serves as a viable protein and food source for humans, aquatic reptiles, birds and other, larger fishes throughout much of its range. As a food source, zig-zag eels are consumed locally along the rivers they inhabit and are prepared in various ways including, smoked, barbecued, fried, curried, pickled, and dried. In traditional medicinal practices in Punjab, the oral ingestion of the meat and topical application of the skin and oil of the fish is used as a treatment for muscle soreness.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Adolsomee",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tire_Track_Eel.jpg",
+      "caption": "Zig-zag eel (Mastacembelus armatus)",
+      "path": "/media/wikimedia/mastacembelus-armatus.jpg"
+    }
+  },
+  {
     "id": "wm-megalobrama-amblycephala",
     "gbifKey": 2362740,
     "scientific": "Megalobrama amblycephala",
@@ -3737,6 +5040,31 @@
     ]
   },
   {
+    "id": "wm-melanotaenia-australis",
+    "gbifKey": 2411671,
+    "scientific": "Melanotaenia australis",
+    "name": "澳洲虹银汉鱼",
+    "aliases": [
+      "澳洲虹銀漢魚",
+      "澳洲虹银汉鱼"
+    ],
+    "family": "Melanotaeniidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Melanotaenia_australis",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6409487",
+    "intro": "Melanotaenia australis, the western rainbowfish, is a species of freshwater rainbowfish endemic to Australia's Kimberley and Pilbara, Top End. The western rainbowfish (Melanotaenia, australis) is one of the most common and highly abundant freshwater fish endemic to north-western Australia; It ranges from the Ashburton River in the Pilbara region of Western Australia to the Adelaide river in the Northern Territory. It shows extensive geographic variation in their color pattern.\n\nPredation is associated with the variation in color pattern in rainbow fish ( Melanotaenia australis). Meanwhile, variation in reflectance and body shape was associated with variation in environmental conditions.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "laurent MARSOL - Aussie Oc (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:300_Melanotaenia_australis_Western_rainbowfish_Mitchell_River_NP_VIII-2013.jpg",
+      "caption": "Western rainbowfish (Melanotaenia australis) Mitchell River NP VIII-2013; Location: Mitchell River National Park, Mitchell Falls",
+      "path": "/media/wikimedia/melanotaenia-australis.jpg"
+    }
+  },
+  {
     "id": "wm-melanotaenia-boesemani",
     "gbifKey": 2411651,
     "scientific": "Melanotaenia boesemani",
@@ -3758,6 +5086,81 @@
     }
   },
   {
+    "id": "wm-melanotaenia-duboulayi",
+    "gbifKey": 2411709,
+    "scientific": "Melanotaenia duboulayi",
+    "name": "杜氏虹银汉鱼",
+    "aliases": [
+      "杜氏虹銀漢魚",
+      "杜氏虹银汉鱼"
+    ],
+    "family": "Melanotaeniidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Melanotaenia_duboulayi",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6811548",
+    "intro": "Melanotaenia duboulayi, the crimson-spotted rainbowfish, less commonly known as the Duboulay's rainbowfish, is a species of freshwater fish endemic to coastal eastern Australia, although M. duboulayi has also been kept as an aquarium fish since the early 20th century, and is the original \"Australian rainbowfish\".",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Jesse de Vries",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Melanotaenia_duboulayi_238169871.jpg",
+      "caption": "Crimsonspotted Rainbowfish (Melanotaenia duboulayi) in Australia",
+      "path": "/media/wikimedia/melanotaenia-duboulayi.jpg"
+    }
+  },
+  {
+    "id": "wm-melanotaenia-fluviatilis",
+    "gbifKey": 2411659,
+    "scientific": "Melanotaenia fluviatilis",
+    "name": "河虹银汉鱼",
+    "aliases": [
+      "河虹銀漢魚",
+      "河虹银汉鱼"
+    ],
+    "family": "Melanotaeniidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Murray_River_rainbowfish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6410271",
+    "intro": "The Murray River rainbowfish (Melanotaenia fluviatilis), known less commonly as the Australian rainbowfish, is a species of freshwater fish endemic to southeastern Australia. The southernmost species of all rainbowfishes, these fish are very colourful, hence the name; and there is sexual dimorphism with the males being larger and more colourful than females. Murray River rainbowfish are schooling fish and will congregate near logs or riverbanks, and are a popular aquarium fish.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Bahudhara",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Murray_River_Rainbow_Fish.jpg",
+      "caption": "Murray River Rainbow Fish (Melanotaenia fluviatilis) at Adelaide Zoo 13 November 2011",
+      "path": "/media/wikimedia/melanotaenia-fluviatilis.jpg"
+    }
+  },
+  {
+    "id": "wm-melanotaenia-maccullochi",
+    "gbifKey": 2411705,
+    "scientific": "Melanotaenia maccullochi",
+    "name": "麦氏虹银汉鱼",
+    "aliases": [
+      "麥氏虹銀漢魚",
+      "麦氏虹银汉鱼"
+    ],
+    "family": "Melanotaeniidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Melanotaenia_maccullochi",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q244302",
+    "intro": "Melanotaenia maccullochi, the dwarf rainbowfish or McCulloch's rainbowfish, is a species of rainbow fish in the family Melanotaeniidae. It was described by James Douglas Ogilby in 1915 when he received two samples from Mr. A. Anderson and the fish was named after the ichthyologist Allan Riverstone McCulloch.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Klaus Rudloff",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Melanotaenia_maccullochi.jpg",
+      "caption": "Melanotaenia maccullochi",
+      "path": "/media/wikimedia/melanotaenia-maccullochi.jpg"
+    }
+  },
+  {
     "id": "wm-melanotaenia-praecox",
     "gbifKey": 2411715,
     "scientific": "Melanotaenia praecox",
@@ -3776,6 +5179,53 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Diamant_Regenbogenfisch_(Melanotaenia_praecox).jpg",
       "caption": "Dwarf rainbowfish (Melanotaenia praecox) at Zoo Duisburg"
+    }
+  },
+  {
+    "id": "wm-melanotaenia-splendida",
+    "gbifKey": 4284264,
+    "scientific": "Melanotaenia splendida",
+    "name": "Melanotaenia splendida",
+    "aliases": [],
+    "family": "Melanotaeniidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Melanotaenia_splendida",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1919031",
+    "intro": "Melanotaenia splendida, the Eastern rainbowfish, is a species of rainbowfish from the subfamily Melanotaeniinae which is found in Australia.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Bcsr4ever",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Rainbowfish_01.jpg",
+      "caption": "Male Eastern Rainbowfish (Melanotaenia splendida)",
+      "path": "/media/wikimedia/melanotaenia-splendida.jpg"
+    }
+  },
+  {
+    "id": "wm-melanotaenia-trifasciata",
+    "gbifKey": 2411686,
+    "scientific": "Melanotaenia trifasciata",
+    "name": "三带虹银汉鱼",
+    "aliases": [
+      "三帶虹銀漢魚",
+      "三带虹银汉鱼"
+    ],
+    "family": "Melanotaeniidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Banded_rainbowfish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6409478",
+    "intro": "The banded rainbowfish (Melanotaenia trifasciata), also known as the Jewel rainbowfish, Goyder River rainbowfish, three-striped sunfish or regal rainbowfish, is a species of rainbowfish found in the northerly regions of North Australia and Queensland. An adult banded rainbowfish can reach a standard length of 12–15 cm with a deep body usually exceeding 1/3 of their body length. Like most other rainbowfish, this species varies in color depending on where they were collected, but all varieties have a distinct dark mid-lateral band and bright red/yellow dorsal, anal, and caudal fins.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "LucasWhiteford6958",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Melanotaenia_trifasciata_2zz2.jpg",
+      "caption": "a goyder river rainbow fish",
+      "path": "/media/wikimedia/melanotaenia-trifasciata.jpg"
     }
   },
   {
@@ -3821,6 +5271,32 @@
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Smallmouth_Bass_(49561724026).jpg",
       "caption": "Smallmouth Bass (Micropterus dolomieu)\nPhotographed at Gavins Point National Fish Hatchery.\n\nPhoto: Sam Stukel, USFWS"
+    }
+  },
+  {
+    "id": "wm-micropterus-treculii",
+    "gbifKey": 5211243,
+    "scientific": "Micropterus treculii",
+    "name": "特氏黑鲈",
+    "aliases": [
+      "特氏黑鱸",
+      "特氏黑鲈"
+    ],
+    "family": "Centrarchidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Guadalupe_bass",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q11435863",
+    "textLanguage": "en",
+    "intro": "The Guadalupe bass (Micropterus treculii) is a rare species of fish endemic to the U.S.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Nick Loveland",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Micropterus_treculii_153726353.jpg",
+      "caption": "Guadalupe Bass (Micropterus treculii)",
+      "path": "/media/wikimedia/micropterus-treculii.jpg"
     }
   },
   {
@@ -3985,6 +5461,57 @@
     ]
   },
   {
+    "id": "wm-nannacara-anomala",
+    "gbifKey": 5208106,
+    "scientific": "Nannacara anomala",
+    "name": "矮丽鱼",
+    "aliases": [
+      "矮麗魚",
+      "矮丽鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Goldeneye_cichlid",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3666",
+    "textLanguage": "en",
+    "intro": "The goldeneye cichlid (Nannacara anomala) is a species of cichlid found in fresh water from the Aruka River in Guyana, to the Maroni River in Suriname.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Borkowski.robert",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nannacara_anomala_female1.jpg",
+      "caption": "Nannacara anomala, female",
+      "path": "/media/wikimedia/nannacara-anomala.jpg"
+    }
+  },
+  {
+    "id": "wm-nannatherina-balstoni",
+    "gbifKey": 2380428,
+    "scientific": "Nannatherina balstoni",
+    "name": "巴氏南脂鲈",
+    "aliases": [
+      "巴氏南脂鱸",
+      "巴氏南脂鲈"
+    ],
+    "family": "Percichthyidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Balston%27s_pygmy_perch",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q4852585",
+    "intro": "Balston's pygmy perch (Nannatherina balstoni), also known as Balston's perchlet, or king river perchlet, is a species of temperate perch endemic to Southwest Australia, where it occurs in coastal streams, ponds, lakes, and swamps.  It prefers shallow, acidic waters with patches of sedge growth.  This species can reach 9 cm (3.5 in) SL, though most do not exceed 6 cm (2.4 in).  It can also be found in the aquarium trade.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "iNaturalist Australia user: pimelea",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nannatherina_balstoni.jpg",
+      "caption": "Balston's Pygmy Perch (Nannatherina balstoni). Species of fish.",
+      "path": "/media/wikimedia/nannatherina-balstoni.jpg"
+    }
+  },
+  {
     "id": "wm-naso-annulatus",
     "gbifKey": 5209098,
     "scientific": "Naso annulatus",
@@ -4027,6 +5554,31 @@
     }
   },
   {
+    "id": "wm-nematalosa-erebi",
+    "gbifKey": 2413015,
+    "scientific": "Nematalosa erebi",
+    "name": "北澳海𬶭",
+    "aliases": [
+      "北澳海鰶",
+      "北澳海𬶭"
+    ],
+    "family": "Clupeidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bony_bream",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2209883",
+    "intro": "Bony bream Nematalosa erebi are a widespread and common, small to medium-sized Australian freshwater fish often found in large shoals throughout much of northern and central Australia, and the Murray-Darling basin.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Tim",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nematalosa_erebi_157461902.jpg",
+      "caption": "Bony Bream (Nematalosa erebi)",
+      "path": "/media/wikimedia/nematalosa-erebi.jpg"
+    }
+  },
+  {
     "id": "wm-nemateleotris-decora",
     "gbifKey": 2385841,
     "scientific": "Nemateleotris decora",
@@ -4066,6 +5618,57 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Fire_dartfish_(Nemateleotris_magnifica)_(43372442502).jpg",
       "caption": "Fire dartfish (Nemateleotris magnifica). Exploration diving around the island of Rao west of Morotai in Indonesia, June 2018."
+    }
+  },
+  {
+    "id": "wm-nematocharax-venustus",
+    "gbifKey": 2353867,
+    "scientific": "Nematocharax venustus",
+    "name": "维纳斯线纹脂鲤",
+    "aliases": [
+      "維納斯線紋脂鯉",
+      "维纳斯线纹脂鲤"
+    ],
+    "family": "Characidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nematocharax_venustus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3761647",
+    "textLanguage": "en",
+    "intro": "Nematocharax venustus is a species of freshwater ray-finned fish belonging to the family Acestrorhamphidae, the American characins.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "W.J.E.M. Costa, in Pedro Henrique Negreiros De Bragança, Maria Anaïs Barbosa, José Leonardo Oliveira Mattos",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nematocharax_costai_(UFRJ_8216-l).png",
+      "caption": "Nematocharax costai, UFRJ 8216, live holotype, male, 49.8 mm SL; Brazil: Bahia: Iguaí.",
+      "path": "/media/wikimedia/nematocharax-venustus.png"
+    }
+  },
+  {
+    "id": "wm-neoarius-graeffei",
+    "gbifKey": 2345449,
+    "scientific": "Neoarius graeffei",
+    "name": "格氏新海鲶",
+    "aliases": [
+      "格氏新海鯰",
+      "格氏新海鲶"
+    ],
+    "family": "Ariidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Neoarius_graeffei",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q614842",
+    "intro": "Neoarius graeffei, or blue salmon catfish, is a species of catfish found in freshwater rivers of Australia and Papua New Guinea. This species is most identifiable by its large, shark-like dorsal fin that is led by a poisonous spine. Like other catfish, the blue salmon catfish is known to use electrical pulses to sense prey in the water. This prey sensing mechanism may be the reason that these catfish are known to eat the land dwelling hopping mouse at a high rate.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Richard Fuller",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Neoarius_graeffei.jpg",
+      "caption": "Blue Catfish (Neoarius graeffei). Species of fish.",
+      "path": "/media/wikimedia/neoarius-graeffei.jpg"
     }
   },
   {
@@ -4112,6 +5715,32 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Hornyhead_Chub-Nocomis_biguttatus,_Dutch_Creek,_IA.jpg",
       "caption": "Hornyhead Chub in nuptial colors"
+    }
+  },
+  {
+    "id": "wm-odontesthes-bonariensis",
+    "gbifKey": 2412370,
+    "scientific": "Odontesthes bonariensis",
+    "name": "博纳里牙汉鱼",
+    "aliases": [
+      "博納里牙漢魚",
+      "博纳里牙汉鱼"
+    ],
+    "family": "Atherinopsidae",
+    "water": "brackish",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Odontesthes_bonariensis",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2632663",
+    "textLanguage": "en",
+    "intro": "Odontesthes bonariensis is a species of Neotropical silverside, an euryhaline fish native to fresh, brackish and salt water in south-central and southeastern South America, but also introduced elsewhere.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "CHUCAO",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Odontesthes_bonariensis.JPG",
+      "caption": "Argentinian silverside (Odontesthes bonariensis).",
+      "path": "/media/wikimedia/odontesthes-bonariensis.jpg"
     }
   },
   {
@@ -4261,6 +5890,95 @@
     }
   },
   {
+    "id": "wm-oreochromis-aureus",
+    "gbifKey": 2372367,
+    "scientific": "Oreochromis aureus",
+    "name": "奥利亚口孵非鲫",
+    "aliases": [
+      "奧利亞口孵非鯽",
+      "奥利亚口孵非鲫"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "intro": "The blue tilapia (Oreochromis aureus) is a species of tilapia, a fish in the family Cichlidae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/oreochromis-aureus.jpg",
+      "author": "Michael Rupert Hayes",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Tilapia_(cropped).jpg",
+      "caption": "Mozambique Tilapia (Tilapia Mozambiccus), caught at Hyco Reservoir, North Carolina, United States."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Oreochromis_aureus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1768422",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-oreochromis-mossambicus",
+    "gbifKey": 2372396,
+    "scientific": "Oreochromis mossambicus",
+    "name": "莫三比克口孵非鲫",
+    "aliases": [
+      "莫三比克口孵非鯽",
+      "莫三比克口孵非鲫",
+      "南洋鯽仔",
+      "吳郭魚",
+      "在來吳郭魚",
+      "罗非鱼",
+      "越南鱼",
+      "非洲仔",
+      "非洲鲫鱼",
+      "非鲫",
+      "南洋鲫仔",
+      "吴郭鱼",
+      "在来吴郭鱼"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "intro": "The Mozambique tilapia (Oreochromis mossambicus) is an oreochromine cichlid fish native to southeastern Africa.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/oreochromis-mossambicus.jpg",
+      "author": "Greg Hume",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oreochromis_mossambicus.JPG",
+      "caption": "Oreochromis mossambicus or Mozambique Tilapia at the Cincinnati Zoo."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mozambique_tilapia",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1348685",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-oreochromis-niloticus",
+    "gbifKey": 4285694,
+    "scientific": "Oreochromis niloticus",
+    "name": "尼罗口孵非鲫",
+    "aliases": [
+      "尼羅口孵非鯽",
+      "尼罗口孵非鲫"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "intro": "The Nile tilapia (Oreochromis niloticus) is a species of tilapia, a cichlid occurring naturally in parts of Africa (such as its namesake Nile River) and the Levant, though numerous introduced populations exist outside its natural range.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/oreochromis-niloticus.jpg",
+      "author": "Germano Roberto Schüür",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Til%C3%A1pia_ou_Sarotherodon_niloticus_2.jpg",
+      "caption": "Ciclídeo originário do Rio Nilo"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nile_tilapia",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q311170",
+    "textLanguage": "en"
+  },
+  {
     "id": "wm-osphronemus-exodon",
     "gbifKey": 2394167,
     "scientific": "Osphronemus exodon",
@@ -4301,6 +6019,58 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Osphronemidae_-_Osphronemus_laticlavius.JPG",
       "caption": "Adult Osphronemus laticlavius, on display at the Museo di Storia Naturale e del Territorio, Calci (Province Pisa), Italy"
     }
+  },
+  {
+    "id": "wm-pantodon-buchholzi",
+    "gbifKey": 2402307,
+    "scientific": "Pantodon buchholzi",
+    "name": "齿蝶鱼",
+    "aliases": [
+      "齒蝶魚",
+      "齿蝶鱼"
+    ],
+    "family": "Pantodontidae",
+    "water": "freshwater",
+    "intro": "The freshwater butterflyfish or African butterflyfish (Pantodon buchholzi) is a species of osteoglossiform fish native to freshwater habitats in the Niger and Congo basins of Western and Central Africa.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/pantodon-buchholzi.jpg",
+      "author": "Toniher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pantodon_buchholzi.jpg",
+      "caption": "Pantodon buchholzi - freshwater butterflyfish in a domestic aquarium"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Freshwater_butterflyfish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q260106",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-parachanna-obscura",
+    "gbifKey": 2391434,
+    "scientific": "Parachanna obscura",
+    "name": "暗副鳢",
+    "aliases": [
+      "暗副鱧",
+      "暗副鳢"
+    ],
+    "family": "Channidae",
+    "water": "freshwater",
+    "intro": "The obscure snakehead (Parachanna obscura) is a species of snakehead in the family Channidae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/parachanna-obscura.jpg",
+      "author": "Cedricguppy - Loury Cédric",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Parachanna_obscura_-_Aqua_Porte_Dor%C3%A9e_01.JPG",
+      "caption": "Parachanna obscura - Aquarium Tropicale du palais de la Porte Dorée, Paris, Ile de France, France - 12/2014"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Obscure_snakehead",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q6408520",
+    "textLanguage": "en"
   },
   {
     "id": "wm-perca-flavescens",
@@ -4379,6 +6149,32 @@
       "葛氏鲈塘鳢",
       "葛氏鱸塘鱧"
     ]
+  },
+  {
+    "id": "wm-percichthys-trucha",
+    "gbifKey": 2380438,
+    "scientific": "Percichthys trucha",
+    "name": "真鲈",
+    "aliases": [
+      "真鱸",
+      "真鲈"
+    ],
+    "family": "Percichthyidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Percichthys_trucha",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q5548849",
+    "textLanguage": "es",
+    "intro": "La perca trucha (Percichthys trucha) es una especie de pez de la familia de las Percichthyidae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Pablo Reyes Lobao-Tello",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Percichthys_trucha.png",
+      "caption": "Percichthys trucha collected in Río Manso, cuenca del río Puelo, Chile.",
+      "path": "/media/wikimedia/percichthys-trucha.png"
+    }
   },
   {
     "id": "wm-pethia-conchonius",
@@ -4577,6 +6373,84 @@
     }
   },
   {
+    "id": "wm-poeciliopsis-occidentalis",
+    "gbifKey": 2350470,
+    "scientific": "Poeciliopsis occidentalis",
+    "name": "西域若花鳉",
+    "aliases": [
+      "西域若花鱂",
+      "西域若花鳉"
+    ],
+    "family": "Poeciliidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gila_topminnow",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q337042",
+    "textLanguage": "en",
+    "intro": "The Gila topminnow or charalito (Poeciliopsis occidentalis) is a species of fish in the family Poeciliidae found in Mexico and the United States.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Brian Gratwicke",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gila_topminnow_Poeciliopsis_occidentalis.jpg",
+      "caption": "Gila topminnow Poeciliopsis occidentalis",
+      "path": "/media/wikimedia/poeciliopsis-occidentalis.jpg"
+    }
+  },
+  {
+    "id": "wm-polypterus-endlicherii",
+    "gbifKey": 4287124,
+    "scientific": "Polypterus endlicherii",
+    "name": "恩氏多鳍鱼",
+    "aliases": [
+      "恩氏多鳍鱼",
+      "恩氏多鰭魚"
+    ],
+    "family": "Polypteridae",
+    "water": "freshwater",
+    "intro": "Polypterus endlicheri, the saddled bichir, is one of the fourteen extant species in the Polypteridae family.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/polypterus-endlicherii.jpg",
+      "author": "opencage",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Polypterus_endlicherii.jpg",
+      "caption": "Saddled bichir Polypterus endlicherii endlicherii (Heckel, 1847)"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Polypterus_endlicherii",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q7226873",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-polypterus-senegalus",
+    "gbifKey": 4287129,
+    "scientific": "Polypterus senegalus",
+    "name": "塞内加尔多鳍鱼",
+    "aliases": [
+      "塞內加爾多鰭魚",
+      "塞内加尔多鳍鱼"
+    ],
+    "family": "Polypteridae",
+    "water": "freshwater",
+    "intro": "Polypterus senegalus, commonly known as the Senegal bichir, gray bichir or Cuvier's bichir, is an African species of ray-finned fish in the bichir family, Polypteridae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/polypterus-senegalus.jpg",
+      "author": "5snake5",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Polypterus_senegalus_-_Senegal-Fl%C3%B6sselhecht_-_Albino.jpg",
+      "caption": "Ein Senegal-Flösselhecht (Polypterus senegalus), Albino."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Polypterus_senegalus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q1515914",
+    "textLanguage": "en"
+  },
+  {
     "id": "wm-pomoxis-annularis",
     "gbifKey": 2394534,
     "scientific": "Pomoxis annularis",
@@ -4646,6 +6520,138 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Prionurus_biafraensis.jpg",
       "caption": "Prionurus biafraensis, Bom Bom, Principe, São Tomé & Príncipe"
     }
+  },
+  {
+    "id": "wm-prochilodus-lineatus",
+    "gbifKey": 2352154,
+    "scientific": "Prochilodus lineatus",
+    "name": "条纹鲮脂鲤",
+    "aliases": [
+      "條紋鯪脂鯉",
+      "条纹鲮脂鲤"
+    ],
+    "family": "Prochilodontidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Prochilodus_lineatus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2702031",
+    "textLanguage": "en",
+    "intro": "Prochilodus lineatus, the streaked prochilod, is a species of ray-finned fish in the family Prochilodontidae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "João D'Andretta",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Prochilodus_lineatus_cropped.jpg",
+      "caption": "Prochilodus lineatus, known by many names throughout its wide range",
+      "path": "/media/wikimedia/prochilodus-lineatus.jpg"
+    }
+  },
+  {
+    "id": "wm-prochilodus-magdalenae",
+    "gbifKey": 2352186,
+    "scientific": "Prochilodus magdalenae",
+    "name": "马格达河鲮脂鲤",
+    "aliases": [
+      "馬格達河鯪脂鯉",
+      "马格达河鲮脂鲤"
+    ],
+    "family": "Prochilodontidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Prochilodus_magdalenae",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3753710",
+    "textLanguage": "en",
+    "intro": "Prochilodus magdalenae is a tropical prochilodontid freshwater fish from Colombia.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Ictiologia Universidad Católica de Oriente",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Prochilodus_magdalenae_(16197296986).jpg",
+      "caption": "By: Zuluaga-Gómez A.",
+      "path": "/media/wikimedia/prochilodus-magdalenae.jpg"
+    }
+  },
+  {
+    "id": "wm-protopterus-aethiopicus",
+    "gbifKey": 4287144,
+    "scientific": "Protopterus aethiopicus",
+    "name": "石花肺鱼",
+    "aliases": [
+      "石花肺鱼",
+      "石花肺魚"
+    ],
+    "family": "Protopteridae",
+    "water": "freshwater",
+    "intro": "The marbled lungfish (Protopterus aethiopicus) is a lungfish of the family Protopteridae.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/protopterus-aethiopicus.jpg",
+      "author": "George Berninger Jr.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leopard_lungfish_(Protopterus_aethiopicus)_close_-_GRB.JPG",
+      "caption": "Closeup of Leopard lungfish (Protopterus aethiopicus) at the Tokyo Tower Aquarium in Japan."
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Marbled_lungfish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q257796",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-protopterus-annectens",
+    "gbifKey": 2441257,
+    "scientific": "Protopterus annectens",
+    "name": "西非肺鱼",
+    "aliases": [
+      "西非肺魚",
+      "西非肺鱼",
+      "原鰭魚",
+      "原鳍鱼"
+    ],
+    "family": "Protopteridae",
+    "water": "freshwater",
+    "intro": "The West African lungfish (Protopterus annectens), also known as the Tana lungfish or simply African lungfish, is a species of African lungfish.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/protopterus-annectens.jpg",
+      "author": "Gőtehal.jpg: Mathae\nderivative work: Bff",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:G%C5%91tehal-2.jpg",
+      "caption": "Protopterus annectens at Paris Aquarium"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/West_African_lungfish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q512042",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-protopterus-dolloi",
+    "gbifKey": 2441259,
+    "scientific": "Protopterus dolloi",
+    "name": "长肺鱼",
+    "aliases": [
+      "长肺鱼",
+      "長肺魚"
+    ],
+    "family": "Protopteridae",
+    "water": "freshwater",
+    "intro": "The spotted lungfish or slender lungfish (Protopterus dolloi) is a species of lungfish from Middle Africa, where found in the Congo, Kouilou-Niari and Ogowe river basins.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/protopterus-dolloi.jpg",
+      "author": "Takada@mex",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dolloi.jpg",
+      "caption": "Protopterus dolloi 呼吸のため、水面に顔を出したところ"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Spotted_lungfish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2491582",
+    "textLanguage": "en"
   },
   {
     "id": "wm-pseudocheilinus-hexataenia",
@@ -4874,6 +6880,31 @@
     }
   },
   {
+    "id": "wm-rasbora-daniconius",
+    "gbifKey": 2359512,
+    "scientific": "Rasbora daniconius",
+    "name": "细波鱼",
+    "aliases": [
+      "細波魚",
+      "细波鱼"
+    ],
+    "family": "Cyprinidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Slender_rasbora",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2631220",
+    "intro": "The black-line rasbora or slender rasbora (Rasbora daniconius) (called darka at Rangpur), is a species of ray-finned fish in the genus cyprinid family. It is found in rivers of South and Southeast Asia, ranging from Sri Lanka and the Indus basin to northern the Malay Peninsula and the Mekong.\n\nThe body is oblong and compressed. The greatest width of the head equals its post-orbital length. It reaches 15 cm (5.9 in) in length.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Ashwin Viswanathan",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rasbora_daniconius_53178946.jpg",
+      "caption": "Slender Rasbora (Rasbora daniconius)",
+      "path": "/media/wikimedia/rasbora-daniconius.jpg"
+    }
+  },
+  {
     "id": "wm-rasbora-trilineata",
     "gbifKey": 2359627,
     "scientific": "Rasbora trilineata",
@@ -4892,6 +6923,31 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Rasbora_trilineata.jpg",
       "caption": "Three-lined rasbora Rasbora trilineata"
+    }
+  },
+  {
+    "id": "wm-retropinna-semoni",
+    "gbifKey": 2410423,
+    "scientific": "Retropinna semoni",
+    "name": "西氏后鳍鲑",
+    "aliases": [
+      "西氏後鰭鮭",
+      "西氏后鳍鲑"
+    ],
+    "family": "Retropinnidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Australian_smelt",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2207695",
+    "intro": "The Australian smelt (Retropinna semoni) is a small, pelagic silvery freshwater fish found in large numbers in waters of the south eastern Australian mainland.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Codman",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Australian_smelt_(Retropinna_semoni).jpg",
+      "caption": "An Australian smelt (Retropinna semoni), captured by torchlight with a dip-net, in the upper Murrumbidgee River.",
+      "path": "/media/wikimedia/retropinna-semoni.jpg"
     }
   },
   {
@@ -5205,6 +7261,58 @@
     ]
   },
   {
+    "id": "wm-sarotherodon-galilaeus",
+    "gbifKey": 4285715,
+    "scientific": "Sarotherodon galilaeus",
+    "name": "加利略帚齿非鲫",
+    "aliases": [
+      "加利略帚齒非鯽",
+      "加利略帚齿非鲫"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "intro": "The mango tilapia (Sarotherodon galilaeus) is a species of fish from the cichlid family that is native to fresh and brackish waters in Africa and the Levant.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/sarotherodon-galilaeus.jpg",
+      "author": "Bayçelebi E (2020) Distribution and diversity of fish from Seyhan, Ceyhan and Orontes river systems. Zoosystematics and Evolution 96(2): 747-767. https://doi.org/10.3897/zse.96.55837 | permission = \nThis file is licensed under the Creative Commons Attribution 4.0 International license.\nYou are free:\nto share – to copy, distribute and transmit the work\nto remix – to adapt the work\nUnder the following conditions:\nattribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nhttps://creativecommons.org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cichlidae_(10.3897-zse.96.55837)_Figure_9_Sarotherodon_galilaeus_1.jpg",
+      "caption": "Sarotherodon galilaeus"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mango_tilapia",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q138897",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-sarotherodon-melanotheron",
+    "gbifKey": 4285710,
+    "scientific": "Sarotherodon melanotheron",
+    "name": "黑颏帚齿非鲫",
+    "aliases": [
+      "黑頦帚齒非鯽",
+      "黑颏帚齿非鲫"
+    ],
+    "family": "Cichlidae",
+    "water": "brackish",
+    "intro": "The blackchin tilapia (Sarotherodon melanotheron), formerly Tilapia melanotheron, T.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/sarotherodon-melanotheron.png",
+      "author": "Theo Modder",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Blackchin_tilapia.png",
+      "caption": "Sarotherodon melanotheron Blackchin tilapia"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Blackchin_tilapia",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3759688",
+    "textLanguage": "en"
+  },
+  {
     "id": "wm-scardinius-erythrophthalmus",
     "gbifKey": 2362635,
     "scientific": "Scardinius erythrophthalmus",
@@ -5227,6 +7335,56 @@
       "licenseUrl": "https://commons.wikimedia.org/wiki/File:Scardinius_erythropthalmus_2009_G1.jpg#Licensing",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Scardinius_erythropthalmus_2009_G1.jpg",
       "caption": "The Common Rudd (Scardinius erythrophthalmus). Ukraine, the fish from the Southern Bug river."
+    }
+  },
+  {
+    "id": "wm-schilbe-intermedius",
+    "gbifKey": 2341731,
+    "scientific": "Schilbe intermedius",
+    "name": "中间锡伯鲶",
+    "aliases": [
+      "中間錫伯鯰",
+      "中间锡伯鲶"
+    ],
+    "family": "Schilbeidae",
+    "water": "freshwater",
+    "intro": "Schilbe intermedius or the silver butter catfish is a widespread species of African catfish.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/schilbe-intermedius.jpg",
+      "author": "Andrew Deacon",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Schilbe_intermedius_127711042.jpg",
+      "caption": "silver butter catfish (Schilbe intermedius)"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Schilbe_intermedius",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3642172",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-scleropages-jardinii",
+    "gbifKey": 2402234,
+    "scientific": "Scleropages jardinii",
+    "name": "珍珠龙鱼",
+    "aliases": [
+      "珍珠龙鱼"
+    ],
+    "family": "Osteoglossidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Scleropages_jardinii",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q135567",
+    "intro": "Scleropages jardinii, the Gulf saratoga, Australian bonytongue, pearl arowana or northern saratoga, is a freshwater bony fish native to Australia and New Guinea, one of two species of fishes sometimes known as Australian arowana, the other being Scleropages leichardti. It has numerous other common names, including northern saratoga, toga and barramundi (not to be confused with the barramundi perch, Lates calcarifer). It is a member of the subfamily Osteoglossinae, a (basal) teleost group. Its scientific name is sometimes spelled S. jardini.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Ginkgo100",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Scleropages_jardinii_043.JPG",
+      "caption": "Gulf Saratoga (Australian Arowana) (Scleropages jardinii)",
+      "path": "/media/wikimedia/scleropages-jardinii.jpg"
     }
   },
   {
@@ -5281,6 +7439,29 @@
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Psetta_maxima_Luc_Viatour.jpg",
       "caption": "Turbot in aquarium Paradisio park (Belgium)"
+    }
+  },
+  {
+    "id": "wm-serranochromis-macrocephalus",
+    "gbifKey": 2369961,
+    "scientific": "Serranochromis macrocephalus",
+    "name": "大头鮨丽鱼",
+    "aliases": [
+      "大头鮨丽鱼",
+      "大頭鮨麗魚"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "intro": "",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/serranochromis-macrocephalus.jpg",
+      "author": "Brian Gratwicke",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Serranochromis_macrocephalus_fish_Zimbabwe.jpg",
+      "caption": "A Serranochromis macrocephalus photographed in Zimbabwe, Chirundu in 2000."
     }
   },
   {
@@ -5391,6 +7572,32 @@
     }
   },
   {
+    "id": "wm-sorubim-lima",
+    "gbifKey": 2338684,
+    "scientific": "Sorubim lima",
+    "name": "铲吻油鲶",
+    "aliases": [
+      "鏟吻油鯰",
+      "铲吻油鲶"
+    ],
+    "family": "Pimelodidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Sorubim_lima",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q26991",
+    "textLanguage": "en",
+    "intro": "Sorubim lima is a species of fish of the Pimelodidae family in the order Siluriformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Sitron",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Silure_spatule.jpg",
+      "caption": "Sorubim lima",
+      "path": "/media/wikimedia/sorubim-lima.jpg"
+    }
+  },
+  {
     "id": "wm-sparus-aurata",
     "gbifKey": 2392508,
     "scientific": "Sparus aurata",
@@ -5487,6 +7694,32 @@
     }
   },
   {
+    "id": "wm-steindachneridion-parahybae",
+    "gbifKey": 2338978,
+    "scientific": "Steindachneridion parahybae",
+    "name": "拟驼背施氏油鲶",
+    "aliases": [
+      "擬駝背施氏油鯰",
+      "拟驼背施氏油鲶"
+    ],
+    "family": "Pimelodidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Steindachneridion_parahybae",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q27081",
+    "textLanguage": "es",
+    "intro": "Steindachneridion parahybae es una especie de pez de la familia  Pimelodidae en el orden de los Siluriformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Carla Natacha Marcolino Polaz",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sparahybae_photolizandradolfini.jpg",
+      "caption": "Brazil, Pirassununga, S, by Carla Natacha Marcolino Polaz",
+      "path": "/media/wikimedia/steindachneridion-parahybae.jpg"
+    }
+  },
+  {
     "id": "wm-synchiropus-splendidus",
     "gbifKey": 2386640,
     "scientific": "Synchiropus splendidus",
@@ -5508,6 +7741,83 @@
     }
   },
   {
+    "id": "wm-synodontis-schall",
+    "gbifKey": 2344327,
+    "scientific": "Synodontis schall",
+    "name": "沙尔歧须𬶏",
+    "aliases": [
+      "沙爾歧鬚鮠",
+      "沙尔歧须𬶏"
+    ],
+    "family": "Mochokidae",
+    "water": "freshwater",
+    "intro": "Synodontis schall, the Wahrindi, is a species of upside-down catfish widespread in northern Africa.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/synodontis-schall.jpg",
+      "author": "Peter van der Sluijs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Synodontis_schall_(cropped).jpg",
+      "caption": "Catfish caught in Gambia"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Synodontis_schall",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3768283",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-synodontis-zambezensis",
+    "gbifKey": 2344285,
+    "scientific": "Synodontis zambezensis",
+    "name": "赞比西河歧须𬶏",
+    "aliases": [
+      "贊比西河歧鬚鮠",
+      "赞比西河歧须𬶏"
+    ],
+    "family": "Mochokidae",
+    "water": "freshwater",
+    "intro": "Synodontis zambezensis, known as the brown squeaker, the korokoro, or the plain squeaker, is a species of upside-down catfish that is native to the middle and lower Zambezi River system of Eswatini, Mozambique, South Africa, Tanzania, Zambia and Zimbabwe.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/synodontis-zambezensis.jpg",
+      "author": "Mahomed Desai",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Synodontis_zambezensis_70328519.jpg",
+      "caption": "brown squeaker (Synodontis zambezensis)"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Synodontis_zambezensis",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q3642441",
+    "textLanguage": "en"
+  },
+  {
+    "id": "wm-tandanus-tandanus",
+    "gbifKey": 2341877,
+    "scientific": "Tandanus tandanus",
+    "name": "澳洲鳗鲶",
+    "aliases": [
+      "澳洲鰻鯰",
+      "澳洲鳗鲶"
+    ],
+    "family": "Plotosidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Eel-tailed_catfish",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2708605",
+    "intro": "The eel-tailed catfish (Tandanus tandanus) is a species of catfish (order Siluriformes) of the family Plotosidae. This fish is also known as dewfish, freshwater catfish, jewfish, and tandan.\n\nThis species is a freshwater fish native to the Murray-Darling river system of eastern Australia. The scientific name for eel-tailed catfish comes from a name for the fish in an unidentified Aboriginal Australian language — Tandan — which Major Thomas Livingston Mitchell recorded on his 1832 expedition.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Bahudhara",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tandanus_tandanus.JPG",
+      "caption": "Tandanus tandanus, Eeltail catfish, Adelaide Zoo",
+      "path": "/media/wikimedia/tandanus-tandanus.jpg"
+    }
+  },
+  {
     "id": "wm-tanichthys-albonubes",
     "gbifKey": 5207572,
     "scientific": "Tanichthys albonubes",
@@ -5526,6 +7836,32 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "pageUrl": "https://commons.wikimedia.org/wiki/File:White_Cloud_Mountain_Minnow_%28Tanichthys_albonubes%29.jpg",
       "caption": "White Cloud Mountain Minnow (Tanichthys albonubes), female"
+    }
+  },
+  {
+    "id": "wm-tetragonopterus-argenteus",
+    "gbifKey": 5204502,
+    "scientific": "Tetragonopterus argenteus",
+    "name": "银大眼脂鲤",
+    "aliases": [
+      "銀大眼脂鯉",
+      "银大眼脂鲤"
+    ],
+    "family": "Characidae",
+    "water": "freshwater",
+    "wikipediaUrl": "https://es.wikipedia.org/wiki/Tetragonopterus_argenteus",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q4744525",
+    "textLanguage": "es",
+    "intro": "Tetragonopterus argenteus es una especie de pez de la familia Characidae en el orden de los Characiformes.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "author": "Klaus Rudloff",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tetragonopterus_argenteus.jpg",
+      "caption": "Tetragonopterus argenteus",
+      "path": "/media/wikimedia/tetragonopterus-argenteus.jpg"
     }
   },
   {
@@ -5552,6 +7888,32 @@
       "pageUrl": "https://commons.wikimedia.org/wiki/File:Grayling_Thymallus_thymallus.JPG",
       "caption": "Grayling caught in the River Wye on the English / Welsh border"
     }
+  },
+  {
+    "id": "wm-tilapia-sparrmanii",
+    "gbifKey": 2370591,
+    "scientific": "Tilapia sparrmanii",
+    "name": "斯氏非鲫",
+    "aliases": [
+      "斯氏非鯽",
+      "斯氏非鲫"
+    ],
+    "family": "Cichlidae",
+    "water": "freshwater",
+    "intro": "Tilapia sparrmanii, the banded tilapia, or vlei kurper, is a widespread and adaptable cichlid fish that is found in warmer freshwater habitats of southern Africa.",
+    "distribution": "",
+    "behavior": "",
+    "photo": {
+      "path": "/media/wikimedia/tilapia-sparrmanii.jpg",
+      "author": "Alexandra Tyers",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tilapia_sparrmanii.jpg",
+      "caption": "Tilapia sparrmanii, from Lake Chilingali"
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tilapia_sparrmanii",
+    "wikidataUrl": "https://www.wikidata.org/wiki/Q2680949",
+    "textLanguage": "en"
   },
   {
     "id": "wm-tinca-tinca",

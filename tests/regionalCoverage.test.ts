@@ -21,3 +21,13 @@ test("reviewed source conflicts cannot reintroduce false native ranges", () => {
     expect(fishLocationIds({ id: fish })).not.toContain("2433"); // Introduced to China.
   }
 });
+
+test("blank-basin expansion excludes introduced populations and obsolete species concepts", () => {
+  expect(fishLocationIds({ id: "wm-hyphessobrycon-flammeus" })).toContain("3237");
+  expect(fishLocationIds({ id: "wm-hyphessobrycon-flammeus" })).not.toContain("3238"); // Upper Tiete is probably introduced.
+  expect(fishLocationIds({ id: "wm-steindachneridion-parahybae" })).not.toContain("3216"); // Jequitinhonha belongs to S. amblyurum.
+  expect(fishLocationIds({ id: "wm-oreochromis-niloticus" })).not.toContain("lake-victoria");
+  expect(fishLocationIds({ id: "wm-oreochromis-mossambicus" })).not.toContain("sea-11");
+  expect(locationById.get("5305")!.center[0]).toBeLessThan(130); // Fitzroy, Western Australia.
+  expect(locationById.get("5411")!.center[0]).toBeGreaterThan(140); // Fitzroy, Queensland.
+});

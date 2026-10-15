@@ -60,6 +60,15 @@ test("lake subregion anchors preserve northern and southern endemic limits", () 
   }
 });
 
+test("tench in the Yenisei stays south of its sourced 60-degree native limit", () => {
+  const pins = makeBasinPhotoPins(photoFish, "2117");
+  const tench = pins.find((pin) => pin.fish.scientific === "Tinca tinca");
+  expect(tench).toBeDefined();
+  expect(tench!.coordinates[1]).toBeLessThan(60);
+  const location = locationById.get("2117")!;
+  expect(geoContains({ type: "Feature", properties: {}, geometry: location.geometry } as GeoPermissibleObjects, tench!.coordinates)).toBe(true);
+});
+
 test("published point anchors retain their exact coordinates and sea anchors remain offshore", () => {
   const topology = world as unknown as Topology<{ land: GeometryCollection }>;
   const land = feature(topology, topology.objects.land) as GeoPermissibleObjects;
