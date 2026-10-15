@@ -134,6 +134,7 @@ function DistributionDetails({ fish }: { fish: Fish | PhotoProfile }) {
     {distribution.links.map((link) => <div key={link.locationId}>
       <p><strong>{locationById.get(link.locationId) ? locationName(locationById.get(link.locationId)!) : link.locationId}</strong>: <span lang={/[\u3400-\u9fff]/.test(link.evidence) ? "zh-CN" : "en"}>{link.evidence}</span> <a href={link.sourceUrl} target="_blank" rel="noreferrer">{t("物种依据")}</a> · <a href={locationById.get(link.locationId)?.sourceUrl} target="_blank" rel="noreferrer">{t("地理位置来源")}</a>{link.additionalSourceUrls?.map((url, index) => <span key={url}> · <a href={url} target="_blank" rel="noreferrer">{t("补充来源")}{index + 1}</a></span>)}</p>
       {locationById.get(link.locationId)?.anchorNote && <p lang="zh-CN">{locationById.get(link.locationId)?.anchorNote}</p>}
+      {link.displayCoordinateNote && <p lang={/[\u3400-\u9fff]/.test(link.displayCoordinateNote) ? "zh-CN" : "en"}>{link.displayCoordinateNote} <a href={link.displayCoordinateSourceUrl} target="_blank" rel="noreferrer">{t("地图定位依据")}</a></p>}
     </div>)}
     {distribution.reviewNotes?.map((note) => <p key={note} lang={/[\u3400-\u9fff]/.test(note) ? "zh-CN" : "en"}>{note}</p>)}
     {distribution.unlocatedReason && <p>{distribution.unlocatedReason}</p>}

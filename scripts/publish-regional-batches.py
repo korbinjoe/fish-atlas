@@ -8,6 +8,7 @@ Run with --dry-run first; npm run build and the geography check remain required.
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import re
 import runpy
@@ -69,7 +70,41 @@ def validate_distribution(id: str, record: dict, scientific: str, location_ids: 
         if "ecosystemCode" not in link or (link["ecosystemCode"] is not None
                 and (type(link["ecosystemCode"]) is not int or link["ecosystemCode"] <= 0)):
             raise ValueError(f"Missing or invalid ecosystem provenance: {id}, {place}")
+        if any(field in link for field in ("displayCoordinates", "displayCoordinateSourceUrl", "displayCoordinateNote")):
+            coordinates = link.get("displayCoordinates")
+            if (not isinstance(coordinates, list) or len(coordinates) != 2
+                    or not all(type(value) in (int, float) for value in coordinates)
+                    or not (-180 <= coordinates[0] <= 180 and -90 <= coordinates[1] <= 90)
+                    or not link.get("displayCoordinateSourceUrl", "").startswith("https://")
+                    or not link.get("displayCoordinateNote", "").strip()):
+                raise ValueError(f"Missing or invalid local display-anchor provenance: {id}, {place}")
         seen.add(place)
+
+
+def merge_distribution_additions(previous: dict, additions: dict) -> dict:
+    """Merge independent reviewed links without replacing a stale range snapshot."""
+    if set(additions) - {"links", "reviewNotes", "reviewConfidence"} or not additions.get("links"):
+        raise ValueError("Native additions require links and cannot replace source metadata")
+    merged = copy.deepcopy(previous)
+    by_location = {link["locationId"]: link for link in merged["links"]}
+    for link in additions["links"]:
+        old = by_location.get(link["locationId"])
+        if old is not None and old != link:
+            raise ValueError(f"Conflicting native-link provenance: {link['locationId']}")
+        if old is None:
+            merged["links"].append(copy.deepcopy(link))
+            by_location[link["locationId"]] = link
+    notes = additions.get("reviewNotes", [])
+    if not all(isinstance(note, str) and note.strip() for note in notes):
+        raise ValueError("Invalid native review notes")
+    if notes:
+        merged["reviewNotes"] = list(dict.fromkeys(merged.get("reviewNotes", []) + notes))
+    confidence = additions.get("reviewConfidence")
+    if confidence is not None:
+        if confidence not in {"high", "medium"}:
+            raise ValueError("Invalid native review confidence")
+        merged["reviewConfidence"] = "medium" if "medium" in (previous.get("reviewConfidence"), confidence) else "high"
+    return merged
 
 
 def main():
@@ -133,7 +168,7 @@ def main():
             if file.stat().st_size < 5000:
                 raise ValueError(f"Empty photo: {scientific}")
             with Image.open(file) as image:
-                if image.format not in {"JPEG", "PNG", "WEBP"} or min(image.size) < 300:
+                if image.format not in {"JPEG", "PNG", "WEBP"} or min(image.size) < 256 or max(image.size) < 500:
                     raise ValueError(f"Invalid photo dimensions: {scientific}")
                 image.verify()
             record = batch["distributions"][id]
@@ -158,6 +193,10 @@ def main():
         for id, patch in batch.get("distributionPatches", {}).items():
             validate_distribution(id, patch, by_id[id]["scientific"], location_ids)
             distribution_data["species"][id] = patch
+        for id, additions in batch.get("distributionAdditions", {}).items():
+            record = merge_distribution_additions(distribution_data["species"][id], additions)
+            validate_distribution(id, record, by_id[id]["scientific"], location_ids)
+            distribution_data["species"][id] = record
         print(f"Reviewed {path.name}: {len(batch['profiles'])} photos, {len(batch.get('distributionPatches', {}))} range corrections")
     profiles.sort(key=lambda row: row["scientific"].casefold())
     if set(distribution_data["species"]) != set(by_id):

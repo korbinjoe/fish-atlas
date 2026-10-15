@@ -1,0 +1,136 @@
+{
+  "productionSnapshot": {
+    "atlasPhotoSpecies": 467,
+    "newPhotoSpeciesChecked": 88
+  },
+  "uniqueBrowserScenarios": 14,
+  "passed": 14,
+  "unresolvedProductFailures": 0,
+  "firstRun": {
+    "file": "docs/blank-basin-round2-e2e-results.json",
+    "passed": 12,
+    "failed": 2,
+    "failureCause": "Test selector ambiguity only: Brown trout has three legitimate Map location source anchors; the original test wrongly assumed a single anchor. Both browser errors occurred at that assertion, after exact lake/parent coordinates, image loading and phone overflow checks passed."
+  },
+  "targetedRecheck": {
+    "file": "docs/blank-basin-round2-recheck-results.json",
+    "passed": 4,
+    "failed": 0,
+    "scope": "Lagarfljot in Chrome/WebKit after checking the exact published-paper URL among all legitimate map-source links. Natron in Chrome/WebKit was also repeated to capture the complete header in the full-page desktop screenshot."
+  },
+  "selectorsRevisedOnly": true,
+  "productionCodeOrDataModified": false,
+  "rootServerManaged": false,
+  "screenshots": [
+    {
+      "path": "docs/blank-basin-round2-natron-desktop.png",
+      "visuallyReviewed": true,
+      "notes": "Full desktop header, left globe with selected Lake Natron source-linked spring position, enlarged real Alcolapia photo, source/author/license visible."
+    },
+    {
+      "path": "docs/blank-basin-round2-lagarfljot-mobile.png",
+      "visuallyReviewed": true,
+      "notes": "390px mobile layout retains globe, Lake Lagarfljot label, large naturally loaded Brown trout photo and reachable controls, with no horizontal overflow."
+    }
+  ],
+  "scenarios": [
+    {
+      "browser": "chrome",
+      "scenario": "all 88 added real photos load naturally in the English atlas",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 15084
+    },
+    {
+      "browser": "chrome",
+      "scenario": "new North American native basin 4246 exposes all fish and their evidence",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 2630
+    },
+    {
+      "browser": "chrome",
+      "scenario": "new North American native basin 4233 exposes all fish and their evidence",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 2680
+    },
+    {
+      "browser": "chrome",
+      "scenario": "Asian original vouchers retain exact sourced positions and explain geographic inference",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 11029
+    },
+    {
+      "browser": "chrome",
+      "scenario": "Natron fish stay in the documented spring rather than the hypersaline lake centre",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-recheck-results.json",
+      "durationMs": 5163
+    },
+    {
+      "browser": "chrome",
+      "scenario": "English enlarged-photo keyboard and mouse navigation keep the new basin and globe selection",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 3514
+    },
+    {
+      "browser": "chrome",
+      "scenario": "Lagarfljot stays an independent lake with the published point and fits a phone",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-recheck-results.json",
+      "durationMs": 1461
+    },
+    {
+      "browser": "webkit",
+      "scenario": "all 88 added real photos load naturally in the English atlas",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 21389
+    },
+    {
+      "browser": "webkit",
+      "scenario": "new North American native basin 4246 exposes all fish and their evidence",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 2643
+    },
+    {
+      "browser": "webkit",
+      "scenario": "new North American native basin 4233 exposes all fish and their evidence",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 2655
+    },
+    {
+      "browser": "webkit",
+      "scenario": "Asian original vouchers retain exact sourced positions and explain geographic inference",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 11202
+    },
+    {
+      "browser": "webkit",
+      "scenario": "Natron fish stay in the documented spring rather than the hypersaline lake centre",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-recheck-results.json",
+      "durationMs": 5267
+    },
+    {
+      "browser": "webkit",
+      "scenario": "English enlarged-photo keyboard and mouse navigation keep the new basin and globe selection",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-e2e-results.json",
+      "durationMs": 3501
+    },
+    {
+      "browser": "webkit",
+      "scenario": "Lagarfljot stays an independent lake with the published point and fits a phone",
+      "status": "expected",
+      "resultFile": "docs/blank-basin-round2-recheck-results.json",
+      "durationMs": 1516
+    }
+  ]
+}

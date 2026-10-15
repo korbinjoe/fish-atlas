@@ -6,6 +6,7 @@ const rows: [string, string, string, string, string][] = [
   ["分布资料与关联依据", "Distribution sources and evidence", "Sources et preuves de répartition", "Verbreitungsquellen und Belege", "分布資料と関連付けの根拠"],
   ["FishBase 物种分布", "FishBase species distribution", "Répartition dans FishBase", "Artverbreitung in FishBase", "FishBaseの種分布"],
   ["原生分布来源", "Native distribution source", "Source de répartition indigène", "Quelle zur natürlichen Verbreitung", "自然分布の出典"],
+  ["地图定位依据", "Map location source", "Source de localisation", "Quelle der Kartenposition", "地図上の位置の出典"],
   ["· 快照", " · Snapshot ", " · Instantané ", " · Datenstand ", " · 取得日 "],
   ["· 原文参考文献 #", " · Original reference #", " · Référence d’origine nº ", " · Originalreferenz #", " · 原文参考文献 #"],
   ["FishBase 接受名：", "Accepted FishBase name: ", "Nom accepté par FishBase : ", "Akzeptierter FishBase-Name: ", "FishBaseの受容名："],

@@ -24,15 +24,17 @@ Die Oberfläche startet **standardmäßig auf Englisch**. Über das Sprachmenü 
 
 | Bereich | Umfang |
 | --- | --- |
-| Artenprofile mit Foto | **379 Arten** |
+| Artenprofile mit Foto | **467 Arten** |
 | Profile mit Haltungsreferenzen, die im Planer verwendet werden können | **33 Arten** |
-| Fotoprofile ohne ausreichende Haltungsdaten | **346 Arten**, im Planer nicht auswählbar |
-| Taxonomischer Katalog | **3.786 Einträge**, davon **3.407 ohne Foto** |
+| Fotoprofile ohne ausreichende Haltungsdaten | **434 Arten**, im Planer nicht auswählbar |
+| Taxonomischer Katalog | **3.865 Einträge**, davon **3.398 ohne Foto** |
 | Geografie | **520 große Fluss- und Seeeinzugsgebiete** des GRDC und 4 ausgewählte Regionen |
+| Gewässer mit zugeordneten Fotoprofilen | **512**: 376 GRDC-Einzugsgebiete, 47 Meeresgebiete, 39 Seen/Lagunen und 50 zusätzliche Flusssysteme |
+| Quellenbelegte Beziehungen zu natürlichen Herkunftsgewässern | **2.615** |
 
-Alle 379 Arten mit Foto sind benannten, durch Quellen belegten Herkunftsgewässern zugeordnet. Der Katalog dient der taxonomischen Erkundung und ist keine Liste geeigneter Aquarienfische. Arten ohne Foto lassen sich im Katalog suchen, erscheinen aber nicht im Fotoatlas.
+Alle 467 Arten mit Foto sind benannten, durch Quellen belegten Herkunftsgewässern zugeordnet. Der Katalog dient der taxonomischen Erkundung und ist keine Liste geeigneter Aquarienfische. Arten ohne Foto lassen sich im Katalog suchen, erscheinen aber nicht im Fotoatlas.
 
-Die [aktuelle Erweiterung](docs/blank-basin-expansion.md) ergänzt 92 Arten mit Fotos und 116 zuvor leere Flusseinzugsgebiete. Für 210 der 520 großen Einzugsgebiete sind natürliche Vorkommen belegt; 310 haben noch keine zugeordneten Fotoprofile.
+Die [zweite Erweiterung bisher nicht abgedeckter Einzugsgebiete](docs/blank-basin-expansion-2.md) ergänzt 88 Arten mit Fotos und belegt durch neue und vorhandene Artenprofile natürliche Vorkommen in 166 zuvor leeren Einzugsgebieten. Für 376 der 520 großen Einzugsgebiete sind solche Beziehungen belegt; 144 haben noch keine zugeordneten Fotoprofile. Die [erste Erweiterung](docs/blank-basin-expansion.md) bleibt als früherer Datenstand dokumentiert.
 
 ## Schnellstart
 
@@ -67,7 +69,7 @@ Ein Sprachwechsel aktualisiert Navigation, Filter, Artenprofile, geografische Na
 
 Die wichtigsten Beschreibungen und Haltungshinweise der 33 dokumentierten Artenprofile liegen in allen fünf Sprachen vor. Die Suche berücksichtigt chinesische und englische Namen, vorhandene Übersetzungen, Synonyme und wissenschaftliche Namen unabhängig von der Anzeigesprache.
 
-Wissenschaftliche Namen, Messwerte, Urheber, Lizenzen und Originalzitate bleiben den Quellen treu. Die Quellenauszüge der 346 zusätzlichen Fotoprofile sind nicht vollständig übersetzt. Rückmeldungen verwenden in der chinesischen Oberfläche ein chinesisches GitHub-Formular, in den übrigen Sprachen ein englisches. Einzelheiten stehen in der [Dokumentation zur Mehrsprachigkeit](docs/i18n.md).
+Wissenschaftliche Namen, Messwerte, Urheber, Lizenzen und Originalzitate bleiben den Quellen treu. Die Quellenauszüge der 434 zusätzlichen Fotoprofile sind nicht vollständig übersetzt. Rückmeldungen verwenden in der chinesischen Oberfläche ein chinesisches GitHub-Formular, in den übrigen Sprachen ein englisches. Einzelheiten stehen in der [Dokumentation zur Mehrsprachigkeit](docs/i18n.md).
 
 ## Daten richtig einordnen
 
@@ -99,6 +101,7 @@ Die Browsertests verwenden lokal installiertes Chrome und Playwright WebKit mit 
 Lesen Sie den [Leitfaden für Beiträge](CONTRIBUTING.md), bevor Sie eine Korrektur, eine neue Art oder ein Foto vorschlagen. Vorschläge sollten die Überprüfung der Artbestimmung, der Quellen und der Nutzungsrechte ermöglichen. Alternativ können Sie [ein Issue erstellen](https://github.com/korbinjoe/fish-atlas/issues/new/choose).
 
 - [Implementierung und Prüfung](docs/implementation.md) · [Technischer Entwurf](docs/technical-proposal.md)
+- [Zweite Erweiterung der Einzugsgebiete](docs/blank-basin-expansion-2.md) · [Erste Erweiterung (historisch)](docs/blank-basin-expansion.md)
 - [Abdeckung der Einzugsgebiete](docs/global-basin-coverage.md) · [Quellen zur natürlichen Verbreitung](docs/native-distribution-expansion.md)
 - [Regionale Erweiterung des Atlas](docs/regional-fish-expansion.md) · [Abdeckung häufiger Aquarienfische](docs/common-aquarium-fish-coverage.md)
 - [Mit dem Globus verknüpfte Ansicht](docs/globe-linked-reader.md) · [Fotoansicht](docs/fish-photo-gallery.md)

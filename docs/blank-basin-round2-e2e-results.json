@@ -1,0 +1,749 @@
+{
+  "config": {
+    "argv": [
+      "/Users/joebon/.nvm/versions/node/v24.4.1/bin/node",
+      "/Users/joebon/work/fish/fish-atlas/node_modules/.bin/playwright",
+      "test",
+      "blank-basin-round2.spec.ts",
+      "--config",
+      "/tmp/fish-atlas-blank2-playwright.config.ts"
+    ],
+    "configFile": "/tmp/fish-atlas-blank2-playwright.config.ts",
+    "rootDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/tmp/fish-atlas-blank2-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/tmp/fish-atlas-blank2-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/tmp/fish-atlas-blank2-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "chrome",
+        "testDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "snapshotDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4174",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "storageState": {
+            "cookies": [],
+            "origins": [
+              {
+                "origin": "http://127.0.0.1:4174",
+                "localStorage": [
+                  {
+                    "name": "fish-atlas:locale",
+                    "value": "zh"
+                  }
+                ]
+              }
+            ]
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "browserName": "chromium",
+          "channel": "chrome"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chrome"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/tmp/fish-atlas-blank2-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "webkit",
+        "testDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "snapshotDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4174",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "storageState": {
+            "cookies": [],
+            "origins": [
+              {
+                "origin": "http://127.0.0.1:4174",
+                "localStorage": [
+                  {
+                    "name": "fish-atlas:locale",
+                    "value": "zh"
+                  }
+                ]
+              }
+            ]
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "browserName": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/joebon/work/fish/fish-atlas/docs/blank-basin-round2-e2e-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "blank-basin-round2.spec.ts",
+      "file": "blank-basin-round2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all 88 added real photos load naturally in the English atlas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15084,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:22:37.132Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-33a2bce6e272ff0f1ff7",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "new North American native basin 4246 exposes all fish and their evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2630,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:22:53.165Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-aca1d2deda66dafb7985",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 115,
+          "column": 3
+        },
+        {
+          "title": "new North American native basin 4233 exposes all fish and their evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2680,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:22:55.804Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-7ff4ba004447cd537c8e",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 115,
+          "column": 3
+        },
+        {
+          "title": "Asian original vouchers retain exact sourced positions and explain geographic inference",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11029,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:22:58.491Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-8af01a655daab6dc2dba",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 129,
+          "column": 1
+        },
+        {
+          "title": "Natron fish stay in the documented spring rather than the hypersaline lake centre",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4910,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:23:09.526Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-ebb9a9acdb2426933019",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 153,
+          "column": 1
+        },
+        {
+          "title": "English enlarged-photo keyboard and mouse navigation keep the new basin and globe selection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3514,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:23:14.444Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-4c5c2015f1d0ae32e088",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 176,
+          "column": 1
+        },
+        {
+          "title": "Lagarfljot stays an independent lake with the published point and fits a phone",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1183,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\nExpected: \u001b[32m\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\"\u001b[39m\nError: strict mode violation: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) resolved to 3 elements:\n    1) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).first()\n    2) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(1)\n    3) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(2)\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\nExpected: \u001b[32m\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\"\u001b[39m\nError: strict mode violation: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) resolved to 3 elements:\n    1) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).first()\n    2) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(1)\n    3) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(2)\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\u001b[22m\n\n    at /Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts:219:89",
+                    "location": {
+                      "file": "/Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts",
+                      "column": 89,
+                      "line": 219
+                    },
+                    "snippet": "  217 |   const sources = await evidence(page, sourceUrl);\n  218 |   await expect(sources).toContainText(\"LAGF02\");\n> 219 |   await expect(sources.getByRole(\"link\", { name: \"Map location source\", exact: true })).toHaveAttribute(\"href\", sourceUrl);\n      |                                                                                         ^\n  220 |   await noHorizontalOverflow(page);\n  221 |   await sources.locator(\"summary\").click();\n  222 |   await reader(page).getByRole(\"button\", { name: /^Enlarge photo of / }).click();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts",
+                        "column": 89,
+                        "line": 219
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\nExpected: \u001b[32m\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\"\u001b[39m\nError: strict mode violation: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) resolved to 3 elements:\n    1) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).first()\n    2) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(1)\n    3) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(2)\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\u001b[22m\n\n\n  217 |   const sources = await evidence(page, sourceUrl);\n  218 |   await expect(sources).toContainText(\"LAGF02\");\n> 219 |   await expect(sources.getByRole(\"link\", { name: \"Map location source\", exact: true })).toHaveAttribute(\"href\", sourceUrl);\n      |                                                                                         ^\n  220 |   await noHorizontalOverflow(page);\n  221 |   await sources.locator(\"summary\").click();\n  222 |   await reader(page).getByRole(\"button\", { name: /^Enlarge photo of / }).click();\n    at /Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts:219:89"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:23:17.964Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/tmp/fish-atlas-blank2-test-results/blank-basin-round2-Lagarfl-6ff0b-shed-point-and-fits-a-phone-chrome/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/tmp/fish-atlas-blank2-test-results/blank-basin-round2-Lagarfl-6ff0b-shed-point-and-fits-a-phone-chrome/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/tmp/fish-atlas-blank2-test-results/blank-basin-round2-Lagarfl-6ff0b-shed-point-and-fits-a-phone-chrome/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts",
+                    "column": 89,
+                    "line": 219
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-53863568deb3b3ac8534",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 204,
+          "column": 1
+        },
+        {
+          "title": "all 88 added real photos load naturally in the English atlas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21389,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:23:19.576Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-ca6e640e24fa54862cb5",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "new North American native basin 4246 exposes all fish and their evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2643,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:23:41.424Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-fdc5cb6fe48cf60f465d",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 115,
+          "column": 3
+        },
+        {
+          "title": "new North American native basin 4233 exposes all fish and their evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2655,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:23:44.079Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-f552b00a1f7fe0516e76",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 115,
+          "column": 3
+        },
+        {
+          "title": "Asian original vouchers retain exact sourced positions and explain geographic inference",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11202,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:23:46.747Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-74ff649ca4da6f816797",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 129,
+          "column": 1
+        },
+        {
+          "title": "Natron fish stay in the documented spring rather than the hypersaline lake centre",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5035,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:23:57.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-a43aad25cdd42c928fcf",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 153,
+          "column": 1
+        },
+        {
+          "title": "English enlarged-photo keyboard and mouse navigation keep the new basin and globe selection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3501,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:24:03.009Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-9d83c606734270f6991e",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 176,
+          "column": 1
+        },
+        {
+          "title": "Lagarfljot stays an independent lake with the published point and fits a phone",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1231,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\nExpected: \u001b[32m\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\"\u001b[39m\nError: strict mode violation: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) resolved to 3 elements:\n    1) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).first()\n    2) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(1)\n    3) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(2)\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\nExpected: \u001b[32m\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\"\u001b[39m\nError: strict mode violation: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) resolved to 3 elements:\n    1) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).first()\n    2) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(1)\n    3) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(2)\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\u001b[22m\n\n    at /Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts:219:89",
+                    "location": {
+                      "file": "/Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts",
+                      "column": 89,
+                      "line": 219
+                    },
+                    "snippet": "  217 |   const sources = await evidence(page, sourceUrl);\n  218 |   await expect(sources).toContainText(\"LAGF02\");\n> 219 |   await expect(sources.getByRole(\"link\", { name: \"Map location source\", exact: true })).toHaveAttribute(\"href\", sourceUrl);\n      |                                                                                         ^\n  220 |   await noHorizontalOverflow(page);\n  221 |   await sources.locator(\"summary\").click();\n  222 |   await reader(page).getByRole(\"button\", { name: /^Enlarge photo of / }).click();"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts",
+                        "column": 89,
+                        "line": 219
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\nExpected: \u001b[32m\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\"\u001b[39m\nError: strict mode violation: getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) resolved to 3 elements:\n    1) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).first()\n    2) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.naturalearthdata.com/downloads/10m-physical-vectors/\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(1)\n    3) <a target=\"_blank\" rel=\"noreferrer\" href=\"https://www.hafogvatn.is/static/research/files/hv2025_37_lagarfljot-fiskrannsoknir.pdf\">Map location source</a> aka getByRole('link', { name: 'Map location source' }).nth(2)\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'Fish detail reader', exact: true }).locator('.distribution-details').getByRole('link', { name: 'Map location source', exact: true })\u001b[22m\n\n\n  217 |   const sources = await evidence(page, sourceUrl);\n  218 |   await expect(sources).toContainText(\"LAGF02\");\n> 219 |   await expect(sources.getByRole(\"link\", { name: \"Map location source\", exact: true })).toHaveAttribute(\"href\", sourceUrl);\n      |                                                                                         ^\n  220 |   await noHorizontalOverflow(page);\n  221 |   await sources.locator(\"summary\").click();\n  222 |   await reader(page).getByRole(\"button\", { name: /^Enlarge photo of / }).click();\n    at /Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts:219:89"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:24:06.524Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/tmp/fish-atlas-blank2-test-results/blank-basin-round2-Lagarfl-6ff0b-shed-point-and-fits-a-phone-webkit/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/tmp/fish-atlas-blank2-test-results/blank-basin-round2-Lagarfl-6ff0b-shed-point-and-fits-a-phone-webkit/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/tmp/fish-atlas-blank2-test-results/blank-basin-round2-Lagarfl-6ff0b-shed-point-and-fits-a-phone-webkit/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/joebon/work/fish/fish-atlas/tests/browser/blank-basin-round2.spec.ts",
+                    "column": 89,
+                    "line": 219
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-78184362a4300299b011",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 204,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-15T15:22:36.784Z",
+    "duration": 91083.03,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

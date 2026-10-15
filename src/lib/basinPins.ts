@@ -38,6 +38,8 @@ function latitudeBand(fish: ExploreSpecies, location: WaterLocation): [number, n
 }
 const displayAnchors = new Map<string, [number, number]>();
 function displayAnchor(fish: ExploreSpecies, location: WaterLocation): [number, number] {
+  const sourced = distributions[fish.id]?.links.find((link) => link.locationId === location.id)?.displayCoordinates;
+  if (sourced) return [sourced[0], sourced[1]];
   // A point-only source retains its published coordinates exactly. Polygon
   // links support waterbody membership, not individual observation positions.
   // Share a verified interior display anchor instead of inventing scattered

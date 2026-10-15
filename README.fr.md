@@ -24,15 +24,17 @@ L'interface s'ouvre en **anglais par défaut**. Le menu de langue propose **Engl
 
 | Couche | Couverture |
 | --- | --- |
-| Fiches avec photo | **379 espèces** |
+| Fiches avec photo | **467 espèces** |
 | Fiches avec références de maintenance, utilisables dans le planificateur | **33 espèces** |
-| Fiches avec photo mais sans données de maintenance suffisantes | **346 espèces**, exclues du planificateur |
-| Catalogue taxonomique | **3 786 entrées**, dont **3 407 sans photo** |
+| Fiches avec photo mais sans données de maintenance suffisantes | **434 espèces**, exclues du planificateur |
+| Catalogue taxonomique | **3 865 entrées**, dont **3 398 sans photo** |
 | Géographie | **520 grands bassins fluviaux ou lacustres** du GRDC et 4 régions sélectionnées |
+| Milieux associés aux fiches photographiques | **512** : 376 bassins GRDC, 47 zones marines, 39 lacs/lagunes et 50 réseaux fluviaux supplémentaires |
+| Associations documentées à des milieux d’origine | **2 615** |
 
-Les 379 espèces photographiées sont associées à des milieux d'origine nommés et documentés. Le catalogue est une couche d'exploration taxonomique : il ne constitue pas une liste de poissons adaptés à l'aquarium. Une espèce sans photo reste consultable dans le catalogue, mais n'apparaît pas dans l'atlas photographique.
+Les 467 espèces photographiées sont associées à des milieux d'origine nommés et documentés. Le catalogue est une couche d'exploration taxonomique : il ne constitue pas une liste de poissons adaptés à l'aquarium. Une espèce sans photo reste consultable dans le catalogue, mais n'apparaît pas dans l'atlas photographique.
 
-La [dernière extension](docs/blank-basin-expansion.md) ajoute 92 espèces photographiées et renseigne 116 bassins auparavant vides. Au total, 210 des 520 grands bassins ont une association indigène vérifiée ; 310 restent sans fiche photographique associée.
+La [deuxième extension des bassins non couverts](docs/blank-basin-expansion-2.md) ajoute 88 espèces photographiées et renseigne 166 bassins auparavant vides, grâce aux répartitions indigènes documentées d’espèces nouvelles et déjà présentes. Au total, 376 des 520 grands bassins ont une association indigène vérifiée ; 144 restent sans fiche photographique associée. La [première extension](docs/blank-basin-expansion.md) reste documentée comme un état antérieur des données.
 
 ## Démarrage rapide
 
@@ -67,7 +69,7 @@ Le changement de langue met à jour la navigation, les filtres, les fiches, les 
 
 Les principales descriptions et notes de maintenance des 33 fiches documentées sont traduites dans les cinq langues. La recherche reconnaît les noms chinois, anglais, les traductions disponibles, les alias et les noms scientifiques, quelle que soit la langue affichée.
 
-Les noms scientifiques, valeurs, auteurs, licences et citations originales restent fidèles aux sources. Les extraits des 346 fiches supplémentaires ne sont pas tous traduits. Les formulaires de contribution sont en chinois pour l'interface chinoise et en anglais pour les autres langues. Voir [l'implémentation multilingue](docs/i18n.md).
+Les noms scientifiques, valeurs, auteurs, licences et citations originales restent fidèles aux sources. Les extraits des 434 fiches supplémentaires ne sont pas tous traduits. Les formulaires de contribution sont en chinois pour l'interface chinoise et en anglais pour les autres langues. Voir [l'implémentation multilingue](docs/i18n.md).
 
 ## Interpréter les données
 
@@ -99,6 +101,7 @@ Les tests navigateur utilisent Chrome installé localement et Playwright WebKit,
 Consultez le [guide de contribution](CONTRIBUTING.md) avant de proposer une correction, une nouvelle espèce ou une photo. Chaque proposition doit permettre de vérifier l'identification, les références et les droits de réutilisation. Vous pouvez aussi [ouvrir une issue](https://github.com/korbinjoe/fish-atlas/issues/new/choose).
 
 - [Implémentation et vérification](docs/implementation.md) · [Architecture technique](docs/technical-proposal.md)
+- [Deuxième extension des bassins](docs/blank-basin-expansion-2.md) · [Première extension (historique)](docs/blank-basin-expansion.md)
 - [Couverture des bassins](docs/global-basin-coverage.md) · [Sources de répartition naturelle](docs/native-distribution-expansion.md)
 - [Extension régionale de l'atlas](docs/regional-fish-expansion.md) · [Couverture des poissons d'aquarium courants](docs/common-aquarium-fish-coverage.md)
 - [Navigation liée au globe](docs/globe-linked-reader.md) · [Visionneuse photo](docs/fish-photo-gallery.md)

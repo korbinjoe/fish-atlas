@@ -7,6 +7,7 @@ from pathlib import Path
 publisher = runpy.run_path(str(Path(__file__).with_name("publish-regional-batches.py")))
 merge = publisher["merge_catalog"]
 validate_distribution = publisher["validate_distribution"]
+merge_native = publisher["merge_distribution_additions"]
 
 
 class IncrementalCatalogTests(unittest.TestCase):
@@ -54,6 +55,45 @@ class DistributionProvenanceTests(unittest.TestCase):
         record["links"][0].pop("ecosystemCode")
         with self.assertRaises(ValueError):
             validate_distribution("alpha", record, "Alpha first", {"river-alpha"})
+
+    def test_restricted_display_points_need_both_coordinates_and_source(self):
+        record = copy.deepcopy(self.record)
+        link = record["links"][0]
+        link.update({"displayCoordinates": [-72.32, -41.64],
+                     "displayCoordinateSourceUrl": "https://paper.example/native-site",
+                     "displayCoordinateNote": "A shared display anchor on the documented lower river."})
+        validate_distribution("alpha", record, "Alpha first", {"river-alpha"})
+        for field in ("displayCoordinates", "displayCoordinateSourceUrl", "displayCoordinateNote"):
+            incomplete = copy.deepcopy(record)
+            incomplete["links"][0].pop(field)
+            with self.assertRaises(ValueError):
+                validate_distribution("alpha", incomplete, "Alpha first", {"river-alpha"})
+
+    def test_invalid_display_coordinates_are_rejected(self):
+        for coordinates in ([1], [1, 100], [200, 1], [float("nan"), 1], [True, 1]):
+            record = copy.deepcopy(self.record)
+            record["links"][0].update({"displayCoordinates": coordinates,
+                                       "displayCoordinateSourceUrl": "https://paper.example/native-site",
+                                       "displayCoordinateNote": "Native reach."})
+            with self.assertRaises(ValueError):
+                validate_distribution("alpha", record, "Alpha first", {"river-alpha"})
+
+    def test_independent_native_batches_preserve_each_others_links(self):
+        first_link = {**self.record["links"][0], "locationId": "river-beta"}
+        second_link = {**self.record["links"][0], "locationId": "river-gamma"}
+        first = merge_native(self.record, {"links": [first_link], "reviewNotes": ["Reviewed beta."]})
+        second = merge_native(first, {"links": [second_link], "reviewNotes": ["Reviewed gamma."]})
+        self.assertEqual([link["locationId"] for link in second["links"]], ["river-alpha", "river-beta", "river-gamma"])
+        self.assertEqual(second["sourceUrl"], self.record["sourceUrl"])
+        self.assertEqual(len(self.record["links"]), 1)
+        self.assertEqual(merge_native(second, {"links": [second_link]}), second)
+
+    def test_native_additions_cannot_silently_rewrite_old_sources(self):
+        conflict = {**self.record["links"][0], "sourceUrl": "https://other.example/range"}
+        with self.assertRaises(ValueError):
+            merge_native(self.record, {"links": [conflict]})
+        with self.assertRaises(ValueError):
+            merge_native(self.record, {"links": [self.record["links"][0]], "rangeText": "New unreviewed concept."})
 
 
 if __name__ == "__main__":

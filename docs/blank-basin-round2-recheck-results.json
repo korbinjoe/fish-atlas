@@ -1,0 +1,331 @@
+{
+  "config": {
+    "argv": [
+      "/Users/joebon/.nvm/versions/node/v24.4.1/bin/node",
+      "/Users/joebon/work/fish/fish-atlas/node_modules/.bin/playwright",
+      "test",
+      "blank-basin-round2.spec.ts",
+      "--config",
+      "/tmp/fish-atlas-blank2-recheck.config.ts",
+      "--grep",
+      "Natron|Lagarfljot"
+    ],
+    "configFile": "/tmp/fish-atlas-blank2-recheck.config.ts",
+    "rootDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/tmp/fish-atlas-blank2-recheck-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/tmp/fish-atlas-blank2-recheck-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/tmp/fish-atlas-blank2-recheck-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "chrome",
+        "testDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "snapshotDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4174",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "storageState": {
+            "cookies": [],
+            "origins": [
+              {
+                "origin": "http://127.0.0.1:4174",
+                "localStorage": [
+                  {
+                    "name": "fish-atlas:locale",
+                    "value": "zh"
+                  }
+                ]
+              }
+            ]
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "browserName": "chromium",
+          "channel": "chrome"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chrome"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/tmp/fish-atlas-blank2-recheck-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "webkit",
+        "testDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "snapshotDir": "/Users/joebon/work/fish/fish-atlas/tests/browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4174",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "storageState": {
+            "cookies": [],
+            "origins": [
+              {
+                "origin": "http://127.0.0.1:4174",
+                "localStorage": [
+                  {
+                    "name": "fish-atlas:locale",
+                    "value": "zh"
+                  }
+                ]
+              }
+            ]
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure",
+          "browserName": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/joebon/work/fish/fish-atlas/docs/blank-basin-round2-recheck-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "blank-basin-round2.spec.ts",
+      "file": "blank-basin-round2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Natron fish stay in the documented spring rather than the hypersaline lake centre",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5163,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:24:28.393Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-ebb9a9acdb2426933019",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 153,
+          "column": 1
+        },
+        {
+          "title": "Lagarfljot stays an independent lake with the published point and fits a phone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1461,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:24:34.125Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-53863568deb3b3ac8534",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 204,
+          "column": 1
+        },
+        {
+          "title": "Natron fish stay in the documented spring rather than the hypersaline lake centre",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5267,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:24:35.911Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-a43aad25cdd42c928fcf",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 153,
+          "column": 1
+        },
+        {
+          "title": "Lagarfljot stays an independent lake with the published point and fits a phone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1516,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T15:24:41.397Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e1dd916f6b24f1c27aae-78184362a4300299b011",
+          "file": "blank-basin-round2.spec.ts",
+          "line": 204,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-15T15:24:28.077Z",
+    "duration": 14879.371,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

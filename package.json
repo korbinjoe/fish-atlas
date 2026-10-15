@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "npm run validate && tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "validate": "tsx scripts/validate-content.ts && tsx scripts/validate-catalog.ts && tsx scripts/validate-photo-profiles.ts",
+    "validate": "tsx scripts/validate-content.ts && tsx scripts/validate-catalog.ts && tsx scripts/validate-photo-profiles.ts && tsx scripts/check-distribution-pins.ts",
     "catalog:refresh": "python3 scripts/import-catalog.py",
     "test": "vitest run",
     "test:e2e": "playwright test",

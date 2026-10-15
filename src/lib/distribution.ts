@@ -16,7 +16,14 @@ export type WaterLocation = {
   center: [number, number]; geometry: Basin["geometry"] | null;
   sourceUrl: string; coordinateMethod: string; anchorNote?: string;
 };
-export type DistributionLink = { locationId: string; evidence: string; sourceUrl: string; ecosystemCode: number | null; additionalSourceUrls?: string[] };
+export type DistributionLink = {
+  locationId: string; evidence: string; sourceUrl: string; ecosystemCode: number | null;
+  additionalSourceUrls?: string[];
+  /** A sourced local display anchor for a restricted reach or lake in this catchment. */
+  displayCoordinates?: number[];
+  displayCoordinateSourceUrl?: string;
+  displayCoordinateNote?: string;
+};
 export type Distribution = { scientific: string; acceptedScientific: string; sourceUrl: string; snapshot: string; rangeText: string; rangeRef: number | null; links: DistributionLink[]; unlocatedReason: string; reviewNotes?: string[]; reviewConfidence?: "high" | "medium" };
 export const distributions = raw.species as Record<string, Distribution>;
 export const locationKindNames = { basin: "流域", river: "河流水系", lake: "湖泊／潟湖", sea: "海域" };
